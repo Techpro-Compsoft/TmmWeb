@@ -1,4 +1,4 @@
-<%@ Page Language="vb" AutoEventWireup="false" Inherits="ServiceLocator._Default" CodeBehind="Default.aspx.vb" EnableEventValidation="false"%>
+<%@ Page Language="vb" AutoEventWireup="false" Inherits="ServiceLocator._Default" CodeFile="~/Intranet/ServiceLocator/Default.aspx.vb" EnableEventValidation="false"%>
 <%@ Register Assembly="RadAjax.Net2" Namespace="Telerik.WebControls" TagPrefix="radA" %>
 <%@ Register Assembly="RadComboBox.Net2" Namespace="Telerik.WebControls" TagPrefix="radC" %>
 <%@ Register Assembly="RadGrid.Net2" Namespace="Telerik.WebControls" TagPrefix="radG" %>

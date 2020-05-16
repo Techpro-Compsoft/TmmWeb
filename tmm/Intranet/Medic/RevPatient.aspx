@@ -1,5 +1,5 @@
 <%@ Register TagPrefix="uc1" TagName="NavigationMenu" Src="NavigationMenu.ascx"  %>
-<%@ Page language="c#" Inherits="PatientInfo" ValidateRequest="false" Codebehind="RevPatient.aspx.cs" Culture="auto:en-US" UICulture="auto" %>
+<%@ Page language="c#" Inherits="TrinityMedicalManagement.Patient_Info" ValidateRequest="false" CodeFile="RevPatient.aspx.cs" Culture="auto:en-US" UICulture="auto" %>
 <%@ Register Assembly="RadInput.Net2" Namespace="Telerik.WebControls" TagPrefix="radI" %>
 <%@ Register Assembly="System.Web.Extensions, Version=1.0.61025.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
     Namespace="System.Web.UI" TagPrefix="asp" %>
