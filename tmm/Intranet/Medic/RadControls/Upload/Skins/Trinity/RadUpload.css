@@ -1,0 +1,81 @@
+.RadUploadTable
+{
+	background-color: transparent;
+    padding-right:0px;
+    border: none 0px;
+    border-collapse: collapse !important;
+    margin-top: -2px;
+    margin-left: -5px;
+    margin-bottom: 0px;
+    margin-right:0px;
+    width: 335px;
+    font: 0px Helvetica;
+    color: #E8E8E8;
+}
+
+.RadUploadButtonArea
+{
+	
+}
+
+.RadUploadButton, .radUploadButtonMedium
+{
+	background-color:#307FA3;
+	font-family:Arial;
+	font-size:11px;
+	font-weight:bold;
+	color:#FFFFFF;
+}
+
+.RadUploadButtonDisabled
+{
+}
+
+.RadUploadFileSelector
+{
+}
+
+.RadUploadInputField
+{
+	width: 140px;
+	border-top:solid 2px #413931;
+	border-left:solid 2px #413931;
+	border-right:solid 2px D3C9CB;
+	border-bottom:solid 2px D3C9CB;
+	height: 17px;
+	width: 237px;
+	background-color:#FFFFFF;
+}
+
+input.RealFileInput
+{
+	position: relative;
+	-moz-opacity: 0;
+	filter: alpha(opacity: 0);
+	opacity: 0;
+	z-index: 2;
+	background-color:#FFFFFF;
+}
+
+
+.RadUploadSelectButton
+{
+	background-color:#307FA3;
+	font-family:Arial;
+	font-size:11px;
+	font-weight:bold;
+	color:#FFFFFF;
+}
+
+.RadUploadRemoveButton
+{
+}
+
+.RadUploadClearButton
+{
+}
+
+input.NoSkinnedFileUnput
+{
+	border: solid 1px #1f1f1f;
+}

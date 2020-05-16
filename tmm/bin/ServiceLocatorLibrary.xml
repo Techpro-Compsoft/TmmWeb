@@ -1,0 +1,378 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+ServiceLocatorLibrary
+</name>
+</assembly>
+<members>
+<member name="P:ServiceLocatorLibrary.Medic.ID">
+	<summary>
+ The unique Identifyier for the Medic.
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:ServiceLocatorLibrary.Medic.Name">
+	<summary>
+ The name of the medic.
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:ServiceLocatorLibrary.Medic.Homephone">
+	<summary>
+  The Medic's home phone number.
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:ServiceLocatorLibrary.Medic.CellPhone">
+	<summary>
+ The medic's cell phone number.
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:ServiceLocatorLibrary.Medic.Email">
+	<summary>
+ The email address of the medic.
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:ServiceLocatorLibrary.Medic.Status">
+	<summary>
+ The status of the medic.
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:ServiceLocatorLibrary.Medic.GetMedicByID(System.Int32)">
+	<summary>
+ Returns a Medic Object based on the MedicId passed in.
+ </summary>
+	<param name="ID"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="T:ServiceLocatorLibrary.Medic">
+	<summary>
+ This class contains all the information about a medic.
+ </summary>
+	<remarks></remarks>
+</member><member name="M:ServiceLocatorLibrary.SVG.SVGCreator.GetBytes(System.String)">
+	<summary>
+ Encodes a ranges of characters from a string and returns a byte array.
+ </summary>
+	<param name="s"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:ServiceLocatorLibrary.SVG.SVGCreator.GenerateWorldSvg(System.IO.Stream,System.String)">
+	<summary>
+ Generates the world SVG by reading it from the XML file.
+ </summary>
+	<param name="gz"></param>
+	<param name="xmlpath"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:ServiceLocatorLibrary.SVG.SVGCreator.GenerateRigsSVG(System.IO.Stream,System.String,System.Int32)">
+	<summary>
+ Generates the SVG plots of the rigs on the map.
+ </summary>
+	<param name="gz"></param>
+	<param name="xmlPath"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:ServiceLocatorLibrary.SVG.SVGCreator.GenerateServicesSVG(System.IO.Stream,System.String)">
+	<summary>
+ plots the appropriate services on the SVG map.
+ </summary>
+	<param name="gz"></param>
+	<param name="xmlPath"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:ServiceLocatorLibrary.SVG.SVGCreator.GetLatitude(System.Xml.XmlReader)">
+	<summary>
+ Returns the Latitude of the point.
+ </summary>
+	<param name="reader"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:ServiceLocatorLibrary.SVG.SVGCreator.RemoveSessionKeys">
+	<summary>
+ Removes session keys so the map will reset later if needed.
+ </summary>
+	<remarks></remarks>
+</member><member name="T:ServiceLocatorLibrary.SVG.SVGCreator">
+	<summary>
+ This class creates the SVG Map including the world, the rigs, the services and the cities.
+ </summary>
+	<remarks></remarks>
+</member><member name="P:ServiceLocatorLibrary.My.Resources.Resources.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:ServiceLocatorLibrary.My.Resources.Resources.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="T:ServiceLocatorLibrary.My.Resources.Resources">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member><member name="F:ServiceLocatorLibrary.City._cityName">
+	<summary>
+ This class holds information about the cities.
+ </summary>
+	<remarks></remarks>
+</member><member name="P:ServiceLocatorLibrary.City.CityName">
+	<summary>
+ The name of the city.
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:ServiceLocatorLibrary.City.Longitude">
+	<summary>
+ the longitude of the city.
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:ServiceLocatorLibrary.City.Latitude">
+	<summary>
+ The latitude of the city.
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:ServiceLocatorLibrary.City.State">
+	<summary>
+ State the city resides in.
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:ServiceLocatorLibrary.City.Country">
+	<summary>
+ Country the city resides in.
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:ServiceLocatorLibrary.City.CityID">
+	<summary>
+ ID of the city from the XML file.
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:ServiceLocatorLibrary.City.GetAllCities(System.String)">
+	<summary>
+ Gets a list of all cities in the XML file.
+ </summary>
+	<param name="path"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:ServiceLocatorLibrary.City.GetCity(System.String,System.String)">
+	<summary>
+ Retreives a city object based on a city name passed in.
+ </summary>
+	<param name="CityName"></param>
+	<param name="path"></param>
+	<returns>Returns a city object.</returns>
+	<remarks></remarks>
+</member><member name="M:ServiceLocatorLibrary.DataUtil.CreateXMLForRig(ServiceLocatorLibrary.Rig)">
+	<summary>
+ Creates the xml file for the selected rig.
+ </summary>
+	<param name="oRig"></param>
+	<remarks></remarks>
+</member><member name="M:ServiceLocatorLibrary.DataUtil.FormatLongitude(System.String)">
+	<summary>
+ Formats the Longitude so that it is in the correct format.
+ </summary>
+	<param name="lon"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:ServiceLocatorLibrary.DataUtil.FormatLatitude(System.String)">
+	<summary>
+ Formats the latitude.
+ </summary>
+	<param name="lat"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:ServiceLocatorLibrary.DataUtil.IsValidCoordinate(System.String)">
+	<summary>
+ Returns boolean stating whether the current coordinate is valid.
+ </summary>
+	<param name="item"></param>
+	<returns>boolean</returns>
+	<remarks></remarks>
+</member><member name="M:ServiceLocatorLibrary.DataUtil.IsCoordsValid(ServiceLocatorLibrary.Rig)">
+	<summary>
+ Checks the current rigs latitude/longitude to ensure they're valid.
+ </summary>
+	<param name="currentRig"></param>
+	<returns>boolean</returns>
+	<remarks></remarks>
+</member><member name="T:ServiceLocatorLibrary.DataUtil">
+	<summary>
+ This class holds various methods to bue used throughout the application.
+ </summary>
+	<remarks></remarks>
+</member><member name="P:ServiceLocatorLibrary.JobSheet.ID">
+	<summary>
+ The Job Sheet's unique identifyier.
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:ServiceLocatorLibrary.JobSheet.RigID">
+	<summary>
+ The Rig's unique identifyier.
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:ServiceLocatorLibrary.JobSheet.MedicID">
+	<summary>
+ The ID of the medic that is on duty on the rig.
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:ServiceLocatorLibrary.JobSheet.RigName">
+	<summary>
+ The name of the rig.
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:ServiceLocatorLibrary.JobSheet.RigPhone">
+	<summary>
+ The rig's main phone number.
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:ServiceLocatorLibrary.JobSheet.RigAltPhone">
+	<summary>
+ The rig's alternate phone number.
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:ServiceLocatorLibrary.JobSheet.RigFax">
+	<summary>
+ The rig's fax number.
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:ServiceLocatorLibrary.JobSheet.Block">
+	<summary>
+ The block of the rig.
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:ServiceLocatorLibrary.JobSheet.FacilityType">
+	<summary>
+ The facility type of the rig.
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:ServiceLocatorLibrary.JobSheet.ProjectNumber">
+	<summary>
+ Thr rig's project number.
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:ServiceLocatorLibrary.JobSheet.StartDate">
+	<summary>
+ The start date of the job sheet.
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:ServiceLocatorLibrary.JobSheet.EndDate">
+	<summary>
+ The end date of the rig.
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:ServiceLocatorLibrary.JobSheet.Longitude">
+	<summary>
+ The longitude of the rig.
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:ServiceLocatorLibrary.JobSheet.Latitude">
+	<summary>
+ The latitude of the rig.
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:ServiceLocatorLibrary.JobSheet.CurrentMedic">
+	<summary>
+ The medic currently assigned to the rig.
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:ServiceLocatorLibrary.JobSheet.Medic1ID">
+	<summary>
+ The ID Number of the medic currently assigned to the rig.
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:ServiceLocatorLibrary.JobSheet.Medic2ID">
+	<summary>
+ The second medic assigned to the rig.
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:ServiceLocatorLibrary.JobSheet.GetJobSheetByRigID(System.String)">
+	<summary>
+ Retrieves a Job sheet based on the Rig ID from the database.
+ </summary>
+	<param name="rigID"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="T:ServiceLocatorLibrary.JobSheet">
+	<summary>
+ This class holds information about the Job Sheet for a particular rig.
+ </summary>
+	<remarks></remarks>
+</member><member name="M:ServiceLocatorLibrary.SarsWebService.SarsWebService.#ctor">
+	<remarks/>
+</member><member name="E:ServiceLocatorLibrary.SarsWebService.SarsWebService.getXMLReportCompleted">
+	<remarks/>
+</member><member name="M:ServiceLocatorLibrary.SarsWebService.SarsWebService.getXMLReport(System.String)">
+	<remarks/>
+</member><member name="M:ServiceLocatorLibrary.SarsWebService.SarsWebService.getXMLReportAsync(System.String)">
+	<remarks/>
+</member><member name="M:ServiceLocatorLibrary.SarsWebService.SarsWebService.getXMLReportAsync(System.String,System.Object)">
+	<remarks/>
+</member><member name="M:ServiceLocatorLibrary.SarsWebService.SarsWebService.CancelAsync(System.Object)">
+	<remarks/>
+</member><member name="T:ServiceLocatorLibrary.SarsWebService.SarsWebService">
+	<remarks/>
+</member><member name="T:ServiceLocatorLibrary.SarsWebService.getXMLReportCompletedEventHandler">
+	<remarks/>
+</member><member name="P:ServiceLocatorLibrary.SarsWebService.getXMLReportCompletedEventArgs.Result">
+	<remarks/>
+</member><member name="T:ServiceLocatorLibrary.SarsWebService.getXMLReportCompletedEventArgs">
+	<remarks/>
+</member>
+</members>
+</doc>

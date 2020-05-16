@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Services>
+	<service id=' ' preferred='1'>
+		<location lon='-90' lat='30' />
+		<city></city>
+		<name phone='555-5555'>Dr Kelly</name>
+		<state></state>
+		<preferred>1</preferred>
+	</service>
+	<service id=' ' preferred='2'>
+		<location lon='-85' lat='30' />
+		<city></city>
+		<name phone='555-5555'>Dr Jones</name>
+		<state></state>
+		<preferred>3</preferred>
+	</service>
+	<service id=' ' preferred='1'>
+		<location lon='-90' lat='32' />
+		<city></city>
+		<name phone='555-5555'>Dr Smith</name>
+		<state></state>
+		<preferred>2</preferred>
+	</service>
+	<service id=' ' preferred='2'>
+		<location lon='-91' lat='30' />
+		<city></city>
+		<name phone='555-5555'>Dr Jekyll</name>
+		<state></state>
+		<preferred>1</preferred>
+	</service>
+	<service id=' ' preferred='3'>
+		<location lon='-90.5' lat='30.5' />
+		<city></city>
+		<name phone='555-5555'>Mr Hyde</name>
+		<state></state>
+		<preferred>3</preferred>
+	</service>
+</Services>

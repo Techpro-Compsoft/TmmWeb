@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="TrinityMedicalManagement">
+</Property><Property Name="Solution File" Value="C:\Inetpub\Websites\TMM-Web\Intranet\MedicWebApp\TrinityMedicalManagement.sln">
+</Property><Property Name="Date" Value="Tuesday, June 12, 2007">
+</Property><Property Name="Time" Value="14:21:03 PM">
+</Property><Property Name="Log Number" Value="2">
+</Property></Properties><Event ErrorLevel="0" Project="TrinityMedicalManagement" Source="TrinityMedicalManagement.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event><Event ErrorLevel="3" Project="TrinityMedicalManagement" Source="TrinityMedicalManagement.csproj" Description="Converted">
+</Event></UpgradeLog>

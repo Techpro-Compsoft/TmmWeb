@@ -1,0 +1,10 @@
+C:\Inetpub\websites\TMM_2_0\Intranet\MedicWebApp\TMM-BL\bin\Debug\TMM-BL.dll
+C:\Inetpub\websites\TMM_2_0\Intranet\MedicWebApp\TMM-BL\bin\Debug\TMM-BL.pdb
+C:\Inetpub\websites\TMM_2_0\Intranet\MedicWebApp\TMM-BL\obj\Debug\ResolveAssemblyReference.cache
+C:\Inetpub\websites\TMM_2_0\Intranet\MedicWebApp\TMM-BL\obj\Debug\TMM-BL.dll
+C:\Inetpub\websites\TMM_2_0\Intranet\MedicWebApp\TMM-BL\obj\Debug\TMM-BL.pdb
+C:\Inetpub\websites\TMM_2_0\Intranet\Medic\TMM-BL\bin\Debug\TMM-BL.dll
+C:\Inetpub\websites\TMM_2_0\Intranet\Medic\TMM-BL\bin\Debug\TMM-BL.pdb
+C:\Inetpub\websites\TMM_2_0\Intranet\Medic\TMM-BL\obj\Debug\ResolveAssemblyReference.cache
+C:\Inetpub\websites\TMM_2_0\Intranet\Medic\TMM-BL\obj\Debug\TMM-BL.dll
+C:\Inetpub\websites\TMM_2_0\Intranet\Medic\TMM-BL\obj\Debug\TMM-BL.pdb

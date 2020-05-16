@@ -1,0 +1,277 @@
+A.MenuLnk	{font-family: Arial, Helvetica, sans-serif; font-size: 11px; line-height: 16px; color: #000000; font-weight: bold; text-decoration: none}
+A.MenuLnk:Link	{font-family: Arial, Helvetica, sans-serif; font-size: 11px; line-height: 16px; color: #000000; font-weight: bold; text-decoration: none}
+A.MenuLnk:visited	{font-family: Arial, Helvetica, sans-serif; font-size: 11px; line-height: 16px; color: #000000; font-weight: bold; text-decoration: none}
+A.MenuLnk:active	{font-family: Arial, Helvetica, sans-serif; font-size: 11px; line-height: 16px; color: #000000; font-weight: bold; text-decoration: underline}
+A.MenuLnk:hover	{font-family: Arial, Helvetica, sans-serif; font-size: 11px; line-height: 16px; color: #FFFFFF; font-weight: bold; text-decoration: underline}
+
+A.BlkLnk	{font-family: Arial, Helvetica, sans-serif; font-size: 12px; line-height: 16px; color: #000000; text-decoration: none}
+A.BlkLnk:Link	{font-family: Arial, Helvetica, sans-serif; font-size: 12px; line-height: 16px; color: #000000; text-decoration: none}
+A.BlkLnk:visited	{font-family: Arial, Helvetica, sans-serif; font-size: 12px; line-height: 16px; color: #000000; text-decoration: none}
+A.BlkLnk:active	{font-family: Arial, Helvetica, sans-serif; font-size: 12px; line-height: 16px; color: #000000; text-decoration: underline}
+A.BlkLnk:hover	{font-family: Arial, Helvetica, sans-serif; font-size: 12px; line-height: 16px; color: #000000; text-decoration: underline}
+
+A.WhiteLnk	{font-family: Arial, Helvetica, sans-serif; font-size: 12px; line-height: 16px; color: #FFFFFF; text-decoration: none}
+A.WhiteLnk:Link	{font-family: Arial, Helvetica, sans-serif; font-size: 12px; line-height: 16px; color: #FFFFFF; text-decoration: none}
+A.WhiteLnk:visited	{font-family: Arial, Helvetica, sans-serif; font-size: 12px; line-height: 16px; color: #FFFFFF; text-decoration: none}
+A.WhiteLnk:active	{font-family: Arial, Helvetica, sans-serif; font-size: 12px; line-height: 16px; color: #FFFFFF; text-decoration: underline}
+A.WhiteLnk:hover	{font-family: Arial, Helvetica, sans-serif; font-size: 12px; line-height: 16px; color: #FFFFFF; text-decoration: underline}
+
+A.WhiteMedLnk	{font-family: Arial, Helvetica, sans-serif; font-size: 16px; color: #FFFFFF; text-decoration: none; font-weight:bold;}
+A.WhiteMedLnk:Link	{font-family: Arial, Helvetica, sans-serif; font-size: 16px; color: #FFFFFF; text-decoration: none; font-weight:bold;}
+A.WhiteMedLnk:visited	{font-family: Arial, Helvetica, sans-serif; font-size: 16px; color: #FFFFFF; text-decoration: none; font-weight:bold;}
+A.WhiteMedLnk:active	{font-family: Arial, Helvetica, sans-serif; font-size: 16px; color: #FFFFFF; text-decoration: underline; font-weight:bold;}
+A.WhiteMedLnk:hover	{font-family: Arial, Helvetica, sans-serif; font-size: 16px; color: #FFFFFF; text-decoration: underline; font-weight:bold;}
+
+TABLE.MenuBar {background-color:#99CCCC; color:#000000; font-size:12px; font-weight:bold; font-family: Arial;}
+TABLE.SmallBorder	{border:1px solid #99CCCC;}
+TABLE.Test	{border:1px solid #FFFFFF; width:760px; color:#FFFFFF; font-family: Arial, Helvetica, sans-serif; font-size: 12px;}
+TABLE.Warning	{border:1px solid Gray; width:760px; font-size:Smaller; font-family:Verdana;}
+TABLE.Normal	{font-family: Arial, Helvetica, sans-serif; font-size: 12px; border:solid 1px #FFFFFF; color:#000000; padding:5px 5px 5px 5px;}
+TABLE.SmallSection	{border:1px solid #FFFFFF; background-color:#307FA3;}
+
+TR.WarningHdr	{color:#FFFFFF; background-color:#FF0033; font-weight:bold;}
+TR.WarningMsg	{color:#FFFFFF; background-color:#FFFFFF;}
+
+TR.SelectedItem	{color:#F7F7F7; background-color:#738A9C; font-family: Arial, Helvetica, sans-serif; font-size: 12px; color:#000000;}
+TR.AlternatingItem	{color:#000000; background-color:#D1D1D1; font-family: Arial, Helvetica, sans-serif; font-size: 12px; color:#000000;}
+TR.Item	{color:#000000; background-color:#FFFFFF; font-family: Arial, Helvetica, sans-serif; font-size: 12px; color:#000000;}
+TR.DataGridHdr	{font-weight:bold; color:#F7F7F7; background-color:#307FA3; font-family: Arial, Helvetica, sans-serif; font-size: 12px; color:#FFFFFF;}
+
+SPAN.WhiteText	{font-family: Arial, Helvetica, sans-serif; font-size: 12px; color:#FFFFFF;}
+SPAN.BlackText	{font-family: Arial, Helvetica, sans-serif; font-size: 14px; color:#000000;}
+
+SPAN.cssTip
+{
+	position:absolute; 
+	border:1px solid black; 
+	background-color:#FFFFCC; 
+	color:#000000; 
+	padding: 3px 3px 3px 3px;
+	font-size:10px;
+	font-family:Arial;
+	width:80%;
+	cursor:default;
+}	
+
+.showTip
+{
+	border:1px solid black; 
+	background-color:#CC0000; 
+	color:#FFFFFF; 
+	width:7%; 
+	text-align:center;
+	cursor:default;
+	display:inline;
+	font-size:12px;
+}
+
+SPAN.view
+{
+	color:#000000;
+	border-style: inset;
+	border-color: Gray;
+	border-width: thin;
+	padding: 1px, 1px, 1px, 1px;
+	width: 100%;
+	background-color:#D0CECE;
+	font-family:Arial;
+	font-size:x-small;
+	display:none;
+}
+
+.tblHdr
+{
+	font-family:Arial;
+	font-size:16px;
+	font-weight:bold;
+	color:#FFFFFF;
+}
+
+.stdFont
+{
+	font-family:Arial;
+	font-size:12px;
+	color:#FFFFFF;
+}
+
+.btnSmall
+{
+	background-color:#307FA3;
+	font-family:Arial;
+	font-size:11px;
+	font-weight:bold;
+	color:#FFFFFF;	
+}
+
+.txtboxXSmall
+{
+	width:30px;	
+	font-family:Arial;
+	font-size:x-small;
+}
+
+.txtboxSmall
+{
+	width:75px;	
+	font-family:Arial;
+	font-size:x-small;
+}
+
+.txtboxLarge
+{
+	width:88%;
+	font-family:Arial;
+	font-size:x-small;	
+}
+
+.txtMedLarge
+{
+	width: 175px;
+	font-family:Arial;
+	font-size:x-small;		
+}
+
+.cboXSmall
+{
+	width:45px;	
+	font-family:Arial;
+	font-size:x-small;
+}
+
+.cboSmall
+{
+	width:35%;
+	font-family:Arial;
+	font-size:x-small;		
+}
+
+.cboMedium
+{
+	width:200px;
+	font-family:Arial;
+	font-size:x-small;		
+}
+
+.cboLarge
+{
+	width:88%;
+	font-family:Arial;
+	font-size:x-small;	
+}
+
+.txtboxXLarge
+{
+	width: 95%;
+	font-family:Arial;
+	font-size:x-small;	
+}
+
+.txtArea
+{
+	width: 96%;
+	font-family: Arial;
+	font-size: x-small;	
+}
+
+.smallChk
+{
+	padding: 0 0 0 0;
+	font-family: Arial;
+	font-size: x-small;	
+}
+
+.tblSection
+{
+	border-right: 1px solid #99CCCC;
+	border-top: 1px solid #99CCCC; 
+	border-left: 1px solid #99CCCC;
+	border-bottom: 1px solid #99CCCC;
+}
+
+.secHdr
+{
+	color: #ffffff; 
+	background-color: #307FA3;
+}
+
+.BlueWhite
+{
+	background-color: #783030;	
+}
+
+.WhiteText
+{
+	color: #444444;
+	font-size:small;
+}
+
+.secResults
+{
+	color: #ffffff;
+	background-color: #783030;
+	font-size: 11px;
+	font-weight: bold;
+}
+
+.modalBackground {
+	background-color:Gray;
+	filter:alpha(opacity=70);
+	opacity:0.7;
+}
+
+.modalPopup
+{
+	background-color: #000000;
+	border-width: 1px;
+	border-style: solid;
+	border-color: Gray;
+	padding: 3px;
+}
+
+.loading-panel 
+{
+	background: Gray url(images/loadingprogressbar.gif) 50% 50% no-repeat;
+}
+
+.RadMenu_Green .rootgroup .item
+{
+	font-size: 12px;
+	font-family: Arial;
+	font-weight: bold;
+	color: #000000;
+}
+
+.RadMenu_Green .group .item
+{
+	font-size: 12px;
+	font-family: Arial;
+	font-weight: bold;
+	color: #000000;
+}
+
+.RadMenu_Green .link:hover
+{
+	font-size: 12px;
+	font-family: Arial;
+	font-weight: bold;
+	text-decoration: underline;
+	color: #FFFFFF;
+}
+
+TD.ViewHeaderSelected
+{
+	color:Black;
+	font-size:12px;
+	font-family: Arial;
+	font-weight:bold;
+	text-decoration: none;
+}
+
+A.ViewHeaderNotSelected
+{
+	color:White;
+	font-size:12px;
+	font-family:Arial;
+	font-weight:bold;
+	text-decoration: none;
+}

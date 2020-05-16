@@ -1,0 +1,537 @@
+﻿<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="3.5">
+  <PropertyGroup>
+    <ProductVersion>9.0.30428</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{4040D280-BDE6-436A-A16E-19F9A270F5B9}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ApplicationIcon>
+    </ApplicationIcon>
+    <AssemblyKeyContainerName>
+    </AssemblyKeyContainerName>
+    <AssemblyName>TrinityMedicalManagement</AssemblyName>
+    <AssemblyOriginatorKeyFile>
+    </AssemblyOriginatorKeyFile>
+    <DefaultClientScript>JScript</DefaultClientScript>
+    <DefaultHTMLPageLayout>Grid</DefaultHTMLPageLayout>
+    <DefaultTargetSchema>IE50</DefaultTargetSchema>
+    <DelaySign>false</DelaySign>
+    <OutputType>Library</OutputType>
+    <RootNamespace>TrinityMedicalManagement</RootNamespace>
+    <RunPostBuildEvent>OnBuildSuccess</RunPostBuildEvent>
+    <StartupObject>Medical.aspx</StartupObject>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <SccProjectName>TrinityMedicalManagement</SccProjectName>
+    <SccLocalPath>2~b700e347-af7e-4729-a30b-2de6e77af21e</SccLocalPath>
+    <SccAuxPath>http://vault.infiniedge.com/VaultService</SccAuxPath>
+    <SccProvider>SourceGear Vault Visual Studio 2005 Client:{1EA47954-8515-402d-82D9-B5C332120A8D}</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <OutputPath>..\..\bin\</OutputPath>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+    <BaseAddress>285212672</BaseAddress>
+    <CheckForOverflowUnderflow>false</CheckForOverflowUnderflow>
+    <ConfigurationOverrideFile>
+    </ConfigurationOverrideFile>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DocumentationFile>
+    </DocumentationFile>
+    <DebugSymbols>true</DebugSymbols>
+    <FileAlignment>4096</FileAlignment>
+    <NoStdLib>false</NoStdLib>
+    <NoWarn>
+    </NoWarn>
+    <Optimize>false</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
+    <WarningLevel>4</WarningLevel>
+    <DebugType>full</DebugType>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRules>-Microsoft.Globalization#CA1301;-Microsoft.Globalization#CA1302;-Microsoft.Globalization#CA1303;-Microsoft.Globalization#CA1306;-Microsoft.Globalization#CA1304;-Microsoft.Globalization#CA1305;-Microsoft.Globalization#CA1300;-Microsoft.Naming#CA1718;-Microsoft.Naming#CA1720;-Microsoft.Naming#CA1700;-Microsoft.Naming#CA1712;-Microsoft.Naming#CA1713;-Microsoft.Naming#CA1709;-Microsoft.Naming#CA1708;-Microsoft.Naming#CA1715;-Microsoft.Naming#CA1710;-Microsoft.Naming#CA1707;-Microsoft.Naming#CA1722;-Microsoft.Naming#CA1711;-Microsoft.Naming#CA1716;-Microsoft.Naming#CA1705;-Microsoft.Naming#CA1725;-Microsoft.Naming#CA1719;-Microsoft.Naming#CA1721;-Microsoft.Naming#CA1706;-Microsoft.Naming#CA1724;-Microsoft.Naming#CA1726</CodeAnalysisRules>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <OutputPath>bin\</OutputPath>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+    <BaseAddress>285212672</BaseAddress>
+    <CheckForOverflowUnderflow>false</CheckForOverflowUnderflow>
+    <ConfigurationOverrideFile>
+    </ConfigurationOverrideFile>
+    <DefineConstants>TRACE</DefineConstants>
+    <DocumentationFile>
+    </DocumentationFile>
+    <DebugSymbols>false</DebugSymbols>
+    <FileAlignment>4096</FileAlignment>
+    <NoStdLib>false</NoStdLib>
+    <NoWarn>
+    </NoWarn>
+    <Optimize>true</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>4</WarningLevel>
+    <DebugType>none</DebugType>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="AjaxControlToolkit, Version=1.0.10123.0, Culture=neutral, PublicKeyToken=28f01b0e84b6d53e, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\ajax\SampleWebSite\Bin\AjaxControlToolkit.dll</HintPath>
+    </Reference>
+    <Reference Include="InfiniEdge.Encryption, Version=1.0.0.0, Culture=neutral, PublicKeyToken=a9124d1a9a6ac0a1" />
+    <Reference Include="InfiniEdge.Sql, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL" />
+    <Reference Include="InfiniEdge.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=a9124d1a9a6ac0a1" />
+    <Reference Include="obout_Calendar_Pro_Net, Version=1.0.5.0, Culture=neutral, PublicKeyToken=d58e53318d57d94d">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\bin\obout_Calendar_Pro_Net.dll</HintPath>
+    </Reference>
+    <Reference Include="RadAjax.Net2, Version=1.8.5.0, Culture=neutral, PublicKeyToken=3f7b438d1c762d0b, processorArchitecture=MSIL" />
+    <Reference Include="RadCalendar.Net2, Version=2.2.5.0, Culture=neutral, PublicKeyToken=a1432cd341173140, processorArchitecture=MSIL" />
+    <Reference Include="RadGrid.Net2, Version=4.6.2.0, Culture=neutral, PublicKeyToken=ec87bc2939ec45df, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\Program Files\Telerik\RadControlsQ1 2007\NET2\bin\RadGrid.Net2.dll</HintPath>
+    </Reference>
+    <Reference Include="RadInput.Net2, Version=2.1.5.0, Culture=neutral, PublicKeyToken=a1432cd341173140, processorArchitecture=MSIL" />
+    <Reference Include="RadMenu.Net2, Version=4.4.1.0, Culture=neutral, PublicKeyToken=bbe59a8ad3533e68, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\Program Files\Telerik\RadControls for ASP.NET Q2 2007\NET2\bin\RadMenu.Net2.dll</HintPath>
+    </Reference>
+    <Reference Include="RadTabStrip.Net2, Version=3.5.2.0, Culture=neutral, PublicKeyToken=a87324b017ca21ce, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\Program Files\Telerik\RadControlsQ1 2007\NET2\bin\RadTabStrip.Net2.dll</HintPath>
+    </Reference>
+    <Reference Include="RadUpload.Net2, Version=2.3.2.0, Culture=neutral, PublicKeyToken=b4e93c26a31a21f0, processorArchitecture=MSIL" />
+    <Reference Include="RadWindow.Net2, Version=1.8.1.0, Culture=neutral, PublicKeyToken=a3055f084732468e, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\Program Files\Telerik\RadControlsQ1 2007\NET2\bin\RadWindow.Net2.dll</HintPath>
+    </Reference>
+    <Reference Include="rolloverbutton, Version=1.0.1699.27710, Culture=neutral" />
+    <Reference Include="System">
+      <Name>System</Name>
+    </Reference>
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Core, Version=3.5.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data">
+      <Name>System.Data</Name>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions, Version=3.5.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.Entity">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Drawing">
+      <Name>System.Drawing</Name>
+    </Reference>
+    <Reference Include="System.Web">
+      <Name>System.Web</Name>
+    </Reference>
+    <Reference Include="System.Web.Entity, Version=3.5.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\WINDOWS\assembly\GAC_MSIL\System.Web.Entity\3.5.0.0__b77a5c561934e089\System.Web.Entity.dll</HintPath>
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Web.Extensions, Version=3.5.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Web.Extensions.Design, Version=3.5.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Xml">
+      <Name>System.XML</Name>
+    </Reference>
+    <Reference Include="System.Xml.Linq, Version=3.5.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AddNote.aspx.cs">
+      <DependentUpon>AddNote.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AddNote.aspx.designer.cs">
+      <DependentUpon>AddNote.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Allergys.cs" />
+    <Compile Include="AllPatients.aspx.cs">
+      <DependentUpon>AllPatients.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AllPatients.aspx.designer.cs">
+      <DependentUpon>AllPatients.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="App_GlobalResources\Resources.fr.designer.cs">
+      <DependentUpon>Resources.fr.resx</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="App_GlobalResources\Resources.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="AssemblyInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="classes\SecurityBasePage.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CustomerHome.aspx.cs">
+      <DependentUpon>CustomerHome.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CustomerHome.aspx.designer.cs">
+      <DependentUpon>CustomerHome.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Documents.aspx.cs">
+      <DependentUpon>Documents.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Documents.aspx.designer.cs">
+      <DependentUpon>Documents.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="NavigationMenu.ascx.cs">
+      <DependentUpon>NavigationMenu.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="NavigationMenu.ascx.designer.cs">
+      <DependentUpon>NavigationMenu.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Patient.aspx.designer.cs">
+      <DependentUpon>Patient.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="PreviewNote.aspx.cs">
+      <DependentUpon>PreviewNote.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PreviewNote.aspx.designer.cs">
+      <DependentUpon>PreviewNote.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="RevPatient.aspx.cs">
+      <DependentUpon>RevPatient.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="RevPatient.aspx.designer.cs">
+      <DependentUpon>RevPatient.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="CustError.aspx.cs">
+      <DependentUpon>CustError.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CustError.aspx.designer.cs">
+      <DependentUpon>CustError.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="DataForm.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="DataUtility.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="editTxt.aspx.cs">
+      <DependentUpon>editTxt.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="editTxt.aspx.designer.cs">
+      <DependentUpon>editTxt.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="LogVisit.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Medical.aspx.cs">
+      <DependentUpon>Medical.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Medical.aspx.designer.cs">
+      <DependentUpon>Medical.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Notes.aspx.cs">
+      <DependentUpon>Notes.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Notes.aspx.designer.cs">
+      <DependentUpon>Notes.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Patient.aspx.cs">
+      <DependentUpon>Patient.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="save.Medical.aspx.cs">
+      <DependentUpon>save.Medical.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="save.Medical.aspx.designer.cs">
+      <DependentUpon>save.Medical.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="save.Notes.aspx.cs">
+      <DependentUpon>save.Notes.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="save.Notes.aspx.designer.cs">
+      <DependentUpon>save.Notes.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="save.Patient.aspx.cs">
+      <DependentUpon>save.Patient.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="save.Patient.aspx.designer.cs">
+      <DependentUpon>save.Patient.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Search.aspx.cs">
+      <DependentUpon>Search.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Search.aspx.designer.cs">
+      <DependentUpon>Search.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SearchTips.aspx.cs">
+      <DependentUpon>SearchTips.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SearchTips.aspx.designer.cs">
+      <DependentUpon>SearchTips.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SelectUser.aspx.cs">
+      <DependentUpon>SelectUser.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SelectUser.aspx.designer.cs">
+      <DependentUpon>SelectUser.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SendMail.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ServerVariables.aspx.cs">
+      <DependentUpon>ServerVariables.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ServerVariables.aspx.designer.cs">
+      <DependentUpon>ServerVariables.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SessionTimedOut.aspx.cs">
+      <DependentUpon>SessionTimedOut.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SessionTimedOut.aspx.designer.cs">
+      <DependentUpon>SessionTimedOut.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="TMMPage.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="User.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Content Include="AddNote.aspx" />
+    <Content Include="AllPatients.aspx" />
+    <Content Include="controls\NavigationMenu.ascx" />
+    <Content Include="controls\NavigationMenu.ascx.designer.vb" />
+    <Content Include="controls\NavigationMenu.ascx.vb" />
+    <Content Include="CustomerHome.aspx" />
+    <Content Include="Documents.aspx" />
+    <Content Include="images\btn_SelectDate.jpg" />
+    <Content Include="images\Icon_Admin_sm.gif" />
+    <Content Include="images\Icon_AllUsers_sm.gif" />
+    <Content Include="images\Icon_Physicians_sm.gif" />
+    <Content Include="images\tab_active_lt.gif" />
+    <Content Include="images\tab_active_mid.gif" />
+    <Content Include="images\tab_active_rt.gif" />
+    <Content Include="images\tab_inactive_lt.gif" />
+    <Content Include="images\tab_inactive_mid.gif" />
+    <Content Include="images\tab_inactive_rt.gif" />
+    <Content Include="NavigationMenu.ascx">
+      <SubType>UserControl</SubType>
+    </Content>
+    <Content Include="PreviewNote.aspx" />
+    <Content Include="RadControls\Upload\Skins\Trinity\Img\btn_Upload.gif" />
+    <Content Include="RadControls\Upload\Skins\Trinity\Img\btn_Upload_o.gif" />
+    <Content Include="RadControls\Upload\Skins\Trinity\Img\button.gif" />
+    <Content Include="RadControls\Upload\Skins\Trinity\Img\progress.gif" />
+    <Content Include="RadControls\Upload\Skins\Trinity\Img\RadUploadProgressBarHolder.gif" />
+    <Content Include="RadControls\Upload\Skins\Trinity\Img\waiting.gif" />
+    <Content Include="RadControls\Upload\Skins\Trinity\RadUpload.css" />
+    <Content Include="RadControls\Upload\Skins\Trinity\RadUploadProgressArea.css" />
+    <Content Include="RevPatient.aspx">
+      <SubType>Form</SubType>
+    </Content>
+    <Content Include="CustError.aspx">
+      <SubType>Form</SubType>
+    </Content>
+    <Content Include="editTxt.aspx">
+      <SubType>Form</SubType>
+    </Content>
+    <Content Include="global.css">
+      <SubType>Form</SubType>
+    </Content>
+    <Content Include="images\btn_LiveHelp.gif" />
+    <Content Include="images\btn_LiveHelp_o.gif" />
+    <Content Include="images\btn_Support.gif" />
+    <Content Include="images\btn_Support_o.gif" />
+    <Content Include="images\check.gif" />
+    <Content Include="images\gradient.gif" />
+    <Content Include="images\loading2.gif" />
+    <Content Include="images\LoadingProgressBar.gif" />
+    <Content Include="images\ttl_PatientEncounterBar.jpg" />
+    <Content Include="Medical.aspx">
+      <SubType>Form</SubType>
+    </Content>
+    <Content Include="Notes.aspx">
+      <SubType>Form</SubType>
+    </Content>
+    <Content Include="Patient.aspx">
+      <SubType>Form</SubType>
+    </Content>
+    <Content Include="save.Medical.aspx">
+      <SubType>Form</SubType>
+    </Content>
+    <Content Include="save.Notes.aspx">
+      <SubType>Form</SubType>
+    </Content>
+    <Content Include="save.Patient.aspx">
+      <SubType>Form</SubType>
+    </Content>
+    <Content Include="scripts\pageScripts.js" />
+    <Content Include="scripts\validate.js" />
+    <Content Include="Search.aspx">
+      <SubType>Form</SubType>
+    </Content>
+    <Content Include="SearchTips.aspx" />
+    <Content Include="SelectUser.aspx" />
+    <Content Include="ServerVariables.aspx">
+      <SubType>Form</SubType>
+    </Content>
+    <Content Include="SessionTimedOut.aspx">
+      <SubType>Form</SubType>
+    </Content>
+    <Content Include="trinity.css" />
+    <Content Include="Web.config" />
+    <Content Include="App_GlobalResources\Resources.resx">
+      <SubType>Designer</SubType>
+      <Generator>GlobalResourceProxyGenerator</Generator>
+      <LastGenOutput>Resources.designer.cs</LastGenOutput>
+    </Content>
+    <Content Include="App_GlobalResources\Resources.fr.resx">
+      <Generator>GlobalResourceProxyGenerator</Generator>
+      <LastGenOutput>Resources.fr.designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="XML\Text.xml" />
+    <EmbeddedResource Include="controls\NavigationMenu.ascx.resx" />
+    <EmbeddedResource Include="NavigationMenu.ascx.resx">
+      <DependentUpon>NavigationMenu.ascx.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RevPatient.aspx.resx">
+      <DependentUpon>RevPatient.aspx.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CustError.aspx.resx">
+      <DependentUpon>CustError.aspx.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="editTxt.aspx.resx">
+      <DependentUpon>editTxt.aspx.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Medical.aspx.resx">
+      <DependentUpon>Medical.aspx.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Notes.aspx.resx">
+      <DependentUpon>Notes.aspx.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Patient.aspx.resx">
+      <DependentUpon>Patient.aspx.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="save.Medical.aspx.resx">
+      <DependentUpon>save.Medical.aspx.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="save.Notes.aspx.resx">
+      <DependentUpon>save.Notes.aspx.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="save.Patient.aspx.resx">
+      <DependentUpon>save.Patient.aspx.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Search.aspx.resx">
+      <DependentUpon>Search.aspx.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ServerVariables.aspx.resx">
+      <DependentUpon>ServerVariables.aspx.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SessionTimedOut.aspx.resx">
+      <DependentUpon>SessionTimedOut.aspx.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram1.cd" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\TrinityClassLibrary_BL\TrinityClassLibrary_BL.csproj">
+      <Project>{5221E093-5B8A-4250-BEA8-6DB470BED6FF}</Project>
+      <Name>TrinityClassLibrary_BL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\TrinityClassLibrary_DAL\TrinityClassLibrary_DAL.csproj">
+      <Project>{5BD51F7D-F241-4108-A29B-77DB4C1F1F80}</Project>
+      <Name>TrinityClassLibrary_DAL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\TrinityData\TrinityData.csproj">
+      <Project>{00E7EDA0-C628-4B53-94F8-FF0A1E691C32}</Project>
+      <Name>TrinityData</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\WebControls\TMM_WebControls.csproj">
+      <Project>{CA2BD9D2-876F-4EED-9F30-5D7180696856}</Project>
+      <Name>TMM_WebControls</Name>
+    </ProjectReference>
+    <ProjectReference Include="TMM-BL\TMM_BL.csproj">
+      <Project>{C704DE64-9430-4B6C-81ED-4A7F3CEBE350}</Project>
+      <Name>TMM_BL</Name>
+    </ProjectReference>
+    <ProjectReference Include="TMM_DAL\TMM_DAL.csproj">
+      <Project>{25B38383-6DE9-4743-80B2-D2CCAAAB75CB}</Project>
+      <Name>TMM_DAL</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Properties\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PreBuildEvent>
+    </PreBuildEvent>
+    <PostBuildEvent>
+    </PostBuildEvent>
+  </PropertyGroup>
+  <Import Project="$(MSBuildExtensionsPath)\Microsoft\VisualStudio\v9.0\WebApplications\Microsoft.WebApplication.targets" Condition="" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>1278</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:112/Intranet/Medic</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>

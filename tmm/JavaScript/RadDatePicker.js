@@ -1,0 +1,1 @@
+﻿function TogglePopup(id) { window[id].ShowPopup(); }

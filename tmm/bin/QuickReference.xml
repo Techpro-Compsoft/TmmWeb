@@ -1,0 +1,1021 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+QuickReference
+</name>
+</assembly>
+<members>
+<member name="F:QuickReference.FileManagement.Form1">
+	<summary>
+Form1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:QuickReference.FileManagement.NavigationMenu1">
+	<summary>
+NavigationMenu1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:QuickReference.FileManagement.rowQuickRefListButtons">
+	<summary>
+rowQuickRefListButtons control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:QuickReference.FileManagement.rowQuickRefAddButtons">
+	<summary>
+rowQuickRefAddButtons control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:QuickReference.FileManagement.lblAttachFile">
+	<summary>
+lblAttachFile control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:QuickReference.FileManagement.AttachFile">
+	<summary>
+AttachFile control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:QuickReference.FileManagement.lblFileName">
+	<summary>
+lblFileName control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:QuickReference.FileManagement.txtFileName">
+	<summary>
+txtFileName control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:QuickReference.FileManagement.cboCategory">
+	<summary>
+cboCategory control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:QuickReference.FileManagement.txtNewCategory">
+	<summary>
+txtNewCategory control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:QuickReference.FileManagement.btnEditCat">
+	<summary>
+btnEditCat control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:QuickReference.FileManagement.btnRefeshList">
+	<summary>
+btnRefeshList control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:QuickReference.FileManagement.btnUpload">
+	<summary>
+btnUpload control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:QuickReference.FileManagement.tblSummary">
+	<summary>
+tblSummary control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:QuickReference.FileManagement.lblMessage">
+	<summary>
+lblMessage control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:QuickReference.FileManagement.rowWarning">
+	<summary>
+rowWarning control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:QuickReference.FileManagement.rowNoResults">
+	<summary>
+rowNoResults control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:QuickReference.FileManagement.rowShow">
+	<summary>
+rowShow control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:QuickReference.FileManagement.lbShow">
+	<summary>
+lbShow control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:QuickReference.FileManagement.rowResults">
+	<summary>
+rowResults control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:QuickReference.FileManagement.grdResults">
+	<summary>
+grdResults control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:QuickReference.RichTextBox.rcTextBox">
+	<summary>
+rcTextBox control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="T:QuickReference.RichTextBox">
+	<summary>
+RichTextBox class.
+</summary>
+	<remarks>
+Auto-generated class.
+</remarks>
+</member><member name="F:QuickReference.CustomError.Form1">
+	<summary>
+Form1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:QuickReference.CustomError.NavigationMenu1">
+	<summary>
+NavigationMenu1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="T:QuickReference.CustomError">
+	<summary>
+CustomError class.
+</summary>
+	<remarks>
+Auto-generated class.
+</remarks>
+</member><member name="F:QuickReference.AttachedFile.Form1">
+	<summary>
+Form1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:QuickReference.AttachedFile.NavigationMenu1">
+	<summary>
+NavigationMenu1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:QuickReference.AttachedFile.lblFileName">
+	<summary>
+lblFileName control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:QuickReference.AttachedFile.cboCategory">
+	<summary>
+cboCategory control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:QuickReference.AttachedFile.lblDate">
+	<summary>
+lblDate control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:QuickReference.AttachedFile.btnSave">
+	<summary>
+btnSave control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:QuickReference.AttachedFile.btnCancel">
+	<summary>
+btnCancel control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="T:QuickReference.AttachedFile">
+	<summary>
+AttachedFile class.
+</summary>
+	<remarks>
+Auto-generated class.
+</remarks>
+</member><member name="F:QuickReference.QuickReferenceList.Form1">
+	<summary>
+Form1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:QuickReference.QuickReferenceList.NavigationMenu1">
+	<summary>
+NavigationMenu1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:QuickReference.QuickReferenceList.btnNew">
+	<summary>
+btnNew control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:QuickReference.QuickReferenceList.btnView">
+	<summary>
+btnView control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:QuickReference.QuickReferenceList.lblInstructions">
+	<summary>
+lblInstructions control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:QuickReference.QuickReferenceList.rowWarning">
+	<summary>
+rowWarning control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:QuickReference.QuickReferenceList.lblMessage">
+	<summary>
+lblMessage control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:QuickReference.QuickReferenceList.grdResults">
+	<summary>
+grdResults control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:QuickReference.QuickReferenceList.lblHTML">
+	<summary>
+lblHTML control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="T:QuickReference.QuickReferenceList">
+	<summary>
+QuickReferenceList class.
+</summary>
+	<remarks>
+Auto-generated class.
+</remarks>
+</member><member name="F:QuickReference.QuickRef_Add.Form1">
+	<summary>
+Form1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:QuickReference.QuickRef_Add.NavigationMenu1">
+	<summary>
+NavigationMenu1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:QuickReference.QuickRef_Add.btnCancel">
+	<summary>
+btnCancel control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:QuickReference.QuickRef_Add.rcRichText">
+	<summary>
+rcRichText control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:QuickReference.QuickRef_Add.txtSrc">
+	<summary>
+txtSrc control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:QuickReference.QuickRef_Add.btnChangeCat">
+	<summary>
+btnChangeCat control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:QuickReference.QuickRef_Add.btnFileManagement">
+	<summary>
+btnFileManagement control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="T:QuickReference.QuickRef_Add">
+	<summary>
+QuickRef_Add class.
+</summary>
+	<remarks>
+Auto-generated class.
+</remarks>
+</member><member name="F:QuickReference.QuickRef_New.Form1">
+	<summary>
+Form1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:QuickReference.QuickRef_New.NavigationMenu1">
+	<summary>
+NavigationMenu1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:QuickReference.QuickRef_New.txtName">
+	<summary>
+txtName control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:QuickReference.QuickRef_New.rfvName">
+	<summary>
+rfvName control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:QuickReference.QuickRef_New.txtDescription">
+	<summary>
+txtDescription control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:QuickReference.QuickRef_New.rfvDescription">
+	<summary>
+rfvDescription control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:QuickReference.QuickRef_New.cboCategory">
+	<summary>
+cboCategory control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:QuickReference.QuickRef_New.txtNewCategory">
+	<summary>
+txtNewCategory control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:QuickReference.QuickRef_New.btnSubmit">
+	<summary>
+btnSubmit control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="T:QuickReference.QuickRef_New">
+	<summary>
+QuickRef_New class.
+</summary>
+	<remarks>
+Auto-generated class.
+</remarks>
+</member><member name="F:QuickReference.NavigationMenu.TMMMenu1">
+	<summary>
+TMMMenu1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="T:QuickReference.NavigationMenu">
+	<summary>
+NavigationMenu class.
+</summary>
+	<remarks>
+Auto-generated class.
+</remarks>
+</member><member name="F:QuickReference.CatManagement.Form1">
+	<summary>
+Form1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:QuickReference.CatManagement.lbtnClose">
+	<summary>
+lbtnClose control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:QuickReference.CatManagement.cboCategory">
+	<summary>
+cboCategory control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:QuickReference.CatManagement.btnRename">
+	<summary>
+btnRename control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:QuickReference.CatManagement.btnAdd">
+	<summary>
+btnAdd control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:QuickReference.CatManagement.btnDelete">
+	<summary>
+btnDelete control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:QuickReference.CatManagement.pnlEdit">
+	<summary>
+pnlEdit control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:QuickReference.CatManagement.lblOldName">
+	<summary>
+lblOldName control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:QuickReference.CatManagement.txtNewName">
+	<summary>
+txtNewName control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:QuickReference.CatManagement.btnCancel">
+	<summary>
+btnCancel control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:QuickReference.CatManagement.btnSave">
+	<summary>
+btnSave control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:QuickReference.CatManagement.pnlAdd">
+	<summary>
+pnlAdd control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:QuickReference.CatManagement.txtAddCategory">
+	<summary>
+txtAddCategory control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:QuickReference.CatManagement.btnNewCancel">
+	<summary>
+btnNewCancel control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:QuickReference.CatManagement.btnNewSave">
+	<summary>
+btnNewSave control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:QuickReference.CatManagement.pnlDelete">
+	<summary>
+pnlDelete control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:QuickReference.CatManagement.lblDelete">
+	<summary>
+lblDelete control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:QuickReference.CatManagement.btnCancelDelete">
+	<summary>
+btnCancelDelete control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:QuickReference.CatManagement.btnConfirmDelete">
+	<summary>
+btnConfirmDelete control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:QuickReference.CatManagement.lblError">
+	<summary>
+lblError control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="T:QuickReference.CatManagement">
+	<summary>
+CatManagement class.
+</summary>
+	<remarks>
+Auto-generated class.
+</remarks>
+</member><member name="F:QuickReference.changecat.Form1">
+	<summary>
+Form1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:QuickReference.changecat.cboCategory">
+	<summary>
+cboCategory control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:QuickReference.changecat.btnEdit">
+	<summary>
+btnEdit control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:QuickReference.changecat.btnSave">
+	<summary>
+btnSave control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="T:QuickReference.changecat">
+	<summary>
+changecat class.
+</summary>
+	<remarks>
+Auto-generated class.
+</remarks>
+</member><member name="F:QuickReference.test.Form1">
+	<summary>
+Form1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="T:QuickReference.test">
+	<summary>
+test class.
+</summary>
+	<remarks>
+Auto-generated class.
+</remarks>
+</member><member name="F:QuickReference.QuickRef_ViewRef.Form1">
+	<summary>
+Form1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:QuickReference.QuickRef_ViewRef.NavigationMenu1">
+	<summary>
+NavigationMenu1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:QuickReference.QuickRef_ViewRef.litContent">
+	<summary>
+litContent control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="T:QuickReference.QuickRef_ViewRef">
+	<summary>
+QuickRef_ViewRef class.
+</summary>
+	<remarks>
+Auto-generated class.
+</remarks>
+</member><member name="F:QuickReference.FileUpload.Form1">
+	<summary>
+Form1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:QuickReference.FileUpload.lblAttachFile">
+	<summary>
+lblAttachFile control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:QuickReference.FileUpload.AttachFile">
+	<summary>
+AttachFile control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:QuickReference.FileUpload.lblFileName">
+	<summary>
+lblFileName control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:QuickReference.FileUpload.txtFileName">
+	<summary>
+txtFileName control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:QuickReference.FileUpload.cboCategory">
+	<summary>
+cboCategory control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:QuickReference.FileUpload.txtNewCategory">
+	<summary>
+txtNewCategory control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:QuickReference.FileUpload.btnClose">
+	<summary>
+btnClose control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:QuickReference.FileUpload.btnUpload">
+	<summary>
+btnUpload control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:QuickReference.FileUpload.tblSummary">
+	<summary>
+tblSummary control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:QuickReference.FileUpload.lblMessage">
+	<summary>
+lblMessage control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="T:QuickReference.FileUpload">
+	<summary>
+FileUpload class.
+</summary>
+	<remarks>
+Auto-generated class.
+</remarks>
+</member><member name="F:QuickReference.QuickRef_View.Form1">
+	<summary>
+Form1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:QuickReference.QuickRef_View.NavigationMenu1">
+	<summary>
+NavigationMenu1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:QuickReference.QuickRef_View.txtName">
+	<summary>
+txtName control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:QuickReference.QuickRef_View.cboCategory">
+	<summary>
+cboCategory control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:QuickReference.QuickRef_View.btnSearch">
+	<summary>
+btnSearch control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:QuickReference.QuickRef_View.lblResults">
+	<summary>
+lblResults control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:QuickReference.QuickRef_View.grdResults">
+	<summary>
+grdResults control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="T:QuickReference.QuickRef_View">
+	<summary>
+QuickRef_View class.
+</summary>
+	<remarks>
+Auto-generated class.
+</remarks>
+</member><member name="F:QuickReference.FileList.Form1">
+	<summary>
+Form1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:QuickReference.FileList.hlUpload">
+	<summary>
+hlUpload control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:QuickReference.FileList.tblSearch">
+	<summary>
+tblSearch control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:QuickReference.FileList.lblHeader">
+	<summary>
+lblHeader control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:QuickReference.FileList.txtKeywords">
+	<summary>
+txtKeywords control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:QuickReference.FileList.btnSearch">
+	<summary>
+btnSearch control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:QuickReference.FileList.cboCategory">
+	<summary>
+cboCategory control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:QuickReference.FileList.cboFileType">
+	<summary>
+cboFileType control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:QuickReference.FileList.lblInstructions">
+	<summary>
+lblInstructions control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:QuickReference.FileList.divResults">
+	<summary>
+divResults control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:QuickReference.FileList.tblImageList">
+	<summary>
+tblImageList control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="T:QuickReference.FileList">
+	<summary>
+FileList class.
+</summary>
+	<remarks>
+Auto-generated class.
+</remarks>
+</member>
+</members>
+</doc>

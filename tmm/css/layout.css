@@ -1,0 +1,658 @@
+﻿@charset "UTF-8";
+/* CSS Document */
+
+body, html {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	line-height: 18px;
+	color: #000;
+	background-image: url(../images/gridbg.gif);
+	background-repeat: repeat;
+	margin: 0px;
+	padding: 0px;
+	height: 100%;
+	width: 100%;
+}
+
+#windowcontainer {
+	background-image: url(../images/gradientbg.png);
+	background-repeat: repeat-x;
+	background-position: top;
+	margin: 0px;
+	padding: 0px;
+	height: 100%;
+	min-height: 100%;
+	width: 100%;		
+}
+
+#pagecontainer {
+	background-image: url(../images/pagebg.gif);
+	background-repeat: repeat-y;
+	padding: 0px;
+	width: 976px;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;		
+}
+
+#topblock {
+	background-image: url(../images/topbg.jpg);
+	background-repeat: no-repeat;
+	padding: 0px;
+	height: 153px;
+	width: 960px;
+	margin-top: 0px;
+	margin-right: 8px;
+	margin-bottom: 0px;
+	margin-left: 8px;
+	position: relative;
+	left: 0px;
+	top: 0px;		
+}
+
+h1 {
+	background-image: url(../images/trinitylogo.png);
+	background-repeat: no-repeat;
+	text-indent: -9999em;
+	display: block;
+	padding: 0px;
+	height: 124px;
+	width: 423px;
+	margin: 0px;
+	position: relative;
+	left: -8px;
+	top: 17px;
+}
+
+#contentblock {
+	background-color: #FFF;
+	background-image: url(../images/contentblock_lowercorner.gif);
+	background-repeat: no-repeat;
+	background-position: right bottom;
+	width: 940px;
+	margin-top: 0px;
+	margin-right: 18px;
+	margin-bottom: 0px;
+	margin-left: 18px;
+	padding: 0px;	
+}
+
+#contentwrapper {
+	background-image: url(../images/contentblock_topcorner.jpg);
+	background-repeat: no-repeat;
+	background-position: right top;
+	margin: 0px;
+	width: 886px;
+	padding-top: 25px;
+	padding-right: 36px;
+	padding-bottom: 25px;
+	padding-left: 18px;		
+}
+
+#home #contentwrapper {
+	background-image: url(../images/contentblock_topcorner.jpg);
+	background-repeat: no-repeat;
+	background-position: right top;
+	margin: 0px;
+	width: 922px;
+	padding-top: 0px;
+	padding-right: 9px;
+	padding-bottom: 25px;
+	padding-left: 9px;		
+}
+
+#footer {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-style: normal;
+	font-weight: normal;
+	color: #00aeef;
+	text-decoration: none;
+	text-align: right;
+	width: 886px;
+	margin-right: 91px;
+	margin-left: 18px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+#legal {
+	float: left;
+	margin: 0px;
+}
+
+#footer a img {
+	vertical-align: text-bottom;
+	display: inline;		
+}
+
+#nav {
+	margin: 0px;
+	padding: 0px;
+	height: 39px;
+	width: 976px;
+	position: relative;
+	background-image: url(../images/navbg.jpg);
+	background-repeat: repeat-x;
+}
+
+#nav ul li {
+     float: left;
+     position: relative;
+}
+
+#nav ul li a {
+	display:block;
+	text-decoration:none;
+	color:#FFF;
+	margin: 0px;
+	padding: 0px;	
+}
+
+#nav ul li ul {
+     display: none
+}
+
+#nav ul li:hover ul {
+     display: block;
+     position: absolute;
+}
+
+#aboutus {
+	background-image: url(../images/navbuttons.jpg);
+	background-repeat: no-repeat;
+	background-position: 0px 0px;
+	margin: 0px;
+	padding: 0px;
+	width: 106px;	
+	text-indent: -9999em;
+	height: 39px;	
+}
+
+#aboutus:hover {	
+	background-position: 0px -39px;			
+}
+
+#medical {
+	background-image: url(../images/navbuttons.jpg);
+	background-repeat: no-repeat;
+	background-position: -106px 0px;
+	margin: 0px;
+	padding: 0px;
+	width: 155px;
+	text-indent: -9999em;
+	height: 39px;		
+}
+
+#medical:hover {	
+	background-position: -106px -39px;			
+}
+
+#safety {
+	background-image: url(../images/navbuttons.jpg);
+	background-repeat: no-repeat;
+	background-position: -261px 0px;
+	margin: 0px;
+	padding: 0px;
+	width: 148px;
+	text-indent: -9999em;
+	height: 39px;		
+}
+
+#safety:hover {	
+	background-position: -261px -39px;			
+}
+
+#compliance {
+	background-image: url(../images/navbuttons.jpg);
+	background-repeat: no-repeat;
+	background-position: -409px 0px;
+	margin: 0px;
+	padding: 0px;
+	width: 165px;	
+	text-indent: -9999em;	
+	height: 39px;
+}
+
+#compliance:hover {	
+	background-position: -409px -39px;			
+}
+
+#logistics {
+	background-image: url(../images/navbuttons.jpg);
+	background-repeat: no-repeat;
+	background-position: -653px 0px;
+	margin: 0px;
+	padding: 0px;
+	width: 207px;
+	text-indent: -9999em;
+	height: 39px;		
+}
+
+#logistics:hover {	
+	background-position: -653px -39px;			
+}
+
+#contact {
+	background-image: url(../images/navbuttons.jpg);
+	background-repeat: no-repeat;
+	background-position: -860px 0px;
+	margin: 0px;
+	padding: 0px;
+	width: 116px;
+	text-indent: -9999em;
+	height: 39px;		
+}
+
+#contact:hover {	
+	background-position: -860px -39px;			
+}
+
+#nav ul li:hover ul li a {
+	display:block;
+	background:#12aeef;
+	color:#ffffff;
+	text-align: left;
+	font-size: 12px;
+	width: 135px;
+	line-height: 15px;
+	padding: 10px;
+}
+#nav ul li:hover ul li a:hover {
+     background:#00688f;
+     color:#fff;
+}
+
+#maincontent {
+	background-image: url(../images/headerarrow.gif);
+	background-repeat: no-repeat;
+	background-position: left top;
+	margin: 0px;
+	float: right;
+	width: 606px;
+	padding-left: 40px;
+	border-left-width: 1px;
+	border-left-style: solid;
+	border-left-color: #00AEEF;		
+}
+
+#home #maincontent {
+	background-image: url(../images/headerarrow.gif);
+	background-repeat: no-repeat;
+	background-position: left top;
+	float: right;
+	width: 606px;
+	padding-left: 40px;
+	border-left-width: 1px;
+	border-left-style: solid;
+	border-left-color: #00AEEF;
+	margin-top: 0px;
+	margin-right: 27px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+}
+
+#sidebar {
+	margin: 0px;
+	width: 226px;
+}
+
+#home #sidebar {
+	width: 230px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 9px;
+}
+
+#employeecenter {
+	background-image: url(../images/employeescenter.png);
+	background-repeat: no-repeat;
+	background-position: 0px 0px;
+	text-indent: -9999em;
+	display: block;
+	margin: 0px;
+	padding: 0px;
+	height: 31px;
+	width: 137px;
+	position: absolute;
+	top: 0px;
+	right: 10px;	
+}
+
+
+#evalbutton {
+	background-image: url(../images/evalbutton.png);
+	background-repeat: no-repeat;
+	background-position: 0px 0px;
+	text-indent: -9999em;
+	display: block;
+	margin: 0px;
+	padding: 0px;
+	height: 31px;
+	width: 84px;
+	position: absolute;
+	top: 0px;
+	right: 157px;	
+}
+
+#employeecenter:hover, #evalbutton:hover {
+	background-position: 0px -31px;
+}
+
+
+#homebanner {
+	border-top-width: 1px;
+	border-right-width: 1px;
+	border-bottom-width: 1px;
+	border-left-width: 1px;
+	border-top-style: none;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	border-top-color: #000;
+	border-right-color: #000;
+	border-bottom-color: #000;
+	border-left-color: #000;
+	margin-bottom: 25px;
+}
+
+.kicker {
+	height: 0px;
+	clear: both;	
+}
+
+p {
+	margin-bottom: 8px;		
+}
+
+#home #maincontent p {
+	width: 550px;	
+}
+
+h4 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	text-transform: uppercase;
+	color: #00AEEF;
+	text-decoration: none;	
+}
+
+#phone {
+	background-image: url(../images/phonebullet.gif);
+	background-repeat: no-repeat;
+	padding-left: 25px;
+	margin-left: 20px;
+}
+
+#fax {
+	background-image: url(../images/faxbullet.gif);
+	background-repeat: no-repeat;
+	padding-left: 25px;
+	margin-left: 20px;
+}
+
+h2 {
+	margin-top: 5px;
+	margin-bottom: 5px;		
+}
+
+h3 {
+	margin-top: 20px;
+	margin-bottom: 0px;		
+}
+
+.hassubs {
+	background-image: url(../images/sidebar_snheader.gif);
+	background-repeat: no-repeat;
+	padding-top: 36px;
+}
+
+#trademarkswrapper {
+	background-color: #000;
+	background-image: url(../images/trademarksfooter.gif);
+	background-repeat: no-repeat;
+	background-position: bottom;
+	width: 225px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 20px;
+	margin-left: 0px;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 30px;
+	padding-left: 0px;	
+}
+
+#trademarks {
+	color: #FFF;
+	padding-top: 10px;
+	padding-right: 10px;
+	padding-bottom: 0px;
+	padding-left: 10px;
+	font-size: 12px;
+	line-height: 15px;
+}
+
+#trademarkswrapper h4 {
+	background-image: url(../images/trademarksheader.jpg);
+	background-repeat: no-repeat;
+	text-indent: -9999em;
+	display: block;
+	margin: 0px;
+	padding: 0px;
+	height: 32px;
+	width: 225px;		
+}
+
+#maincontent ul, #maincontent ol {
+	margin-bottom: 10px;
+}
+
+#maincontent ul li {
+	background-image: url(../images/arrowbullet.gif);
+	background-repeat: no-repeat;
+	background-position: 0px 2px;
+	margin-bottom: 5px;
+	padding-left: 15px;
+}
+
+.numberedlist li {
+	padding-left: 25px!important;	
+}
+
+.numberedlist .one {
+	background-image: url(../images/bulletone.gif)!important;	
+}
+
+.numberedlist .two {
+	background-image: url(../images/bullettwo.gif)!important;
+}
+
+.numberedlist .three {
+	background-image: url(../images/bullet3.gif)!important;
+}
+
+.numberedlist .four {
+	background-image: url(../images/bulletfour.gif)!important;
+}
+
+.numberedlist .five {
+	background-image: url(../images/bulletfive.gif)!important;
+}
+
+#maincontent ul li ul li {
+	background-image: url(../images/squarebullet.gif);
+}
+
+#maincontent ol li ul li {
+	background-image: url(../images/squarebullet.gif);
+	list-style-type: none;
+	margin-left: 0px;
+}
+
+#maincontent ul {
+	margin-top: 5px;
+}
+
+#maincontent ol li {
+	margin-bottom: 5px;
+	margin-left: 18px;
+	/*padding-left: 15px;*/
+	list-style-type: decimal;	
+}
+
+.bigtext {
+	margin-bottom: 10px;
+	padding-bottom: 10px;
+	border-top-width: 1px;
+	border-right-width: 1px;
+	border-bottom-width: 1px;
+	border-left-width: 1px;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: solid;
+	border-left-style: none;
+	border-top-color: #000;
+	border-right-color: #000;
+	border-bottom-color: #000;
+	border-left-color: #000;	
+}
+
+.bigtextblack {
+	margin-bottom: 10px;	
+}
+
+p a, ul li a, ol li a {
+	color: #00AEEF;
+	text-decoration: underline;
+}
+
+p a:hover,  ul li a:hover, ol li a:hover {
+	color: #006287;
+	text-decoration: underline;
+}
+
+.sidebarphoto {
+	margin-bottom: 10px;	
+}
+
+.sidebar_sn {
+	text-indent: -9999em;
+	display: block;
+	margin-bottom: 20px;		
+}
+
+#sn_whatwedo {
+	background-image: url(../images/whatwedo_sn.gif);
+	background-repeat: no-repeat;
+	background-position: 0px 0px;
+	height: 15px;
+	width: 116px;	
+}
+
+#sn_whatwedo:hover {
+	background-position: 0px -15px;	
+}
+
+#sn_trinityDifference {
+	background-image: url(../images/trinitydiff_sn.gif);
+	background-repeat: no-repeat;
+	background-position: 0px 0px;
+	height: 19px;
+	width: 185px;
+}
+
+#sn_trinityDifference:hover {
+	background-position: 0px -19px;	
+}
+
+#sn_aboutus {
+	background-image: url(../images/aboutus_sn.gif);
+	background-repeat: no-repeat;
+	background-position: 0px 0px;
+	height: 16px;
+	width: 90px;
+}
+
+#sn_aboutus:hover {
+	background-position: 0px -16px;	
+}
+
+#sn_medicalservices {
+	background-image: url(../images/medicalservices_sn.gif);
+	background-repeat: no-repeat;
+	background-position: 0px 0px;
+	height: 16px;
+	width: 148px;
+}
+
+#sn_medicalservices:hover {
+	background-position: 0px -16px;	
+}
+
+#sn_medicalmgt {
+	background-image: url(../images/medicalmgt_sn.gif);
+	background-repeat: no-repeat;
+	background-position: 0px 0px;
+	height: 19px;
+	width: 178px;
+}
+
+#sn_medicalmgt:hover {
+	background-position: 0px -19px;	
+}
+
+#sn_onsitemed {
+	background-image: url(../images/onsitemedical_sn.gif);
+	background-repeat: no-repeat;
+	background-position: 0px 0px;
+	height: 38px;
+	width: 153px;
+}
+
+#sn_onsitemed:hover {
+	background-position: 0px -38px;	
+}
+
+#sn_compliance {
+	background-image: url(../images/compliance_sn.gif);
+	background-repeat: no-repeat;
+	background-position: 0px 0px;
+	height: 34px;
+	width: 185px;	
+}
+
+#sn_compliance:hover {
+	background-position: 0px -34px;	
+}
+#sn_eval {
+	background-image: url(../images/eval_sn.gif);
+	background-repeat: no-repeat;
+	background-position: 0px 0px;
+	height: 15px;
+	width: 60px;	
+}
+
+#sn_eval:hover {
+	background-position: 0px -15px;	
+}
+
+.rightfloatphoto {
+	float: right;
+	margin-bottom: 10px;
+	margin-left: 15px;		
+}
+
+.button {
+  font: bold 11px Arial;
+  text-decoration: none;
+  background-color: #00aeef;
+  color: #333333;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-left: 4px;
+  padding-right: 4px;
+  border-radius: 5px;
+}

@@ -1,0 +1,5 @@
+obj\Debug\ResolveAssemblyReference.cache
+bin\Debug\TMM-BL.dll
+bin\Debug\TMM-BL.pdb
+obj\Debug\TMM-BL.dll
+obj\Debug\TMM-BL.pdb

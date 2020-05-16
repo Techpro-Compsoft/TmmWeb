@@ -1,0 +1,120 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Pages>
+	<Page id="Documents">
+		<Section id="NotifyUsersSubject">
+			<![CDATA[New Document Upload Notification for Patient Encounter # [PatientEncounter]. ]]>
+		</Section>
+		<Section id="NotifyUsersBody">
+			<![CDATA[[UserFullName]:<br><br>
+					This e-mail is to inform you that Patient Encounter # [PatientEncounter] has been edited to include a 
+					new document uploaded by a [OriginationSource] source. <br><br>
+
+          A new document entitled [DocumentTitle] was uploaded on [UploadDate] by [username].<br><br>
+
+					This patient encounter was originally created on [EncounterDate] by [TrinityUser] while 
+					located on [WorksiteName] worksite. <br><br>
+
+					The patient involved in this patient encounter is [PatientName] and below is a listing of details 
+					pertaining to this patient and their illness/injury:<br><br>
+
+					Name:		[PatientName]<br>
+					Address:    [PatientAddress]<br>
+								[PatientCity], [PatientState] [PatientZIP]<br>
+								[PatientCountry]<br>
+					Birthdate:  [PatientBirthdate]<br>
+					Age:            [PatientAge]<br>                                                                             
+					Sex:             [PatientSex]<br>
+					Chief Complaint:     [PatientChiefComplaint]<br>
+					Medic’s Initial Impression:    [MedicImpression]<br>
+					Patient’s Illness/Injury History:     [PatientIllnessInjuryHistory]<br>
+					Notes:     [Notes]<br><br>
+
+					If you would like to view all of the information pertaining to this patient’s patient encounter click <a href="[WebLink]">here</a>.<br><br>
+
+					Sincerely,<br><br>
+
+					Trinity Medical Management<br><br><br><br>
+
+					THIS IS AN AUTOMATED MESSAGE – PLEASE DO NOT REPLY TO THIS MESSAGE AS THIS MAILBOX IS NOT MONITORED.
+			 ]]>
+		</Section>
+	</Page>
+	<Page id="AddNote">
+		<Section id="NotifyCustomerSubject">
+			<![CDATA[New Patient Encounter Note for Patient Encounter # [PatientEncounter]]]>
+		</Section>
+		<Section id="NotifyCustomerBody">
+			<![CDATA[
+				[UserFullName]:<br><br>
+				This e-mail is to inform you that Patient Encounter [PatientEncounter] has been edited to include a new additional note. <br><br>
+				This patient encounter was originally created on [EncounterDate] by [TrinityUser] while located on [WorksiteName] worksite. <br><br>
+				The patient involved in this patient encounter is [PatientName] and below is a listing of details pertaining to this patient and their illness/injury:<br><br>
+				Name:        [PatientName]  <br><br>                                            
+				Address:    [PatientAddress]<br><br>
+									[PatientCity], [PatientState] [PatientZIP]<br>
+									[PatientCountry]<br>
+				Birthdate:  [PatientBirthdate]                 <br>                                                  
+				Age:            [PatientAge]          <br>                                                                  
+				Sex:             [PatientSex]<br>
+				Chief Complaint:     [PatientChiefComplaint]<br>
+				Medic’s Initial Impression:    [MedicImpression]<br>
+				Patient’s Illness/Injury History:     [PatientIllnessInjuryHistory]<br>
+				Notes:     [Notes]<br><br>
+				If you would like to view all of the information pertaining to this patient encounter click <a href="[WebLink]">here</a>.<br><br>
+				Sincerely,<br><br>
+				Trinity Medical Management<br><br><br><br><br><br>
+				THIS IS AN AUTOMATED MESSAGE – PLEASE DO NOT REPLY TO THIS MESSAGE AS THIS MAILBOX IS NOT MONITORED.
+			 ]]>
+		</Section>
+		<Section id="PreviewBody">
+			<![CDATA[
+				This e-mail is to inform you that Patient Encounter [PatientEncounter] has been edited to include a new additional note. <br><br>
+				This patient encounter was originally created on [EncounterDate] by [TrinityUser] while located on [WorksiteName] worksite. <br><br>
+				The patient involved in this patient encounter is [PatientName] and below is a listing of details pertaining to this patient and their illness/injury:<br><br>
+				<b>Name:</b>        [PatientName]  <br><br>                                            
+				<b>Address:</b>    [PatientAddress]<br>
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[PatientCity], [PatientState] [PatientZIP]<br>
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[PatientCountry]<br>
+				<b>Birthdate:</b>  [PatientBirthdate]                 <br>                                                  
+				<b>Age:</b>            [PatientAge]          <br>                                                                  
+				<b>Sex:</b>             [PatientSex]<br>
+				<b>Chief Complaint:</b>     [PatientChiefComplaint]<br>
+				<b>Medic’s Initial Impression:</b>    [MedicImpression]<br>
+				<b>Patient’s Illness/Injury History:</b>     [PatientIllnessInjuryHistory]<br>
+				<b>Notes:</b>     [Notes]<br><br>
+				If you would like to view all of the information pertaining to this patient encounter click <u>here</u>.<br><br>
+				Sincerely,<br><br>
+				Trinity Medical Management<br><br><br><br><br><br>
+				THIS IS AN AUTOMATED MESSAGE – PLEASE DO NOT REPLY TO THIS MESSAGE AS THIS MAILBOX IS NOT MONITORED.
+			]]>
+		</Section>
+	</Page>
+  <Page id="Patient">
+    <Section id="NewEncounterSubject">
+      <![CDATA[New Patient Encounter for Worksite: [WorksiteName]]]>
+    </Section>
+    <Section id="NewEncounterBody">
+      <![CDATA[
+      				[UserFullName]:<br><br>
+				This e-mail is to inform you that a new Patient Encounter [PatientEncounter] has been created. <br><br>
+				This patient encounter was originally created on [EncounterDate] by [TrinityUser] while located on [WorksiteName] worksite. <br><br>
+				The patient involved in this patient encounter is [PatientName] and below is a listing of details pertaining to this patient and their illness/injury:<br><br>
+				Name:        [PatientName]  <br><br>                                            
+				Address:    [PatientAddress]<br><br>
+									[PatientCity], [PatientState] [PatientZIP]<br>
+									[PatientCountry]<br>
+				Birthdate:  [PatientBirthdate]                 <br>                                                  
+				Age:            [PatientAge]          <br>                                                                  
+				Sex:             [PatientSex]<br>
+				Chief Complaint:     [PatientChiefComplaint]<br>
+				Medic’s Initial Impression:    [MedicImpression]<br>
+				Patient’s Illness/Injury History:     [PatientIllnessInjuryHistory]<br>
+				Notes:     [Notes]<br><br>
+				If you would like to view all of the information pertaining to this patient encounter click <a href="[WebLink]">here</a>.<br><br>
+				Sincerely,<br><br>
+				Trinity Medical Management<br><br><br><br><br><br>
+				THIS IS AN AUTOMATED MESSAGE – PLEASE DO NOT REPLY TO THIS MESSAGE AS THIS MAILBOX IS NOT MONITORED.
+      ]]>
+    </Section>
+  </Page>
+</Pages>

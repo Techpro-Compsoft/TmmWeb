@@ -1,0 +1,859 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+MyAccount
+</name>
+</assembly>
+<members>
+<member name="F:MyAccount.Default1.Form1">
+	<summary>
+Form1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:MyAccount.Default1.NavigationMenu1">
+	<summary>
+NavigationMenu1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:MyAccount.Default1.pnlAjax">
+	<summary>
+pnlAjax control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:MyAccount.Default1.tdMyAccount">
+	<summary>
+tdMyAccount control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:MyAccount.Default1.tdCredentials">
+	<summary>
+tdCredentials control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:MyAccount.Default1.tdOvertimeAvailability">
+	<summary>
+tdOvertimeAvailability control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:MyAccount.Default1.lblName">
+	<summary>
+lblName control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:MyAccount.Default1.trWorksite">
+	<summary>
+trWorksite control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:MyAccount.Default1.litWorksite">
+	<summary>
+litWorksite control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:MyAccount.Default1.ddlWorksite">
+	<summary>
+ddlWorksite control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:MyAccount.Default1.litAddressType">
+	<summary>
+litAddressType control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:MyAccount.Default1.lblAddress">
+	<summary>
+lblAddress control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:MyAccount.Default1.txtAddress1">
+	<summary>
+txtAddress1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:MyAccount.Default1.rfvAddress1">
+	<summary>
+rfvAddress1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:MyAccount.Default1.litCity">
+	<summary>
+litCity control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:MyAccount.Default1.txtCity">
+	<summary>
+txtCity control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:MyAccount.Default1.rfvCity">
+	<summary>
+rfvCity control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:MyAccount.Default1.litStateZip">
+	<summary>
+litStateZip control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:MyAccount.Default1.txtState">
+	<summary>
+txtState control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:MyAccount.Default1.txtPostalCode">
+	<summary>
+txtPostalCode control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:MyAccount.Default1.rfvState">
+	<summary>
+rfvState control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:MyAccount.Default1.rfvPostalCode">
+	<summary>
+rfvPostalCode control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:MyAccount.Default1.lblCountry">
+	<summary>
+lblCountry control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:MyAccount.Default1.txtCountry">
+	<summary>
+txtCountry control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:MyAccount.Default1.rfvCountry">
+	<summary>
+rfvCountry control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:MyAccount.Default1.litHomePhone">
+	<summary>
+litHomePhone control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:MyAccount.Default1.txtHomePhone">
+	<summary>
+txtHomePhone control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:MyAccount.Default1.trFaxNumber">
+	<summary>
+trFaxNumber control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:MyAccount.Default1.litFaxNumber">
+	<summary>
+litFaxNumber control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:MyAccount.Default1.txtFaxNumber">
+	<summary>
+txtFaxNumber control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:MyAccount.Default1.litCellPhone">
+	<summary>
+litCellPhone control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:MyAccount.Default1.txtCellPhone">
+	<summary>
+txtCellPhone control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:MyAccount.Default1.trOtherPhone">
+	<summary>
+trOtherPhone control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:MyAccount.Default1.litOtherPhone">
+	<summary>
+litOtherPhone control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:MyAccount.Default1.txtOtherPhone">
+	<summary>
+txtOtherPhone control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:MyAccount.Default1.trUserAccess">
+	<summary>
+trUserAccess control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:MyAccount.Default1.rptrUserAccess">
+	<summary>
+rptrUserAccess control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:MyAccount.Default1.lblEmail">
+	<summary>
+lblEmail control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:MyAccount.Default1.txtEmail">
+	<summary>
+txtEmail control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:MyAccount.Default1.rfvEmail">
+	<summary>
+rfvEmail control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:MyAccount.Default1.revEmailAddress">
+	<summary>
+revEmailAddress control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:MyAccount.Default1.btnEdit">
+	<summary>
+btnEdit control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:MyAccount.Default1.btnCancel">
+	<summary>
+btnCancel control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:MyAccount.Default1.btnSave">
+	<summary>
+btnSave control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:MyAccount.Template.Form1">
+	<summary>
+Form1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="T:MyAccount.Template">
+	<summary>
+Template class.
+</summary>
+	<remarks>
+Auto-generated class.
+</remarks>
+</member><member name="M:MyAccount.MyAccount_BasePage.Page_Load(System.Object,System.EventArgs)">
+	<summary>
+ loads the page
+ </summary>
+</member><member name="F:MyAccount.credentials.form1">
+	<summary>
+form1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:MyAccount.credentials.NavigationMenu1">
+	<summary>
+NavigationMenu1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:MyAccount.credentials.pnlAjax">
+	<summary>
+pnlAjax control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:MyAccount.credentials.tdMyAccount">
+	<summary>
+tdMyAccount control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:MyAccount.credentials.tdCredentials">
+	<summary>
+tdCredentials control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:MyAccount.credentials.tdOvertimeAvailability">
+	<summary>
+tdOvertimeAvailability control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:MyAccount.credentials.grdResults">
+	<summary>
+grdResults control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:MyAccount.credentials.lblNoCredentials">
+	<summary>
+lblNoCredentials control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:MyAccount.overtimelist.Form1">
+	<summary>
+Form1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:MyAccount.overtimelist.NavigationMenu1">
+	<summary>
+NavigationMenu1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:MyAccount.overtimelist.pnlAjax">
+	<summary>
+pnlAjax control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:MyAccount.overtimelist.tdMyAccount">
+	<summary>
+tdMyAccount control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:MyAccount.overtimelist.tdCredentials">
+	<summary>
+tdCredentials control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:MyAccount.overtimelist.tdOvertimeAvailability">
+	<summary>
+tdOvertimeAvailability control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:MyAccount.overtimelist.grdResults">
+	<summary>
+grdResults control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:MyAccount.overtimelist.btnAddNew">
+	<summary>
+btnAddNew control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:MyAccount.overtimelist.RadWindowManager1">
+	<summary>
+RadWindowManager1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:MyAccount.overtimelist.rwOvertime">
+	<summary>
+rwOvertime control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="P:MyAccount.Default1.CurrentUserId">
+	<summary>
+ gets the current user's ID
+ </summary>
+	<remarks>this property is here because an exception is thrown when trying to retrieve a user using Mybase.CurrentUser.ID</remarks>
+</member><member name="P:MyAccount.Default1.RigList">
+	<summary>
+ gets the list of Rigs from the database
+ </summary>
+</member><member name="M:MyAccount.Default1.btnCancel_Click(System.Object,System.EventArgs)">
+	<summary>
+ cancels editing
+ </summary>
+</member><member name="M:MyAccount.Default1.btnEdit_Click(System.Object,System.EventArgs)">
+	<summary>
+ shows the controls for editing
+ </summary>
+</member><member name="M:MyAccount.Default1.btnSave_Click(System.Object,System.EventArgs)">
+	<summary>
+ saves the changes
+ </summary>
+</member><member name="M:MyAccount.Default1.Page_Load(System.Object,System.EventArgs)">
+	<summary>
+ loads the page
+ </summary>
+</member><member name="M:MyAccount.Default1.BindUserAccessRepeater">
+	<summary>
+ binds the user access repeater, if needed
+ </summary>
+</member><member name="M:MyAccount.Default1.BindWorksitesDropDownList">
+	<summary>
+ binds ddlWorksites
+ </summary>
+</member><member name="M:MyAccount.Default1.CreateNewPhonesObject(TMMModel.TMM_DEPLOYEntities,TMMInternet.TMMInternet_BasePage.PhoneTypeEnum)">
+	<summary>
+ creates a new phone object according to the phone type
+ </summary>
+	<param name="phoneType">the type of Phones object to create</param>
+	<returns>the new Phones object</returns>
+</member><member name="M:MyAccount.Default1.LoadControls">
+	<summary>
+ loads the controls
+ </summary>
+</member><member name="M:MyAccount.Default1.ToggleAddressTextboxVisibility">
+	<summary>
+ shows/hides the address textboxes according to the user type
+ </summary>
+	<remarks>user types Medic and Office can edit the address</remarks>
+</member><member name="M:MyAccount.Default1.ToggleTabVisibility">
+	<summary>
+ toggles the visibility of the "tabs" according to the user's type
+ </summary>
+</member><member name="M:MyAccount.Default1.ToggleVisibility(System.Boolean)">
+	<summary>
+ shows/hides the controls
+ </summary>
+	<param name="editMode">the flag indicating that the page is in edit mode</param>
+</member><member name="F:MyAccount.EditOverTimeModal.form1">
+	<summary>
+form1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:MyAccount.EditOverTimeModal.pnlAjax">
+	<summary>
+pnlAjax control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:MyAccount.EditOverTimeModal.lblHeader">
+	<summary>
+lblHeader control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:MyAccount.EditOverTimeModal.rdpStart">
+	<summary>
+rdpStart control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:MyAccount.EditOverTimeModal.rdpEnd">
+	<summary>
+rdpEnd control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:MyAccount.EditOverTimeModal.txtComments">
+	<summary>
+txtComments control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:MyAccount.EditOverTimeModal.btnSubmit">
+	<summary>
+btnSubmit control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:MyAccount.EditOverTimeModal.btnCancel">
+	<summary>
+btnCancel control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:MyAccount.NavigationMenu.TMMMenu1">
+	<summary>
+TMMMenu1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="T:MyAccount.NavigationMenu">
+	<summary>
+NavigationMenu class.
+</summary>
+	<remarks>
+Auto-generated class.
+</remarks>
+</member><member name="M:MyAccount.overtimelist.Page_Load(System.Object,System.EventArgs)">
+	<summary>
+ loads the page
+ </summary>
+</member><member name="M:MyAccount.overtimelist.BindGrid">
+	<summary>
+ binds the overtime availability grid
+ </summary>
+	<remarks></remarks>
+</member><member name="M:MyAccount.overtimelist.DeleteOvertimeAvailabilityById(System.Int32)">
+	<summary>
+ deletes (sets Active flag to 'false') the specified overtime availability record
+ </summary>
+	<param name="overtimeAvailId">the ID of the overtime record to delete</param>
+</member><member name="M:MyAccount.overtimelist.GetOvertimeNote(System.Object)">
+	<summary>
+ gets the overtime availability note
+ </summary>
+	<param name="availNote">the AvailNote value</param>
+	<returns>the AvailNote if available, "N/A" otherwise</returns>
+</member><member name="M:MyAccount.overtimelist.ToggleTabVisibility">
+	<summary>
+ toggles the visibility of the "tabs" according to the user's type
+ </summary>
+</member><member name="F:MyAccount.searchovertime.Form1">
+	<summary>
+Form1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:MyAccount.searchovertime.NavigationMenu1">
+	<summary>
+NavigationMenu1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:MyAccount.searchovertime.cvStartDt">
+	<summary>
+cvStartDt control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:MyAccount.searchovertime.rfvStart">
+	<summary>
+rfvStart control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:MyAccount.searchovertime.rdpStart">
+	<summary>
+rdpStart control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:MyAccount.searchovertime.cvEndDt">
+	<summary>
+cvEndDt control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:MyAccount.searchovertime.rfvEnd">
+	<summary>
+rfvEnd control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:MyAccount.searchovertime.rdpEnd">
+	<summary>
+rdpEnd control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:MyAccount.searchovertime.chkPartial">
+	<summary>
+chkPartial control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:MyAccount.searchovertime.btnSearch">
+	<summary>
+btnSearch control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:MyAccount.searchovertime.lblCount">
+	<summary>
+lblCount control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:MyAccount.searchovertime.RadAjaxPanel1">
+	<summary>
+RadAjaxPanel1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:MyAccount.searchovertime.grdResults">
+	<summary>
+grdResults control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:MyAccount.searchovertime.litComments">
+	<summary>
+litComments control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="T:MyAccount.credentials.SortFieldEnum">
+	<summary>
+ contains the available sort fields
+ </summary>
+</member><member name="P:MyAccount.credentials.SortDirection">
+	<summary>
+ gets and sets the sort direction
+ </summary>
+</member><member name="P:MyAccount.credentials.SortField">
+	<summary>
+ gets and sets the sort field
+ </summary>
+</member><member name="M:MyAccount.credentials.grdResults_SortCommand(System.Object,System.Web.UI.WebControls.DataGridSortCommandEventArgs)">
+	<summary>
+ handles the sort command of the grid
+ </summary>
+</member><member name="M:MyAccount.credentials.Page_Load(System.Object,System.EventArgs)">
+	<summary>
+ loads the page
+ </summary>
+</member><member name="M:MyAccount.credentials.BindGrid">
+	<summary>
+ binds the grid
+ </summary>
+</member><member name="M:MyAccount.credentials.GetMedicCredExpDate(System.Object)">
+	<summary>
+ formats the expiration date, if available
+ </summary>
+	<param name="medicCredExpDate">the MedicCredExpDate property being bound</param>
+	<returns>the MedicCredExpDate value as a string</returns>
+</member><member name="M:MyAccount.credentials.GetMedicCredNote(System.Object)">
+	<summary>
+ formats the MedicCredNote, if available
+ </summary>
+	<param name="medicCredNote">the MedicCredNote property being bound</param>
+	<returns>the MedicCredNote value as a string</returns>
+</member><member name="P:MyAccount.EditOverTimeModal.CurrentOvertimeAvailability">
+	<summary>
+ gets and sets the current overtime availability
+ </summary>
+</member><member name="M:MyAccount.EditOverTimeModal.btnSubmit_Click(System.Object,System.EventArgs)">
+	<summary>
+ saves the overtime availability
+ </summary>
+</member><member name="M:MyAccount.EditOverTimeModal.Page_Load(System.Object,System.EventArgs)">
+	<summary>
+ loads the page
+ </summary>
+</member><member name="M:MyAccount.EditOverTimeModal.LoadControls">
+	<summary>
+ loads the page controls
+ </summary>
+</member><member name="M:MyAccount.EditOverTimeModal.SaveOvertimeAvailability">
+	<summary>
+ saves the current user's overtime availability
+ </summary>
+</member><member name="M:MyAccount.EditOverTimeModal.ValidateData">
+	<summary>
+ validates the input
+ </summary>
+	<returns></returns>
+</member>
+</members>
+</doc>

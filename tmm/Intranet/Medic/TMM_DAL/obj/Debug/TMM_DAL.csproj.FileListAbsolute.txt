@@ -1,0 +1,16 @@
+C:\Visual Studio 2008\Trinity\Intranet\Medic\TMM_DAL\bin\Debug\TMM_DAL.dll
+C:\Visual Studio 2008\Trinity\Intranet\Medic\TMM_DAL\bin\Debug\TMM_DAL.pdb
+C:\Visual Studio 2008\Trinity\Intranet\Medic\TMM_DAL\bin\Debug\TMM-BL.dll
+C:\Visual Studio 2008\Trinity\Intranet\Medic\TMM_DAL\bin\Debug\TMM-BL.pdb
+C:\Visual Studio 2008\Trinity\Intranet\Medic\TMM_DAL\obj\Debug\ResolveAssemblyReference.cache
+C:\Visual Studio 2008\Trinity\Intranet\Medic\TMM_DAL\obj\Debug\TMM_DAL.dll
+C:\Visual Studio 2008\Trinity\Intranet\Medic\TMM_DAL\obj\Debug\TMM_DAL.pdb
+C:\Visual Studio 2008\Trinity\Intranet\Medic\TMM_DAL\bin\Debug\InfiniEdge.Sql.dll
+C:\Visual Studio 2008\Trinity\Intranet\Medic\TMM_DAL\bin\Debug\InfiniEdge.Sql.xml
+C:\Visual Studio 2008\Trinity\bin\TMM_DAL.dll
+C:\Visual Studio 2008\Trinity\bin\TMM_DAL.pdb
+C:\Visual Studio 2008\Trinity\Testing\Trinity\bin\TMM_DAL.dll
+C:\Visual Studio 2008\Trinity\Testing\Trinity\bin\TMM_DAL.pdb
+C:\Visual Studio 2008\Trinity\Testing\Trinity\Intranet\Medic\TMM_DAL\obj\Debug\ResolveAssemblyReference.cache
+C:\Visual Studio 2008\Trinity\Testing\Trinity\Intranet\Medic\TMM_DAL\obj\Debug\TMM_DAL.dll
+C:\Visual Studio 2008\Trinity\Testing\Trinity\Intranet\Medic\TMM_DAL\obj\Debug\TMM_DAL.pdb

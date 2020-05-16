@@ -1,0 +1,1125 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+ServiceLocator
+</name>
+</assembly>
+<members>
+<member name="M:ServiceLocator.DrInfo.Page_Load(System.Object,System.EventArgs)">
+	<summary>
+ Displays the information about a selected service.
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="F:ServiceLocator.MultipleCities.Head1">
+	<summary>
+Head1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ServiceLocator.MultipleCities.form1">
+	<summary>
+form1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ServiceLocator.MultipleCities.rgCities">
+	<summary>
+rgCities control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ServiceLocator.MultipleCities.btnCancel">
+	<summary>
+btnCancel control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="T:ServiceLocator.MultipleCities">
+	<summary>
+MultipleCities class.
+</summary>
+	<remarks>
+Auto-generated class.
+</remarks>
+</member><member name="F:ServiceLocator.DrInfo_Images.form1">
+	<summary>
+form1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ServiceLocator.DrInfo_Images.litServiceName">
+	<summary>
+litServiceName control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ServiceLocator.DrInfo_Images.rptrImages">
+	<summary>
+rptrImages control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ServiceLocator._Default.Head1">
+	<summary>
+Head1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ServiceLocator._Default.form1">
+	<summary>
+form1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ServiceLocator._Default.rapMain">
+	<summary>
+rapMain control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ServiceLocator._Default.lblRadOpen">
+	<summary>
+lblRadOpen control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ServiceLocator._Default.comboValue">
+	<summary>
+comboValue control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ServiceLocator._Default.isChecked">
+	<summary>
+isChecked control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ServiceLocator._Default.menu">
+	<summary>
+menu control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ServiceLocator._Default.pnlLocationInformation">
+	<summary>
+pnlLocationInformation control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ServiceLocator._Default.rdoRig">
+	<summary>
+rdoRig control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ServiceLocator._Default.rcbList">
+	<summary>
+rcbList control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ServiceLocator._Default.btnJobSheet">
+	<summary>
+btnJobSheet control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ServiceLocator._Default.rdoCity">
+	<summary>
+rdoCity control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ServiceLocator._Default.txtCity">
+	<summary>
+txtCity control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ServiceLocator._Default.txtRadius">
+	<summary>
+txtRadius control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ServiceLocator._Default.chkShowCities">
+	<summary>
+chkShowCities control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ServiceLocator._Default.cboCategory">
+	<summary>
+cboCategory control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ServiceLocator._Default.cboPreference">
+	<summary>
+cboPreference control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ServiceLocator._Default.btnGo">
+	<summary>
+btnGo control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ServiceLocator._Default.mapPanelContainer">
+	<summary>
+mapPanelContainer control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ServiceLocator._Default.litSVG">
+	<summary>
+litSVG control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ServiceLocator._Default.lnkbtnReset">
+	<summary>
+lnkbtnReset control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ServiceLocator._Default.grdServices">
+	<summary>
+grdServices control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ServiceLocator._Default.hiddenTierDesc">
+	<summary>
+hiddenTierDesc control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ServiceLocator._Default.hiddenDistance">
+	<summary>
+hiddenDistance control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ServiceLocator._Default.radWindow">
+	<summary>
+radWindow control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ServiceLocator._Default.windowNotes">
+	<summary>
+windowNotes control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ServiceLocator._Default.windowMultiple">
+	<summary>
+windowMultiple control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="M:ServiceLocator.SVG.SVGGenerator.Page_Load(System.Object,System.EventArgs)">
+	<summary>
+ loads the parameters from the querystring and calls the functions to draw the SVG map.
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:ServiceLocator.SVG.SVGGenerator.LoadSVG">
+	<summary>
+ Configures the SVG Viewer.
+ </summary>
+	<remarks></remarks>
+</member><member name="M:ServiceLocator.SVG.SVGGenerator.ConfigureMultipleRigs(System.Collections.Generic.List{ServiceLocatorLibrary.Rig})">
+	<summary>
+ Calculates distance and sets values if more than 1 rig was selected.
+ </summary>
+	<param name="rigList"></param>
+	<remarks></remarks>
+</member><member name="M:ServiceLocator.SVG.SVGGenerator.RetrieveSessionAndQueryString">
+	<summary>
+ Gets all values from session keys and query string.
+ </summary>
+	<remarks></remarks>
+</member><member name="M:ServiceLocator.SVG.SVGGenerator.ToRad(System.Double)">
+	<summary>
+ Converts lat/lon to radian.
+ </summary>
+	<param name="coord"></param>
+	<returns>double</returns>
+	<remarks></remarks>
+</member><member name="M:ServiceLocator.SVG.SVGGenerator.GetDistance(System.Double,System.Double,System.Double,System.Double,System.Int32)">
+	<summary>
+ Gets distance between 2 sets of coords in kilometers.
+ </summary>
+	<param name="lat1"></param>
+	<param name="lat2"></param>
+	<param name="lon1"></param>
+	<param name="lon2"></param>
+	<param name="radius"></param>
+	<returns>double</returns>
+	<remarks></remarks>
+</member><member name="M:ServiceLocator.SVG.SVGGenerator.SetCloseRigValues">
+	<summary>
+ Zooms map in closer to accomodate rigs that are close to each other.
+ </summary>
+	<remarks></remarks>
+</member><member name="T:ServiceLocator.SVG.SVGGenerator">
+	<summary>
+ This class Generates and displays the SVG Map.
+ </summary>
+	<remarks></remarks>
+</member><member name="F:ServiceLocator._Error.Head1">
+	<summary>
+Head1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ServiceLocator._Error.form1">
+	<summary>
+form1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="T:ServiceLocator._Error">
+	<summary>
+_Error class.
+</summary>
+	<remarks>
+Auto-generated class.
+</remarks>
+</member><member name="M:ServiceLocator.UserBasePage.GetRigByID_Alert(System.String,System.Boolean)">
+	<summary>
+ Gets the rig by id using the method in the service locator library.
+ Also keeps track of whether the alert has been shown.
+ </summary>
+	<param name="RigID"></param>
+	<param name="AlreadyShownSARSAlert"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:ServiceLocator._Default.RigCoordinates">
+	<summary>
+ Dictionary that holds the rig data in the cache.
+ </summary>
+</member><member name="M:ServiceLocator._Default.Page_Load(System.Object,System.EventArgs)">
+	<summary>
+ Binds the values to the comboboxes and refreshes the screen
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:ServiceLocator._Default.RefreshCity">
+	<summary>
+ Refreshes the map centering around a city that the user designates.
+ </summary>
+	<remarks></remarks>
+</member><member name="M:ServiceLocator._Default.Refresh">
+	<summary>
+ Refreshes the values in the session and redraws the map when a rig is being searched.
+ </summary>
+	<remarks></remarks>
+</member><member name="M:ServiceLocator._Default.SetJobSheetVisibility">
+	<summary>
+ Sets the initial visibility of the job sheet button.
+ </summary>
+	<remarks></remarks>
+</member><member name="M:ServiceLocator._Default.GetInRangeServicesCity(ServiceLocatorLibrary.City,System.Int32)">
+	<summary>
+ Returns a list of services that meet the requests entered by the user.
+ </summary>
+	<param name="range"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:ServiceLocator._Default.GetInRangeServices(ServiceLocatorLibrary.Rig,System.Int32)">
+	<summary>
+ Returns a list of services that meet the requests entered by the user.
+ </summary>
+	<param name="oRig"></param>
+	<param name="range"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:ServiceLocator._Default.GetRigFromCache(System.Int32)">
+	<summary>
+ Retrieves the rig from the cache if it exists.
+ Rig information is only valid for 3 hours, then it must be refreshed.
+ </summary>
+	<param name="RigID">The ID of the rig in question.</param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:ServiceLocator._Default.RaiseCallbackEvent(System.String)">
+	<summary>
+ Executes code after the callback has been initialized.
+ </summary>
+	<param name="eventArgument"></param>
+	<remarks></remarks>
+</member><member name="M:ServiceLocator._Default.GetCallbackResult">
+	<summary>
+ Sends the sponsers name to a javascript function to update the label in the disclaimer.
+ </summary>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:ServiceLocator._Default.grdServices_ItemCommand(System.Object,Telerik.WebControls.GridCommandEventArgs)">
+	<summary>
+ If a service is selected in the grid, open a new window to display the information about that service.
+ </summary>
+	<param name="source"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:ServiceLocator._Default.btnJobSheet_Click1(System.Object,System.Web.UI.ImageClickEventArgs)">
+	<summary>
+ If a user clicks on the Job Sheet Info button for the page, then redirect them to the Job Sheet Info page.
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="F:ServiceLocator.DrInfo.form1">
+	<summary>
+form1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ServiceLocator.DrInfo.tblMain">
+	<summary>
+tblMain control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ServiceLocator.DrInfo.litServiceName">
+	<summary>
+litServiceName control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ServiceLocator.DrInfo.litEmployerName">
+	<summary>
+litEmployerName control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ServiceLocator.DrInfo.litServicePhone">
+	<summary>
+litServicePhone control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ServiceLocator.DrInfo.litEmployerPhone">
+	<summary>
+litEmployerPhone control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ServiceLocator.DrInfo.litServiceType">
+	<summary>
+litServiceType control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ServiceLocator.DrInfo.litTierDescription">
+	<summary>
+litTierDescription control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ServiceLocator.DrInfo.litLongitude">
+	<summary>
+litLongitude control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ServiceLocator.DrInfo.litLatitude">
+	<summary>
+litLatitude control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ServiceLocator.DrInfo.litAddress">
+	<summary>
+litAddress control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ServiceLocator.DrInfo.litCity">
+	<summary>
+litCity control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ServiceLocator.DrInfo.litZip">
+	<summary>
+litZip control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ServiceLocator.DrInfo.litNotes">
+	<summary>
+litNotes control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ServiceLocator.DrInfo.trImageLink">
+	<summary>
+trImageLink control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ServiceLocator.DrInfo.litImagesCount">
+	<summary>
+litImagesCount control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="M:ServiceLocator.PatientNotes.Page_Load(System.Object,System.EventArgs)">
+	<summary>
+ Executes the Page Load Code.
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:ServiceLocator.PatientNotes.btnContinue_Click(System.Object,System.EventArgs)">
+	<summary>
+ Code that is executed after the user clicks on the first Continue button.
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:ServiceLocator.PatientNotes.btnContinue2_Click(System.Object,System.EventArgs)">
+	<summary>
+ Code that is executed after the User clicks the 2nd Continue button.
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:ServiceLocator.PatientNotes.btnSave_Click(System.Object,System.EventArgs)">
+	<summary>
+ Saves the Note to the database and will send an Email if the User chose to do so.
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:ServiceLocator.PatientNotes.grdPatients_ItemCommand(System.Object,Telerik.WebControls.GridCommandEventArgs)">
+	<summary>
+ Sends a QueryString with the selected Patients ID to the Medic App.
+ </summary>
+	<param name="source"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:ServiceLocator.PatientNotes.GetRigName(System.Int32)">
+	<summary>
+ Gets the current patients rig name. Public because I call it from the aspx page in the RadGrid.
+ </summary>
+	<param name="RigID"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:ServiceLocator.PatientNotes.DelegateGetRigName(TrinityClassLibrary_BL.Rig)">
+	<summary>
+ Delegate to get current Rig Name.
+ </summary>
+	<param name="item"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:ServiceLocator.PatientNotes.GetPatient(TrinityClassLibrary_BL.Patient)">
+	<summary>
+ Gets the current Patient ID.
+ </summary>
+	<param name="item"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:ServiceLocator.PatientNotes.ValidateString(System.String)">
+	<summary>
+ Validates the Patients Info before building note.
+ </summary>
+	<param name="stringToValidate"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:ServiceLocator.PatientNotes.GetServer">
+	<summary>
+ Gets the current Email Server.
+ </summary>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:ServiceLocator.PatientNotes.SetNoteSecurityLevel(TrinityClassLibrary_BL.Medic.MedicSecurityLevel)">
+	<summary>
+ Sets the Notes Security Level based on the current users Security Level.
+ </summary>
+	<param name="securityLevel"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:ServiceLocator.PatientNotes.GetMedicSecurityLevel(System.Int32)">
+	<summary>
+ Sets the medics security level for notes.
+ </summary>
+	<param name="UserType"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:ServiceLocator.PatientNotes.PopulateCombobox">
+	<summary>
+ Populates the Rig combobox with all Rigs.
+ </summary>
+	<remarks></remarks>
+</member><member name="M:ServiceLocator.PatientNotes.ToggleRowSelection(System.Object,System.EventArgs)">
+	<summary>
+ Populates the selected Patients Information.
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:ServiceLocator.PatientNotes.grdPatients_Select">
+	<summary>
+ Iterates through the grid controls to find all the radio buttons.
+ </summary>
+	<remarks></remarks>
+</member><member name="M:ServiceLocator.PatientNotes.ResetRadios(System.Object,System.EventArgs)">
+	<summary>
+ Reset the radio buttons to unchecked.
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:ServiceLocator.PatientNotes.grdPatients_NeedDataSource(System.Object,Telerik.WebControls.GridNeedDataSourceEventArgs)">
+	<summary>
+ Sets the RadGrid datasource to the list of Patients in Session.
+ </summary>
+	<param name="source"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:ServiceLocator.PatientNotes.TextValidate(System.Object,System.Web.UI.WebControls.ServerValidateEventArgs)">
+	<summary>
+ Server side validation of the note textbox.
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:ServiceLocator.PatientNotes.NewPatientEmail(System.String,System.String,System.String,TrinityClassLibrary_BL.Medic,System.DateTime)">
+	<summary>
+ Builds and Sends an Email for a Patient that doesn't exist in the database.
+ </summary>
+	<param name="rigName"></param>
+	<param name="lastName"></param>
+	<param name="firstName"></param>
+	<param name="currentMedic"></param>
+	<param name="currentDate"></param>
+	<remarks></remarks>
+</member><member name="M:ServiceLocator.PatientNotes.ExistingPatient(TrinityClassLibrary_BL.Medic)">
+	<summary>
+ Builds and saves a note for a Patient that already exists in the database.
+ </summary>
+	<param name="currentMedic"></param>
+	<remarks></remarks>
+</member><member name="M:ServiceLocator.PatientNotes.ExistingPatientEmail(System.String,System.String,System.String,TrinityClassLibrary_BL.Medic,System.DateTime,System.String,System.String)">
+	<summary>
+ Sends an Email for a Patient that already exists in the database.
+ </summary>
+	<param name="rigName"></param>
+	<param name="lastName"></param>
+	<param name="firstName"></param>
+	<param name="currentMedic"></param>
+	<param name="currentDate"></param>
+	<param name="stringDate"></param>
+	<param name="chiefComplaint"></param>
+	<remarks></remarks>
+</member><member name="T:ServiceLocator._Error">
+	<summary>
+ THIS class displays an error message whenever an error occurs.
+ </summary>
+	<remarks></remarks>
+</member><member name="P:ServiceLocator.My.Resources.Resources.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:ServiceLocator.My.Resources.Resources.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="T:ServiceLocator.My.Resources.Resources">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member><member name="T:ServiceLocator.SVG.SVGGenerator">
+	<summary>
+SVGGenerator class.
+</summary>
+	<remarks>
+Auto-generated class.
+</remarks>
+</member><member name="P:ServiceLocator.MultipleCities.CityList">
+	<summary>
+ Returns a list of the multiple cities found.
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:ServiceLocator.MultipleCities.Page_Load(System.Object,System.EventArgs)">
+	<summary>
+ Handles Page Load.
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:ServiceLocator.MultipleCities.rgCities_ItemCommand(System.Object,Telerik.WebControls.GridCommandEventArgs)">
+	<summary>
+ Handles the ItemCommand event in the rgCities RadGrid.
+ </summary>
+	<param name="source"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:ServiceLocator.MultipleCities.rgCities_NeedDataSource(System.Object,Telerik.WebControls.GridNeedDataSourceEventArgs)">
+	<summary>
+ Sets the datasource for the rgCities RadGrid (NeedDataSource automatically binds the data)
+ </summary>
+	<param name="source"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:ServiceLocator.MultipleCities.btnCancel_Click(System.Object,System.EventArgs)">
+	<summary>
+ Handles onClick event for btnCancel.
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="F:ServiceLocator.RigInfo.form1">
+	<summary>
+form1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ServiceLocator.RigInfo.tblMain">
+	<summary>
+tblMain control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ServiceLocator.RigInfo.litRigName">
+	<summary>
+litRigName control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ServiceLocator.RigInfo.litCompanyName">
+	<summary>
+litCompanyName control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ServiceLocator.RigInfo.litLongitude">
+	<summary>
+litLongitude control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ServiceLocator.RigInfo.litLatitude">
+	<summary>
+litLatitude control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ServiceLocator.RigInfo.litMedicName">
+	<summary>
+litMedicName control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ServiceLocator.RigInfo.litMedicID">
+	<summary>
+litMedicID control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ServiceLocator.RigInfo.litRigPhone">
+	<summary>
+litRigPhone control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ServiceLocator.RigInfo.litAltPhone">
+	<summary>
+litAltPhone control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ServiceLocator.RigInfo.litEmployerName">
+	<summary>
+litEmployerName control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="T:ServiceLocator.RigInfo">
+	<summary>
+RigInfo class.
+</summary>
+	<remarks>
+Auto-generated class.
+</remarks>
+</member><member name="F:ServiceLocator.NavigationMenu.TMMMenu1">
+	<summary>
+TMMMenu1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="T:ServiceLocator.NavigationMenu">
+	<summary>
+NavigationMenu class.
+</summary>
+	<remarks>
+Auto-generated class.
+</remarks>
+</member><member name="P:ServiceLocator.DrInfo_Images.ServiceImages">
+	<summary>
+ gets the service images from the session
+ </summary>
+</member><member name="M:ServiceLocator.DrInfo_Images.Page_Load(System.Object,System.EventArgs)">
+	<summary>
+ loads the page
+ </summary>
+</member><member name="F:ServiceLocator.PatientNotes.form1">
+	<summary>
+form1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ServiceLocator.PatientNotes.ramPatientNotes">
+	<summary>
+ramPatientNotes control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ServiceLocator.PatientNotes.pnlStepOne">
+	<summary>
+pnlStepOne control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ServiceLocator.PatientNotes.txtFName">
+	<summary>
+txtFName control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ServiceLocator.PatientNotes.txtLName">
+	<summary>
+txtLName control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ServiceLocator.PatientNotes.cboRig">
+	<summary>
+cboRig control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ServiceLocator.PatientNotes.btnContinue">
+	<summary>
+btnContinue control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ServiceLocator.PatientNotes.pnlStepTwo">
+	<summary>
+pnlStepTwo control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ServiceLocator.PatientNotes.grdPatients">
+	<summary>
+grdPatients control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ServiceLocator.PatientNotes.rdoNo">
+	<summary>
+rdoNo control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ServiceLocator.PatientNotes.btnContinue2">
+	<summary>
+btnContinue2 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ServiceLocator.PatientNotes.pnlStepThree">
+	<summary>
+pnlStepThree control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ServiceLocator.PatientNotes.pnlPatient">
+	<summary>
+pnlPatient control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ServiceLocator.PatientNotes.lblPatientLName">
+	<summary>
+lblPatientLName control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ServiceLocator.PatientNotes.lblPatientFName">
+	<summary>
+lblPatientFName control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ServiceLocator.PatientNotes.lblRig">
+	<summary>
+lblRig control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ServiceLocator.PatientNotes.lblDateAndPatientID">
+	<summary>
+lblDateAndPatientID control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ServiceLocator.PatientNotes.lblChiefComplaint">
+	<summary>
+lblChiefComplaint control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ServiceLocator.PatientNotes.pnlNewPatient">
+	<summary>
+pnlNewPatient control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ServiceLocator.PatientNotes.txtFirstName">
+	<summary>
+txtFirstName control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ServiceLocator.PatientNotes.txtLastName">
+	<summary>
+txtLastName control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ServiceLocator.PatientNotes.lblCharCount">
+	<summary>
+lblCharCount control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ServiceLocator.PatientNotes.txtNotes">
+	<summary>
+txtNotes control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ServiceLocator.PatientNotes.cvNotes">
+	<summary>
+cvNotes control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ServiceLocator.PatientNotes.chkSendEmail">
+	<summary>
+chkSendEmail control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:ServiceLocator.PatientNotes.btnSave">
+	<summary>
+btnSave control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="T:ServiceLocator.PatientNotes">
+	<summary>
+PatientNotes class.
+</summary>
+	<remarks>
+Auto-generated class.
+</remarks>
+</member>
+</members>
+</doc>

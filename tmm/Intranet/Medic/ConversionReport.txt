@@ -1,0 +1,116 @@
+﻿This report shows the steps taken to convert your Web application from ASP.NET 1.1 to ASP.NET 2.0. 
+There may be some unresolved conversion issues you will need to manually fix. 
+For more information, please refer to http://go.microsoft.com/fwlink/?LinkId=46995 or search for the help topic "Converting from Visual Studio .NET 2002 or 2003".
+Conversion Started on project file TrinityMedicalManagement.csproj at June 12 2007, 13:05:04.
+
+=========================ERRORS===================
+ERROR: The following files were not migrated because they were not found in the project file or the associated 'BuildAction' is set to 'None'.
+You may need to exclude these files from the project after the conversion process in order to compile your web site: 
+File List == utility.cs,test.aspx.
+
+=========================WARNINGS=================
+Warning: If the base class of any of the code-behind classes declares page fields please add the 'CodeFileBaseClass' attribute in the corresponding Page.
+Warning: This web project was converted as a file-based web application. If your site contained any IIS meta-information, e.g. sub-folders marked as virtual directories, it is recommended that you close this web site and re-open it using the Open Web Site command and selecting the Local IIS tab.
+
+=========================COMMENTS=================
+Read-only attribute of file C:\Inetpub\Websites\Medic webApp\Web.Config has been changed to read-write.
+Web.Config: Added 'xhtmlConformance' attribute.
+Read-only attribute of file C:\Inetpub\Websites\Medic webApp\CustError.aspx has been changed to read-write.
+Removed attribute AutoEventWireup from file CustError.aspx.
+Removed attribute Codebehind from file CustError.aspx.
+Warning: Access level of 'Page_Load' changed to 'protected' in file CustError.aspx.cs (Line 20).
+Read-only attribute of file C:\Inetpub\Websites\Medic webApp\CustError.aspx.cs has been changed to read-write.
+Read-only attribute of file C:\Inetpub\Websites\Medic webApp\editTxt.aspx has been changed to read-write.
+Removed attribute AutoEventWireup from file editTxt.aspx.
+Removed attribute Codebehind from file editTxt.aspx.
+Warning: Access level of 'Page_Load' changed to 'protected' in file editTxt.aspx.cs (Line 20).
+Read-only attribute of file C:\Inetpub\Websites\Medic webApp\editTxt.aspx.cs has been changed to read-write.
+Read-only attribute of file C:\Inetpub\Websites\Medic webApp\Global.asax has been changed to read-write.
+Removed attribute Codebehind from file Global.asax.
+Read-only attribute of file C:\Inetpub\Websites\Medic webApp\Medical.aspx has been changed to read-write.
+Removed attribute AutoEventWireup from file Medical.aspx.
+Removed attribute Codebehind from file Medical.aspx.
+Warning: Access level of 'Page_Load' changed to 'protected' in file Medical.aspx.cs (Line 38).
+Warning: Access level of 'btnMedAdd_Click' changed to 'protected' in file Medical.aspx.cs (Line 282).
+Warning: Access level of 'btnContinue_Click' changed to 'protected' in file Medical.aspx.cs (Line 320).
+Warning: Access level of 'btnVitalAdd_Click' changed to 'protected' in file Medical.aspx.cs (Line 326).
+Read-only attribute of file C:\Inetpub\Websites\Medic webApp\Medical.aspx.cs has been changed to read-write.
+Read-only attribute of file C:\Inetpub\Websites\Medic webApp\NavigationMenu.ascx has been changed to read-write.
+Removed attribute TargetSchema from file NavigationMenu.ascx.
+Removed attribute Codebehind from file NavigationMenu.ascx.
+Removed attribute AutoEventWireup from file NavigationMenu.ascx.
+Warning: Access level of 'Page_Load' changed to 'protected' in file NavigationMenu.ascx.cs (Line 19).
+Warning: Access level of 'btnLiveHelp_Click' changed to 'protected' in file NavigationMenu.ascx.cs (Line 168).
+Warning: Access level of 'btnStreaming_Click' changed to 'protected' in file NavigationMenu.ascx.cs (Line 176).
+Read-only attribute of file C:\Inetpub\Websites\Medic webApp\NavigationMenu.ascx.cs has been changed to read-write.
+Read-only attribute of file C:\Inetpub\Websites\Medic webApp\Notes.aspx has been changed to read-write.
+Removed attribute AutoEventWireup from file Notes.aspx.
+Removed attribute Codebehind from file Notes.aspx.
+Warning: Access level of 'btnContinue_Click' changed to 'protected' in file Notes.aspx.cs (Line 52).
+Warning: Access level of 'Page_Load' changed to 'protected' in file Notes.aspx.cs (Line 64).
+Read-only attribute of file C:\Inetpub\Websites\Medic webApp\Notes.aspx.cs has been changed to read-write.
+Read-only attribute of file C:\Inetpub\Websites\Medic webApp\Patient.aspx has been changed to read-write.
+Removed attribute AutoEventWireup from file Patient.aspx.
+Removed attribute Codebehind from file Patient.aspx.
+Warning: Access level of 'Page_Load' changed to 'protected' in file Patient.aspx.cs (Line 33).
+Warning: Access level of 'cboEmployer_SelectedIndexChanged' changed to 'protected' in file Patient.aspx.cs (Line 370).
+Warning: Access level of 'cboIncomplete_SelectedIndexChanged' changed to 'protected' in file Patient.aspx.cs (Line 415).
+Warning: Access level of 'btnContinue_Click' changed to 'protected' in file Patient.aspx.cs (Line 455).
+Warning: Access level of 'btnEdit_ServerClick' changed to 'protected' in file Patient.aspx.cs (Line 462).
+Warning: Access level of 'lbtnSearch_Click' changed to 'protected' in file Patient.aspx.cs (Line 468).
+Read-only attribute of file C:\Inetpub\Websites\Medic webApp\Patient.aspx.cs has been changed to read-write.
+Read-only attribute of file C:\Inetpub\Websites\Medic webApp\save.Medical.aspx has been changed to read-write.
+Removed attribute AutoEventWireup from file save.Medical.aspx.
+Removed attribute Codebehind from file save.Medical.aspx.
+Warning: Access level of 'Page_Load' changed to 'protected' in file save.Medical.aspx.cs (Line 26).
+Read-only attribute of file C:\Inetpub\Websites\Medic webApp\save.Medical.aspx.cs has been changed to read-write.
+Read-only attribute of file C:\Inetpub\Websites\Medic webApp\save.Notes.aspx has been changed to read-write.
+Removed attribute AutoEventWireup from file save.Notes.aspx.
+Removed attribute Codebehind from file save.Notes.aspx.
+Warning: Access level of 'Page_Load' changed to 'protected' in file save.Notes.aspx.cs (Line 26).
+Read-only attribute of file C:\Inetpub\Websites\Medic webApp\save.Notes.aspx.cs has been changed to read-write.
+Read-only attribute of file C:\Inetpub\Websites\Medic webApp\save.Patient.aspx has been changed to read-write.
+Removed attribute AutoEventWireup from file save.Patient.aspx.
+Removed attribute Codebehind from file save.Patient.aspx.
+Warning: Access level of 'Page_Load' changed to 'protected' in file save.Patient.aspx.cs (Line 27).
+Read-only attribute of file C:\Inetpub\Websites\Medic webApp\save.Patient.aspx.cs has been changed to read-write.
+Read-only attribute of file C:\Inetpub\Websites\Medic webApp\Search.aspx has been changed to read-write.
+Removed attribute AutoEventWireup from file Search.aspx.
+Removed attribute Codebehind from file Search.aspx.
+Warning: Access level of 'Page_Load' changed to 'protected' in file Search.aspx.cs (Line 32).
+Warning: Access level of 'btnSearch2_Click' changed to 'protected' in file Search.aspx.cs (Line 145).
+Warning: Access level of 'grdResults_SelectedIndexChanged' changed to 'protected' in file Search.aspx.cs (Line 156).
+Read-only attribute of file C:\Inetpub\Websites\Medic webApp\Search.aspx.cs has been changed to read-write.
+Read-only attribute of file C:\Inetpub\Websites\Medic webApp\ServerVariables.aspx has been changed to read-write.
+Removed attribute AutoEventWireup from file ServerVariables.aspx.
+Removed attribute Codebehind from file ServerVariables.aspx.
+Warning: Access level of 'Page_Load' changed to 'protected' in file ServerVariables.aspx.cs (Line 19).
+Read-only attribute of file C:\Inetpub\Websites\Medic webApp\ServerVariables.aspx.cs has been changed to read-write.
+Read-only attribute of file C:\Inetpub\Websites\Medic webApp\SessionTimedOut.aspx has been changed to read-write.
+Removed attribute AutoEventWireup from file SessionTimedOut.aspx.
+Removed attribute Codebehind from file SessionTimedOut.aspx.
+Warning: Access level of 'Page_Load' changed to 'protected' in file SessionTimedOut.aspx.cs (Line 20).
+Read-only attribute of file C:\Inetpub\Websites\Medic webApp\SessionTimedOut.aspx.cs has been changed to read-write.
+Read-only attribute of file C:\Inetpub\Websites\Medic webApp\Global.asax.cs has been changed to read-write.
+Added folder App_Code.
+Moved file Global.asax.cs to the App_Code\ directory.
+Read-only attribute of file C:\Inetpub\Websites\Medic webApp\DataUtility.cs has been changed to read-write.
+Moved file DataUtility.cs to the App_Code\ directory.
+Read-only attribute of file C:\Inetpub\Websites\Medic webApp\DataForm.cs has been changed to read-write.
+Moved file DataForm.cs to the App_Code\ directory.
+Read-only attribute of file C:\Inetpub\Websites\Medic webApp\User.cs has been changed to read-write.
+Moved file User.cs to the App_Code\ directory.
+Read-only attribute of file C:\Inetpub\Websites\Medic webApp\LogVisit.cs has been changed to read-write.
+Moved file LogVisit.cs to the App_Code\ directory.
+Read-only attribute of file C:\Inetpub\Websites\Medic webApp\AssemblyInfo.cs has been changed to read-write.
+Moved file AssemblyInfo.cs to the App_Code\ directory.
+Read-only attribute of file C:\Inetpub\Websites\Medic webApp\TMMPage.cs has been changed to read-write.
+Moved file TMMPage.cs to the App_Code\ directory.
+Read-only attribute of file C:\Inetpub\Websites\Medic webApp\SendMail.cs has been changed to read-write.
+Moved file SendMail.cs to the App_Code\ directory.
+Changed HTML validation schema for all projects to 'Internet Explorer 6.0'.
+Removed file Bin\TrinityMedicalManagement.dll.
+Removed file Bin\TrinityMedicalManagement.pdb.
+Removed file TrinityMedicalManagement.csproj.
+Removed file TrinityMedicalManagement.csproj.webinfo.
+Project TrinityMedicalManagement.csproj has been converted successfully at June 12 2007, 13:05:39.

@@ -1,0 +1,2348 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+TMMInternet
+</name>
+</assembly>
+<members>
+<member name="F:TMMInternet.ServiceInfo.litPageHeader">
+	<summary>
+litPageHeader control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:TMMInternet.ServiceInfo.pnlAddEditButtons">
+	<summary>
+pnlAddEditButtons control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:TMMInternet.ServiceInfo.btnCancel">
+	<summary>
+btnCancel control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:TMMInternet.ServiceInfo.btnSaveService">
+	<summary>
+btnSaveService control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:TMMInternet.ServiceInfo.btnEditService">
+	<summary>
+btnEditService control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:TMMInternet.ServiceInfo.txtServiceName">
+	<summary>
+txtServiceName control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:TMMInternet.ServiceInfo.litServiceName">
+	<summary>
+litServiceName control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:TMMInternet.ServiceInfo.txtServicePhone">
+	<summary>
+txtServicePhone control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:TMMInternet.ServiceInfo.litServicePhone">
+	<summary>
+litServicePhone control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:TMMInternet.ServiceInfo.rfvServiceName">
+	<summary>
+rfvServiceName control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:TMMInternet.ServiceInfo.rfvServicePhone">
+	<summary>
+rfvServicePhone control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:TMMInternet.ServiceInfo.ddlEmployers">
+	<summary>
+ddlEmployers control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:TMMInternet.ServiceInfo.litEmployerName">
+	<summary>
+litEmployerName control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:TMMInternet.ServiceInfo.txtEmployerPhone">
+	<summary>
+txtEmployerPhone control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:TMMInternet.ServiceInfo.litEmployerPhone">
+	<summary>
+litEmployerPhone control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:TMMInternet.ServiceInfo.ddlServiceType">
+	<summary>
+ddlServiceType control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:TMMInternet.ServiceInfo.litServiceType">
+	<summary>
+litServiceType control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:TMMInternet.ServiceInfo.ddlTier">
+	<summary>
+ddlTier control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:TMMInternet.ServiceInfo.litTier">
+	<summary>
+litTier control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:TMMInternet.ServiceInfo.rfvServiceType">
+	<summary>
+rfvServiceType control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:TMMInternet.ServiceInfo.rfvTier">
+	<summary>
+rfvTier control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:TMMInternet.ServiceInfo.ddlCategory">
+	<summary>
+ddlCategory control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:TMMInternet.ServiceInfo.litCategory">
+	<summary>
+litCategory control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:TMMInternet.ServiceInfo.rdoServiceStatus">
+	<summary>
+rdoServiceStatus control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:TMMInternet.ServiceInfo.litServiceStatus">
+	<summary>
+litServiceStatus control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:TMMInternet.ServiceInfo.rfvCategory">
+	<summary>
+rfvCategory control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:TMMInternet.ServiceInfo.txtAddress">
+	<summary>
+txtAddress control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:TMMInternet.ServiceInfo.litAddress">
+	<summary>
+litAddress control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:TMMInternet.ServiceInfo.rfvAddress">
+	<summary>
+rfvAddress control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:TMMInternet.ServiceInfo.txtCity">
+	<summary>
+txtCity control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:TMMInternet.ServiceInfo.litCity">
+	<summary>
+litCity control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:TMMInternet.ServiceInfo.rfvCity">
+	<summary>
+rfvCity control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:TMMInternet.ServiceInfo.txtState">
+	<summary>
+txtState control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:TMMInternet.ServiceInfo.litState">
+	<summary>
+litState control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:TMMInternet.ServiceInfo.txtZipCode">
+	<summary>
+txtZipCode control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:TMMInternet.ServiceInfo.litZipCode">
+	<summary>
+litZipCode control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:TMMInternet.ServiceInfo.rfvState">
+	<summary>
+rfvState control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:TMMInternet.ServiceInfo.rfvZipCode">
+	<summary>
+rfvZipCode control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:TMMInternet.ServiceInfo.txtCountry">
+	<summary>
+txtCountry control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:TMMInternet.ServiceInfo.litCountry">
+	<summary>
+litCountry control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:TMMInternet.ServiceInfo.rfvCountry">
+	<summary>
+rfvCountry control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:TMMInternet.ServiceInfo.trLatLongInstructions">
+	<summary>
+trLatLongInstructions control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:TMMInternet.ServiceInfo.rdoMinutes">
+	<summary>
+rdoMinutes control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:TMMInternet.ServiceInfo.rdoDecimal">
+	<summary>
+rdoDecimal control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:TMMInternet.ServiceInfo.pnlMinutes">
+	<summary>
+pnlMinutes control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:TMMInternet.ServiceInfo.txtLat1">
+	<summary>
+txtLat1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:TMMInternet.ServiceInfo.litLat1">
+	<summary>
+litLat1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:TMMInternet.ServiceInfo.rfvLat1">
+	<summary>
+rfvLat1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:TMMInternet.ServiceInfo.cvLat1">
+	<summary>
+cvLat1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:TMMInternet.ServiceInfo.rvLat1">
+	<summary>
+rvLat1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:TMMInternet.ServiceInfo.txtLatMinutes">
+	<summary>
+txtLatMinutes control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:TMMInternet.ServiceInfo.litLatMinutes">
+	<summary>
+litLatMinutes control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:TMMInternet.ServiceInfo.rfvLatMinutes">
+	<summary>
+rfvLatMinutes control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:TMMInternet.ServiceInfo.cvLatMinutes">
+	<summary>
+cvLatMinutes control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:TMMInternet.ServiceInfo.rvLatMinutes">
+	<summary>
+rvLatMinutes control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:TMMInternet.ServiceInfo.txtLatSeconds">
+	<summary>
+txtLatSeconds control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:TMMInternet.ServiceInfo.litLatSeconds">
+	<summary>
+litLatSeconds control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:TMMInternet.ServiceInfo.rfvLatSeconds">
+	<summary>
+rfvLatSeconds control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:TMMInternet.ServiceInfo.cvLatSeconds">
+	<summary>
+cvLatSeconds control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:TMMInternet.ServiceInfo.rvLatSeconds">
+	<summary>
+rvLatSeconds control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:TMMInternet.ServiceInfo.ddlNSMinutes">
+	<summary>
+ddlNSMinutes control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:TMMInternet.ServiceInfo.litNSMinutes">
+	<summary>
+litNSMinutes control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:TMMInternet.ServiceInfo.rfvNSMinutes">
+	<summary>
+rfvNSMinutes control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:TMMInternet.ServiceInfo.litNS">
+	<summary>
+litNS control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:TMMInternet.ServiceInfo.txtLong1">
+	<summary>
+txtLong1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:TMMInternet.ServiceInfo.litLong1">
+	<summary>
+litLong1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:TMMInternet.ServiceInfo.rfvLong1">
+	<summary>
+rfvLong1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:TMMInternet.ServiceInfo.cvLong1">
+	<summary>
+cvLong1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:TMMInternet.ServiceInfo.rvLong1">
+	<summary>
+rvLong1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:TMMInternet.ServiceInfo.txtLongMinutes">
+	<summary>
+txtLongMinutes control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:TMMInternet.ServiceInfo.litLongMinutes">
+	<summary>
+litLongMinutes control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:TMMInternet.ServiceInfo.rfvLongMinutes">
+	<summary>
+rfvLongMinutes control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:TMMInternet.ServiceInfo.cvLongMinutes">
+	<summary>
+cvLongMinutes control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:TMMInternet.ServiceInfo.rvLongMinutes">
+	<summary>
+rvLongMinutes control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:TMMInternet.ServiceInfo.txtLongSeconds">
+	<summary>
+txtLongSeconds control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:TMMInternet.ServiceInfo.litLongSeconds">
+	<summary>
+litLongSeconds control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:TMMInternet.ServiceInfo.rfvLongSeconds">
+	<summary>
+rfvLongSeconds control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:TMMInternet.ServiceInfo.cvLongSeconds">
+	<summary>
+cvLongSeconds control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:TMMInternet.ServiceInfo.rvLongSeconds">
+	<summary>
+rvLongSeconds control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:TMMInternet.ServiceInfo.ddlEWMinutes">
+	<summary>
+ddlEWMinutes control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:TMMInternet.ServiceInfo.litEWMinutes">
+	<summary>
+litEWMinutes control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:TMMInternet.ServiceInfo.rfvEWMinutes">
+	<summary>
+rfvEWMinutes control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:TMMInternet.ServiceInfo.litEW">
+	<summary>
+litEW control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:TMMInternet.ServiceInfo.pnlDecimal">
+	<summary>
+pnlDecimal control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:TMMInternet.ServiceInfo.txtLat2">
+	<summary>
+txtLat2 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:TMMInternet.ServiceInfo.litLat2">
+	<summary>
+litLat2 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:TMMInternet.ServiceInfo.rfvLat2">
+	<summary>
+rfvLat2 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:TMMInternet.ServiceInfo.cvLat2">
+	<summary>
+cvLat2 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:TMMInternet.ServiceInfo.rvLat2">
+	<summary>
+rvLat2 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:TMMInternet.ServiceInfo.ddlNSDecimal">
+	<summary>
+ddlNSDecimal control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:TMMInternet.ServiceInfo.litNSDecimal">
+	<summary>
+litNSDecimal control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:TMMInternet.ServiceInfo.rfvNSDecimal">
+	<summary>
+rfvNSDecimal control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:TMMInternet.ServiceInfo.txtLong2">
+	<summary>
+txtLong2 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:TMMInternet.ServiceInfo.litLong2">
+	<summary>
+litLong2 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:TMMInternet.ServiceInfo.rfvLong2">
+	<summary>
+rfvLong2 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:TMMInternet.ServiceInfo.cvLong2">
+	<summary>
+cvLong2 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:TMMInternet.ServiceInfo.rvLong2">
+	<summary>
+rvLong2 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:TMMInternet.ServiceInfo.ddlEWDecimals">
+	<summary>
+ddlEWDecimals control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:TMMInternet.ServiceInfo.litEWDecimals">
+	<summary>
+litEWDecimals control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:TMMInternet.ServiceInfo.rfvEWDecimals">
+	<summary>
+rfvEWDecimals control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:TMMInternet.ServiceInfo.trAddImage">
+	<summary>
+trAddImage control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:TMMInternet.ServiceInfo.btnAddImage">
+	<summary>
+btnAddImage control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:TMMInternet.ServiceInfo.trUpload">
+	<summary>
+trUpload control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:TMMInternet.ServiceInfo.txtImageName">
+	<summary>
+txtImageName control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:TMMInternet.ServiceInfo.rfvImageName">
+	<summary>
+rfvImageName control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:TMMInternet.ServiceInfo.uplImage">
+	<summary>
+uplImage control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:TMMInternet.ServiceInfo.litImageFileName">
+	<summary>
+litImageFileName control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:TMMInternet.ServiceInfo.txtImageDescription">
+	<summary>
+txtImageDescription control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:TMMInternet.ServiceInfo.rfvImageDescription">
+	<summary>
+rfvImageDescription control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:TMMInternet.ServiceInfo.btnCancelUpload">
+	<summary>
+btnCancelUpload control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:TMMInternet.ServiceInfo.btnSaveImage">
+	<summary>
+btnSaveImage control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:TMMInternet.ServiceInfo.grdImages">
+	<summary>
+grdImages control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:TMMInternet.ServiceInfo.txtNotes">
+	<summary>
+txtNotes control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:TMMInternet.ServiceInfo.litNotes">
+	<summary>
+litNotes control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:TMMInternet.ServiceInfo.btnBack">
+	<summary>
+btnBack control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:TMMInternet.ServiceInfo.vsLatitudeLongitude">
+	<summary>
+vsLatitudeLongitude control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:TMMInternet.Admin.head">
+	<summary>
+head control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:TMMInternet.Admin.form1">
+	<summary>
+form1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:TMMInternet.Admin.TMMMenu1">
+	<summary>
+TMMMenu1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:TMMInternet.Admin.pnlAjax">
+	<summary>
+pnlAjax control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:TMMInternet.Admin.ContentPlaceHolder1">
+	<summary>
+ContentPlaceHolder1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:TMMInternet.application.bodySrch">
+	<summary>
+bodySrch control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:TMMInternet.application.Form1">
+	<summary>
+Form1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:TMMInternet.application.ValidationSummary2">
+	<summary>
+ValidationSummary2 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:TMMInternet.application.txtName">
+	<summary>
+txtName control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:TMMInternet.application.rfvName">
+	<summary>
+rfvName control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:TMMInternet.application.txtAddr1">
+	<summary>
+txtAddr1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:TMMInternet.application.rfvAddr">
+	<summary>
+rfvAddr control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:TMMInternet.application.txtAddr2">
+	<summary>
+txtAddr2 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:TMMInternet.application.txtCity">
+	<summary>
+txtCity control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:TMMInternet.application.txtState">
+	<summary>
+txtState control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:TMMInternet.application.txtZip">
+	<summary>
+txtZip control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:TMMInternet.application.txtHomePhone">
+	<summary>
+txtHomePhone control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:TMMInternet.application.txtWorkPhone">
+	<summary>
+txtWorkPhone control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:TMMInternet.application.txtCellPhone">
+	<summary>
+txtCellPhone control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:TMMInternet.application.txtEmail">
+	<summary>
+txtEmail control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:TMMInternet.application.rfvEmail">
+	<summary>
+rfvEmail control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:TMMInternet.application.revEmail">
+	<summary>
+revEmail control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:TMMInternet.application.txtRegistryNum">
+	<summary>
+txtRegistryNum control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:TMMInternet.application.txtYears">
+	<summary>
+txtYears control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:TMMInternet.application.txtHistory">
+	<summary>
+txtHistory control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:TMMInternet.application.btnSubmit">
+	<summary>
+btnSubmit control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:TMMInternet.application.ValidationSummary1">
+	<summary>
+ValidationSummary1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:TMMInternet.application.lblException">
+	<summary>
+lblException control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="T:TMMInternet.application">
+	<summary>
+application class.
+</summary>
+	<remarks>
+Auto-generated class.
+</remarks>
+</member><member name="F:TMMInternet.Login.Form1">
+	<summary>
+Form1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:TMMInternet.Login.btnHome">
+	<summary>
+btnHome control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:TMMInternet.Login.btnContact">
+	<summary>
+btnContact control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:TMMInternet.Login.btnCareers">
+	<summary>
+btnCareers control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:TMMInternet.Login.txtUserName">
+	<summary>
+txtUserName control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:TMMInternet.Login.txtPassword">
+	<summary>
+txtPassword control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:TMMInternet.Login.litLoginStatus">
+	<summary>
+litLoginStatus control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:TMMInternet.Login.btnForgotPassword">
+	<summary>
+btnForgotPassword control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:TMMInternet.Login.btnLogin">
+	<summary>
+btnLogin control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:TMMInternet.ForgotPassword.Form1">
+	<summary>
+Form1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:TMMInternet.ForgotPassword.btnHome">
+	<summary>
+btnHome control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:TMMInternet.ForgotPassword.btnContact">
+	<summary>
+btnContact control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:TMMInternet.ForgotPassword.btnCareers">
+	<summary>
+btnCareers control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:TMMInternet.ForgotPassword.pnlForgotPW">
+	<summary>
+pnlForgotPW control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:TMMInternet.ForgotPassword.txtUserName">
+	<summary>
+txtUserName control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:TMMInternet.ForgotPassword.RequiredFieldValidator1">
+	<summary>
+RequiredFieldValidator1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:TMMInternet.ForgotPassword.litPWStatus">
+	<summary>
+litPWStatus control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:TMMInternet.ForgotPassword.btnRetrieve">
+	<summary>
+btnRetrieve control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="T:TMMInternet.ForgotPassword">
+	<summary>
+ForgotPassword class.
+</summary>
+	<remarks>
+Auto-generated class.
+</remarks>
+</member><member name="F:TMMInternet.ServicesSearch.ramServiceLocator">
+	<summary>
+ramServiceLocator control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:TMMInternet.ServicesSearch.rdoWorksite">
+	<summary>
+rdoWorksite control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:TMMInternet.ServicesSearch.ddlWorksite">
+	<summary>
+ddlWorksite control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:TMMInternet.ServicesSearch.rfvWorksite">
+	<summary>
+rfvWorksite control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:TMMInternet.ServicesSearch.rdoCity">
+	<summary>
+rdoCity control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:TMMInternet.ServicesSearch.txtCity">
+	<summary>
+txtCity control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:TMMInternet.ServicesSearch.rfvCity">
+	<summary>
+rfvCity control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:TMMInternet.ServicesSearch.ddlCategory">
+	<summary>
+ddlCategory control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:TMMInternet.ServicesSearch.ddlPreference">
+	<summary>
+ddlPreference control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:TMMInternet.ServicesSearch.txtRadius">
+	<summary>
+txtRadius control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:TMMInternet.ServicesSearch.rfvRadius">
+	<summary>
+rfvRadius control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:TMMInternet.ServicesSearch.chkInactiveSearch">
+	<summary>
+chkInactiveSearch control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:TMMInternet.ServicesSearch.btnSearch">
+	<summary>
+btnSearch control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:TMMInternet.ServicesSearch.ValidationSummary">
+	<summary>
+ValidationSummary control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:TMMInternet.ServicesSearch.btnAddService">
+	<summary>
+btnAddService control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:TMMInternet.ServicesSearch.tdResults">
+	<summary>
+tdResults control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:TMMInternet.ServicesSearch.grdSearchResults">
+	<summary>
+grdSearchResults control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:TMMInternet.ServicesSearch.radWindow">
+	<summary>
+radWindow control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:TMMInternet.ServicesSearch.windowMultiple">
+	<summary>
+windowMultiple control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="T:TMMInternet.ServicesSearch.LocationTypeEnum">
+	<summary>
+ contains the possible location types
+ </summary>
+</member><member name="T:TMMInternet.ServicesSearch.SortFieldEnum">
+	<summary>
+ contains the sort fields
+ </summary>
+</member><member name="P:TMMInternet.ServicesSearch.SearchDataAvailable">
+	<summary>
+ gets a flag indicating that the user's search data is available
+ </summary>
+</member><member name="P:TMMInternet.ServicesSearch.SearchData_Category">
+	<summary>
+ gets and sets the category that the user entered to generate the search results
+ </summary>
+</member><member name="P:TMMInternet.ServicesSearch.SearchData_City">
+	<summary>
+ gets and sets the city that the user entered to generate the search results
+ </summary>
+</member><member name="P:TMMInternet.ServicesSearch.SearchData_Preference">
+	<summary>
+ gets and sets the preference that the user entered to generate the search results
+ </summary>
+</member><member name="P:TMMInternet.ServicesSearch.SearchData_Radius">
+	<summary>
+ gets and sets the radius that the user entered to generate the search results
+ </summary>
+</member><member name="P:TMMInternet.ServicesSearch.SearchData_Worksite">
+	<summary>
+ gets and sets the worksite that the user entered to generate the search results
+ </summary>
+</member><member name="P:TMMInternet.ServicesSearch.SearchResults">
+	<summary>
+ gets the search results from the session
+ </summary>
+	<remarks>this property is populated in btnSearch_Click</remarks>
+</member><member name="P:TMMInternet.ServicesSearch.SortDirection">
+	<summary>
+ gets and sets the sort direction
+ </summary>
+</member><member name="P:TMMInternet.ServicesSearch.SortField">
+	<summary>
+ gets and sets the sort field
+ </summary>
+</member><member name="M:TMMInternet.ServicesSearch.btnAddService_Click(System.Object,System.EventArgs)">
+	<summary>
+ redirects the user to the service creation page
+ </summary>
+</member><member name="M:TMMInternet.ServicesSearch.btnSearch_Click(System.Object,System.EventArgs)">
+	<summary>
+ finds the results according to the selected criteria
+ </summary>
+	<remarks>(the majority of) this is the code used in the ServiceLocator project (Default.aspx.vb)</remarks>
+</member><member name="M:TMMInternet.ServicesSearch.ddlWorksite_SelectedIndexChanged(System.Object,System.EventArgs)">
+	<summary>
+	</summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks>this is the code used in the ServiceLocator project (Default.aspx.vb)</remarks>
+</member><member name="M:TMMInternet.ServicesSearch.grdSearchResults_ItemCommand(System.Object,Telerik.WebControls.GridCommandEventArgs)">
+	<summary>
+ sends the user to the add/edit page
+ </summary>
+</member><member name="M:TMMInternet.ServicesSearch.grdSearchResults_NeedDataSource(System.Object,Telerik.WebControls.GridNeedDataSourceEventArgs)">
+	<summary>
+ sets the datasource for the results grid
+ </summary>
+</member><member name="M:TMMInternet.ServicesSearch.grdSearchResults_SortCommand(System.Object,Telerik.WebControls.GridSortCommandEventArgs)">
+	<summary>
+ sorts the results grid
+ </summary>
+</member><member name="M:TMMInternet.ServicesSearch.Page_Load(System.Object,System.EventArgs)">
+	<summary>
+ loads the page
+ </summary>
+</member><member name="M:TMMInternet.ServicesSearch.rdoCity_CheckedChanged(System.Object,System.EventArgs)">
+	<summary>
+ toggles the location information controls
+ </summary>
+</member><member name="M:TMMInternet.ServicesSearch.rdoWorksite_CheckedChanged(System.Object,System.EventArgs)">
+	<summary>
+ toggles the location information controls
+ </summary>
+</member><member name="M:TMMInternet.ServicesSearch.GetEmployerName(System.Object)">
+	<summary>
+ formats the employer name
+ </summary>
+	<param name="employerName">the employerName</param>
+	<returns>the EmployerName or N/A</returns>
+</member><member name="M:TMMInternet.ServicesSearch.GetServiceType(System.Object)">
+	<summary>
+ formats the serviceType
+ </summary>
+	<param name="serviceTypeName">the serviceType</param>
+	<returns>the serviceType or N/A</returns>
+</member><member name="M:TMMInternet.ServicesSearch.GetCity(System.Object)">
+	<summary>
+ formats the city
+ </summary>
+	<param name="city">the city</param>
+	<returns>the city or N/A</returns>
+</member><member name="M:TMMInternet.ServicesSearch.GetPhoneNumber(System.Object)">
+	<summary>
+ formats the phone number
+ </summary>
+	<param name="phoneNumber">the phoneNumber</param>
+	<returns>the PhoneNumber or N/A</returns>
+</member><member name="M:TMMInternet.ServicesSearch.GetInRangeServicesCity(ServiceLocatorLibrary.City,System.Int32)">
+	<summary>
+ Returns a list of services that meet the requests entered by the user.
+ </summary>
+	<param name="range"></param>
+	<returns></returns>
+	<remarks>This function was taken from ServiceLocator (Default.aspx.vb) </remarks>
+</member><member name="M:TMMInternet.ServicesSearch.GetInRangeServices(ServiceLocatorLibrary.Rig,System.Int32)">
+	<summary>
+ Returns a list of services that meet the requests entered by the user.
+ </summary>
+	<param name="oRig"></param>
+	<param name="range"></param>
+	<returns></returns>
+	<remarks>This function was taken from ServiceLocator (Default.aspx.vb) </remarks>
+</member><member name="M:TMMInternet.ServicesSearch.LoadCategories">
+	<summary>
+ loads the categories drop down list
+ </summary>
+</member><member name="M:TMMInternet.ServicesSearch.LoadPreferences">
+	<summary>
+ loads the service preferences
+ </summary>
+	<remarks>this is the code used in the ServiceLocator project (Default.aspx.vb)</remarks>
+</member><member name="M:TMMInternet.ServicesSearch.LoadSearchResults">
+	<summary>
+ loads the search results
+ </summary>
+</member><member name="M:TMMInternet.ServicesSearch.LoadWorksites">
+	<summary>
+ Loads the ddlWorksite drop down list with a list of active rigs.
+ </summary>
+	<remarks>this is the code used in the ServiceLocator project (Default.aspx.vb)</remarks>
+</member><member name="M:TMMInternet.ServicesSearch.ReloadSearchData">
+	<summary>
+ reloads the search data
+ </summary>
+</member><member name="M:TMMInternet.ServicesSearch.SortResults">
+	<summary>
+ sorts the results according to SortDirection and SortField
+ </summary>
+	<remarks></remarks>
+</member><member name="M:TMMInternet.ServicesSearch.ToggleLocationInformation(TMMInternet.ServicesSearch.LocationTypeEnum)">
+	<summary>
+ toggles the city/worksite controls according to the location type
+ </summary>
+	<param name="locationType">the location type for which to enable the controls</param>
+</member><member name="T:TMMInternet.ServiceInfo.PageModeEnum">
+	<summary>
+ contains the page modes
+ </summary>
+	<remarks></remarks>
+</member><member name="T:TMMInternet.ServiceInfo.SortFieldEnum">
+	<summary>
+ contains the available sort fields
+ </summary>
+</member><member name="P:TMMInternet.ServiceInfo.PageIsInViewMode">
+	<summary>
+ gets a flag indicating that the PageMode is View
+ </summary>
+</member><member name="P:TMMInternet.ServiceInfo.PageMode">
+	<summary>
+ gets and sets the page mode 
+ </summary>
+</member><member name="P:TMMInternet.ServiceInfo.ServiceImageBeingEdited">
+	<summary>
+ gets and sets the service image that is currently being edited
+ </summary>
+</member><member name="P:TMMInternet.ServiceInfo.SortDirection">
+	<summary>
+ gets and sets the sort direction
+ </summary>
+</member><member name="P:TMMInternet.ServiceInfo.SortField">
+	<summary>
+ gets and sets the sort field
+ </summary>
+</member><member name="M:TMMInternet.ServiceInfo.btnBack_Click(System.Object,System.EventArgs)">
+	<summary>
+ sends the user back to the service search page
+ </summary>
+</member><member name="M:TMMInternet.ServiceInfo.btnCancel_Click(System.Object,System.EventArgs)">
+	<summary>
+ cancels add/edit service and redirects th user
+ </summary>
+</member><member name="M:TMMInternet.ServiceInfo.btnCancelUpload_Click(System.Object,System.EventArgs)">
+	<summary>
+ cancels the upload process
+ </summary>
+	<remarks>the majority of this was originally done client side using btnCancelUpload_ClientClick</remarks>
+</member><member name="M:TMMInternet.ServiceInfo.btnEditService_Click(System.Object,System.EventArgs)">
+	<summary>
+ toggles the page for editing
+ </summary>
+</member><member name="M:TMMInternet.ServiceInfo.btnSaveImage_Click(System.Object,System.EventArgs)">
+	<summary>
+ uploads the image to a temporary location
+ </summary>
+</member><member name="M:TMMInternet.ServiceInfo.btnSaveService_Click(System.Object,System.EventArgs)">
+	<summary>
+ saves the service
+ </summary>
+</member><member name="M:TMMInternet.ServiceInfo.grdImages_DeleteCommand(System.Object,Telerik.WebControls.GridCommandEventArgs)">
+	<summary>
+ deletes the chosen image
+ </summary>
+	<remarks>
+ the Path property is used because the ServiceImage may not have an ID (in the case of a new service)
+ </remarks>
+</member><member name="M:TMMInternet.ServiceInfo.grdImages_EditCommand(System.Object,Telerik.WebControls.GridCommandEventArgs)">
+	<summary>
+ edits the chosen image
+ </summary>
+	<remarks>
+ the Path property is used because the ServiceImage may not have an ID (in the case of a new service)
+ </remarks>
+</member><member name="M:TMMInternet.ServiceInfo.grdImages_ItemCreated(System.Object,Telerik.WebControls.GridItemEventArgs)">
+	<summary>
+ enables/disables the edit and delete buttons
+ </summary>
+</member><member name="M:TMMInternet.ServiceInfo.grdImages_SortCommand(System.Object,Telerik.WebControls.GridSortCommandEventArgs)">
+	<summary>
+ sorts the grid
+ </summary>
+</member><member name="M:TMMInternet.ServiceInfo.Page_Load(System.Object,System.EventArgs)">
+	<summary>
+ loads the page
+ </summary>
+</member><member name="M:TMMInternet.ServiceInfo.rdoMinutes_CheckedChanged(System.Object,System.EventArgs)">
+	<summary>
+ toggles the latitude/longitude controls
+ </summary>
+</member><member name="M:TMMInternet.ServiceInfo.rdoDecimal_CheckedChanged(System.Object,System.EventArgs)">
+	<summary>
+ toggles the latitude/longitude controls
+ </summary>
+</member><member name="M:TMMInternet.ServiceInfo.BindCategoriesDropDownList">
+	<summary>
+ binds the categories drop down list
+ </summary>
+</member><member name="M:TMMInternet.ServiceInfo.BindEmployersDropDownList">
+	<summary>
+ binds ddlEmployers
+ </summary>
+</member><member name="M:TMMInternet.ServiceInfo.BindServiceImagesGrid">
+	<summary>
+ binds the grid
+ </summary>
+</member><member name="M:TMMInternet.ServiceInfo.BindServiceTiersDropDownList">
+	<summary>
+ binds the service tiers drop down list
+ </summary>
+</member><member name="M:TMMInternet.ServiceInfo.BindServiceTypeDropDownList">
+	<summary>
+ binds the service type drop down list
+ </summary>
+	<remarks></remarks>
+</member><member name="M:TMMInternet.ServiceInfo.DeleteServiceImage(System.Int32)">
+	<summary>
+ deletes (sets Active flag to false) the ServiceImage according to the specified ServiceImage
+ </summary>
+	<param name="serviceImageId">the ID of the ServiceImage to delete</param>
+</member><member name="M:TMMInternet.ServiceInfo.DeleteTempFiles">
+	<summary>
+ deletes the temporary files used when uploading images
+ </summary>
+</member><member name="M:TMMInternet.ServiceInfo.GetServiceCityName">
+	<summary>
+ gets the city name on the current service
+ </summary>
+	<returns>a string containing the city name</returns>
+</member><member name="M:TMMInternet.ServiceInfo.LoadControls">
+	<summary>
+ loads the controls for the page
+ </summary>
+</member><member name="M:TMMInternet.ServiceInfo.LoadLatitudeAndLongitude">
+	<summary>
+ loads the latitude and longitude controls
+ </summary>
+	<remarks>the majority of this code is from Jobsheet/locationinfo.aspx.vb</remarks>
+</member><member name="M:TMMInternet.ServiceInfo.LoadPageHeader">
+	<summary>
+ loads the page header text
+ </summary>
+</member><member name="M:TMMInternet.ServiceInfo.SaveUploadedImages(TMMModel.TMM_DEPLOYEntities,System.Int32)">
+	<summary>
+ saves the temporary images to the permanent location and updates the database
+ </summary>
+	<param name="tmmEntities">the TMM_DEPLOYEntities object used when saving the Service object</param>
+	<param name="serviceId">the ID of the new service</param>
+</member><member name="M:TMMInternet.ServiceInfo.SaveServiceImage(TMMModel.ServiceImage)">
+	<summary>
+ saves the provided ServiceImage to the database
+ </summary>
+	<param name="oServiceImage">the ServiceImage to save</param>
+</member><member name="M:TMMInternet.ServiceInfo.ToggleControls">
+	<summary>
+ toggles the controls between edit/new and view mode
+ </summary>
+	<remarks>this is done because late-binding for the textbox visibility was not working</remarks>
+</member><member name="M:TMMInternet.ServiceInfo.ToggleLatitudeLongitudeControls">
+	<summary>
+ toggles the controls related to the latitude and longitude
+ </summary>
+</member><member name="M:TMMInternet.ServiceInfo.ToggleUploadControl(System.Boolean)">
+	<summary>
+ shows/hides the upload control/literal according to the specified flag
+ </summary>
+	<param name="showControl">flag indicating to show/hide the control/literal</param>
+</member><member name="F:TMMInternet.ChangePassword.Form1">
+	<summary>
+Form1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:TMMInternet.ChangePassword.btnHome">
+	<summary>
+btnHome control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:TMMInternet.ChangePassword.btnContact">
+	<summary>
+btnContact control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:TMMInternet.ChangePassword.btnCareers">
+	<summary>
+btnCareers control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:TMMInternet.ChangePassword.txtPassword">
+	<summary>
+txtPassword control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:TMMInternet.ChangePassword.txtVerifyPassword">
+	<summary>
+txtVerifyPassword control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:TMMInternet.ChangePassword.valPWCompare">
+	<summary>
+valPWCompare control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:TMMInternet.ChangePassword.btnChange">
+	<summary>
+btnChange control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="T:TMMInternet.ChangePassword">
+	<summary>
+ChangePassword class.
+</summary>
+	<remarks>
+Auto-generated class.
+</remarks>
+</member><member name="F:TMMInternet.TrinityMedicalManagement.CustError.Form1">
+	<summary>
+Form1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:TMMInternet.TrinityMedicalManagement.CustError.lblErr">
+	<summary>
+lblErr control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="M:TMMInternet.TrinityMedicalManagement.CustError.InitializeComponent">
+	<summary>
+ Required method for Designer support - do not modify
+ the contents of this method with the code editor.
+ </summary>
+</member><member name="T:TMMInternet.TrinityMedicalManagement.CustError">
+	<summary>
+ Summary description for CustError.
+ </summary>
+</member><member name="F:TMMInternet.careers.bodySrch">
+	<summary>
+bodySrch control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:TMMInternet.careers.Form1">
+	<summary>
+Form1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:TMMInternet.careers.btnHome">
+	<summary>
+btnHome control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:TMMInternet.careers.btnContact">
+	<summary>
+btnContact control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:TMMInternet.careers.btnCareers">
+	<summary>
+btnCareers control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:TMMInternet.careers.btnApply">
+	<summary>
+btnApply control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="T:TMMInternet.careers">
+	<summary>
+careers class.
+</summary>
+	<remarks>
+Auto-generated class.
+</remarks>
+</member><member name="F:TMMInternet.application_thankyou.bodySrch">
+	<summary>
+bodySrch control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:TMMInternet.application_thankyou.Form1">
+	<summary>
+Form1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:TMMInternet.application_thankyou.btnHome">
+	<summary>
+btnHome control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:TMMInternet.application_thankyou.btnContact">
+	<summary>
+btnContact control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:TMMInternet.application_thankyou.btnCareers">
+	<summary>
+btnCareers control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="T:TMMInternet.application_thankyou">
+	<summary>
+application_thankyou class.
+</summary>
+	<remarks>
+Auto-generated class.
+</remarks>
+</member><member name="M:TMMInternet.Admin.Page_Load(System.Object,System.EventArgs)">
+	<summary>
+ loads the page
+ </summary>
+</member><member name="P:TMMInternet.ServiceAdminBasePage.CurrentService">
+	<summary>
+ gets the current Service object
+ </summary>
+</member><member name="P:TMMInternet.ServiceAdminBasePage.CurrentServiceImages">
+	<summary>
+ gets and sets a list of ServiceImage
+ </summary>
+</member><member name="P:TMMInternet.ServiceAdminBasePage.CurrentServiceRanking">
+	<summary>
+ gets the current Service ServiceRanking
+ </summary>
+</member><member name="P:TMMInternet.ServiceAdminBasePage.CurrentServiceTier">
+	<summary>
+ gets the current Service's tier
+ </summary>
+</member><member name="M:TMMInternet.ServiceAdminBasePage.Page_Load(System.Object,System.EventArgs)">
+	<summary>
+ loads the page
+ </summary>
+</member><member name="M:TMMInternet.ServiceAdminBasePage.ClearServiceData">
+	<summary>
+ sets the service data to null
+ </summary>
+	<remarks></remarks>
+</member><member name="M:TMMInternet.ServiceAdminBasePage.UserIsServicesAdmin">
+	<summary>
+ determines if the user has a securable allowing him/her access to the Admin Services pages
+ </summary>
+	<returns>true if the user has permission, false otherwise</returns>
+	<remarks>this could be done more efficiently by putting the user's securables in a dictionary</remarks>
+</member><member name="F:TMMInternet.NavigationMenu.TMMMenu1">
+	<summary>
+TMMMenu1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="M:TMMInternet.ChangePassword.Page_Load(System.Object,System.EventArgs)">
+	<summary>
+ On load checks to make sure session vars are set from login.aspx
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:TMMInternet.ChangePassword.btnChange_Click(System.Object,System.EventArgs)">
+	<summary>
+	</summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="T:TMMInternet.TMMInternet_BasePage.PhoneTypeEnum">
+	<summary>
+ contains the phone types (this enum should reflect the values in the PhoneType table)
+ </summary>
+</member><member name="P:TMMInternet.TMMInternet_BasePage.ActiveServices">
+	<summary>
+ gets and sets all active services
+ </summary>
+</member><member name="P:TMMInternet.TMMInternet_BasePage.CurrentCustomer">
+	<summary>
+ gets and sets the current user's customer company
+ </summary>
+</member><member name="P:TMMInternet.TMMInternet_BasePage.CurrentOvertimeAvailId">
+	<summary>
+ gets and sets the overtime availability id chosen by the user
+ </summary>
+</member><member name="P:TMMInternet.TMMInternet_BasePage.CustomerAddress1">
+	<summary>
+ gets the current Customer's address 1
+ </summary>
+</member><member name="P:TMMInternet.TMMInternet_BasePage.CustomerAddress2">
+	<summary>
+ gets the current Customer's address 2
+ </summary>
+</member><member name="P:TMMInternet.TMMInternet_BasePage.CustomerCity">
+	<summary>
+ gets the current Customer's city
+ </summary>
+</member><member name="P:TMMInternet.TMMInternet_BasePage.CustomerCountry">
+	<summary>
+ gets the current Customer's country
+ </summary>
+</member><member name="P:TMMInternet.TMMInternet_BasePage.CustomerPostalCode">
+	<summary>
+ gets the current Customer's postal code
+ </summary>
+</member><member name="P:TMMInternet.TMMInternet_BasePage.CustomerState">
+	<summary>
+ gets the current Customer's state
+ </summary>
+</member><member name="P:TMMInternet.TMMInternet_BasePage.CurrentUserCredentials">
+	<summary>
+ gets and sets the current user's credentials
+ </summary>
+</member><member name="P:TMMInternet.TMMInternet_BasePage.CurrentUserInfo">
+	<summary>
+ gets and sets the current UserInfo
+ </summary>
+</member><member name="P:TMMInternet.TMMInternet_BasePage.CurrentUserName">
+	<summary>
+ gets the current user's username
+ </summary>
+</member><member name="P:TMMInternet.TMMInternet_BasePage.CurrentUserSecurables">
+	<summary>
+ gets a list of the current user's User_Securable
+ </summary>
+</member><member name="P:TMMInternet.TMMInternet_BasePage.CurrentUserSecurablesDescriptions">
+	<summary>
+ gets a list of the current user's User_Securable descriptions
+ </summary>
+</member><member name="P:TMMInternet.TMMInternet_BasePage.CurrentUserType">
+	<summary>
+ gets the current user's UserType
+ </summary>
+	<returns>the current user's user type</returns>
+</member><member name="P:TMMInternet.TMMInternet_BasePage.CurrentUserWorksite">
+	<summary>
+ gets and sets the current user's worksite (rig)
+ </summary>
+</member><member name="P:TMMInternet.TMMInternet_BasePage.Employers">
+	<summary>
+ gets a list of active employers from the cache/database
+ </summary>
+</member><member name="P:TMMInternet.TMMInternet_BasePage.ParentSpecialtyId">
+	<summary>
+ gets and sets the parent specialty ID needed by GetChildren
+ </summary>
+</member><member name="P:TMMInternet.TMMInternet_BasePage.PhysicianSpecialties">
+	<summary>
+ gets and sets a list of physician specialties
+ </summary>
+</member><member name="P:TMMInternet.TMMInternet_BasePage.ServiceImagesLocation">
+	<summary>
+ gets the location of the service images 
+ </summary>
+</member><member name="P:TMMInternet.TMMInternet_BasePage.ServiceTiers">
+	<summary>
+ gets a list of service tier
+ </summary>
+</member><member name="P:TMMInternet.TMMInternet_BasePage.ServiceTypes">
+	<summary>
+ gets a list of service types
+ </summary>
+</member><member name="P:TMMInternet.TMMInternet_BasePage.UserAddress1">
+	<summary>
+ gets the current user's address 1
+ </summary>
+</member><member name="P:TMMInternet.TMMInternet_BasePage.UserAddress2">
+	<summary>
+ gets the current user's address 2
+ </summary>
+</member><member name="P:TMMInternet.TMMInternet_BasePage.UserCellPhoneNumber">
+	<summary>
+ gets the current user's cell phone number
+ </summary>
+</member><member name="P:TMMInternet.TMMInternet_BasePage.UserCity">
+	<summary>
+ gets the current user's city
+ </summary>
+</member><member name="P:TMMInternet.TMMInternet_BasePage.UserCountry">
+	<summary>
+ gets the current user's country
+ </summary>
+</member><member name="P:TMMInternet.TMMInternet_BasePage.UserEmailAddress">
+	<summary>
+ gets the current user's email address 
+ </summary>
+</member><member name="P:TMMInternet.TMMInternet_BasePage.UserFaxNumber">
+	<summary>
+ gets the current user's fax number
+ </summary>
+</member><member name="P:TMMInternet.TMMInternet_BasePage.UserFirstName">
+	<summary>
+ gets the current user's first name
+ </summary>
+</member><member name="P:TMMInternet.TMMInternet_BasePage.UserHomePhoneNumber">
+	<summary>
+ gets the current user's home phone number
+ </summary>
+</member><member name="P:TMMInternet.TMMInternet_BasePage.UserLastName">
+	<summary>
+ gets the current user's last name
+ </summary>
+</member><member name="P:TMMInternet.TMMInternet_BasePage.UserOtherPhoneNumber">
+	<summary>
+ gets the current user's other phone number
+ </summary>
+</member><member name="P:TMMInternet.TMMInternet_BasePage.UserOvertimeAvailability">
+	<summary>
+ gets and sets the current user's overtime availability
+ </summary>
+</member><member name="P:TMMInternet.TMMInternet_BasePage.UserPostalCode">
+	<summary>
+ gets the current user's postal code
+ </summary>
+</member><member name="P:TMMInternet.TMMInternet_BasePage.UserState">
+	<summary>
+ gets the current user's state
+ </summary>
+</member><member name="P:TMMInternet.TMMInternet_BasePage.UserWorksiteName">
+	<summary>
+ gets the current user's worksite name
+ </summary>
+</member><member name="M:TMMInternet.TMMInternet_BasePage.Page_Load(System.Object,System.EventArgs)">
+	<summary>
+ loads the page
+ </summary>
+</member><member name="M:TMMInternet.TMMInternet_BasePage.ClearUserData">
+	<summary>
+ clears the current user's saved data
+ </summary>
+</member><member name="M:TMMInternet.TMMInternet_BasePage.GetChildren(TrinityClassLibrary_BL.PhysicianSpecialty)">
+	<summary>
+ this is the function used for the Find functions for a list of TrinityClassLibrary_BL.PhysicianSpecialty)
+ </summary>
+	<param name="item"></param>
+	<returns></returns>
+</member><member name="M:TMMInternet.TMMInternet_BasePage.GetCurrentUserPhoneNumberByPhoneType(TMMInternet.TMMInternet_BasePage.PhoneTypeEnum)">
+	<summary>
+ gets the current user's phone number according to the specified phone type
+ </summary>
+	<param name="phoneType">the type of number to get</param>
+	<returns>the request phone number if found, null otherwise</returns>
+</member><member name="M:TMMInternet.TMMInternet_BasePage.GetMedicCredentialTypeById(System.Int32)">
+	<summary>
+ gets the MedicCredentialType according to the MedicCredTypeID
+ </summary>
+	<param name="medicCredTypeId">the MedicCredTypeID by which to obtain the MedicCredentialType</param>
+	<returns>the MedicCredentialType if found, strimg.Empty otherwise</returns>
+</member><member name="M:TMMInternet.TMMInternet_BasePage.StringIsNullOrEmpty(System.String)">
+	<summary>
+ determines if a string is null or empty
+ </summary>
+	<param name="testString">the string to test</param>
+	<returns>returns true if the string is null or empty, false otherwise</returns>
+</member><member name="M:TMMInternet.TMMInternet_BasePage.TierExists(System.Int32)">
+	<summary>
+ determines if a tier with the provided ID exists and is active
+ </summary>
+	<param name="tierId">the ID of the tier to find</param>
+	<returns>true if a tier with the provided ID exists, false otherwise</returns>
+</member><member name="F:TMMInternet.index.bodySrch">
+	<summary>
+bodySrch control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:TMMInternet.index.Form1">
+	<summary>
+Form1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:TMMInternet.index.btnHome">
+	<summary>
+btnHome control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:TMMInternet.index.btnContact">
+	<summary>
+btnContact control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:TMMInternet.index.btnCareers">
+	<summary>
+btnCareers control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="T:TMMInternet.index">
+	<summary>
+index class.
+</summary>
+	<remarks>
+Auto-generated class.
+</remarks>
+</member><member name="M:TMMInternet.Login.LoginAttempt">
+	<summary>
+ Keeps track of Logins for users.
+ </summary>
+	<remarks></remarks>
+</member><member name="F:TMMInternet.contact.bodySrch">
+	<summary>
+bodySrch control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:TMMInternet.contact.Form1">
+	<summary>
+Form1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:TMMInternet.contact.btnHome">
+	<summary>
+btnHome control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:TMMInternet.contact.btnContact">
+	<summary>
+btnContact control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:TMMInternet.contact.btnCareers">
+	<summary>
+btnCareers control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="T:TMMInternet.contact">
+	<summary>
+contact class.
+</summary>
+	<remarks>
+Auto-generated class.
+</remarks>
+</member><member name="F:TMMInternet.index1.tmmMenu">
+	<summary>
+tmmMenu control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="T:TMMInternet.index1">
+	<summary>
+index1 class.
+</summary>
+	<remarks>
+Auto-generated class.
+</remarks>
+</member>
+</members>
+</doc>

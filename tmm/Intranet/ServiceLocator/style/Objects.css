@@ -1,0 +1,79 @@
+﻿#mainContainer
+{
+   
+}
+#clientArea
+{
+    
+}
+
+#dataPanel
+{
+
+
+}
+
+#mapPanelContainer
+{
+    margin-top:10px;
+    border: solid 1px #b0b0cf;
+    color: #000000;
+}
+
+
+#header
+{
+    text-align: center;
+    background-image: url(../images/Trinity_GraphicBar_QuickRef.jpg);
+    background-repeat: no-repeat;
+    background-position:center;
+}
+
+#serviceOrRigFieldset 
+{
+    height:250px;
+    border: solid 1px #b0b0cf;
+}
+
+#selectRigServiceFieldset
+{
+    border: solid 1px #b0b0cf;
+    height:150px;
+    width:515px;
+}
+#selectedRigFieldset 
+{
+  border: solid 1px #b0b0cf;
+  width:200px;
+  height:150px;   
+}
+
+#serviceLocator
+{
+  
+    height:200px;
+    
+}
+#serviceLocatorGoButton 
+{
+    text-align:right;
+    margin-left:300px; 
+   
+}
+
+.Grid
+{
+	border-top-style:none;
+	border-left-style:none;
+	border-right-style:none;
+	border-bottom-style:none;	
+}
+
+.btnSmall
+{
+	background-color:#307FA3;
+	font-family:Arial;
+	font-size:11px;
+	font-weight:bold;
+	color:#FFFFFF;	
+}

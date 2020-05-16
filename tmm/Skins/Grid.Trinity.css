@@ -1,0 +1,121 @@
+﻿
+.RadGrid_Trinity
+{
+    margin: 20px auto;
+    width:100%;
+    overflow:visible;
+    background-color:#FFFFFF;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    border:solid 1px #FFFFFF;
+    color:#FFFFFF;
+    padding:5px;
+}
+
+.MasterTable_Trinity,
+.DetailTable_Trinity
+{
+	border-collapse:separate !important;
+}
+
+.GridRow_Trinity td,
+.GridAltRow_Trinity td,
+.GridEditRow_Trinity td,
+.GridFooter_Trinity td,
+.GridGroupFooter_Trinity td
+{
+	padding-left:10px;
+	padding-right:6px;
+}
+
+.RadGrid_Trinity .rgAdd,
+.RadGrid_Trinity .rgRefresh,
+.RadGrid_Trinity .rgEdit,
+.RadGrid_Trinity .rgDel,
+.RadGrid_Trinity .rgFilter,
+.RadGrid_Trinity .rgPagePrev,
+.RadGrid_Trinity .rgPageNext,
+.RadGrid_Trinity .rgPageFirst,
+.RadGrid_Trinity .rgPageLast,
+.RadGrid_Trinity .rgExpand,
+.RadGrid_Trinity .rgCollapse,
+.RadGrid_Trinity .rgSortAsc,
+.RadGrid_Trinity .rgSortDesc,
+.RadGrid_Trinity .rgUpdate,
+.RadGrid_Trinity .rgCancel
+{
+	width:16px;
+	height:16px;
+	border:0;
+	padding:0;
+	background-color:transparent;
+	background-image:url('Grid/sprite.gif');
+	background-repeat:no-repeat;
+	vertical-align:middle;
+	cursor:pointer;
+}
+
+.GroupPanelItems_Trinity input,
+.GridCommandRow_Trinity img,
+.GridHeader_Trinity input,
+.GridFilterRow_Trinity img,
+.GridPager_Trinity img
+{
+	vertical-align:middle;
+}
+
+/*header*/
+.GridHeader_Trinity{font-weight:bold; background-color:#307FA3;}
+
+/*rows*/
+
+.GridRow_Trinity td,
+.GridAltRow_Trinity td,
+.GridEditRow_Trinity td,
+.GridFooter_Trinity td,
+.GridGroupFooter_Trinity td
+{
+	padding-top:0.4em;
+	padding-bottom:0.4em;
+}
+
+.GridAltRow_Trinity td{background-color:#D1D1D1;}
+
+/*paging*/
+.GridPager_Trinity,
+.GridPager_Trinity td,
+.GridPager_Trinity a,
+.GridPager_Trinity div span,
+.PagerLeft_Trinity,
+.PagerRight_Trinity,
+.RadGrid_Trinity .rgPagePrev,
+.RadGrid_Trinity .rgPageNext,
+.RadGrid_Trinity .rgPageFirst,
+.RadGrid_Trinity .rgPageLast{}
+
+/*sorting, reordering*/
+.GridHeader_Trinity .rgSortAsc,
+.GridHeader_Trinity .rgSortDesc{}
+.TopReorderIndicator_Trinity,
+.BottomReorderIndicator_Trinity
+{
+	width:11px !important;
+	height:11px !important;
+	margin-left:-5px;
+}
+.BottomReorderIndicator_Trinity
+{
+	background-position:-21px -932px;
+}
+
+/*hierarchy*/
+.DetailTable_Trinity
+{
+	border-right:0;
+}
+
+/*tooltip*/
+.GridToolTip_Trinity
+{
+	padding:3px;
+}

@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Securables>
+	<Securable ID="1" Name="PatientEncounterApplication" Active="true">
+		Patient Encounter Application
+	</Securable>
+	<Securable ID="2" Name="ReceiveDocumentNotification" Active="true">
+		Receive Document Notification
+	</Securable>
+	<Securable ID="3" Name="PatientEncounterAdmin" Active="true">
+		Patient Encounter Admin
+	</Securable>
+	<Securable ID="4" Name="" Active="false">
+		
+	</Securable>
+	<Securable ID="5" Name="JobSheetAdmin" Active="true">
+		Job Sheet Admin
+	</Securable>
+	<Securable ID="6" Name="OvertimeReportUser" Active="true">
+		Overtime Report User
+	</Securable>
+	<Securable ID="7" Name="AdminUser" Active="true">
+		Admin User
+	</Securable>
+	<Securable ID="8" Name="ServiceLocatorUser" Active="true">
+		Service Locator User
+	</Securable>
+	<Securable ID="9" Name="NotesMedic" Active="true">
+		Notes Medic
+	</Securable>
+	<Securable ID="10" Name="NotesPhysician" Active="true">
+		Notes Physician
+	</Securable>
+	<Securable ID="11" Name="NotesAdmin" Active="true">
+		Notes Admin
+	</Securable>
+	<Securable ID="12" Name="UsersAdmin" Active="true">
+		Users Admin
+	</Securable>
+	<Securable ID="13" Name="VideoLibraryAccess" Active="true">
+		Video Library Access
+	</Securable>
+	<Securable ID="14" Name="ServicesAdmin" Active="true">
+		Services Admin
+	</Securable>
+	<Securable ID="15" Name="QuickReferenceUser" Active="true">
+		Quick Reference User
+	</Securable>
+	<Securable ID="16" Name="QuickReferenceAdmin" Active="true">
+		Quick Reference Admin
+	</Securable>
+	<Securable ID="17" Name="MedicTestUser" Active="true">
+		Medic Test User
+	</Securable>
+	<Securable ID="18" Name="JobSheetUser" Active="true">
+		Job Sheet User
+	</Securable>
+	<Securable ID="19" Name="NotesCustomer" Active="true">
+		Notes Customer
+	</Securable>
+	<Securable ID="20" Name="ReceiveAdditionalNoteNotification" Active="true">
+		Receive Additional Note Notification
+	</Securable>
+
+</Securables>

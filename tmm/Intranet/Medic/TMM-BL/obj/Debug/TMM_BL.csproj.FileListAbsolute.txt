@@ -1,0 +1,10 @@
+C:\Visual Studio 2008\Trinity\Intranet\Medic\TMM-BL\bin\Debug\TMM-BL.dll
+C:\Visual Studio 2008\Trinity\Intranet\Medic\TMM-BL\bin\Debug\TMM-BL.pdb
+C:\Visual Studio 2008\Trinity\Intranet\Medic\TMM-BL\obj\Debug\ResolveAssemblyReference.cache
+C:\Visual Studio 2008\Trinity\Intranet\Medic\TMM-BL\obj\Debug\TMM-BL.dll
+C:\Visual Studio 2008\Trinity\Intranet\Medic\TMM-BL\obj\Debug\TMM-BL.pdb
+C:\Visual Studio 2008\Trinity\Testing\Trinity\Intranet\Medic\TMM-BL\bin\Debug\TMM-BL.dll
+C:\Visual Studio 2008\Trinity\Testing\Trinity\Intranet\Medic\TMM-BL\bin\Debug\TMM-BL.pdb
+C:\Visual Studio 2008\Trinity\Testing\Trinity\Intranet\Medic\TMM-BL\obj\Debug\ResolveAssemblyReference.cache
+C:\Visual Studio 2008\Trinity\Testing\Trinity\Intranet\Medic\TMM-BL\obj\Debug\TMM-BL.dll
+C:\Visual Studio 2008\Trinity\Testing\Trinity\Intranet\Medic\TMM-BL\obj\Debug\TMM-BL.pdb

@@ -1,0 +1,205 @@
+SPAN.cssTip
+{
+	position:absolute; 
+	border:1px solid black; 
+	background-color:#FFFFCC; 
+	color:#000000; 
+	padding: 3px 3px 3px 3px;
+	font-size:10px;
+	font-family:Arial;
+	width:80%;
+	cursor:default;
+}	
+
+.showTip
+{
+	border:1px solid black; 
+	background-color:#770303; 
+	color:#FFFFFF; 
+	width:7%; 
+	text-align:center;
+	cursor:default;
+	display:inline;
+}
+
+SPAN.view
+{
+	border-style: inset;
+	border-color: Gray;
+	border-width: thin;
+	padding: 1px, 1px, 1px, 1px;
+	width: 100%;
+	background-color:#D0CECE;
+	font-family:Arial;
+	font-size:x-small;
+	display:none;
+}
+
+A:link 
+{
+	text-decoration: none;
+	color:Black;
+}
+
+A:visited 
+{
+	text-decoration: none;
+	color:Black;
+}
+
+A:active 
+{
+	text-decoration: none;
+}
+
+A:hover 
+{
+	text-decoration: underline; 
+	color: Maroon;
+}
+
+A.popUp:link
+{
+	text-decoration:underline;
+	color: Maroon;
+	font-size:small;
+}
+
+A.popUp:visited
+{
+	text-decoration:underline;
+	color: Maroon;
+	font-size:small;	
+}
+
+A.popUp:active 
+{
+	text-decoration: underline;
+	font-size:small;
+}
+
+A.popUp:hover 
+{
+	text-decoration: underline; 
+	color: Maroon;
+	font-size:small;
+}
+
+.tblHdr
+{
+	font-family:Arial;
+	font-size:small;
+	font-weight:bold;
+}
+
+.stdFont
+{
+	font-family:Arial;
+	font-size:x-small;
+}
+
+.btnSmall
+{
+	background-color:#770303;
+	font-family:Arial;
+	font-size:x-small;
+	font-weight:bold;
+	color:#FFFFFF;	
+}
+
+.txtboxXSmall
+{
+	width:30px;	
+	font-family:Arial;
+	font-size:x-small;
+}
+
+.txtboxSmall
+{
+	width:75px;	
+	font-family:Arial;
+	font-size:x-small;
+}
+
+.txtboxLarge
+{
+	width:88%;
+	font-family:Arial;
+	font-size:x-small;	
+}
+
+.txtMedLarge
+{
+	width: 175px;
+	font-family:Arial;
+	font-size:x-small;		
+}
+
+.cboXSmall
+{
+	width:45px;	
+	font-family:Arial;
+	font-size:x-small;
+}
+
+.cboSmall
+{
+	width:35%;
+	font-family:Arial;
+	font-size:x-small;		
+}
+
+.cboLarge
+{
+	width:88%;
+	font-family:Arial;
+	font-size:x-small;	
+}
+
+.txtboxXLarge
+{
+	width: 95%;
+	font-family:Arial;
+	font-size:x-small;	
+}
+
+.txtArea
+{
+	width: 96%;
+	font-family: Arial;
+	font-size: x-small;	
+}
+
+.smallChk
+{
+	padding: 0 0 0 0;
+	font-family: Arial;
+	font-size: x-small;	
+}
+
+.tblSection
+{
+	border-right: black thin solid; 
+	border-top: black thin solid; 
+	border-left: black thin solid; 
+	border-bottom: black thin solid;
+}
+
+.secHdr
+{
+	color: #ffffff; 
+	background-color: #783030;
+}
+
+.MaroonWhite
+{
+	background-color: #783030;	
+}
+
+.secResults
+{
+	color: #ffffff;
+	background-color: #783030;
+	font-size: 11px;
+	font-weight: bold;
+}

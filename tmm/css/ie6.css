@@ -1,0 +1,10 @@
+@charset "UTF-8";
+/* CSS Document */
+
+#home #maincontent {
+	margin-right: 13px;	
+}
+
+.sidebar_sn {
+	overflow: hidden;		
+}

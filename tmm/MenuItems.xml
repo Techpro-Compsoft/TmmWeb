@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Items Text="">
+	<Item Text="Home" Url="/Intranet/index.aspx" Value="IsPatientEncounterUser"></Item>
+	<Item Text="| My Account" Url="/Intranet/MyAccount/default.aspx" Value=""></Item>
+	<Item Text="| Tools" Url="" Value="IsPatientEncounterUser;IsJobSheetUser;IsJobSheetCustomerUser;IsMedicTestUser;IsQuickReferenceUser;IsServiceLocatorUser;IsVideoLibraryUser">
+		<Item Text="Patient Encounter" Url="/Intranet/Medic/patient.aspx" Value="IsPatientEncounterUser"/>
+		<Item Text="Job Sheet" Url="/Intranet/JobSheet/default.aspx" Value="IsJobSheetUser"/>
+		<Item Text="Generate Test" Url="/Intranet/PatientTest/patienttest.aspx" Value="IsMedicTestUser"/>
+		<Item Text="Quick Reference" Url="/Intranet/QuickReference/QuickRef_View.aspx" Value="IsQuickReferenceUser"/>
+		<Item Text="Service Locator" Url="/Intranet/ServiceLocator/default.aspx" Value="IsServiceLocatorUser"/>
+		<Item Text="Video Library" Url="/Intranet/VideoLibrary.aspx" Value="IsVideoLibraryUser" />
+	</Item>
+	<Item Text="| Admin" Url="" Value="IsJobSheetAdmin;IsOvertimeReportUser;IsUsersAdmin;IsQuickReferenceAdmin;IsServicesAdmin;IsPatientEncounterAdmin;IsVideoAdmin">
+		<Item Text="Job Sheet Admin" Url="/Intranet/JobSheet/adminhome.aspx" Value="IsJobSheetAdmin"/>
+		<Item Text="Overtime Reports" Url="/Intranet/MyAccount/searchovertime.aspx" Value="IsOvertimeReportUser"/>
+		<Item Text="Video Admin" Url="/Intranet/UsersAdmin/VideoAdmin.aspx" Value="IsVideoAdmin"/>
+    <Item Text="Document Types" Url="/Admin/DocumentTypes.aspx" Value="IsPatientEncounterAdmin"/>
+		<Item Text="Patient Encounter Admin" Url="/Intranet/Medic/patient.aspx" Value="IsPatientEncounterAdmin"/>
+		<Item Text="Quick Reference Admin" Url="/Intranet/QuickReference/QuickReferenceList.aspx" Value="IsQuickReferenceAdmin"/>
+		<Item Text="Services Admin" Url="/Admin/ServicesSearch.aspx" Value="IsServicesAdmin" />
+		<Item Text="Users Admin" Url="/Intranet/UsersAdmin/UserAdminHome.aspx" Value="IsUsersAdmin"/>
+    <Item Text="Users Search" Url="/Intranet/UsersAdmin/SearchUsers.aspx" Value="IsUsersAdmin"/>
+	</Item>
+  <Item Text="| Logout" Url="/Logout.aspx" Value=""></Item>
+</Items>

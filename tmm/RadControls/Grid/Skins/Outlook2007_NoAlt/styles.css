@@ -1,0 +1,226 @@
+/* RadGrid Outlook2007_NoAlt embedded skin */
+
+.RadGrid_Outlook2007_NoAlt
+{
+	background-color: #dfecff;
+	color: WindowText;
+	border: 1px solid #99CCCC;
+}
+
+.RadGrid_Outlook2007_NoAlt,
+.RadGrid_Outlook2007_NoAlt table,
+.GridEditForm_Outlook2007_NoAlt input,
+.GridEditForm_Outlook2007_NoAlt textarea
+{
+		font:normal 11px 'Segoe UI', Tahoma, Sans-Serif;
+}
+
+.RadGrid_Outlook2007_NoAlt a,
+.GridPager_Outlook2007_NoAlt a
+{
+	color: WindowText;
+}
+
+.MasterTable_Outlook2007_NoAlt
+{
+	background-color: #ffffff;
+	color: WindowText;
+	border: 0;
+	-moz-user-select: -moz-none;
+	border-top: solid 1px #6593cf;
+}
+
+.MasterTable_Outlook2007_NoAlt th,
+.MasterTable_Outlook2007_NoAlt td
+{
+	padding: 2px 2px 2px 5px;
+}
+
+.MasterTable_Outlook2007_NoAlt .GridHeader_Outlook2007_NoAlt,
+.MasterTable_Outlook2007_NoAlt .ResizeHeader_Outlook2007_NoAlt
+{
+	text-align: center;
+	border-bottom: solid 1px #6593cf;
+	background-color: #307FA3;
+	font-family:Arial;
+	font-size:11px;
+	font-weight:bold;
+	color:#FFFFFF;	
+}
+.MasterTable_Outlook2007_NoAlt .ResizeHeader_Outlook2007_NoAlt,
+.MasterTable_Outlook2007_NoAlt .GridHeader_Outlook2007_NoAlt:first-child
+{
+	background-position:-1px 100%;
+}
+
+.GridHeader_Outlook2007_NoAlt a
+{
+	text-decoration: none;
+	font-family:Arial;
+	font-size:11px;
+	font-weight:bold;
+	color:#FFFFFF;	
+}
+
+.GridAltRow_Outlook2007_NoAlt td
+{
+	border-bottom: 1px solid #e3efff;
+	cursor: default;
+}
+
+.GridHeader_Outlook2007_NoAlt span
+{
+	text-decoration: none;
+	cursor: default;
+	font-family:Arial;
+	font-size:11px;
+	font-weight:bold;
+	color:#FFFFFF;	
+}
+
+
+.GridRow_Outlook2007_NoAlt td,
+.GridEditRow_Outlook2007_NoAlt td,
+.SelectedRow_Outlook2007_NoAlt td
+{
+	border-bottom: 1px solid #e3efff;
+	cursor: default;
+}
+
+
+.SelectedRow_Outlook2007_NoAlt
+{
+	background: #a7cdf0 !important;
+}
+
+.GridEditRow_Outlook2007_NoAlt
+{
+	background-color: #ffffe1;
+}
+
+.GridEditForm_Outlook2007_NoAlt table
+{
+	border:0;
+}
+
+.ActiveRow_Outlook2007_NoAlt
+{
+	background: #ffffe1 !important;
+	color: black;
+}
+
+.GridPager_Outlook2007_NoAlt
+{
+	cursor: default;
+	background-color: #307FA3;
+	font-family:Arial;
+	font-size:11px;
+	font-weight:bold;
+	color:#FFFFFF;	
+}
+.GridPager_Outlook2007_NoAlt td
+{
+	padding-top:3px;
+	padding-bottom:3px;
+}
+
+.GroupPanelItems_Outlook2007_NoAlt
+{
+	white-space:nowrap;
+	color: white;
+	padding-bottom:4px;
+}
+
+.GroupPanel_Outlook2007_NoAlt
+{
+	background: #6f9dd9 url(Img/groupHeaderBg.gif) repeat-x bottom;
+	width: 100%;
+	height: 20px;
+	border-collapse: collapse;
+	color: white;
+}
+
+.GroupPanel_Outlook2007_NoAlt td
+{
+	padding-left: 4px;
+}
+
+.GroupPanel_Outlook2007_NoAlt table table
+{
+	border-collapse: collapse;
+}
+
+.GroupHeader_Outlook2007_NoAlt td
+{
+	border-bottom: 2px solid #7BA4E0;
+	padding-top:11px;
+	color: #3768b9;
+	font-weight: bold;
+}
+
+.GroupHeader_Outlook2007_NoAlt div
+{
+	top: -2px;
+}
+
+.TopReorderIndicator_Outlook2007_NoAlt
+{
+	background: url('Img/MoveDown.gif') no-repeat;
+}
+
+.BottomReorderIndicator_Outlook2007_NoAlt
+{
+	background: url('Img/MoveUp.gif') no-repeat;
+}
+
+.GridFilterMenu_Outlook2007_NoAlt
+{
+    cursor:default;
+}
+
+.GridFilterMenu_Outlook2007_NoAlt .GridFilterMenuSelectColumn_Outlook2007_NoAlt,
+.GridFilterMenu_Outlook2007_NoAlt .GridFilterMenuTextColumn_Outlook2007_NoAlt
+{
+	padding:3px 4px;
+}
+
+.GridFilterMenu_Outlook2007_NoAlt .GridFilterMenuSelectColumn_Outlook2007_NoAlt
+{
+    background:#e4e4e4;
+    text-align:center;
+}
+
+.GridFilterMenu_Outlook2007_NoAlt .GridFilterMenuTextColumn_Outlook2007_NoAlt
+{
+    background:#fff;
+    color:#333;
+}
+
+.GridFilterMenu_Outlook2007_NoAlt .GridFilterMenuHover_Outlook2007_NoAlt
+{
+    background:#4c4c4c;
+    color:#fff;
+}
+
+
+/*AJAX Loading*/
+
+.GridLoadingTemplate_Outlook2007_NoAlt
+{
+	background:#fff !important;
+	font:normal 16px/16px arial,sans-serif;
+	color:#01285c;
+}
+
+/* rtl support */
+
+.RadGridRTL_Outlook2007_NoAlt th,
+.RadGridRTL_Outlook2007_NoAlt td
+{
+    text-align:right;
+}
+
+.RadGridRTL_Outlook2007_NoAlt .GridPager_Outlook2007_NoAlt span
+{
+    float:none !important;
+}

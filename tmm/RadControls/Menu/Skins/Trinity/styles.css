@@ -1,0 +1,111 @@
+/* r.a.d.menu Trinity skin */
+
+.RadMenu_Trinity
+{
+	
+	background-image:url(/images/btn_Blue_stretch.gif);
+	line-height: 23px;
+}
+
+.RadMenu_Trinity .link
+{
+	text-decoration:none;
+	color: black;
+	font-weight: bold;
+	text-align:  center;
+}
+
+.RadMenu_Trinity .link:hover,
+.RadMenu_Trinity .focused,
+.RadMenu_Trinity .expanded
+{
+	color: white;
+	font-weight: bold;
+}
+
+.RadMenu_Trinity .text
+{
+	font-size: 11px;
+	padding: 0px 0px 0px 3px;
+}
+
+.RadMenu_Trinity .group
+{
+	border:solid 1px white;
+	border-top: 1px;
+	border-bottom: 1px;
+	border-left: 1px;
+	border-right: 1px;
+	border-color:White;
+	background-color:#99CCCC;
+	
+}
+
+.RadMenu_Trinity .group .link
+{
+	background-image:url(/menu/img_blue1.gif);
+	font-family:helvetica;
+	width: 175px;
+	text-align: left;
+	color: black;
+	cursor:hand;
+	cursor:pointer;
+}
+
+.RadMenu_Trinity .group .text
+{
+	padding: 2px 2px 2px 2px;
+	padding-left: 12px;
+	font-weight: bold;
+	font-family:arial;
+}
+
+TABLE.MenuBar {background-color:#99CCCC; color:#000000; font-size:12px; font-weight:bold; font-family: Arial;}
+
+.RadMenu_Trinity .group .link:hover,
+.RadMenu_Trinity .group .focused,
+.RadMenu_Trinity .group .expanded
+{
+	background-image:url(/menu/img_blue2.gif);
+	color: white;
+	font-weight: normal;
+	font-family:helvetica;
+	
+}
+
+.RadMenu_Trinity .topArrow,
+.RadMenu_Trinity .topArrowDisabled
+{
+	background-image:url('img/top.gif');
+	width:100%;
+}
+
+.RadMenu_Trinity .bottomArrow,
+.RadMenu_Trinity .bottomArrowDisabled
+{
+	background-image:url('img/bottom.gif');
+	width:100%;
+}
+
+.RadMenu_Trinity .rightArrow,
+.RadMenu_Trinity .leftArrow
+{
+	height:100%;
+}
+
+.RadMenu_Trinity .rightArrow,
+.RadMenu_Trinity .rightArrowDisabled
+{
+	background-image: url('img/right.gif');
+}
+
+.RadMenu_Trinity .expandLeft,
+.RadMenu_Trinity .expandRight
+{
+	background:transparent url(img/groupImage.gif) right center no-repeat;
+}
+
+.RadMenu_Trinity .item1 
+{
+	font-size:25px;
+}

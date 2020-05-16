@@ -1,0 +1,4035 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<cities>
+	<plotcity id='TURA'>
+		<location lon='44.80' lat='26.29' />
+		<name>Zulfi</name>
+	</plotcity>	
+	<plotcity id='YENB'>
+		<location lon='38.04861' lat='24.08528' />
+		<name>Yenbo</name>
+	</plotcity>	
+	<plotcity id='WDJH'>
+		<location lon='36.46667' lat='26.23333' />
+		<name>Wejh</name>
+	</plotcity>
+	<plotcity id='UMML'>
+		<location lon='37.26889' lat='25.02417' />
+		<name>Umm Lajj</name>
+	</plotcity>	
+	<plotcity id='TURA'>
+		<location lon='38.73417' lat='31.69194' />
+		<name>Turaif</name>
+	</plotcity>
+	<plotcity id='TAIF'>
+		<location lon='40.54' lat='21.48' />
+		<name>Taif</name>
+	</plotcity>
+	<plotcity id='TABU'>
+		<location lon='36.62528' lat='26.15028' />
+		<name>Tabuk</name>
+	</plotcity>
+	<plotcity id='SHAY'>
+		<location lon='38.55' lat='30.43056' />
+		<name>Shaybah</name>
+	</plotcity>
+	<plotcity id='SHAR'>
+		<location lon='47.08' lat='17.49' />
+		<name>Sharurah</name>
+	</plotcity>
+	<plotcity id='RIYA'>
+		<location lon='46.724167' lat='24.711667' />
+		<name>Riyadh</name>
+	</plotcity>
+	<plotcity id='TANU'>
+		<location lon='50.16667' lat='26.65' />
+		<name>Ras Tanura</name>
+	</plotcity>
+	<plotcity id='TANA'>
+		<location lon='48.88083' lat='27.83722' />
+		<name>Ras at Tanajib</name>
+	</plotcity>
+	<plotcity id='RASA'>
+		<location lon='48.58222' lat='28.0275' />
+		<name>Ras al Mishab</name>
+	</plotcity>	
+	<plotcity id='RAFH'>
+		<location lon='43.46667' lat='29.73333' />
+		<name>Rabigh</name>
+	</plotcity>
+	<plotcity id='RABI'>
+		<location lon='39.03222' lat='22.79861' />
+		<name>Rabigh</name>
+	</plotcity>	
+	<plotcity id='QAIS'>
+		<location lon='45.9667' lat='28.4333' />
+		<name>Qaisumah</name>
+	</plotcity>
+	<plotcity id='NAJR'>
+		<location lon='45' lat='17.59528' />
+		<name>Najran</name>
+	</plotcity>
+	<plotcity id='NARI'>
+		<location lon='48.41667' lat='27.53333' />
+		<name>Nariya</name>
+	</plotcity>
+	<plotcity id='MAJM'>
+		<location lon='43.60417' lat='17.96361' />
+		<name>Majma</name>
+	</plotcity>	
+	<plotcity id='MADI'>
+		<location lon='39.55' lat='24.45' />
+		<name>Madinah</name>
+	</plotcity>
+	<plotcity id='KING'>
+		<location lon='45.52528' lat='27.90472' />
+		<name>King Khalid Military City</name>
+	</plotcity>	
+	<plotcity id='KHAM'>
+		<location lon='42.72917' lat='18.30639' />
+		<name>Khamis Mushait</name>
+	</plotcity>
+	<plotcity id='JEDD'>
+		<location lon='49.666667' lat='27' />
+		<name>Jubail</name>
+	</plotcity>
+	<plotcity id='JEDD'>
+		<location lon='39.1865' lat='21.4641' />
+		<name>Jeddah</name>
+	</plotcity>	
+	<plotcity id='JAZA'>
+		<location lon='42.55111' lat='16.88917' />
+		<name>Jazan</name>
+	</plotcity>
+	<plotcity id='HARA'>
+		<location lon='49.06667' lat='24.3' />
+		<name>Harad</name>
+	</plotcity>	
+	<plotcity id='HAIL'>
+		<location lon='41.683333' lat='27.516667' />
+		<name>Hail</name>
+	</plotcity>
+	<plotcity id='GURI'>
+		<location lon='37.27389' lat='31.41278' />
+		<name>Guriat</name>
+	</plotcity>
+	<plotcity id='GASS'>
+		<location lon='43.77417' lat='26.30194' />
+		<name>Gassim</name>
+	</plotcity>
+	<plotcity id='DHAH'>
+		<location lon='50.15' lat='26.266667' />
+		<name>Dhahran</name>
+	</plotcity>	
+	<plotcity id='DAWA'>
+		<location lon='44.38333' lat='24.49417' />
+		<name>Dawadimi</name>
+	</plotcity>
+	<plotcity id='DAMM'>
+		<location lon='50.116667' lat='26.433333' />
+		<name>Dammam</name>
+	</plotcity>	
+	<plotcity id='BISH'>
+		<location lon='42.6' lat='20' />
+		<name>Bisha</name>
+	</plotcity>
+	<plotcity id='ARAR'>
+		<location lon='41.138217' lat='30.906589' />
+		<name>Arar</name>
+	</plotcity>	
+	<plotcity id='KHAR'>
+		<location lon='51.13333' lat='25.81667' />
+		<name>Al Kharq</name>
+	</plotcity>
+	<plotcity id='JOUF'>
+		<location lon='45.83417' lat='13.84111' />
+		<name>Al Jouf</name>
+	</plotcity>	
+	<plotcity id='BAHA'>
+		<location lon='66.783333' lat='21.833333' />
+		<name>Al Baha</name>
+	</plotcity>
+	<plotcity id='AHSA'>
+		<location lon='49.6' lat='25.383333' />
+		<name>Al Ahsa</name>
+	</plotcity>
+	<plotcity id='ABQU'>
+		<location lon='49.73333' lat='26.1' />
+		<name>Abqaiq</name>
+	</plotcity>
+	<plotcity id='ABHA'>
+		<location lon='24.39417' lat='40.69806' />
+		<name>Abha</name>
+	</plotcity>
+	<plotcity id='KHOR'>
+		<location lon='52.1' lat='19.61667' />
+		<name>Khor</name>
+	</plotcity>	
+	<plotcity id='BIKF'>
+		<location lon='-22.60333' lat='63.98333' />
+		<name>Keflavikurflugvollur</name>		
+	</plotcity>
+	<plotcity id='CYEG'>
+		<location lon='-113.5783' lat='53.30833' />
+		<name>Edmonton</name>		
+	</plotcity>
+	<plotcity id='CYFC'>
+		<location lon='-66.53' lat='45.86666' />
+		<name>Fredericton</name>		
+	</plotcity>
+	<plotcity id='CYHZ'>
+		<location lon='-63.50834' lat='44.87833' />
+		<name>Halifax</name>		
+	</plotcity>
+	<plotcity id='CYLW'>
+		<location lon='-119.3767' lat='49.95333' />
+		<name>Kelowna </name>		
+	</plotcity>
+	<plotcity id='CYOW'>
+		<location lon='-75.66833' lat='45.32' />
+		<name>Ottawa </name>		
+	</plotcity>
+	<plotcity id='CYQB'>
+		<location lon='-71.39333' lat='46.79167' />
+		<name>Quebec</name>		
+	</plotcity>
+	<plotcity id='CYQR'>
+		<location lon='-104.665' lat='50.43' />
+		<name>Regina</name>		
+	</plotcity>
+	<plotcity id='CYQT'>
+		<location lon='-89.32333' lat='48.37' />
+		<name>Thunder Bay</name>		
+	</plotcity>
+	<plotcity id='CYSJ'>
+		<location lon='-65.89' lat='45.31333' />
+		<name>Saint John</name>		
+	</plotcity>
+	<plotcity id='CYUL'>
+		<location lon='-73.74' lat='45.46667' />
+		<name>Montreal</name>		
+	</plotcity>
+	<plotcity id='CYVR'>
+		<location lon='-123.18' lat='49.19333' />
+		<name>Vancouver</name>		
+	</plotcity>
+	<plotcity id='CYWG'>
+		<location lon='-97.24167' lat='49.90833' />
+		<name>Winnipeg</name>		
+	</plotcity>
+	<plotcity id='CYXE'>
+		<location lon='-106.6983' lat='52.16833' />
+		<name>Saskatoon</name>		
+	</plotcity>
+	<plotcity id='CYXU'>
+		<location lon='-81.15266' lat='43.03433' />
+		<name>London</name>		
+	</plotcity>
+	<plotcity id='CYXX'>
+		<location lon='-122.3617' lat='49.024' />
+		<name>Abbotsford</name>		
+	</plotcity>
+	<plotcity id='CYYC'>
+		<location lon='-114.019' lat='51.11267' />
+		<name>Calgary</name>		
+	</plotcity>
+	<plotcity id='CYYJ'>
+		<location lon='-123.4233' lat='48.645' />
+		<name>Victoria</name>		
+	</plotcity>
+	<plotcity id='CYYZ'>
+		<location lon='-79.61' lat='43.67167' />
+		<name>Toronto </name>		
+	</plotcity>
+	<plotcity id='DAAG'>
+		<location lon='3.215' lat='36.69167' />
+		<name>Dar-El-Beida</name>		
+	</plotcity>
+	<plotcity id='DBBB'>
+		<location lon='2.381667' lat='6.355' />
+		<name>Cotonou</name>		
+	</plotcity>
+	<plotcity id='DFFD'>
+		<location lon='-1.51' lat='12.35167' />
+		<name>Ouagadougou</name>		
+	</plotcity>
+	<plotcity id='DGAA'>
+		<location lon='-0.1683333' lat='5.595' />
+		<name>Accra</name>		
+	</plotcity>
+	<plotcity id='DIAP'>
+		<location lon='-3.928333' lat='5.251667' />
+		<name>Abidjan</name>		
+	</plotcity>
+	<plotcity id='DNKN'>
+		<location lon='8.523334' lat='12.04783' />
+		<name>Kano</name>		
+	</plotcity>
+	<plotcity id='DNMM'>
+		<location lon='3.316667' lat='6.573333' />
+		<name>Lagos / Ikeja</name>		
+	</plotcity>
+	<plotcity id='DNPO'>
+		<location lon='6.948333' lat='5.013167' />
+		<name>Port Harcourt</name>
+	</plotcity>
+	<plotcity id='DRRN'>
+		<location lon='2.168333' lat='13.48' />
+		<name>Niamey-Aero</name>		
+	</plotcity>
+	<plotcity id='DTTA'>
+		<location lon='10.225' lat='36.84833' />
+		<name>Tunis-Carthage</name>		
+	</plotcity>
+	<plotcity id='DXXX'>
+		<location lon='1.251667' lat='6.164667' />
+		<name>Lome</name>		
+	</plotcity>
+	<plotcity id='EBBR'>
+		<location lon='4.483333' lat='50.9' />
+		<name>Bruxelles </name>		
+	</plotcity>
+	<plotcity id='EDDC'>
+		<location lon='13.765' lat='51.1315' />
+		<name>Dresden-Klotzsche</name>		
+	</plotcity>
+	<plotcity id='EDDF'>
+		<location lon='8.568334' lat='50.032' />
+		<name>Frankfurt / M-Flughafen</name>		
+	</plotcity>
+	<plotcity id='EDDG'>
+		<location lon='7.683333' lat='52.1335' />
+		<name>Muenster / Osnabrueck</name>		
+	</plotcity>
+	<plotcity id='EDDH'>
+		<location lon='9.986667' lat='53.62833' />
+		<name>Hamburg-Fuhlsbuettel</name>		
+	</plotcity>
+	<plotcity id='EDDI'>
+		<location lon='13.4' lat='52.47167' />
+		<name>Berlin-Tempelhof</name>		
+	</plotcity>
+	<plotcity id='EDDK'>
+		<location lon='7.142' lat='50.86333' />
+		<name>Koeln / Bonn</name>		
+	</plotcity>
+	<plotcity id='EDDL'>
+		<location lon='6.755' lat='51.27833' />
+		<name>Duesseldorf</name>		
+	</plotcity>
+	<plotcity id='EDDM'>
+		<location lon='11.785' lat='48.35167' />
+		<name>Munich / Riem</name>		
+	</plotcity>
+	<plotcity id='EDDN'>
+		<location lon='11.07717' lat='49.49667' />
+		<name>Nuernberg</name>		
+	</plotcity>
+	<plotcity id='EDDP'>
+		<location lon='12.235' lat='51.42167' />
+		<name>Leipzig-Schkeuditz</name>		
+	</plotcity>
+	<plotcity id='EDDR'>
+		<location lon='7.108167' lat='49.21167' />
+		<name>Saarbruecken / Ensheim</name>		
+	</plotcity>
+	<plotcity id='EDDS'>
+		<location lon='9.22' lat='48.68833' />
+		<name>Stuttgart-Echterdingen</name>		
+	</plotcity>
+	<plotcity id='EDDT'>
+		<location lon='13.285' lat='52.55833' />
+		<name>Berlin-Tegel</name>		
+	</plotcity>
+	<plotcity id='EDDV'>
+		<location lon='9.681666' lat='52.45833' />
+		<name>Hannover</name>		
+	</plotcity>
+	<plotcity id='EDDW'>
+		<location lon='8.785' lat='53.04617' />
+		<name>Bremen</name>		
+	</plotcity>
+	<plotcity id='EDLP'>
+		<location lon='8.615' lat='51.61167' />
+		<name>Paderborn / Lippstadt</name>		
+	</plotcity>
+	<plotcity id='EDLW'>
+		<location lon='7.61' lat='51.51667' />
+		<name>Dortmund / Wickede</name>		
+	</plotcity>
+	<plotcity id='EFHK'>
+		<location lon='24.96167' lat='60.315' />
+		<name>Helsinki-Vantaa</name>		
+	</plotcity>
+	<plotcity id='EFIV'>
+		<location lon='27.41167' lat='68.60833' />
+		<name>Ivalo</name>		
+	</plotcity>
+	<plotcity id='EFJO'>
+		<location lon='29.62333' lat='62.65667' />
+		<name>Joensuu</name>		
+	</plotcity>
+	<plotcity id='EFJY'>
+		<location lon='25.67' lat='62.39833' />
+		<name>Jyvaskyla</name>		
+	</plotcity>
+	<plotcity id='EFKE'>
+		<location lon='24.58333' lat='65.77666' />
+		<name>Kemi</name>		
+	</plotcity>
+	<plotcity id='EFKI'>
+		<location lon='27.685' lat='64.28167' />
+		<name>Kajaani</name>		
+	</plotcity>
+	<plotcity id='EFKK'>
+		<location lon='23.13783' lat='63.72' />
+		<name>Kruunupyy</name>		
+	</plotcity>
+	<plotcity id='EFKS'>
+		<location lon='29.23' lat='65.98833' />
+		<name>Kuusamo</name>		
+	</plotcity>
+	<plotcity id='EFKT'>
+		<location lon='24.84667' lat='67.69666' />
+		<name>Kittila</name>		
+	</plotcity>
+	<plotcity id='EFKU'>
+		<location lon='27.79333' lat='63.00733' />
+		<name>Kuopio</name>		
+	</plotcity>
+	<plotcity id='EFMA'>
+		<location lon='19.895' lat='60.12067' />
+		<name>Mariehamn / Aland Island</name>		
+	</plotcity>
+	<plotcity id='EFOU'>
+		<location lon='25.35333' lat='64.92667' />
+		<name>Oulu</name>		
+	</plotcity>
+	<plotcity id='EFRO'>
+		<location lon='25.83' lat='66.56' />
+		<name>Rovaniemi</name>		
+	</plotcity>
+	<plotcity id='EFTP'>
+		<location lon='23.58667' lat='61.41333' />
+		<name>Tampere / Pirkkala</name>		
+	</plotcity>
+	<plotcity id='EFTU'>
+		<location lon='22.26' lat='60.51333' />
+		<name>Turku</name>		
+	</plotcity>
+	<plotcity id='EFVA'>
+		<location lon='21.76333' lat='63.044' />
+		<name>Vaasa</name>		
+	</plotcity>
+	<plotcity id='EGAA'>
+		<location lon='-6.215' lat='54.655' />
+		<name>Belfast </name>		
+	</plotcity>
+	<plotcity id='EGBB'>
+		<location lon='-1.746667' lat='52.45167' />
+		<name>Birmingham</name>		
+	</plotcity>
+	<plotcity id='EGCC'>
+		<location lon='-2.273333' lat='53.35167' />
+		<name>Manchester </name>		
+	</plotcity>
+	<plotcity id='EGFF'>
+		<location lon='-3.341667' lat='51.395' />
+		<name>Cardiff-Wales </name>		
+	</plotcity>
+	<plotcity id='EGGP'>
+		<location lon='-2.848333' lat='53.33167' />
+		<name>Liverpool </name>		
+	</plotcity>
+	<plotcity id='EGGW'>
+		<location lon='-0.3666667' lat='51.87167' />
+		<name>Luton </name>		
+	</plotcity>
+	<plotcity id='EGJB'>
+		<location lon='-2.6' lat='49.43333' />
+		<name>Guernsey </name>		
+	</plotcity>
+	<plotcity id='EGJJ'>
+		<location lon='-2.193333' lat='49.20667' />
+		<name>Jersey </name>		
+	</plotcity>
+	<plotcity id='EGLC'>
+		<location lon='5.316667E-02' lat='51.50333' />
+		<name>London</name>		
+	</plotcity>
+	<plotcity id='EGNT'>
+		<location lon='-1.69' lat='55.03617' />
+		<name>Newcastle</name>		
+	</plotcity>
+	<plotcity id='EGPD'>
+		<location lon='-2.198333' lat='57.20167' />
+		<name>Aberdeen / Dyce</name>		
+	</plotcity>
+	<plotcity id='EGPE'>
+		<location lon='-4.048833' lat='57.53833' />
+		<name>Inverness / Dalcross</name>		
+	</plotcity>
+	<plotcity id='EGPF'>
+		<location lon='-4.431667' lat='55.87' />
+		<name>Glasgow </name>		
+	</plotcity>
+	<plotcity id='EGPH'>
+		<location lon='-3.37' lat='55.94833' />
+		<name>Edinburgh </name>		
+	</plotcity>
+	<plotcity id='EGPK'>
+		<location lon='-4.585' lat='55.505' />
+		<name>Prestwick </name>		
+	</plotcity>
+	<plotcity id='EGSS'>
+		<location lon='0.2333333' lat='51.88334' />
+		<name>Stansted </name>		
+	</plotcity>
+	<plotcity id='EHAM'>
+		<location lon='4.761667' lat='52.30667' />
+		<name>Amsterdam </name>		
+	</plotcity>
+	<plotcity id='EHBK'>
+		<location lon='5.776667' lat='50.91333' />
+		<name>Maastricht </name>		
+	</plotcity>
+	<plotcity id='EHRD'>
+		<location lon='4.435' lat='51.955' />
+		<name>Rotterdam</name>		
+	</plotcity>
+	<plotcity id='EICK'>
+		<location lon='-8.49' lat='51.84' />
+		<name>Cork </name>		
+	</plotcity>
+	<plotcity id='EIDW'>
+		<location lon='-6.268333' lat='53.42' />
+		<name>Dublin </name>		
+	</plotcity>
+	<plotcity id='EINN'>
+		<location lon='-8.923333' lat='52.7' />
+		<name>Shannon </name>		
+	</plotcity>
+	<plotcity id='EKCH'>
+		<location lon='12.65333' lat='55.61666' />
+		<name>Koebenhavn / Kastrup</name>		
+	</plotcity>
+	<plotcity id='ELLX'>
+		<location lon='6.201667' lat='49.62167' />
+		<name>Luxembourg / Luxembourg</name>		
+	</plotcity>
+	<plotcity id='ENBR'>
+		<location lon='5.216667' lat='60.29167' />
+		<name>Bergen / Flesland</name>		
+	</plotcity>
+	<plotcity id='ENGM'>
+		<location lon='11.08267' lat='60.2' />
+		<name>Oslo / Gardermoen</name>		
+	</plotcity>
+	<plotcity id='ENZV'>
+		<location lon='5.635' lat='58.875' />
+		<name>Stavanger / Sola</name>		
+	</plotcity>
+	<plotcity id='EPKK'>
+		<location lon='19.78333' lat='50.0765' />
+		<name>Krakow</name>		
+	</plotcity>
+	<plotcity id='EPKT'>
+		<location lon='19.07883' lat='50.47167' />
+		<name>Katowice</name>		
+	</plotcity>
+	<plotcity id='EPWA'>
+		<location lon='20.965' lat='52.1645' />
+		<name>Warszawa-Okecie</name>		
+	</plotcity>
+	<plotcity id='ESGG'>
+		<location lon='12.29' lat='57.65833' />
+		<name>Goteborg / Landvetter</name>		
+	</plotcity>
+	<plotcity id='ESSA'>
+		<location lon='17.91833' lat='59.65' />
+		<name>Stockholm / Arlanda</name>		
+	</plotcity>
+	<plotcity id='ETNL'>
+		<location lon='12.27667' lat='53.91667' />
+		<name>Laage</name>		
+	</plotcity>
+	<plotcity id='EVRA'>
+		<location lon='23.97' lat='56.92167' />
+		<name>Riga </name>		
+	</plotcity>
+	<plotcity id='EYVI'>
+		<location lon='25.285' lat='54.635' />
+		<name>Vilnius</name>		
+	</plotcity>
+	<plotcity id='FACT'>
+		<location lon='18.60333' lat='-33.96667' />
+		<name>Cape Town D. F. Malan</name>		
+	</plotcity>
+	<plotcity id='FADN'>
+		<location lon='30.94833' lat='-29.96333' />
+		<name>Durban Louis Botha</name>		
+	</plotcity>
+	<plotcity id='FAEL'>
+		<location lon='27.82' lat='-33.03383' />
+		<name>East London</name>		
+	</plotcity>
+	<plotcity id='FAGG'>
+		<location lon='22.37333' lat='-34.0055' />
+		<name>George Airport</name>		
+	</plotcity>
+	<plotcity id='FAGM'>
+		<location lon='28.15017' lat='-26.24' />
+		<name>Johannesburg / Rand</name>		
+	</plotcity>
+	<plotcity id='FAJS'>
+		<location lon='28.24167' lat='-26.1325' />
+		<name>Jan Smuts</name>		
+	</plotcity>
+	<plotcity id='FAPE'>
+		<location lon='25.60833' lat='-33.98833' />
+		<name>Port Elizabeth</name>		
+	</plotcity>
+	<plotcity id='FCBB'>
+		<location lon='15.24667' lat='-4.253334' />
+		<name>Brazzaville / Maya-Maya</name>		
+	</plotcity>
+	<plotcity id='FEFF'>
+		<location lon='18.51833' lat='4.395' />
+		<name>Bangui</name>		
+	</plotcity>
+	<plotcity id='FGSL'>
+		<location lon='8.706667' lat='3.753333' />
+		<name>Malabo Macias Island</name>		
+	</plotcity>
+	<plotcity id='FIMP'>
+		<location lon='57.68167' lat='-20.42833' />
+		<name>Plaisance Mauritius</name>		
+	</plotcity>
+	<plotcity id='FKKD'>
+		<location lon='9.708333' lat='4.010334' />
+		<name>Douala</name>		
+	</plotcity>
+	<plotcity id='FKYS'>
+		<location lon='11.55167' lat='3.715' />
+		<name>Yaounde</name>		
+	</plotcity>
+	<plotcity id='FLLS'>
+		<location lon='28.455' lat='-15.325' />
+		<name>Lusaka</name>		
+	</plotcity>
+	<plotcity id='FMEE'>
+		<location lon='55.515' lat='-20.88833' />
+		<name>Saint-Denis / Gillot Reunion</name>		
+	</plotcity>
+	<plotcity id='FMMI'>
+		<location lon='47.475' lat='-18.795' />
+		<name>Antananarivo / Ivato</name>		
+	</plotcity>
+	<plotcity id='FNLU'>
+		<location lon='13.23167' lat='-8.853333' />
+		<name>Luanda</name>		
+	</plotcity>
+	<plotcity id='FOOL'>
+		<location lon='9.41' lat='0.4566667' />
+		<name>Libreville</name>		
+	</plotcity>
+	<plotcity id='FQMA'>
+		<location lon='32.57167' lat='-25.92' />
+		<name>Maputo / Mavalane</name>		
+	</plotcity>
+	<plotcity id='FSIA'>
+		<location lon='55.52' lat='-4.673333' />
+		<name>Seychelles </name>		
+	</plotcity>
+	<plotcity id='FTTJ'>
+		<location lon='15.0235' lat='12.12367' />
+		<name>Ndjamena</name>		
+	</plotcity>
+	<plotcity id='FVFA'>
+		<location lon='25.83833' lat='-18.09283' />
+		<name>Victoria Falls</name>		
+	</plotcity>
+	<plotcity id='FVHA'>
+		<location lon='31.09267' lat='-17.93' />
+		<name>Harare Kutsaga</name>		
+	</plotcity>
+	<plotcity id='FWCL'>
+		<location lon='34.96667' lat='-15.67667' />
+		<name>Chileka</name>		
+	</plotcity>
+	<plotcity id='FYWH'>
+		<location lon='17.46833' lat='-22.47833' />
+		<name>J. G. Strijdom</name>		
+	</plotcity>
+	<plotcity id='FZAA'>
+		<location lon='15.44667' lat='-4.383333' />
+		<name>Kinshasa / N'Djili</name>		
+	</plotcity>
+	<plotcity id='GABS'>
+		<location lon='-7.941667' lat='12.53667' />
+		<name>Bamako / Senou</name>		
+	</plotcity>
+	<plotcity id='GCFV'>
+		<location lon='-13.86167' lat='28.45' />
+		<name>Fuerteventura </name>		
+	</plotcity>
+	<plotcity id='GCLA'>
+		<location lon='-17.75333' lat='28.625' />
+		<name>La Palma</name>		
+	</plotcity>
+	<plotcity id='GCLP'>
+		<location lon='-15.385' lat='27.93' />
+		<name>Las Palmas De Gran Canaria / Gando</name>		
+	</plotcity>
+	<plotcity id='GCRR'>
+		<location lon='-13.605' lat='28.94333' />
+		<name>Lanzarote </name>		
+	</plotcity>
+	<plotcity id='GCTS'>
+		<location lon='-16.57167' lat='28.04317' />
+		<name>Tenerife Sur</name>		
+	</plotcity>
+	<plotcity id='GCXO'>
+		<location lon='-16.34' lat='28.48' />
+		<name>Tenerife / Los Rodeos</name>		
+	</plotcity>
+	<plotcity id='GMME'>
+		<location lon='-6.755' lat='34.04867' />
+		<name>Rabat-Sale</name>		
+	</plotcity>
+	<plotcity id='GMMN'>
+		<location lon='-7.581666' lat='33.365' />
+		<name>Nouasseur</name>		
+	</plotcity>
+	<plotcity id='GMMX'>
+		<location lon='-8.041166' lat='31.60833' />
+		<name>Marrakech</name>		
+	</plotcity>
+	<plotcity id='GMTT'>
+		<location lon='-5.908333' lat='35.72167' />
+		<name>Tanger </name>		
+	</plotcity>
+	<plotcity id='GOOY'>
+		<location lon='-17.47833' lat='14.74167' />
+		<name>Dakar / Yoff</name>		
+	</plotcity>
+	<plotcity id='GQNN'>
+		<location lon='-15.95' lat='18.09433' />
+		<name>Nouakchott</name>		
+	</plotcity>
+	<plotcity id='GUCY'>
+		<location lon='-13.61' lat='9.575' />
+		<name>Conakry / Gbessia</name>		
+	</plotcity>
+	<plotcity id='GVAC'>
+		<location lon='-22.94833' lat='16.74' />
+		<name>Sal</name>		
+	</plotcity>
+	<plotcity id='HAAB'>
+		<location lon='38.79667' lat='8.976666' />
+		<name>Addis Ababa</name>		
+	</plotcity>
+	<plotcity id='HDAM'>
+		<location lon='43.158' lat='11.545' />
+		<name>Djibouti \ Ambouli</name>		
+	</plotcity>
+	<plotcity id='HEAX'>
+		<location lon='29.945' lat='31.18' />
+		<name>Alexandria / Nouzha</name>		
+	</plotcity>
+	<plotcity id='HECA'>
+		<location lon='31.41167' lat='30.11017' />
+		<name>Cairo </name>		
+	</plotcity>
+	<plotcity id='HEGN'>
+		<location lon='33.8' lat='27.18167' />
+		<name>Hurguada</name>		
+	</plotcity>
+	<plotcity id='HELX'>
+		<location lon='32.705' lat='25.66833' />
+		<name>Luxor</name>		
+	</plotcity>
+	<plotcity id='HESH'>
+		<location lon='34.39167' lat='27.97667' />
+		<name>Sharm El Sheikhintl</name>		
+	</plotcity>
+	<plotcity id='HHAS'>
+		<location lon='38.9' lat='15.28333' />
+		<name>Asmara</name>		
+	</plotcity>
+	<plotcity id='HKJK'>
+		<location lon='36.925' lat='-1.316667' />
+		<name>Nairobi / Kenyatta Airport</name>		
+	</plotcity>
+	<plotcity id='HLLB'>
+		<location lon='20.26833' lat='32.09617' />
+		<name>Benina</name>		
+	</plotcity>
+	<plotcity id='HLLT'>
+		<location lon='13.1565' lat='32.66667' />
+		<name>Tripoli </name>		
+	</plotcity>
+	<plotcity id='HRYR'>
+		<location lon='30.13183' lat='-1.965' />
+		<name>Kigali</name>		
+	</plotcity>
+	<plotcity id='HSSS'>
+		<location lon='32.55667' lat='15.58333' />
+		<name>Khartoum</name>		
+	</plotcity>
+	<plotcity id='HTDA'>
+		<location lon='39.20167' lat='-6.876667' />
+		<name>Dar Es Salaam </name>		
+	</plotcity>
+	<plotcity id='HTKJ'>
+		<location lon='37.07317' lat='-3.426667' />
+		<name>Kilimanjaro </name>		
+	</plotcity>
+	<plotcity id='HUEN'>
+		<location lon='32.44' lat='0.0395' />
+		<name>Entebbe </name>		
+	</plotcity>
+	<plotcity id='KABE'>
+		<location lon='-75.43833' lat='40.65' />
+		<name>Allentown</name>		
+	</plotcity>
+	<plotcity id='KABI'>
+		<location lon='-99.68' lat='32.41' />
+		<name>Abilene</name>		
+	</plotcity>
+	<plotcity id='KABQ'>
+		<location lon='-106.6067' lat='35.039' />
+		<name>Albuquerque</name>		
+	</plotcity>
+	<plotcity id='KABR'>
+		<location lon='-98.42' lat='45.44667' />
+		<name>Aberdeen</name>		
+	</plotcity>
+	<plotcity id='KACK'>
+		<location lon='-70.059' lat='41.25167' />
+		<name>Nantucket</name>		
+	</plotcity>
+	<plotcity id='KACT'>
+		<location lon='-97.22833' lat='31.61' />
+		<name>Waco</name>		
+	</plotcity>
+	<plotcity id='KACY'>
+		<location lon='-74.575' lat='39.455' />
+		<name>Atlantic City</name>		
+	</plotcity>
+	<plotcity id='KAGS'>
+		<location lon='-81.96333' lat='33.36833' />
+		<name>Augusta</name>		
+	</plotcity>
+	<plotcity id='KAHN'>
+		<location lon='-83.325' lat='33.94667' />
+		<name>Athens</name>		
+	</plotcity>
+	<plotcity id='KALB'>
+		<location lon='-73.80167' lat='42.74667' />
+		<name>Albany</name>		
+	</plotcity>
+	<plotcity id='KALO'>
+		<location lon='-92.39833' lat='42.555' />
+		<name>Waterloo</name>		
+	</plotcity>
+	<plotcity id='KAMA'>
+		<location lon='-101.705' lat='35.21667' />
+		<name>Amarillo</name>		
+	</plotcity>
+	<plotcity id='KAOO'>
+		<location lon='-78.31834' lat='40.295' />
+		<name>Altoona</name>		
+	</plotcity>
+	<plotcity id='KAPF'>
+		<location lon='-81.77333' lat='26.15117' />
+		<name>Naples </name>		
+	</plotcity>
+	<plotcity id='KAPN'>
+		<location lon='-83.55833' lat='45.07683' />
+		<name>Alpena</name>		
+	</plotcity>
+	<plotcity id='KART'>
+		<location lon='-76.0205' lat='43.99' />
+		<name>Watertown</name>		
+	</plotcity>
+	<plotcity id='KATL'>
+		<location lon='-84.425' lat='33.63833' />
+		<name>Atlanta</name>		
+	</plotcity>
+	<plotcity id='KATW'>
+		<location lon='-88.51833' lat='44.255' />
+		<name>Appleton </name>		
+	</plotcity>
+	<plotcity id='KATY'>
+		<location lon='-97.1535' lat='44.91167' />
+		<name>Watertown</name>		
+	</plotcity>
+	<plotcity id='KAUG'>
+		<location lon='-69.79667' lat='44.31833' />
+		<name>Augusta</name>		
+	</plotcity>
+	<plotcity id='KAUS'>
+		<location lon='-97.66833' lat='30.19333' />
+		<name>Austin</name>		
+	</plotcity>
+	<plotcity id='KAVL'>
+		<location lon='-82.54166' lat='35.435' />
+		<name>Asheville</name>		
+	</plotcity>
+	<plotcity id='KAVP'>
+		<location lon='-75.72334' lat='41.33667' />
+		<name>Wilkesbarre-Scranton</name>		
+	</plotcity>
+	<plotcity id='KAZO'>
+		<location lon='-85.55' lat='42.23333' />
+		<name>Kalamazoo</name>		
+	</plotcity>
+	<plotcity id='KBDL'>
+		<location lon='-72.68166' lat='41.93667' />
+		<name>Windsor Locks</name>		
+	</plotcity>
+	<plotcity id='KBED'>
+		<location lon='-71.28667' lat='42.46833' />
+		<name>Bedford</name>		
+	</plotcity>
+	<plotcity id='KBFD'>
+		<location lon='-78.64' lat='41.80167' />
+		<name>Bradford</name>		
+	</plotcity>
+	<plotcity id='KBGM'>
+		<location lon='-75.97833' lat='42.20667' />
+		<name>Binghamton</name>		
+	</plotcity>
+	<plotcity id='KBGR'>
+		<location lon='-68.82667' lat='44.805' />
+		<name>Bangor</name>		
+	</plotcity>
+	<plotcity id='KBHM'>
+		<location lon='-86.75333' lat='33.56167' />
+		<name>Birmingham</name>		
+	</plotcity>
+	<plotcity id='KBIL'>
+		<location lon='-108.5417' lat='45.805' />
+		<name>Billings</name>		
+	</plotcity>
+	<plotcity id='KBIS'>
+		<location lon='-100.745' lat='46.77167' />
+		<name>Bismarck</name>		
+	</plotcity>
+	<plotcity id='KBJI'>
+		<location lon='-94.93333' lat='47.50667' />
+		<name>Bemidji</name>		
+	</plotcity>
+	<plotcity id='KBKW'>
+		<location lon='-81.12283' lat='37.785' />
+		<name>Beckley</name>		
+	</plotcity>
+	<plotcity id='KBLF'>
+		<location lon='-81.205' lat='37.29333' />
+		<name>Bluefield</name>		
+	</plotcity>
+	<plotcity id='KBMI'>
+		<location lon='-88.915' lat='40.47667' />
+		<name>Bloomington </name>		
+	</plotcity>
+	<plotcity id='KBNA'>
+		<location lon='-86.67667' lat='36.12317' />
+		<name>Nashville</name>		
+	</plotcity>
+	<plotcity id='KBOI'>
+		<location lon='-116.22' lat='43.56167' />
+		<name>Boise</name>		
+	</plotcity>
+	<plotcity id='KBOS'>
+		<location lon='-71.004' lat='42.36167' />
+		<name>Boston</name>		
+	</plotcity>
+	<plotcity id='KBPI'>
+		<location lon='-110.1098' lat='42.58333' />
+		<name>Big Piney</name>		
+	</plotcity>
+	<plotcity id='KBRD'>
+		<location lon='-94.136' lat='46.39667' />
+		<name>Brainerd</name>		
+	</plotcity>
+	<plotcity id='KBTV'>
+		<location lon='-73.15017' lat='44.47167' />
+		<name>Burlington</name>		
+	</plotcity>
+	<plotcity id='KBUF'>
+		<location lon='-78.73167' lat='42.93833' />
+		<name>Buffalo</name>		
+	</plotcity>
+	<plotcity id='KBUR'>
+		<location lon='-118.3583' lat='34.2' />
+		<name>Burbank</name>		
+	</plotcity>
+	<plotcity id='KBWI'>
+		<location lon='-76.66666' lat='39.17333' />
+		<name>Baltimore</name>		
+	</plotcity>
+	<plotcity id='KBZN'>
+		<location lon='-111.153' lat='45.775' />
+		<name>Bozeman</name>		
+	</plotcity>
+	<plotcity id='KCAE'>
+		<location lon='-81.11833' lat='33.93667' />
+		<name>Columbia</name>		
+	</plotcity>
+	<plotcity id='KCAK'>
+		<location lon='-81.44167' lat='40.915' />
+		<name>Akron</name>		
+	</plotcity>
+	<plotcity id='KCHA'>
+		<location lon='-85.20333' lat='35.034' />
+		<name>Chattanooga</name>		
+	</plotcity>
+	<plotcity id='KCHO'>
+		<location lon='-78.45167' lat='38.13733' />
+		<name>Charlottesville</name>		
+	</plotcity>
+	<plotcity id='KCHS'>
+		<location lon='-80.03933' lat='32.89667' />
+		<name>Charleston</name>		
+	</plotcity>
+	<plotcity id='KCID'>
+		<location lon='-91.71' lat='41.88334' />
+		<name>Cedar Rapids</name>		
+	</plotcity>
+	<plotcity id='KCIU'>
+		<location lon='-84.47' lat='46.24833' />
+		<name>Chippewa</name>		
+	</plotcity>
+	<plotcity id='KCKB'>
+		<location lon='-80.22667' lat='39.295' />
+		<name>Clarksburg</name>		
+	</plotcity>
+	<plotcity id='KCLE'>
+		<location lon='-81.84666' lat='41.40833' />
+		<name>Cleveland</name>		
+	</plotcity>
+	<plotcity id='KCLT'>
+		<location lon='-80.95' lat='35.20667' />
+		<name>Charlotte</name>		
+	</plotcity>
+	<plotcity id='KCMH'>
+		<location lon='-82.89167' lat='39.99667' />
+		<name>Columbus</name>		
+	</plotcity>
+	<plotcity id='KCMI'>
+		<location lon='-88.27666' lat='40.038' />
+		<name>Champaign</name>		
+	</plotcity>
+	<plotcity id='KCMX'>
+		<location lon='-88.48666' lat='47.16667' />
+		<name>Hancock</name>		
+	</plotcity>
+	<plotcity id='KCOS'>
+		<location lon='-104.7' lat='38.80333' />
+		<name>Colorado Springs</name>		
+	</plotcity>
+	<plotcity id='KCRW'>
+		<location lon='-81.59167' lat='38.37167' />
+		<name>Charleston</name>		
+	</plotcity>
+	<plotcity id='KCVG'>
+		<location lon='-84.66' lat='39.04483' />
+		<name>Cincinnati</name>		
+	</plotcity>
+	<plotcity id='KCWA'>
+		<location lon='-89.665' lat='44.775' />
+		<name>Mosinee</name>		
+	</plotcity>
+	<plotcity id='KDAB'>
+		<location lon='-81.05683' lat='29.17833' />
+		<name>Daytona Beach</name>		
+	</plotcity>
+	<plotcity id='KDAL'>
+		<location lon='-96.85' lat='32.845' />
+		<name>Dallas</name>		
+	</plotcity>
+	<plotcity id='KDAY'>
+		<location lon='-84.21667' lat='39.9' />
+		<name>Dayton</name>		
+	</plotcity>
+	<plotcity id='KDBQ'>
+		<location lon='-90.70667' lat='42.40167' />
+		<name>Dubuque</name>		
+	</plotcity>
+	<plotcity id='KDCA'>
+		<location lon='-77.0365' lat='38.85' />
+		<name>Washington National</name>		
+	</plotcity>
+	<plotcity id='KDDC'>
+		<location lon='-99.965' lat='37.76167' />
+		<name>Dodge City</name>		
+	</plotcity>
+	<plotcity id='KDEN'>
+		<location lon='-104.6667' lat='39.85667' />
+		<name>Denver</name>		
+	</plotcity>
+	<plotcity id='KDLH'>
+		<location lon='-92.19334' lat='46.84' />
+		<name>Duluth</name>		
+	</plotcity>
+	<plotcity id='KDSM'>
+		<location lon='-93.66' lat='41.53333' />
+		<name>Des Moines</name>		
+	</plotcity>
+	<plotcity id='KDTW'>
+		<location lon='-83.35333' lat='42.22' />
+		<name>Detroit</name>		
+	</plotcity>
+	<plotcity id='KEAU'>
+		<location lon='-91.485' lat='44.86333' />
+		<name>Eau Claire</name>		
+	</plotcity>
+	<plotcity id='KEFD'>
+		<location lon='-95.1575' lat='29.605' />
+		<name>Ellington</name>		
+	</plotcity>
+	<plotcity id='KELM'>
+		<location lon='-76.89' lat='42.15867' />
+		<name>Elmira</name>		
+	</plotcity>
+	<plotcity id='KELP'>
+		<location lon='-106.375' lat='31.805' />
+		<name>El Paso</name>		
+	</plotcity>
+	<plotcity id='KERI'>
+		<location lon='-80.175' lat='42.08083' />
+		<name>Erie</name>		
+	</plotcity>
+	<plotcity id='KEVV'>
+		<location lon='-87.52834' lat='38.03667' />
+		<name>Evansville</name>		
+	</plotcity>
+	<plotcity id='KEWN'>
+		<location lon='-77.04166' lat='35.07167' />
+		<name>New Bern</name>		
+	</plotcity>
+	<plotcity id='KEWR'>
+		<location lon='-74.16666' lat='40.69' />
+		<name>Newark</name>		
+	</plotcity>
+	<plotcity id='KEYW'>
+		<location lon='-81.75833' lat='24.55333' />
+		<name>Key West</name>		
+	</plotcity>
+	<plotcity id='KFAR'>
+		<location lon='-96.81333' lat='46.91667' />
+		<name>Fargo</name>		
+	</plotcity>
+	<plotcity id='KFAT'>
+		<location lon='-119.715' lat='36.77333' />
+		<name>Fresno</name>		
+	</plotcity>
+	<plotcity id='KFAY'>
+		<location lon='-78.87833' lat='34.99' />
+		<name>Fayetteville</name>		
+	</plotcity>
+	<plotcity id='KFCA'>
+		<location lon='-114.2533' lat='48.31' />
+		<name>Kalispell</name>		
+	</plotcity>
+	<plotcity id='KFLL'>
+		<location lon='-80.15166' lat='26.07367' />
+		<name>Fort Lauderdale</name>		
+	</plotcity>
+	<plotcity id='KFLO'>
+		<location lon='-79.72334' lat='34.18333' />
+		<name>Florence</name>		
+	</plotcity>
+	<plotcity id='KFNT'>
+		<location lon='-83.74167' lat='42.96333' />
+		<name>Flint</name>		
+	</plotcity>
+	<plotcity id='KFOD'>
+		<location lon='-94.19' lat='42.55' />
+		<name>Fort Dodge</name>		
+	</plotcity>
+	<plotcity id='KFOE'>
+		<location lon='-95.66333' lat='38.94833' />
+		<name>Topeka</name>		
+	</plotcity>
+	<plotcity id='KFSD'>
+		<location lon='-96.74167' lat='43.58' />
+		<name>Sioux Falls</name>		
+	</plotcity>
+	<plotcity id='KFSM'>
+		<location lon='-94.36667' lat='35.335' />
+		<name>Fort Smith</name>		
+	</plotcity>
+	<plotcity id='KFWA'>
+		<location lon='-85.19334' lat='40.97667' />
+		<name>Fort Wayne</name>		
+	</plotcity>
+	<plotcity id='KGCK'>
+		<location lon='-100.7233' lat='37.925' />
+		<name>Garden City</name>		
+	</plotcity>
+	<plotcity id='KGEG'>
+		<location lon='-117.5317' lat='47.61833' />
+		<name>Spokane</name>		
+	</plotcity>
+	<plotcity id='KGFK'>
+		<location lon='-97.17333' lat='47.94667' />
+		<name>Grand Forks</name>		
+	</plotcity>
+	<plotcity id='KGGG'>
+		<location lon='-94.71167' lat='32.38334' />
+		<name>Longview</name>		
+	</plotcity>
+	<plotcity id='KGLH'>
+		<location lon='-90.985' lat='33.48167' />
+		<name>Greenville</name>		
+	</plotcity>
+	<plotcity id='KGNV'>
+		<location lon='-82.27' lat='29.68833' />
+		<name>Gainesville</name>		
+	</plotcity>
+	<plotcity id='KGON'>
+		<location lon='-72.04383' lat='41.32833' />
+		<name>Groton / New London</name>		
+	</plotcity>
+	<plotcity id='KGRB'>
+		<location lon='-88.12833' lat='44.48333' />
+		<name>Green Bay</name>		
+	</plotcity>
+	<plotcity id='KGRR'>
+		<location lon='-85.52' lat='42.87833' />
+		<name>Grand Rapids</name>		
+	</plotcity>
+	<plotcity id='KGSO'>
+		<location lon='-79.935' lat='36.0965' />
+		<name>Greensboro</name>		
+	</plotcity>
+	<plotcity id='KGSP'>
+		<location lon='-82.21667' lat='34.89333' />
+		<name>Greer</name>		
+	</plotcity>
+	<plotcity id='KGTF'>
+		<location lon='-111.37' lat='47.48' />
+		<name>Great Falls</name>		
+	</plotcity>
+	<plotcity id='KHGR'>
+		<location lon='-77.72833' lat='39.70667' />
+		<name>Hagerstown</name>		
+	</plotcity>
+	<plotcity id='KHIB'>
+		<location lon='-92.83833' lat='47.385' />
+		<name>Hibbing</name>		
+	</plotcity>
+	<plotcity id='KHLN'>
+		<location lon='-111.98' lat='46.605' />
+		<name>Helena</name>		
+	</plotcity>
+	<plotcity id='KHPN'>
+		<location lon='-73.705' lat='41.06567' />
+		<name>White Plains</name>		
+	</plotcity>
+	<plotcity id='KHRL'>
+		<location lon='-97.65334' lat='26.22667' />
+		<name>Harlingen</name>		
+	</plotcity>
+	<plotcity id='KHSV'>
+		<location lon='-86.77167' lat='34.63833' />
+		<name>Huntsville</name>		
+	</plotcity>
+	<plotcity id='KHTS'>
+		<location lon='-82.55666' lat='38.365' />
+		<name>Huntington</name>		
+	</plotcity>
+	<plotcity id='KHVN'>
+		<location lon='-72.885' lat='41.26167' />
+		<name>New Haven</name>		
+	</plotcity>
+	<plotcity id='KHXD'>
+		<location lon='-80.695' lat='32.22167' />
+		<name>Hilton Head</name>		
+	</plotcity>
+	<plotcity id='KHYA'>
+		<location lon='-70.27834' lat='41.66667' />
+		<name>Hyannis</name>		
+	</plotcity>
+	<plotcity id='KIAD'>
+		<location lon='-77.45333' lat='38.94333' />
+		<name>Washington Dulles</name>		
+	</plotcity>
+	<plotcity id='KICT'>
+		<location lon='-97.43166' lat='37.64833' />
+		<name>Wichita</name>		
+	</plotcity>
+	<plotcity id='KILM'>
+		<location lon='-77.9' lat='34.26833' />
+		<name>Wilmington</name>		
+	</plotcity>
+	<plotcity id='KIND'>
+		<location lon='-86.29333' lat='39.715' />
+		<name>Indianapolis</name>		
+	</plotcity>
+	<plotcity id='KINL'>
+		<location lon='-93.40166' lat='48.565' />
+		<name>International Falls</name>		
+	</plotcity>
+	<plotcity id='KIPT'>
+		<location lon='-76.91833' lat='41.24' />
+		<name>Williamsport</name>		
+	</plotcity>
+	<plotcity id='KISP'>
+		<location lon='-73.099' lat='40.79333' />
+		<name>Islip</name>		
+	</plotcity>
+	<plotcity id='KITH'>
+		<location lon='-76.45667' lat='42.48833' />
+		<name>Ithaca</name>		
+	</plotcity>
+	<plotcity id='KJFK'>
+		<location lon='-73.77834' lat='40.63833' />
+		<name>New York - Kennedy</name>		
+	</plotcity>
+	<plotcity id='KJMS'>
+		<location lon='-98.67667' lat='46.92833' />
+		<name>Jamestown</name>		
+	</plotcity>
+	<plotcity id='KJST'>
+		<location lon='-78.83334' lat='40.31333' />
+		<name>Johnstown</name>		
+	</plotcity>
+	<plotcity id='KLAN'>
+		<location lon='-84.585' lat='42.77667' />
+		<name>Lansing</name>		
+	</plotcity>
+	<plotcity id='KLAS'>
+		<location lon='-115.151' lat='36.07917' />
+		<name>Las Vegas</name>		
+	</plotcity>
+	<plotcity id='KLAW'>
+		<location lon='-98.415' lat='34.56667' />
+		<name>Lawton</name>		
+	</plotcity>
+	<plotcity id='KLAX'>
+		<location lon='-118.4033' lat='33.935' />
+		<name>Los Angeles</name>		
+	</plotcity>
+	<plotcity id='KLBB'>
+		<location lon='-101.82' lat='33.66167' />
+		<name>Lubbock</name>		
+	</plotcity>
+	<plotcity id='KLBE'>
+		<location lon='-79.40334' lat='40.27333' />
+		<name>Westmorland</name>		
+	</plotcity>
+	<plotcity id='KLEB'>
+		<location lon='-72.30167' lat='43.625' />
+		<name>Lebanon</name>		
+	</plotcity>
+	<plotcity id='KLEX'>
+		<location lon='-84.60333' lat='38.03567' />
+		<name>Lexington</name>		
+	</plotcity>
+	<plotcity id='KLGA'>
+		<location lon='-73.87167' lat='40.775' />
+		<name>New York - La Guardia</name>		
+	</plotcity>
+	<plotcity id='KLGB'>
+		<location lon='-118.1503' lat='33.815' />
+		<name>Long Beach</name>		
+	</plotcity>
+	<plotcity id='KLIT'>
+		<location lon='-92.22334' lat='34.72667' />
+		<name>Little Rock</name>		
+	</plotcity>
+	<plotcity id='KLNK'>
+		<location lon='-96.75833' lat='40.84833' />
+		<name>Lincoln</name>		
+	</plotcity>
+	<plotcity id='KLSE'>
+		<location lon='-91.255' lat='43.87667' />
+		<name>La Crosse</name>		
+	</plotcity>
+	<plotcity id='KLWB'>
+		<location lon='-80.39667' lat='37.85667' />
+		<name>Lewisburg</name>		
+	</plotcity>
+	<plotcity id='KLYH'>
+		<location lon='-79.2' lat='37.325' />
+		<name>Lynchburg</name>		
+	</plotcity>
+	<plotcity id='KMBS'>
+		<location lon='-84.07883' lat='43.53167' />
+		<name>Saginaw</name>		
+	</plotcity>
+	<plotcity id='KMCI'>
+		<location lon='-94.71167' lat='39.295' />
+		<name>Kansas City</name>		
+	</plotcity>
+	<plotcity id='KMCO'>
+		<location lon='-81.31333' lat='28.43' />
+		<name>Orlando</name>		
+	</plotcity>
+	<plotcity id='KMCW'>
+		<location lon='-93.33' lat='43.1565' />
+		<name>Mason City</name>		
+	</plotcity>
+	<plotcity id='KMDT'>
+		<location lon='-76.76167' lat='40.19167' />
+		<name>Harrisburg</name>		
+	</plotcity>
+	<plotcity id='KMDW'>
+		<location lon='-87.75166' lat='41.78333' />
+		<name>Chicago Midway</name>		
+	</plotcity>
+	<plotcity id='KMEM'>
+		<location lon='-89.975' lat='35.04233' />
+		<name>Memphis</name>		
+	</plotcity>
+	<plotcity id='KMFE'>
+		<location lon='-98.23666' lat='26.17333' />
+		<name>Mcallen</name>		
+	</plotcity>
+	<plotcity id='KMGM'>
+		<location lon='-86.39333' lat='32.29833' />
+		<name>Montgomery</name>		
+	</plotcity>
+	<plotcity id='KMGW'>
+		<location lon='-79.915' lat='39.64167' />
+		<name>Morgantown</name>		
+	</plotcity>
+	<plotcity id='KMHK'>
+		<location lon='-96.66833' lat='39.13967' />
+		<name>Manhattan</name>		
+	</plotcity>
+	<plotcity id='KMHT'>
+		<location lon='-71.435' lat='42.93333' />
+		<name>Manchester</name>		
+	</plotcity>
+	<plotcity id='KMIA'>
+		<location lon='-80.28833' lat='25.79167' />
+		<name>Miami</name>		
+	</plotcity>
+	<plotcity id='KMKE'>
+		<location lon='-87.895' lat='42.945' />
+		<name>Milwaukee</name>		
+	</plotcity>
+	<plotcity id='KMKG'>
+		<location lon='-86.23666' lat='43.16667' />
+		<name>Muskegon</name>		
+	</plotcity>
+	<plotcity id='KMLB'>
+		<location lon='-80.64333' lat='28.1015' />
+		<name>Melbourne</name>		
+	</plotcity>
+	<plotcity id='KMLI'>
+		<location lon='-90.50667' lat='41.44667' />
+		<name>Moline</name>		
+	</plotcity>
+	<plotcity id='KMOT'>
+		<location lon='-101.2783' lat='48.25667' />
+		<name>Minot</name>		
+	</plotcity>
+	<plotcity id='KMRY'>
+		<location lon='-121.8417' lat='36.585' />
+		<name>Monterey</name>		
+	</plotcity>
+	<plotcity id='KMSL'>
+		<location lon='-87.60833' lat='34.74333' />
+		<name>Muscle Shoals</name>		
+	</plotcity>
+	<plotcity id='KMSN'>
+		<location lon='-89.33667' lat='43.13867' />
+		<name>Madison</name>		
+	</plotcity>
+	<plotcity id='KMSO'>
+		<location lon='-114.0893' lat='46.915' />
+		<name>Missoula</name>		
+	</plotcity>
+	<plotcity id='KMSP'>
+		<location lon='-93.215' lat='44.87833' />
+		<name>Minneapolis</name>		
+	</plotcity>
+	<plotcity id='KMSS'>
+		<location lon='-74.845' lat='44.93333' />
+		<name>Massena</name>		
+	</plotcity>
+	<plotcity id='KMTJ'>
+		<location lon='-107.8933' lat='38.50667' />
+		<name>Montrose</name>		
+	</plotcity>
+	<plotcity id='KMYR'>
+		<location lon='-78.92667' lat='33.67833' />
+		<name>Myrtle Beach</name>		
+	</plotcity>
+	<plotcity id='KNGU'>
+		<location lon='-76.28667' lat='36.935' />
+		<name>Norfolk</name>		
+	</plotcity>
+	<plotcity id='KNIP'>
+		<location lon='-81.675' lat='30.23333' />
+		<name>Jacksonville</name>		
+	</plotcity>
+	<plotcity id='KOAK'>
+		<location lon='-122.2183' lat='37.72' />
+		<name>Oakland</name>		
+	</plotcity>
+	<plotcity id='KOGS'>
+		<location lon='-75.46333' lat='44.68' />
+		<name>Ogdensburg</name>		
+	</plotcity>
+	<plotcity id='KOMA'>
+		<location lon='-95.89167' lat='41.3' />
+		<name>Omaha</name>		
+	</plotcity>
+	<plotcity id='KONT'>
+		<location lon='-117.6' lat='34.05467' />
+		<name>Ontario</name>		
+	</plotcity>
+	<plotcity id='KORD'>
+		<location lon='-87.90334' lat='41.97833' />
+		<name>Chicago</name>		
+	</plotcity>
+	<plotcity id='KORF'>
+		<location lon='-76.2' lat='36.89333' />
+		<name>Norfolk</name>		
+	</plotcity>
+	<plotcity id='KPAH'>
+		<location lon='-88.77167' lat='37.0595' />
+		<name>Paducah</name>		
+	</plotcity>
+	<plotcity id='KPBI'>
+		<location lon='-80.09433' lat='26.68167' />
+		<name>Palm Beach</name>		
+	</plotcity>
+	<plotcity id='KPDX'>
+		<location lon='-122.5967' lat='45.58667' />
+		<name>Portland</name>		
+	</plotcity>
+	<plotcity id='KPFN'>
+		<location lon='-85.68' lat='30.21' />
+		<name>Panama City</name>		
+	</plotcity>
+	<plotcity id='KPGV'>
+		<location lon='-77.38333' lat='35.63334' />
+		<name>Greenville Arp</name>		
+	</plotcity>
+	<plotcity id='KPHF'>
+		<location lon='-76.49167' lat='37.13066' />
+		<name>Newport News</name>		
+	</plotcity>
+	<plotcity id='KPHL'>
+		<location lon='-75.23833' lat='39.87' />
+		<name>Philadelphia</name>		
+	</plotcity>
+	<plotcity id='KPHX'>
+		<location lon='-112.0068' lat='33.43167' />
+		<name>Phoenix</name>		
+	</plotcity>
+	<plotcity id='KPIA'>
+		<location lon='-89.69167' lat='40.66167' />
+		<name>Peoria</name>		
+	</plotcity>
+	<plotcity id='KPIR'>
+		<location lon='-100.285' lat='44.38' />
+		<name>Pierre</name>		
+	</plotcity>
+	<plotcity id='KPIT'>
+		<location lon='-80.23167' lat='40.49' />
+		<name>Pittsburgh</name>		
+	</plotcity>
+	<plotcity id='KPKB'>
+		<location lon='-81.43833' lat='39.34333' />
+		<name>Parkersburg</name>		
+	</plotcity>
+	<plotcity id='KPLN'>
+		<location lon='-84.795' lat='45.56833' />
+		<name>Pellston</name>		
+	</plotcity>
+	<plotcity id='KPQI'>
+		<location lon='-68.0435' lat='46.68667' />
+		<name>Presque Isle</name>		
+	</plotcity>
+	<plotcity id='KPSC'>
+		<location lon='-119.1178' lat='46.26333' />
+		<name>Pasco</name>		
+	</plotcity>
+	<plotcity id='KPSP'>
+		<location lon='-116.505' lat='33.82667' />
+		<name>Palm Springs</name>		
+	</plotcity>
+	<plotcity id='KPVD'>
+		<location lon='-71.42667' lat='41.72167' />
+		<name>Providence</name>		
+	</plotcity>
+	<plotcity id='KPWM'>
+		<location lon='-70.30833' lat='43.64333' />
+		<name>Portland</name>		
+	</plotcity>
+	<plotcity id='KRAP'>
+		<location lon='-103.0562' lat='44.044' />
+		<name>Rapid City</name>		
+	</plotcity>
+	<plotcity id='KRDG'>
+		<location lon='-75.965' lat='40.37667' />
+		<name>Reading</name>		
+	</plotcity>
+	<plotcity id='KRDU'>
+		<location lon='-78.78667' lat='35.875' />
+		<name>Raleigh </name>		
+	</plotcity>
+	<plotcity id='KRHI'>
+		<location lon='-89.465' lat='45.63' />
+		<name>Rhinelander</name>		
+	</plotcity>
+	<plotcity id='KRIC'>
+		<location lon='-77.31834' lat='37.50333' />
+		<name>Richmond</name>		
+	</plotcity>
+	<plotcity id='KRNO'>
+		<location lon='-119.7667' lat='39.49667' />
+		<name>Reno</name>		
+	</plotcity>
+	<plotcity id='KROA'>
+		<location lon='-79.975' lat='37.32333' />
+		<name>Roanoke</name>		
+	</plotcity>
+	<plotcity id='KROC'>
+		<location lon='-77.67' lat='43.11767' />
+		<name>Rochester</name>		
+	</plotcity>
+	<plotcity id='KRST'>
+		<location lon='-92.49667' lat='43.90667' />
+		<name>Rochester</name>		
+	</plotcity>
+	<plotcity id='KRSW'>
+		<location lon='-81.75333' lat='26.53333' />
+		<name>Fort Myers</name>		
+	</plotcity>
+	<plotcity id='KSAN'>
+		<location lon='-117.1883' lat='32.73167' />
+		<name>San Diego</name>		
+	</plotcity>
+	<plotcity id='KSAT'>
+		<location lon='-98.46833' lat='29.53167' />
+		<name>San Antonio</name>		
+	</plotcity>
+	<plotcity id='KSAV'>
+		<location lon='-81.2' lat='32.12634' />
+		<name>Savannah</name>		
+	</plotcity>
+	<plotcity id='KSBA'>
+		<location lon='-119.84' lat='34.425' />
+		<name>Santa Barbara</name>		
+	</plotcity>
+	<plotcity id='KSBN'>
+		<location lon='-86.31667' lat='41.70667' />
+		<name>South Bend</name>		
+	</plotcity>
+	<plotcity id='KSBP'>
+		<location lon='-120.64' lat='35.235' />
+		<name>San Luis Obispo</name>		
+	</plotcity>
+	<plotcity id='KSBY'>
+		<location lon='-75.50833' lat='38.33833' />
+		<name>Salisbury</name>		
+	</plotcity>
+	<plotcity id='KSDF'>
+		<location lon='-85.735' lat='38.17167' />
+		<name>Louisville</name>		
+	</plotcity>
+	<plotcity id='KSEA'>
+		<location lon='-122.3083' lat='47.44667' />
+		<name>Seattle</name>		
+	</plotcity>
+	<plotcity id='KSFO'>
+		<location lon='-122.3783' lat='37.61833' />
+		<name>San Francisco</name>		
+	</plotcity>
+	<plotcity id='KSHD'>
+		<location lon='-78.895' lat='38.26167' />
+		<name>Staunton / Shenandoah</name>		
+	</plotcity>
+	<plotcity id='KSJC'>
+		<location lon='-121.9283' lat='37.36' />
+		<name>San Jose</name>		
+	</plotcity>
+	<plotcity id='KSJT'>
+		<location lon='-100.495' lat='31.355' />
+		<name>San Angelo</name>		
+	</plotcity>
+	<plotcity id='KSLC'>
+		<location lon='-111.975' lat='40.78667' />
+		<name>Salt Lake City</name>		
+	</plotcity>
+	<plotcity id='KSLN'>
+		<location lon='-97.65' lat='38.79' />
+		<name>Salina</name>		
+	</plotcity>
+	<plotcity id='KSMF'>
+		<location lon='-121.5883' lat='38.69333' />
+		<name>Sacramento</name>		
+	</plotcity>
+	<plotcity id='KSNA'>
+		<location lon='-117.8667' lat='33.67333' />
+		<name>Santa Ana</name>		
+	</plotcity>
+	<plotcity id='KSPI'>
+		<location lon='-89.675' lat='39.84167' />
+		<name>Springfield</name>		
+	</plotcity>
+	<plotcity id='KSPS'>
+		<location lon='-98.49' lat='33.98667' />
+		<name>Wichita Falls</name>		
+	</plotcity>
+	<plotcity id='KSRQ'>
+		<location lon='-82.55334' lat='27.39333' />
+		<name>Sarasota</name>		
+	</plotcity>
+	<plotcity id='KSTC'>
+		<location lon='-94.05717' lat='45.54333' />
+		<name>St Cloud</name>		
+	</plotcity>
+	<plotcity id='KSTL'>
+		<location lon='-90.35833' lat='38.745' />
+		<name>St Louis</name>		
+	</plotcity>
+	<plotcity id='KSUX'>
+		<location lon='-96.38333' lat='42.4' />
+		<name>Sioux City</name>		
+	</plotcity>
+	<plotcity id='KSWF'>
+		<location lon='-74.10367' lat='41.50167' />
+		<name>Newburgh </name>		
+	</plotcity>
+	<plotcity id='KSYR'>
+		<location lon='-76.105' lat='43.11' />
+		<name>Syracuse</name>		
+	</plotcity>
+	<plotcity id='KTLH'>
+		<location lon='-84.34834' lat='30.395' />
+		<name>Tallahassee</name>		
+	</plotcity>
+	<plotcity id='KTOL'>
+		<location lon='-83.80666' lat='41.585' />
+		<name>Toledo</name>		
+	</plotcity>
+	<plotcity id='KTPA'>
+		<location lon='-82.53167' lat='27.97333' />
+		<name>Tampa</name>		
+	</plotcity>
+	<plotcity id='KTRI'>
+		<location lon='-82.405' lat='36.47333' />
+		<name>Bristol</name>		
+	</plotcity>
+	<plotcity id='KTTN'>
+		<location lon='-74.81167' lat='40.275' />
+		<name>Trenton</name>		
+	</plotcity>
+	<plotcity id='KTUL'>
+		<location lon='-95.88667' lat='36.19667' />
+		<name>Tulsa</name>		
+	</plotcity>
+	<plotcity id='KTUP'>
+		<location lon='-88.76833' lat='34.26667' />
+		<name>Tupelo</name>		
+	</plotcity>
+	<plotcity id='KTUS'>
+		<location lon='-110.94' lat='32.11483' />
+		<name>Tucson</name>		
+	</plotcity>
+	<plotcity id='KTVC'>
+		<location lon='-85.58167' lat='44.74' />
+		<name>Traverse City</name>		
+	</plotcity>
+	<plotcity id='KTXK'>
+		<location lon='-93.98833' lat='33.45167' />
+		<name>Texarkana</name>		
+	</plotcity>
+	<plotcity id='KTYR'>
+		<location lon='-95.40166' lat='32.35167' />
+		<name>Tyler</name>		
+	</plotcity>
+	<plotcity id='KTYS'>
+		<location lon='-83.99167' lat='35.81' />
+		<name>Knoxville</name>		
+	</plotcity>
+	<plotcity id='KUIN'>
+		<location lon='-91.19167' lat='39.94' />
+		<name>Baldwin</name>		
+	</plotcity>
+	<plotcity id='KVPS'>
+		<location lon='-86.525' lat='30.48167' />
+		<name>Valparaiso</name>		
+	</plotcity>
+	<plotcity id='LATI'>
+		<location lon='19.72167' lat='41.41' />
+		<name>Tirana</name>		
+	</plotcity>
+	<plotcity id='LCLK'>
+		<location lon='33.62833' lat='34.87667' />
+		<name>Larnaca </name>		
+	</plotcity>
+	<plotcity id='LCPH'>
+		<location lon='32.48333' lat='34.71667' />
+		<name>Paphos </name>		
+	</plotcity>
+	<plotcity id='LDZA'>
+		<location lon='16.0675' lat='45.74166' />
+		<name>Zagreb / Pleso</name>		
+	</plotcity>
+	<plotcity id='LEAL'>
+		<location lon='-0.5566667' lat='38.28' />
+		<name>Alicante / El Altet</name>		
+	</plotcity>
+	<plotcity id='LEAM'>
+		<location lon='-2.368333' lat='36.84167' />
+		<name>Almeria </name>		
+	</plotcity>
+	<plotcity id='LEAS'>
+		<location lon='-6.033333' lat='43.56167' />
+		<name>Asturias / Aviles</name>		
+	</plotcity>
+	<plotcity id='LEBB'>
+		<location lon='-2.908333' lat='43.29833' />
+		<name>Bilbao / Sondica</name>		
+	</plotcity>
+	<plotcity id='LEBL'>
+		<location lon='2.077167' lat='41.295' />
+		<name>Barcelona</name>		
+	</plotcity>
+	<plotcity id='LECO'>
+		<location lon='-8.376667' lat='43.3' />
+		<name>La Coruna / Alvedro</name>		
+	</plotcity>
+	<plotcity id='LEGE'>
+		<location lon='2.76' lat='41.89833' />
+		<name>Gerona / Costa Brava</name>		
+	</plotcity>
+	<plotcity id='LEGR'>
+		<location lon='-3.775' lat='37.18667' />
+		<name>Granada </name>		
+	</plotcity>
+	<plotcity id='LEIB'>
+		<location lon='1.371667' lat='38.87167' />
+		<name>Ibiza / Es Codola</name>		
+	</plotcity>
+	<plotcity id='LEJR'>
+		<location lon='-6.058833' lat='36.74333' />
+		<name>Jerez De La Fronteraaeropuerto</name>		
+	</plotcity>
+	<plotcity id='LEMD'>
+		<location lon='-3.558333' lat='40.47' />
+		<name>Madrid</name>		
+	</plotcity>
+	<plotcity id='LEMG'>
+		<location lon='-4.496666' lat='36.67333' />
+		<name>Malaga</name>		
+	</plotcity>
+	<plotcity id='LEMH'>
+		<location lon='4.218333' lat='39.86' />
+		<name>Menorca / Mahon</name>		
+	</plotcity>
+	<plotcity id='LEPA'>
+		<location lon='2.736667' lat='39.55' />
+		<name>Palma De Mallorca / Son San Juan</name>		
+	</plotcity>
+	<plotcity id='LEPP'>
+		<location lon='-1.645' lat='42.76833' />
+		<name>Pamplona / Noain</name>		
+	</plotcity>
+	<plotcity id='LESO'>
+		<location lon='-1.79' lat='43.355' />
+		<name>San Sebastian / Fuenterrabia</name>		
+	</plotcity>
+	<plotcity id='LEST'>
+		<location lon='-8.413333' lat='42.895' />
+		<name>Santiago / Labacolla</name>		
+	</plotcity>
+	<plotcity id='LEVC'>
+		<location lon='-0.48' lat='39.48667' />
+		<name>Valencia</name>		
+	</plotcity>
+	<plotcity id='LEVD'>
+		<location lon='-4.85' lat='41.70333' />
+		<name>Valladolid / Villanubla</name>		
+	</plotcity>
+	<plotcity id='LEVT'>
+		<location lon='-2.721667' lat='42.88' />
+		<name>Vitoria</name>		
+	</plotcity>
+	<plotcity id='LEVX'>
+		<location lon='-8.625' lat='42.22667' />
+		<name>Vigo / Peinador</name>		
+	</plotcity>
+	<plotcity id='LEZL'>
+		<location lon='-5.896667' lat='37.41667' />
+		<name>Sevilla / San Pablo</name>		
+	</plotcity>
+	<plotcity id='LFBD'>
+		<location lon='-0.7133333' lat='44.82667' />
+		<name>Bordeaux / Merignac</name>		
+	</plotcity>
+	<plotcity id='LFBO'>
+		<location lon='1.365' lat='43.63334' />
+		<name>Toulouse / Blagnac</name>		
+	</plotcity>
+	<plotcity id='LFBP'>
+		<location lon='-0.4183333' lat='43.37833' />
+		<name>Pau</name>		
+	</plotcity>
+	<plotcity id='LFBZ'>
+		<location lon='-1.53' lat='43.46667' />
+		<name>Biarritz</name>		
+	</plotcity>
+	<plotcity id='LFKB'>
+		<location lon='9.483334' lat='42.54833' />
+		<name>Bastia</name>		
+	</plotcity>
+	<plotcity id='LFKC'>
+		<location lon='8.791667' lat='42.51833' />
+		<name>Calvi</name>		
+	</plotcity>
+	<plotcity id='LFKJ'>
+		<location lon='8.801666' lat='41.92167' />
+		<name>Ajaccio</name>		
+	</plotcity>
+	<plotcity id='LFLC'>
+		<location lon='3.161833' lat='45.78333' />
+		<name>Clermont-Ferrand</name>		
+	</plotcity>
+	<plotcity id='LFLL'>
+		<location lon='5.079834' lat='45.72333' />
+		<name>Lyon / Satolas</name>		
+	</plotcity>
+	<plotcity id='LFML'>
+		<location lon='5.213333' lat='43.435' />
+		<name>Marseille / Marignane</name>		
+	</plotcity>
+	<plotcity id='LFMN'>
+		<location lon='7.213333' lat='43.66333' />
+		<name>Nice</name>		
+	</plotcity>
+	<plotcity id='LFMT'>
+		<location lon='3.96' lat='43.58167' />
+		<name>Montpellier</name>		
+	</plotcity>
+	<plotcity id='LFPG'>
+		<location lon='2.545' lat='49.0085' />
+		<name>Paris</name>		
+	</plotcity>
+	<plotcity id='LFRB'>
+		<location lon='-4.42' lat='48.445' />
+		<name>Brest</name>		
+	</plotcity>
+	<plotcity id='LFRH'>
+		<location lon='-3.438333' lat='47.75834' />
+		<name>Lann Bihoue</name>		
+	</plotcity>
+	<plotcity id='LFRS'>
+		<location lon='-1.606667' lat='47.15567' />
+		<name>Nantes</name>		
+	</plotcity>
+	<plotcity id='LFSB'>
+		<location lon='7.526667' lat='47.58833' />
+		<name>Bale-Mulhouse</name>		
+	</plotcity>
+	<plotcity id='LFST'>
+		<location lon='7.631667' lat='48.53833' />
+		<name>Strasbourg</name>		
+	</plotcity>
+	<plotcity id='LFTH'>
+		<location lon='6.145167' lat='43.096' />
+		<name>Hyeres</name>		
+	</plotcity>
+	<plotcity id='LGAT'>
+		<location lon='23.725' lat='37.89333' />
+		<name>Athinai </name>		
+	</plotcity>
+	<plotcity id='LGIR'>
+		<location lon='25.175' lat='35.33667' />
+		<name>Heraklion </name>		
+	</plotcity>
+	<plotcity id='LGKO'>
+		<location lon='27.09033' lat='36.79333' />
+		<name>Kos </name>		
+	</plotcity>
+	<plotcity id='LGKR'>
+		<location lon='19.91' lat='39.6' />
+		<name>Kerkyra </name>		
+	</plotcity>
+	<plotcity id='LGRP'>
+		<location lon='28.08567' lat='36.40333' />
+		<name>Rhodes </name>		
+	</plotcity>
+	<plotcity id='LGRX'>
+		<location lon='21.415' lat='38.14867' />
+		<name>Araxos </name>		
+	</plotcity>
+	<plotcity id='LGSA'>
+		<location lon='24.15033' lat='35.53' />
+		<name>Souda </name>		
+	</plotcity>
+	<plotcity id='LGSM'>
+		<location lon='26.91' lat='37.68833' />
+		<name>Samos </name>		
+	</plotcity>
+	<plotcity id='LGSR'>
+		<location lon='25.47667' lat='36.4' />
+		<name>Santorini Island</name>		
+	</plotcity>
+	<plotcity id='LGTS'>
+		<location lon='22.97167' lat='40.51667' />
+		<name>Thessaloniki </name>		
+	</plotcity>
+	<plotcity id='LGZA'>
+		<location lon='20.88333' lat='37.75' />
+		<name>Zakinthos </name>		
+	</plotcity>
+	<plotcity id='LHBP'>
+		<location lon='19.26' lat='47.43667' />
+		<name>Budapest / Ferihegy</name>		
+	</plotcity>
+	<plotcity id='LIBD'>
+		<location lon='16.76333' lat='41.137' />
+		<name>Bari / Palese Macchie</name>		
+	</plotcity>
+	<plotcity id='LIBR'>
+		<location lon='17.945' lat='40.65667' />
+		<name>Brindisi</name>		
+	</plotcity>
+	<plotcity id='LICA'>
+		<location lon='16.24' lat='38.90667' />
+		<name>Lamezia Terme</name>		
+	</plotcity>
+	<plotcity id='LICC'>
+		<location lon='15.0625' lat='37.465' />
+		<name>Catania / Fontanarossa</name>		
+	</plotcity>
+	<plotcity id='LICJ'>
+		<location lon='13.098' lat='38.18' />
+		<name>Palermo / Punta Raisi</name>		
+	</plotcity>
+	<plotcity id='LICR'>
+		<location lon='15.65333' lat='38.07084' />
+		<name>Reggio Calabria</name>		
+	</plotcity>
+	<plotcity id='LIEA'>
+		<location lon='8.286667' lat='40.63' />
+		<name>Alghero</name>		
+	</plotcity>
+	<plotcity id='LIEE'>
+		<location lon='9.055667' lat='39.245' />
+		<name>Cagliari / Elmas</name>		
+	</plotcity>
+	<plotcity id='LIMC'>
+		<location lon='8.721666' lat='45.62833' />
+		<name>Milano </name>		
+	</plotcity>
+	<plotcity id='LIMF'>
+		<location lon='7.648334' lat='45.2' />
+		<name>Torino / Caselle</name>		
+	</plotcity>
+	<plotcity id='LIMJ'>
+		<location lon='8.835' lat='44.41' />
+		<name>Genova / Sestri</name>		
+	</plotcity>
+	<plotcity id='LIML'>
+		<location lon='9.276667' lat='45.44667' />
+		<name>Milano / Linate</name>		
+	</plotcity>
+	<plotcity id='LIPE'>
+		<location lon='11.29167' lat='44.53' />
+		<name>Bologna / Borgo Panigale</name>		
+	</plotcity>
+	<plotcity id='LIPQ'>
+		<location lon='13.47' lat='45.825' />
+		<name>Ronchi Dei Legionari</name>		
+	</plotcity>
+	<plotcity id='LIPX'>
+		<location lon='10.885' lat='45.39333' />
+		<name>Verona / Villafranca</name>		
+	</plotcity>
+	<plotcity id='LIPY'>
+		<location lon='13.36' lat='43.61333' />
+		<name>Falconara</name>		
+	</plotcity>
+	<plotcity id='LIPZ'>
+		<location lon='12.35' lat='45.50333' />
+		<name>Venezia / Tessera</name>		
+	</plotcity>
+	<plotcity id='LIRF'>
+		<location lon='12.25167' lat='41.81' />
+		<name>Roma Fiumicino</name>		
+	</plotcity>
+	<plotcity id='LIRN'>
+		<location lon='14.28667' lat='40.88167' />
+		<name>Napoli</name>		
+	</plotcity>
+	<plotcity id='LIRP'>
+		<location lon='10.39333' lat='43.68167' />
+		<name>Pisa / S. Giusto</name>		
+	</plotcity>
+	<plotcity id='LIRQ'>
+		<location lon='11.20167' lat='43.80667' />
+		<name>Firenze / Peretola</name>		
+	</plotcity>
+	<plotcity id='LJLJ'>
+		<location lon='14.455' lat='46.22167' />
+		<name>Ljubliana</name>		
+	</plotcity>
+	<plotcity id='LKPR'>
+		<location lon='14.25833' lat='50.0995' />
+		<name>Praha / Ruzyne</name>		
+	</plotcity>
+	<plotcity id='LLBG'>
+		<location lon='34.87667' lat='32.00933' />
+		<name>Ben</name>		
+	</plotcity>
+	<plotcity id='LMML'>
+		<location lon='14.47667' lat='35.85667' />
+		<name>Luqa</name>		
+	</plotcity>
+	<plotcity id='LOWG'>
+		<location lon='15.43833' lat='46.99166' />
+		<name>Graz-Thalerhof-Flughafen</name>		
+	</plotcity>
+	<plotcity id='LOWI'>
+		<location lon='11.34333' lat='47.25834' />
+		<name>Innsbruck</name>		
+	</plotcity>
+	<plotcity id='LOWS'>
+		<location lon='13.002' lat='47.79167' />
+		<name>Salzburg</name>		
+	</plotcity>
+	<plotcity id='LOWW'>
+		<location lon='16.56667' lat='48.1095' />
+		<name>Wien </name>		
+	</plotcity>
+	<plotcity id='LPFR'>
+		<location lon='-7.963333' lat='37.01317' />
+		<name>Faro</name>		
+	</plotcity>
+	<plotcity id='LPPR'>
+		<location lon='-8.676666' lat='41.23333' />
+		<name>Porto / Pedras Rubras</name>		
+	</plotcity>
+	<plotcity id='LPPT'>
+		<location lon='-9.133333' lat='38.77167' />
+		<name>Lisboa / Portela</name>		
+	</plotcity>
+	<plotcity id='LQSA'>
+		<location lon='18.33' lat='43.82333' />
+		<name>Sarajevo / Butmir</name>		
+	</plotcity>
+	<plotcity id='LROP'>
+		<location lon='26.08383' lat='44.56833' />
+		<name>Bucuresti Otopeni</name>		
+	</plotcity>
+	<plotcity id='LSGG'>
+		<location lon='6.107666' lat='46.23667' />
+		<name>Geneve-Cointrin</name>		
+	</plotcity>
+	<plotcity id='LSGS'>
+		<location lon='7.325' lat='46.21667' />
+		<name>Sion</name>		
+	</plotcity>
+	<plotcity id='LSZA'>
+		<location lon='8.91' lat='46.00233' />
+		<name>Lugano</name>		
+	</plotcity>
+	<plotcity id='LSZB'>
+		<location lon='7.498333' lat='46.91' />
+		<name>Bern / Belp</name>		
+	</plotcity>
+	<plotcity id='LSZH'>
+		<location lon='8.546667' lat='47.45667' />
+		<name>Zurich-Kloten</name>		
+	</plotcity>
+	<plotcity id='LTAC'>
+		<location lon='32.995' lat='40.127' />
+		<name>Ankara / Esenboga</name>		
+	</plotcity>
+	<plotcity id='LTAI'>
+		<location lon='30.79167' lat='36.89833' />
+		<name>Antalya</name>		
+	</plotcity>
+	<plotcity id='LTBA'>
+		<location lon='28.81333' lat='40.97333' />
+		<name>Istanbul / Ataturk</name>		
+	</plotcity>
+	<plotcity id='LTBJ'>
+		<location lon='27.1545' lat='38.28667' />
+		<name>Izmir / Adnan Menderes</name>		
+	</plotcity>
+	<plotcity id='LTBS'>
+		<location lon='28.79' lat='36.71167' />
+		<name>Dalaman</name>		
+	</plotcity>
+	<plotcity id='LTBV'>
+		<location lon='27.66833' lat='37.14034' />
+		<name>Bodrum</name>		
+	</plotcity>
+	<plotcity id='LWSK'>
+		<location lon='21.62' lat='41.96' />
+		<name>Skopje-Petrovec</name>		
+	</plotcity>
+	<plotcity id='LYBE'>
+		<location lon='20.305' lat='44.81667' />
+		<name>Beograd / Surcin</name>		
+	</plotcity>
+	<plotcity id='LYPR'>
+		<location lon='21.0345' lat='42.57' />
+		<name>Pristina</name>		
+	</plotcity>
+	<plotcity id='MBPV'>
+		<location lon='-72.26334' lat='21.77167' />
+		<name>Providenciales</name>		
+	</plotcity>
+	<plotcity id='MDLR'>
+		<location lon='-68.91' lat='18.44833' />
+		<name>La Romana International Airport</name>		
+	</plotcity>
+	<plotcity id='MDPC'>
+		<location lon='-68.36' lat='18.565' />
+		<name>Punta Cana</name>		
+	</plotcity>
+	<plotcity id='MDPP'>
+		<location lon='-70.56834' lat='19.75667' />
+		<name>Puerto Plata </name>		
+	</plotcity>
+	<plotcity id='MDSD'>
+		<location lon='-69.66666' lat='18.42833' />
+		<name>Las Americas</name>		
+	</plotcity>
+	<plotcity id='MDST'>
+		<location lon='-70.69833' lat='19.46833' />
+		<name>Santiago</name>		
+	</plotcity>
+	<plotcity id='MGGT'>
+		<location lon='-90.525' lat='14.58' />
+		<name>Guatemala</name>		
+	</plotcity>
+	<plotcity id='MHLM'>
+		<location lon='-87.92167' lat='15.45' />
+		<name>La Mesa San Pedro Sula</name>		
+	</plotcity>
+	<plotcity id='MHTG'>
+		<location lon='-87.215' lat='14.0595' />
+		<name>Tegucigalpa</name>		
+	</plotcity>
+	<plotcity id='MKJP'>
+		<location lon='-76.78667' lat='17.93167' />
+		<name>Kingston / Norman Manley</name>		
+	</plotcity>
+	<plotcity id='MKJS'>
+		<location lon='-77.915' lat='18.49833' />
+		<name>Montego Bay</name>		
+	</plotcity>
+	<plotcity id='MMAA'>
+		<location lon='-99.75333' lat='16.755' />
+		<name>Acapulco / G. Alvarez</name>		
+	</plotcity>
+	<plotcity id='MMAS'>
+		<location lon='-102.3167' lat='21.70333' />
+		<name>Aguascalientes</name>		
+	</plotcity>
+	<plotcity id='MMCU'>
+		<location lon='-105.9617' lat='28.7' />
+		<name>Chihuahua International Airport</name>		
+	</plotcity>
+	<plotcity id='MMCZ'>
+		<location lon='-86.92834' lat='20.52' />
+		<name>Cozumel Civ / Mil</name>		
+	</plotcity>
+	<plotcity id='MMGL'>
+		<location lon='-103.3083' lat='20.52' />
+		<name>Don Miguel / Guadalaj</name>		
+	</plotcity>
+	<plotcity id='MMIO'>
+		<location lon='-100.925' lat='25.54667' />
+		<name>Saltillo</name>		
+	</plotcity>
+	<plotcity id='MMLO'>
+		<location lon='-101.4783' lat='20.99' />
+		<name>Del Bajio / Leon</name>		
+	</plotcity>
+	<plotcity id='MMMD'>
+		<location lon='-89.65667' lat='20.935' />
+		<name>Aerop. Internacional Merida</name>		
+	</plotcity>
+	<plotcity id='MMMM'>
+		<location lon='-101.0277' lat='19.845' />
+		<name>Morelia New</name>		
+	</plotcity>
+	<plotcity id='MMMX'>
+		<location lon='-99.071' lat='19.43333' />
+		<name>Mexico City / Licenci</name>		
+	</plotcity>
+	<plotcity id='MMMY'>
+		<location lon='-100.1052' lat='25.77333' />
+		<name>Monterrey / Gen Maria</name>		
+	</plotcity>
+	<plotcity id='MMMZ'>
+		<location lon='-106.2633' lat='23.15983' />
+		<name>Mazatlan / G. Buelna</name>		
+	</plotcity>
+	<plotcity id='MMPR'>
+		<location lon='-105.2517' lat='20.67833' />
+		<name>Puerto Vallarta / Lic</name>		
+	</plotcity>
+	<plotcity id='MMSD'>
+		<location lon='-109.7183' lat='23.14983' />
+		<name>San Jose Del Cabo</name>		
+	</plotcity>
+	<plotcity id='MMSP'>
+		<location lon='-100.9317' lat='22.25167' />
+		<name>San Luis Potosi</name>		
+	</plotcity>
+	<plotcity id='MMTC'>
+		<location lon='-103.4083' lat='25.56667' />
+		<name>Torreon</name>		
+	</plotcity>
+	<plotcity id='MMTM'>
+		<location lon='-97.86333' lat='22.28667' />
+		<name>Tampico / Gen Fj Mina</name>		
+	</plotcity>
+	<plotcity id='MMUN'>
+		<location lon='-86.875' lat='21.03617' />
+		<name>Cancun</name>		
+	</plotcity>
+	<plotcity id='MMVA'>
+		<location lon='-92.81667' lat='17.99333' />
+		<name>Villahermosa</name>		
+	</plotcity>
+	<plotcity id='MMVR'>
+		<location lon='-96.185' lat='19.14367' />
+		<name>Gen. Heriberto Jara</name>		
+	</plotcity>
+	<plotcity id='MMZH'>
+		<location lon='-101.4583' lat='17.6' />
+		<name>Ixtapa-Zihuatanejo</name>		
+	</plotcity>
+	<plotcity id='MMZO'>
+		<location lon='-104.5567' lat='19.14317' />
+		<name>Manzanillo </name>		
+	</plotcity>
+	<plotcity id='MNMG'>
+		<location lon='-86.16666' lat='12.14033' />
+		<name>Managua A. C. Sandino</name>		
+	</plotcity>
+	<plotcity id='MPTO'>
+		<location lon='-79.38167' lat='9.068666' />
+		<name>Tocumen</name>		
+	</plotcity>
+	<plotcity id='MRLB'>
+		<location lon='-85.545' lat='10.59167' />
+		<name>Liberia</name>		
+	</plotcity>
+	<plotcity id='MROC'>
+		<location lon='-84.19334' lat='9.996667' />
+		<name>Juan Santamaria</name>		
+	</plotcity>
+	<plotcity id='MSLP'>
+		<location lon='-89.0545' lat='13.43833' />
+		<name>El Salvador Intl. Airport / Comalapa</name>		
+	</plotcity>
+	<plotcity id='MTPP'>
+		<location lon='-72.29333' lat='18.57667' />
+		<name>Port-Au-Prince</name>		
+	</plotcity>
+	<plotcity id='MUCF'>
+		<location lon='-80.41167' lat='22.1485' />
+		<name>Cienfuegos</name>		
+	</plotcity>
+	<plotcity id='MUCL'>
+		<location lon='-81.55167' lat='21.61833' />
+		<name>Cayo Largo Del Sur</name>		
+	</plotcity>
+	<plotcity id='MUCM'>
+		<location lon='-77.84666' lat='21.41833' />
+		<name>Camaguey Aeropuerto</name>		
+	</plotcity>
+	<plotcity id='MUGM'>
+		<location lon='-75.205' lat='19.905' />
+		<name>Guantanamo</name>		
+	</plotcity>
+	<plotcity id='MUHA'>
+		<location lon='-82.40833' lat='22.98667' />
+		<name>Aeropuerto Jose Mar-Ti</name>		
+	</plotcity>
+	<plotcity id='MWCR'>
+		<location lon='-81.35833' lat='19.29' />
+		<name>Owen Roberts Airportgrand Cayman</name>		
+	</plotcity>
+	<plotcity id='MYAM'>
+		<location lon='-77.08167' lat='26.515' />
+		<name>Marsh Harbor Abaco Island</name>		
+	</plotcity>
+	<plotcity id='MYAT'>
+		<location lon='-77.39833' lat='26.74833' />
+		<name>Treasure Cay Abaco Island</name>		
+	</plotcity>
+	<plotcity id='MYEH'>
+		<location lon='-76.68333' lat='25.48167' />
+		<name>Eleuthera Island North Eleuthera</name>		
+	</plotcity>
+	<plotcity id='MYEM'>
+		<location lon='-76.32833' lat='25.28333' />
+		<name>Governor'S Harbor</name>		
+	</plotcity>
+	<plotcity id='MYNN'>
+		<location lon='-77.46833' lat='25.039' />
+		<name>Nassau Airport</name>		
+	</plotcity>
+	<plotcity id='MZBZ'>
+		<location lon='-88.30666' lat='17.53667' />
+		<name>Belize / Phillip Goldston Intl. Airport</name>		
+	</plotcity>
+	<plotcity id='NCRG'>
+		<location lon='-159.7933' lat='-21.19833' />
+		<name>Rarotonga</name>		
+	</plotcity>
+	<plotcity id='NFFN'>
+		<location lon='177.4433' lat='-17.755' />
+		<name>Nandi</name>		
+	</plotcity>
+	<plotcity id='NFTF'>
+		<location lon='-175.139' lat='-21.23833' />
+		<name>Fua'Amotu</name>		
+	</plotcity>
+	<plotcity id='NSFA'>
+		<location lon='-171.995' lat='-13.82833' />
+		<name>Faleolo Intl / Apia</name>		
+	</plotcity>
+	<plotcity id='NTAA'>
+		<location lon='-149.61' lat='-17.555' />
+		<name>Tahiti-Faaa</name>		
+	</plotcity>
+	<plotcity id='NWWW'>
+		<location lon='166.2133' lat='-22.01517' />
+		<name>La Tontouta Nlle-Caledonie</name>		
+	</plotcity>
+	<plotcity id='NZAA'>
+		<location lon='174.79' lat='-37.00683' />
+		<name>Auckland Airport</name>		
+	</plotcity>
+	<plotcity id='NZAP'>
+		<location lon='176.0835' lat='-38.73833' />
+		<name>Taupo</name>		
+	</plotcity>
+	<plotcity id='NZCH'>
+		<location lon='172.5317' lat='-43.48667' />
+		<name>Christchurch</name>		
+	</plotcity>
+	<plotcity id='NZDN'>
+		<location lon='170.1967' lat='-45.92667' />
+		<name>Dunedin Aerodrome</name>		
+	</plotcity>
+	<plotcity id='NZGS'>
+		<location lon='177.9767' lat='-38.66167' />
+		<name>Gisborne Aerodrome</name>		
+	</plotcity>
+	<plotcity id='NZHK'>
+		<location lon='170.985' lat='-42.71167' />
+		<name>Hokitika Aerodrome</name>		
+	</plotcity>
+	<plotcity id='NZHN'>
+		<location lon='175.3333' lat='-37.865' />
+		<name>Hamilton</name>		
+	</plotcity>
+	<plotcity id='NZKK'>
+		<location lon='173.9117' lat='-35.26' />
+		<name>Kerikeri</name>		
+	</plotcity>
+	<plotcity id='NZKT'>
+		<location lon='173.2833' lat='-35.06867' />
+		<name>Kaitaia</name>		
+	</plotcity>
+	<plotcity id='NZNP'>
+		<location lon='174.1767' lat='-39.00733' />
+		<name>New Plymouth Aerodrome</name>		
+	</plotcity>
+	<plotcity id='NZNS'>
+		<location lon='173.2183' lat='-41.29667' />
+		<name>Nelson</name>		
+	</plotcity>
+	<plotcity id='NZNV'>
+		<location lon='168.3183' lat='-46.41333' />
+		<name>Invercargill Aerodrome</name>		
+	</plotcity>
+	<plotcity id='NZPM'>
+		<location lon='175.6167' lat='-40.32' />
+		<name>Palmerston North</name>		
+	</plotcity>
+	<plotcity id='NZQN'>
+		<location lon='168.7367' lat='-45.01983' />
+		<name>Queenstown Frankton</name>		
+	</plotcity>
+	<plotcity id='NZRO'>
+		<location lon='176.3167' lat='-38.10783' />
+		<name>Rotorua Aerodrome</name>		
+	</plotcity>
+	<plotcity id='NZTG'>
+		<location lon='176.1933' lat='-37.67' />
+		<name>Tauranga Aerodrome Aws</name>		
+	</plotcity>
+	<plotcity id='NZTU'>
+		<location lon='171.2233' lat='-44.30167' />
+		<name>Timaru</name>		
+	</plotcity>
+	<plotcity id='NZWK'>
+		<location lon='176.9117' lat='-37.91833' />
+		<name>Whakatane</name>		
+	</plotcity>
+	<plotcity id='NZWN'>
+		<location lon='174.8033' lat='-41.325' />
+		<name>Wellington Airport</name>		
+	</plotcity>
+	<plotcity id='NZWR'>
+		<location lon='174.3633' lat='-35.76667' />
+		<name>Whangarei</name>		
+	</plotcity>
+	<plotcity id='NZWS'>
+		<location lon='171.5783' lat='-41.73667' />
+		<name>Westport</name>		
+	</plotcity>
+	<plotcity id='NZWU'>
+		<location lon='175.024' lat='-39.96' />
+		<name>Wanganui</name>		
+	</plotcity>
+	<plotcity id='OBBI'>
+		<location lon='50.63167' lat='26.26833' />
+		<name>Bahrain </name>		
+	</plotcity>
+	<plotcity id='OEJN'>
+		<location lon='39.15383' lat='21.67833' />
+		<name>Jeddah King Abdul Aziz International Airport</name>		
+	</plotcity>
+	<plotcity id='OERK'>
+		<location lon='46.70667' lat='24.96' />
+		<name>King Khaled International Airport</name>		
+	</plotcity>
+	<plotcity id='OIII'>
+		<location lon='51.31333' lat='35.68667' />
+		<name>Tehran-Mehrabad</name>		
+	</plotcity>
+	<plotcity id='OJAI'>
+		<location lon='35.99166' lat='31.72' />
+		<name>Queen Alia Airport</name>		
+	</plotcity>
+	<plotcity id='OKBK'>
+		<location lon='47.96667' lat='29.225' />
+		<name>Kuwait</name>		
+	</plotcity>
+	<plotcity id='OLBA'>
+		<location lon='35.48833' lat='33.81667' />
+		<name>Beyrouth </name>		
+	</plotcity>
+	<plotcity id='OMAA'>
+		<location lon='54.65' lat='24.43167' />
+		<name>Abu Dhabi </name>		
+	</plotcity>
+	<plotcity id='OMDB'>
+		<location lon='55.36167' lat='25.25' />
+		<name>Dubai</name>		
+	</plotcity>
+	<plotcity id='OMSJ'>
+		<location lon='55.515' lat='25.32667' />
+		<name>Sharjah International Airport</name>		
+	</plotcity>
+	<plotcity id='OOMS'>
+		<location lon='58.28' lat='23.59' />
+		<name>Seeb</name>		
+	</plotcity>
+	<plotcity id='OPKC'>
+		<location lon='67.14867' lat='24.9' />
+		<name>Karachi Airport</name>		
+	</plotcity>
+	<plotcity id='OPLA'>
+		<location lon='74.40166' lat='31.52' />
+		<name>Lahore Airport</name>		
+	</plotcity>
+	<plotcity id='OSDI'>
+		<location lon='36.51167' lat='33.40833' />
+		<name>Damascus Int. Airport</name>		
+	</plotcity>
+	<plotcity id='OTBD'>
+		<location lon='51.565' lat='25.25833' />
+		<name>Doha International Airport</name>		
+	</plotcity>
+	<plotcity id='OYSN'>
+		<location lon='44.21833' lat='15.47667' />
+		<name>Sana'A</name>		
+	</plotcity>
+	<plotcity id='PABR'>
+		<location lon='-156.7633' lat='71.28333' />
+		<name>Barrow</name>		
+	</plotcity>
+	<plotcity id='PACV'>
+		<location lon='-145.4767' lat='60.49' />
+		<name>Cordova / Mile 13</name>		
+	</plotcity>
+	<plotcity id='PADK'>
+		<location lon='-176.645' lat='51.87667' />
+		<name>Adak</name>		
+	</plotcity>
+	<plotcity id='PADL'>
+		<location lon='-158.5033' lat='59.04417' />
+		<name>Dillingham Municipal</name>		
+	</plotcity>
+	<plotcity id='PADQ'>
+		<location lon='-152.4933' lat='57.74833' />
+		<name>Kodiak</name>		
+	</plotcity>
+	<plotcity id='PADU'>
+		<location lon='-166.5417' lat='53.89833' />
+		<name>Dutch Harbor</name>		
+	</plotcity>
+	<plotcity id='PAFA'>
+		<location lon='-147.8583' lat='64.81167' />
+		<name>Fairbanks</name>		
+	</plotcity>
+	<plotcity id='PAJN'>
+		<location lon='-134.575' lat='58.35333' />
+		<name>Juneau</name>		
+	</plotcity>
+	<plotcity id='PAKN'>
+		<location lon='-156.6483' lat='58.675' />
+		<name>King Salmon</name>		
+	</plotcity>
+	<plotcity id='PAKT'>
+		<location lon='-131.7133' lat='55.35333' />
+		<name>Ketchikan</name>		
+	</plotcity>
+	<plotcity id='PANC'>
+		<location lon='-149.995' lat='61.17167' />
+		<name>Anchorage</name>		
+	</plotcity>
+	<plotcity id='PAOM'>
+		<location lon='-165.4433' lat='64.51' />
+		<name>Nome</name>		
+	</plotcity>
+	<plotcity id='PAOT'>
+		<location lon='-162.5983' lat='66.88333' />
+		<name>Kotzebue</name>		
+	</plotcity>
+	<plotcity id='PAPG'>
+		<location lon='-132.945' lat='56.8' />
+		<name>Petersburg</name>		
+	</plotcity>
+	<plotcity id='PASC'>
+		<location lon='-148.4633' lat='70.19334' />
+		<name>Deadhorse</name>		
+	</plotcity>
+	<plotcity id='PASI'>
+		<location lon='-135.36' lat='57.04583' />
+		<name>Sitka</name>		
+	</plotcity>
+	<plotcity id='PAWG'>
+		<location lon='-132.3683' lat='56.48167' />
+		<name>Wrangell</name>		
+	</plotcity>
+	<plotcity id='PAYA'>
+		<location lon='-139.66' lat='59.50167' />
+		<name>Yakutat</name>		
+	</plotcity>
+	<plotcity id='PGSN'>
+		<location lon='145.7283' lat='15.11783' />
+		<name>Saipan / Isley Coast Guard Station</name>		
+	</plotcity>
+	<plotcity id='PGUM'>
+		<location lon='144.7933' lat='13.48167' />
+		<name>Agana</name>		
+	</plotcity>
+	<plotcity id='PHKO'>
+		<location lon='-156.0443' lat='19.73667' />
+		<name>Kailua / Kona</name>		
+	</plotcity>
+	<plotcity id='PHLI'>
+		<location lon='-159.3367' lat='21.975' />
+		<name>Lihue</name>		
+	</plotcity>
+	<plotcity id='PHNL'>
+		<location lon='-157.9283' lat='21.31833' />
+		<name>Honolulu</name>		
+	</plotcity>
+	<plotcity id='PHOG'>
+		<location lon='-156.4283' lat='20.89667' />
+		<name>Kahului</name>		
+	</plotcity>
+	<plotcity id='PHTO'>
+		<location lon='-155.0472' lat='19.71833' />
+		<name>Hilo</name>		
+	</plotcity>
+	<plotcity id='RCKH'>
+		<location lon='120.3483' lat='22.57333' />
+		<name>Kaohsiung International Airport</name>		
+	</plotcity>
+	<plotcity id='RCTP'>
+		<location lon='121.23' lat='25.07883' />
+		<name>Chiang Kai Shek</name>		
+	</plotcity>
+	<plotcity id='RJAA'>
+		<location lon='140.3867' lat='35.765' />
+		<name>New Tokyo Inter-National Airport</name>		
+	</plotcity>
+	<plotcity id='RJBB'>
+		<location lon='135.2433' lat='34.425' />
+		<name>Kansai International Airport</name>		
+	</plotcity>
+	<plotcity id='RJCC'>
+		<location lon='141.6917' lat='42.77333' />
+		<name>Chitose Ab</name>		
+	</plotcity>
+	<plotcity id='RJCH'>
+		<location lon='140.82' lat='41.76833' />
+		<name>Hakodate Airport</name>		
+	</plotcity>
+	<plotcity id='RJCJ'>
+		<location lon='141.665' lat='42.79167' />
+		<name>Chitose Japanese Air Self Defense Force</name>		
+	</plotcity>
+	<plotcity id='RJCK'>
+		<location lon='144.1917' lat='43.03967' />
+		<name>Kushiro Airport</name>		
+	</plotcity>
+	<plotcity id='RJCW'>
+		<location lon='141.8' lat='45.40167' />
+		<name>Wakkanai Airport</name>		
+	</plotcity>
+	<plotcity id='RJDC'>
+		<location lon='131.275' lat='33.92667' />
+		<name>Yamaguchi Ube Airport</name>		
+	</plotcity>
+	<plotcity id='RJFF'>
+		<location lon='130.45' lat='33.58333' />
+		<name>Fukuoka Airport</name>		
+	</plotcity>
+	<plotcity id='RJFK'>
+		<location lon='130.7183' lat='31.80167' />
+		<name>Kagoshima Airport</name>		
+	</plotcity>
+	<plotcity id='RJFM'>
+		<location lon='131.4467' lat='31.875' />
+		<name>Miyazaki Airport</name>		
+	</plotcity>
+	<plotcity id='RJFO'>
+		<location lon='131.735' lat='33.47667' />
+		<name>Oita Airport</name>		
+	</plotcity>
+	<plotcity id='RJFT'>
+		<location lon='130.8533' lat='32.835' />
+		<name>Kumamoto Airport</name>		
+	</plotcity>
+	<plotcity id='RJFU'>
+		<location lon='129.9117' lat='32.915' />
+		<name>Nagasaki Airport</name>		
+	</plotcity>
+	<plotcity id='RJNK'>
+		<location lon='136.4067' lat='36.39167' />
+		<name>Komatsu Ab</name>		
+	</plotcity>
+	<plotcity id='RJNN'>
+		<location lon='136.9217' lat='35.25333' />
+		<name>Nagoya Airport</name>		
+	</plotcity>
+	<plotcity id='RJNT'>
+		<location lon='137.185' lat='36.64667' />
+		<name>Toyama Airport</name>		
+	</plotcity>
+	<plotcity id='RJOA'>
+		<location lon='132.9167' lat='34.43333' />
+		<name>Hiroshima Airport</name>		
+	</plotcity>
+	<plotcity id='RJOB'>
+		<location lon='133.8517' lat='34.75333' />
+		<name>Okayama Airport</name>		
+	</plotcity>
+	<plotcity id='RJOH'>
+		<location lon='133.235' lat='35.49' />
+		<name>Miho Ab</name>		
+	</plotcity>
+	<plotcity id='RJOK'>
+		<location lon='133.67' lat='33.54333' />
+		<name>Kochi Airport</name>		
+	</plotcity>
+	<plotcity id='RJOM'>
+		<location lon='132.6983' lat='33.825' />
+		<name>Matsuyama Airport</name>		
+	</plotcity>
+	<plotcity id='RJOO'>
+		<location lon='135.4383' lat='34.78167' />
+		<name>Osaka International Airport</name>		
+	</plotcity>
+	<plotcity id='RJOR'>
+		<location lon='134.1638' lat='35.52833' />
+		<name>Tottori Airport</name>		
+	</plotcity>
+	<plotcity id='RJOT'>
+		<location lon='134.0143' lat='34.21167' />
+		<name>Takamatsu Airport</name>		
+	</plotcity>
+	<plotcity id='RJSF'>
+		<location lon='140.4267' lat='37.225' />
+		<name>Fukushima Airport</name>		
+	</plotcity>
+	<plotcity id='RJSK'>
+		<location lon='140.2167' lat='39.61333' />
+		<name>Akita Airport</name>		
+	</plotcity>
+	<plotcity id='RJSN'>
+		<location lon='139.1108' lat='37.95333' />
+		<name>Niigata Airport</name>		
+	</plotcity>
+	<plotcity id='RJSS'>
+		<location lon='140.915' lat='38.1385' />
+		<name>Sendai Airport</name>		
+	</plotcity>
+	<plotcity id='RJSY'>
+		<location lon='139.785' lat='38.81' />
+		<name>Shonai</name>		
+	</plotcity>
+	<plotcity id='RJTT'>
+		<location lon='139.78' lat='35.55167' />
+		<name>Tokyo</name>		
+	</plotcity>
+	<plotcity id='RKPK'>
+		<location lon='128.935' lat='35.17833' />
+		<name>Pusan / Kimhae </name>		
+	</plotcity>
+	<plotcity id='RKSS'>
+		<location lon='126.795' lat='37.555' />
+		<name>Seoul </name>		
+	</plotcity>
+	<plotcity id='ROAH'>
+		<location lon='127.645' lat='26.19333' />
+		<name>Naha </name>		
+	</plotcity>
+	<plotcity id='RPLL'>
+		<location lon='121.0153' lat='14.50833' />
+		<name>Ninoy Aquino </name>		
+	</plotcity>
+	<plotcity id='RPMD'>
+		<location lon='125.6467' lat='7.128667' />
+		<name>Davao</name>		
+	</plotcity>
+	<plotcity id='RPVM'>
+		<location lon='123.9817' lat='10.31167' />
+		<name>Masbate</name>		
+	</plotcity>
+	<plotcity id='SAEZ'>
+		<location lon='-58.535' lat='-34.82' />
+		<name>Ezeiza Aerodrome</name>		
+	</plotcity>
+	<plotcity id='SBBE'>
+		<location lon='-48.47667' lat='-1.383333' />
+		<name>Belem Aeroporto</name>		
+	</plotcity>
+	<plotcity id='SBBH'>
+		<location lon='-43.95' lat='-19.85' />
+		<name>Belo Horizonte Aeroporto</name>		
+	</plotcity>
+	<plotcity id='SBBR'>
+		<location lon='-47.91' lat='-15.86' />
+		<name>Brasilia </name>		
+	</plotcity>
+	<plotcity id='SBCF'>
+		<location lon='-43.97167' lat='-19.62167' />
+		<name>Belo Horizonte</name>		
+	</plotcity>
+	<plotcity id='SBCG'>
+		<location lon='-54.66833' lat='-20.46667' />
+		<name>Campo Grande </name>		
+	</plotcity>
+	<plotcity id='SBCT'>
+		<location lon='-49.175' lat='-25.53' />
+		<name>Curitiba Aeroporto</name>		
+	</plotcity>
+	<plotcity id='SBCY'>
+		<location lon='-56.11617' lat='-15.64833' />
+		<name>Cuiaba Aeroporto</name>		
+	</plotcity>
+	<plotcity id='SBFL'>
+		<location lon='-48.55167' lat='-27.66833' />
+		<name>Florianopolis Aeroporto</name>		
+	</plotcity>
+	<plotcity id='SBFZ'>
+		<location lon='-38.53167' lat='-3.773333' />
+		<name>Fortaleza Aeropor-To</name>		
+	</plotcity>
+	<plotcity id='SBGL'>
+		<location lon='-43.24833' lat='-22.80833' />
+		<name>Galeao</name>		
+	</plotcity>
+	<plotcity id='SBGR'>
+		<location lon='-46.47167' lat='-23.43333' />
+		<name>Guarulhos Civ / Mil</name>		
+	</plotcity>
+	<plotcity id='SBKP'>
+		<location lon='-47.13317' lat='-23.00567' />
+		<name>Campinas Aeroporto</name>		
+	</plotcity>
+	<plotcity id='SBMQ'>
+		<location lon='-51.0705' lat='0.0495' />
+		<name>Macapa</name>		
+	</plotcity>
+	<plotcity id='SBPA'>
+		<location lon='-51.17' lat='-29.99167' />
+		<name>Porto Alegre </name>		
+	</plotcity>
+	<plotcity id='SBRF'>
+		<location lon='-34.92' lat='-8.125167' />
+		<name>Recife </name>		
+	</plotcity>
+	<plotcity id='SBRJ'>
+		<location lon='-43.1625' lat='-22.90833' />
+		<name>Rio De Janeiro </name>		
+	</plotcity>
+	<plotcity id='SBSP'>
+		<location lon='-46.65333' lat='-23.62333' />
+		<name>Sao Paulo </name>		
+	</plotcity>
+	<plotcity id='SBSV'>
+		<location lon='-38.32' lat='-12.90667' />
+		<name>Salvador Aeroporto</name>		
+	</plotcity>
+	<plotcity id='SBVT'>
+		<location lon='-40.29' lat='-20.25833' />
+		<name>Vitoria </name>		
+	</plotcity>
+	<plotcity id='SCEL'>
+		<location lon='-70.785' lat='-33.38833' />
+		<name>Pudahuel</name>		
+	</plotcity>
+	<plotcity id='SEGU'>
+		<location lon='-79.88333' lat='-2.157' />
+		<name>Guayaquil / Simon Bolivar</name>		
+	</plotcity>
+	<plotcity id='SELT'>
+		<location lon='-78.61333' lat='-0.905' />
+		<name>Latacunga</name>		
+	</plotcity>
+	<plotcity id='SEQU'>
+		<location lon='-78.48666' lat='-0.1398333' />
+		<name>Quito / Mariscal Sucre</name>		
+	</plotcity>
+	<plotcity id='SGAS'>
+		<location lon='-57.515' lat='-25.24' />
+		<name>Asuncion </name>		
+	</plotcity>
+	<plotcity id='SKBO'>
+		<location lon='-74.13717' lat='4.701667' />
+		<name>Bogota / Eldorado</name>		
+	</plotcity>
+	<plotcity id='SKCL'>
+		<location lon='-76.38333' lat='3.545' />
+		<name>Cali / Alfonso Bonillaaragon</name>		
+	</plotcity>
+	<plotcity id='SKRG'>
+		<location lon='-75.425' lat='6.166' />
+		<name>Rionegro / J. M. Cordova</name>		
+	</plotcity>
+	<plotcity id='SLLP'>
+		<location lon='-68.16833' lat='-16.51167' />
+		<name>La Paz / Alto</name>		
+	</plotcity>
+	<plotcity id='SLVR'>
+		<location lon='-63.13417' lat='-17.64333' />
+		<name>Viru-Viru</name>		
+	</plotcity>
+	<plotcity id='SMJP'>
+		<location lon='-55.19333' lat='5.45' />
+		<name>Johan A. Pengel</name>		
+	</plotcity>
+	<plotcity id='SOCA'>
+		<location lon='-52.36' lat='4.818333' />
+		<name>Cayenne / Rochambeau</name>		
+	</plotcity>
+	<plotcity id='SPIM'>
+		<location lon='-77.111' lat='-12.017' />
+		<name>Lima-Callao / Aerop. Internacional Jorgechavez</name>		
+	</plotcity>
+	<plotcity id='SUMU'>
+		<location lon='-56.029' lat='-34.835' />
+		<name>Carrasco</name>		
+	</plotcity>
+	<plotcity id='SVMC'>
+		<location lon='-71.725' lat='10.55833' />
+		<name>Maracaibo-La Chinita</name>		
+	</plotcity>
+	<plotcity id='SVMI'>
+		<location lon='-66.98833' lat='10.605' />
+		<name>Caracas / Maiquetia Aerop. Intl. Simon Bolivar</name>		
+	</plotcity>
+	<plotcity id='TAPA'>
+		<location lon='-61.78333' lat='17.13983' />
+		<name>Antigua</name>		
+	</plotcity>
+	<plotcity id='TBPB'>
+		<location lon='-59.48667' lat='13.07433' />
+		<name>Grantley Adams</name>		
+	</plotcity>
+	<plotcity id='TDPD'>
+		<location lon='-61.30833' lat='15.54' />
+		<name>Melville Hall </name>		
+	</plotcity>
+	<plotcity id='TFFF'>
+		<location lon='-60.995' lat='14.59' />
+		<name>Le Lamentin</name>		
+	</plotcity>
+	<plotcity id='TFFR'>
+		<location lon='-61.52' lat='16.265' />
+		<name>Le Raizet</name>		
+	</plotcity>
+	<plotcity id='TGPY'>
+		<location lon='-61.78667' lat='12.00283' />
+		<name>Point Salines </name>		
+	</plotcity>
+	<plotcity id='TIST'>
+		<location lon='-64.97166' lat='18.335' />
+		<name>C. Amalie / Truman</name>		
+	</plotcity>
+	<plotcity id='TISX'>
+		<location lon='-64.79667' lat='17.7' />
+		<name>Christiansted </name>		
+	</plotcity>
+	<plotcity id='TJBQ'>
+		<location lon='-67.12917' lat='18.49333' />
+		<name>Aquadilla / Borinquen</name>		
+	</plotcity>
+	<plotcity id='TJMZ'>
+		<location lon='-67.14716' lat='18.25333' />
+		<name>Mayaguez / Eugenio</name>		
+	</plotcity>
+	<plotcity id='TJNR'>
+		<location lon='-65.64167' lat='18.24333' />
+		<name>Roosevelt Roads</name>		
+	</plotcity>
+	<plotcity id='TJSJ'>
+		<location lon='-66.0005' lat='18.43667' />
+		<name>Luis Munoz Marin</name>		
+	</plotcity>
+	<plotcity id='TKPK'>
+		<location lon='-62.71833' lat='17.30833' />
+		<name>Golden Rock</name>		
+	</plotcity>
+	<plotcity id='TKPN'>
+		<location lon='-62.59167' lat='17.20833' />
+		<name>Charlestown / Newcast</name>		
+	</plotcity>
+	<plotcity id='TLPC'>
+		<location lon='-61' lat='14.01767' />
+		<name>Vigie</name>		
+	</plotcity>
+	<plotcity id='TLPL'>
+		<location lon='-60.95' lat='13.73' />
+		<name>Hewanorra </name>		
+	</plotcity>
+	<plotcity id='TNCA'>
+		<location lon='-70.011' lat='12.50167' />
+		<name>Queen Beatrix Airport</name>		
+	</plotcity>
+	<plotcity id='TNCB'>
+		<location lon='-68.275' lat='12.13817' />
+		<name>Flamingo </name>		
+	</plotcity>
+	<plotcity id='TNCC'>
+		<location lon='-68.955' lat='12.19' />
+		<name>Hato </name>		
+	</plotcity>
+	<plotcity id='TNCM'>
+		<location lon='-63.11067' lat='18.0385' />
+		<name>Juliana </name>		
+	</plotcity>
+	<plotcity id='TTPP'>
+		<location lon='-61.34667' lat='10.59167' />
+		<name>Piarco</name>		
+	</plotcity>
+	<plotcity id='TUPJ'>
+		<location lon='-64.54' lat='18.44833' />
+		<name>Beef Island</name>		
+	</plotcity>
+	<plotcity id='TVSC'>
+		<location lon='-61.33167' lat='12.70333' />
+		<name>Canouan Island</name>		
+	</plotcity>
+	<plotcity id='UAAA'>
+		<location lon='77.03867' lat='43.35' />
+		<name>Almaty</name>		
+	</plotcity>
+	<plotcity id='UBBB'>
+		<location lon='50.052' lat='40.465' />
+		<name>Baku  </name>		
+	</plotcity>
+	<plotcity id='UKBB'>
+		<location lon='30.89333' lat='50.34333' />
+		<name>Boryspil</name>		
+	</plotcity>
+	<plotcity id='ULLI'>
+		<location lon='30.26333' lat='59.79833' />
+		<name>St. Peterburg</name>		
+	</plotcity>
+	<plotcity id='UMMS'>
+		<location lon='28.032' lat='53.88167' />
+		<name>Minsk</name>		
+	</plotcity>
+	<plotcity id='USPP'>
+		<location lon='56.02533' lat='57.915' />
+		<name>Perm</name>		
+	</plotcity>
+	<plotcity id='USSS'>
+		<location lon='60.80333' lat='56.74166' />
+		<name>Ekaterinburg</name>		
+	</plotcity>
+	<plotcity id='UTAA'>
+		<location lon='58.36167' lat='37.99' />
+		<name>Ashkhabad</name>		
+	</plotcity>
+	<plotcity id='UTTT'>
+		<location lon='69.28' lat='41.255' />
+		<name>Tashkent</name>		
+	</plotcity>
+	<plotcity id='UUEE'>
+		<location lon='37.41333' lat='55.97' />
+		<name>Moscow </name>		
+	</plotcity>
+	<plotcity id='UWKD'>
+		<location lon='49.28333' lat='55.60167' />
+		<name>Kazan</name>		
+	</plotcity>
+	<plotcity id='VABB'>
+		<location lon='72.86667' lat='19.0895' />
+		<name>Bombay</name>		
+	</plotcity>
+	<plotcity id='VCBI'>
+		<location lon='79.88333' lat='7.178333' />
+		<name>Katunayake</name>		
+	</plotcity>
+	<plotcity id='VDPP'>
+		<location lon='104.8467' lat='11.54167' />
+		<name>Phnom-Penh / Pochentong</name>		
+	</plotcity>
+	<plotcity id='VDSR'>
+		<location lon='103.81' lat='13.40833' />
+		<name>Siemreap</name>		
+	</plotcity>
+	<plotcity id='VECC'>
+		<location lon='88.44666' lat='22.65167' />
+		<name>Calcutta </name>		
+	</plotcity>
+	<plotcity id='VGEG'>
+		<location lon='91.82' lat='22.255' />
+		<name>Chittagong Patenga</name>		
+	</plotcity>
+	<plotcity id='VGZR'>
+		<location lon='90.395' lat='23.84167' />
+		<name>Kurmitola</name>		
+	</plotcity>
+	<plotcity id='VHHH'>
+		<location lon='113.9133' lat='22.30667' />
+		<name>Hong Kong</name>		
+	</plotcity>
+	<plotcity id='VIDP'>
+		<location lon='77.1125' lat='28.56667' />
+		<name>New Delhi</name>		
+	</plotcity>
+	<plotcity id='VMMC'>
+		<location lon='113.59' lat='22.14817' />
+		<name>Taipa</name>		
+	</plotcity>
+	<plotcity id='VOBG'>
+		<location lon='77.665' lat='12.94833' />
+		<name>Bangalore</name>		
+	</plotcity>
+	<plotcity id='VOMM'>
+		<location lon='80.175' lat='12.99167' />
+		<name>Madras</name>		
+	</plotcity>
+	<plotcity id='VOTV'>
+		<location lon='76.91833' lat='8.475' />
+		<name>Thiruvananthapuram</name>		
+	</plotcity>
+	<plotcity id='VRMM'>
+		<location lon='73.52666' lat='4.19' />
+		<name>Male</name>		
+	</plotcity>
+	<plotcity id='VTBD'>
+		<location lon='100.6033' lat='13.91167' />
+		<name>Don Muang</name>		
+	</plotcity>
+	<plotcity id='VTCC'>
+		<location lon='98.96167' lat='18.77' />
+		<name>Chiang Mai</name>		
+	</plotcity>
+	<plotcity id='VTSP'>
+		<location lon='98.30833' lat='8.111333' />
+		<name>Phuket Airport</name>		
+	</plotcity>
+	<plotcity id='VVDN'>
+		<location lon='108.1983' lat='16.04267' />
+		<name>Da Nang</name>		
+	</plotcity>
+	<plotcity id='VVNB'>
+		<location lon='105.805' lat='21.22' />
+		<name>Ha Noi</name>		
+	</plotcity>
+	<plotcity id='VVTS'>
+		<location lon='106.6583' lat='10.81833' />
+		<name>Ho Chi Minh</name>		
+	</plotcity>
+	<plotcity id='VYYY'>
+		<location lon='96.13367' lat='16.905' />
+		<name>Yangon</name>		
+	</plotcity>
+	<plotcity id='WAAA'>
+		<location lon='119.5533' lat='-5.0595' />
+		<name>Ujung Pandang / Hasanuddin</name>		
+	</plotcity>
+	<plotcity id='WAMM'>
+		<location lon='124.925' lat='1.546667' />
+		<name>Menado </name>		
+	</plotcity>
+	<plotcity id='WBSB'>
+		<location lon='114.9283' lat='4.941667' />
+		<name>Brunei </name>		
+	</plotcity>
+	<plotcity id='WIIH'>
+		<location lon='106.885' lat='-6.265' />
+		<name>Jakarta Halim Perdanakusuma</name>		
+	</plotcity>
+	<plotcity id='WIII'>
+		<location lon='106.6583' lat='-6.122334' />
+		<name>Jakarta </name>		
+	</plotcity>
+	<plotcity id='WIMG'>
+		<location lon='100.35' lat='-0.8733333' />
+		<name>Padang / Tabing</name>		
+	</plotcity>
+	<plotcity id='WIMM'>
+		<location lon='98.675' lat='3.561667' />
+		<name>Medan / Polonia</name>		
+	</plotcity>
+	<plotcity id='WIPP'>
+		<location lon='104.7' lat='-2.898333' />
+		<name>Palembang / Talangbetutu</name>		
+	</plotcity>
+	<plotcity id='WMKK'>
+		<location lon='101.6967' lat='2.741667' />
+		<name>Kuala Lumpur / Subang</name>		
+	</plotcity>
+	<plotcity id='WMKL'>
+		<location lon='99.73333' lat='6.335' />
+		<name>Langkawi</name>		
+	</plotcity>
+	<plotcity id='WMKP'>
+		<location lon='100.275' lat='5.295' />
+		<name>Penang / Bayan Lepas</name>		
+	</plotcity>
+	<plotcity id='WRLL'>
+		<location lon='116.8917' lat='-1.265' />
+		<name>Balikpapan / Sepinggan</name>		
+	</plotcity>
+	<plotcity id='WRRA'>
+		<location lon='116.0995' lat='-8.56' />
+		<name>Ampenan / Selaparang</name>		
+	</plotcity>
+	<plotcity id='WRRR'>
+		<location lon='115.1667' lat='-8.745' />
+		<name>Denpasar / Ngurah-Rai</name>		
+	</plotcity>
+	<plotcity id='WRSJ'>
+		<location lon='112.7833' lat='-7.378334' />
+		<name>Surabaya / Juanda</name>		
+	</plotcity>
+	<plotcity id='WRSQ'>
+		<location lon='110.7533' lat='-7.515' />
+		<name>Surakarta / Adisumarmo</name>		
+	</plotcity>
+	<plotcity id='WSAP'>
+		<location lon='103.9083' lat='1.358333' />
+		<name>Singapore</name>		
+	</plotcity>
+	<plotcity id='YBAS'>
+		<location lon='133.9017' lat='-23.805' />
+		<name>Alice Springs </name>
+	</plotcity>
+	<plotcity id='YBBN'>
+		<location lon='153.1162' lat='-27.38167' />
+		<name>Brisbane </name>
+	</plotcity>
+	<plotcity id='YBCG'>
+		<location lon='153.5033' lat='-28.16317' />
+		<name>Coolangatta </name>
+	</plotcity>
+	<plotcity id='YBCS'>
+		<location lon='145.7533' lat='-16.88333' />
+		<name>Cairns</name>
+	</plotcity>
+	<plotcity id='YBRM'>
+		<location lon='122.23' lat='-17.94333' />
+		<name>Broome </name>
+	</plotcity>
+	<plotcity id='YBTL'>
+		<location lon='146.7633' lat='-19.25' />
+		<name>Townsville Amo</name>
+	</plotcity>
+	<plotcity id='YMML'>
+		<location lon='144.8417' lat='-37.67167' />
+		<name>Melbourne </name>
+	</plotcity>
+	<plotcity id='YPAD'>
+		<location lon='138.5283' lat='-34.94333' />
+		<name>Adelaide </name>
+	</plotcity>
+	<plotcity id='YPDN'>
+		<location lon='130.875' lat='-12.41333' />
+		<name>Darwin </name>
+	</plotcity>
+	<plotcity id='YPKA'>
+		<location lon='116.7717' lat='-20.71' />
+		<name>Karratha</name>
+	</plotcity>
+	<plotcity id='YPKG'>
+		<location lon='121.46' lat='-30.78667' />
+		<name>Kalgoorlie Boulder Amo</name>
+	</plotcity>
+	<plotcity id='YPPH'>
+		<location lon='115.9667' lat='-31.93833' />
+		<name>Belmont Perth </name>
+	</plotcity>
+	<plotcity id='YSCB'>
+		<location lon='149.1917' lat='-35.30667' />
+		<name>Ganberra Amo</name>
+	</plotcity>
+	<plotcity id='YSNF'>
+		<location lon='167.9367' lat='-29.04133' />
+		<name>Norfolk Island </name>		
+	</plotcity>
+	<plotcity id='YSSY'>
+		<location lon='151.1767' lat='-33.94333' />
+		<name>Sydney </name>				
+	</plotcity>
+	<plotcity id='ZBAA'>
+		<location lon='116.5883' lat='40.07367' />
+		<name>Beijing</name>
+	</plotcity>
+	<plotcity id='ZBTJ'>
+		<location lon='117.3483' lat='39.11533' />
+		<name>Tianjin / Zhangguizhu</name>
+	</plotcity>
+	<plotcity id='ZGGG'>
+		<location lon='113.265' lat='23.18167' />
+		<name>Guangzhou</name>
+	</plotcity>
+	<plotcity id='ZGSZ'>
+		<location lon='113.81' lat='22.63667' />
+		<name>Shenzhen</name>
+	</plotcity>
+	<plotcity id='ZHCC'>
+		<location lon='113.84' lat='34.51667' />
+		<name>Zhengzhou</name>
+	</plotcity>
+	<plotcity id='ZPPP'>
+		<location lon='102.7483' lat='24.99833' />
+		<name>Kunming</name>
+	</plotcity>
+	<plotcity id='ZSAM'>
+		<location lon='118.1213' lat='24.54167' />
+		<name>Xiamen</name>
+	</plotcity>
+	<plotcity id='ZSQD'>
+		<location lon='120.375' lat='36.26167' />
+		<name>Qingdao</name>
+	</plotcity>
+	<plotcity id='ZSSS'>
+		<location lon='121.3333' lat='31.195' />
+		<name>Shanghai / Hongqiao</name>
+	</plotcity>
+	<plotcity id='ZUUU'>
+		<location lon='103.9467' lat='30.57833' />
+		<name>Chengdu</name>
+	</plotcity>
+	<plotcity id='ZYTL'>
+		<location lon='121.5283' lat='38.95833' />
+		<name>Dalian</name>
+	</plotcity>
+	<plotcity id='ZYTX'>
+		<location lon='123.4833' lat='41.63667' />
+		<name>Shenyang / Taokian</name>
+	</plotcity>
+	<plotcity id='AAAA'>
+		<location lon='-89.9918' lat='29.2355' />
+		<name>Grand Isle</name>
+	</plotcity>
+	<plotcity id='AAAO'>
+		<location lon='-95.9958' lat='28.98652' />
+		<name>Bay City</name>
+	</plotcity>
+	<plotcity id='AABA'>
+		<location lon='39.45' lat='21.29' />
+		<name>Mecca</name>
+	</plotcity>
+	<plotcity id='AABC'>
+		<location lon='-90.0824' lat='30.4345' />
+		<name>Convington</name>
+	</plotcity>
+	<plotcity id='AABD'>
+		<location lon='-90.634' lat='30.4813' />
+		<name>Hammond</name>
+	</plotcity>
+	<plotcity id='KMOB'>
+		<location lon='-88.24' lat='30.69' />
+		<name>Mobile, AL</name>
+	</plotcity>
+	<plotcity id='KPNS'>
+		<location lon='-87.185' lat='30.47167' />
+		<name>Pensacola, FL</name>
+	</plotcity>
+	<plotcity id='AAAH'>
+		<location lon='-92.1465' lat='29.9788' />
+		<name>Abbeville, LA</name>
+	</plotcity>
+	<plotcity id='KAEX'>
+		<location lon='-92.54833' lat='31.325' />
+		<name>Alexandria, LA</name>
+	</plotcity>
+	<plotcity id='KBTR'>
+		<location lon='-91.14833' lat='30.53167' />
+		<name>Baton Rouge, LA</name>
+	</plotcity>
+	<plotcity id='AAAI'>
+		<location lon='-92.37854' lat='30.263059' />
+		<name>Crowley, LA</name>
+	</plotcity>
+	<plotcity id='AABB'>
+		<location lon='-89.7638' lat='30.2875' />
+		<name>Slidell, LA</name>
+	</plotcity>
+	<plotcity id='AAAE'>
+		<location lon='-90.9215' lat='30.2175' />
+		<name>Gonzales, LA</name>
+	</plotcity>
+	<plotcity id='AAAL'>
+		<location lon='-90.7151' lat='29.5947' />
+		<name>Houma, LA</name>
+	</plotcity>
+	<plotcity id='AAAJ'>
+		<location lon='-92.6628' lat='30.2389' />
+		<name>Jennings, LA</name>
+	</plotcity>
+	<plotcity id='AAAK'>
+		<location lon='-90.4834' lat='30.0789' />
+		<name>Laplace, LA</name>
+	</plotcity>
+	<plotcity id='KLCH'>
+		<location lon='-93.22166' lat='30.12483' />
+		<name>Lake Charles, LA</name>
+	</plotcity>
+	<plotcity id='KLFT'>
+		<location lon='-91.985' lat='30.20333' />
+		<name>Lafayette, LA</name>
+	</plotcity>
+	<plotcity id='CCCC'>
+		<location lon='-90.1077' lat='32.3245' />
+		<name>Flowood</name>
+	</plotcity>
+	<plotcity id='CCCD'>
+		<location lon='-90.2081' lat='29.93827' />
+		<name>Harahan, LA</name>
+	</plotcity>
+	<plotcity id='CCCE'>
+		<location lon='-91.8265' lat='31.6265' />
+		<name>Jonesville</name>
+	</plotcity>
+	<plotcity id='CCCF'>
+		<location lon='50.18' lat='26.18' />
+		<name>Khobar, Saudi Arabia</name>
+	</plotcity>
+	<plotcity id='CCCG'>
+		<location lon='-96.4915' lat='31.6838' />
+		<name>Mexia, TX</name>
+	</plotcity>
+	<plotcity id='CCCH'>
+		<location lon='-95.5756' lat='40.42186' />
+		<name>Rockport, MO</name>
+	</plotcity>
+	<plotcity id='CCCI'>
+		<location lon='-88.17678' lat='30.54423' />
+		<name>Theodore</name>
+	</plotcity>
+	<plotcity id='CCCK'>
+		<location lon='-91.10378' lat='29.6678' />
+		<name>Amelia</name>
+	</plotcity>
+	<plotcity id='CCCJ'>
+		<location lon='-94.42131' lat='35.384012' />
+		<name>Fort Smith</name>
+	</plotcity>
+	<plotcity id='CCCL'>
+		<location lon='-90.18076' lat='29.9942' />
+		<name>Metairie, LA</name>
+	</plotcity>
+	<plotcity id='CCCM'>
+		<location lon='-90.04806' lat='29.9145' />
+		<name>Gretna, LA</name>
+	</plotcity>
+	<plotcity id='CCCN'>
+		<location lon='-90.0012' lat='29.8460' />
+		<name>Belle Chase, LA</name>
+	</plotcity>
+	<plotcity id='CCCO'>
+		<location lon='-90.05836' lat='29.8916' />
+		<name>Harvey, LA</name>
+	</plotcity>
+	<plotcity id='CCCP'>
+		<location lon='-90.1167' lat='29.8829' />
+		<name>Marrero, LA</name>
+	</plotcity>
+	<plotcity id='CCCQ'>
+		<location lon='-90.35323' lat='29.9107' />
+		<name>Luling, LA</name>
+	</plotcity>
+	<plotcity id='CCCR'>
+		<location lon='-91.223' lat='29.7020' />
+		<name>Berwick, LA</name>
+	</plotcity>
+	<plotcity id='CCCS'>
+		<location lon='-89.524669' lat='29.34821' />
+		<name>Buras, LA</name>
+	</plotcity>
+	<plotcity id='CCCT'>
+		<location lon='-89.42622184' lat='29.345895' />
+		<name>Boothville, LA</name>
+	</plotcity>
+		<plotcity id='CCCU'>
+		<location lon='-89.3806' lat='29.31' />
+		<name>Venice, LA</name>
+	</plotcity>
+	<plotcity id='CCCV'>
+		<location lon='-93.6681' lat='32.5335' />
+		<name>Bossier City, LA</name>
+	</plotcity>
+	<plotcity id='CCCW'>
+		<location lon='-93.271' lat='31.1423' />
+		<name>Leesville, LA</name>
+	</plotcity>
+	<plotcity id='CCCX'>
+		<location lon='-93.1675' lat='29.8788' />
+		<name>Cameron, LA</name>
+	</plotcity>
+	<plotcity id='CCCY'>
+		<location lon='-89.9657' lat='29.94' />
+		<name>Chalmette, LA</name>
+	</plotcity>
+	<plotcity id='CCCZ'>
+		<location lon='-92.2172' lat='30.406' />
+		<name>Church Point, LA</name>
+	</plotcity>
+	<plotcity id='CCDA'>
+		<location lon='-93.15685' lat='29.80699' />
+		<name>Creole, LA</name>
+	</plotcity>
+		<plotcity id='CCDB'>
+		<location lon='-90.19699' lat='29.1202' />
+		<name>Fourchon, LA</name>
+	</plotcity>
+	<plotcity id='CCDC'>
+		<location lon='-91.5513' lat='29.78822' />
+		<name>Franklin, LA</name>
+	</plotcity>
+	<plotcity id='CCDD'>
+		<location lon='-91.8267' lat='30.0047' />
+		<name>New Iberia, LA</name>
+	</plotcity>
+	<plotcity id='CCDE'>
+		<location lon='-90.3021' lat='29.4301' />
+		<name>Galliano, LA</name>
+	</plotcity>
+	<plotcity id='CCDF'>
+		<location lon='-90.267' lat='29.3923' />
+		<name>Golden Meadow, LA</name>
+	</plotcity>
+	<plotcity id='CCDG'>
+		<location lon='-92.28309' lat='30.002' />
+		<name>Kaplan, LA</name>
+	</plotcity>
+		<plotcity id='CCDH'>
+		<location lon='-91.4488' lat='30.6976' />
+		<name>New Roads, LA</name>
+	</plotcity>
+	<plotcity id='KMLU'>
+		<location lon='-92.0365' lat='32.50834' />
+		<name>Monroe, LA</name>
+	</plotcity>
+	<plotcity id='AAAB'>
+		<location lon='-91.1961' lat='29.70356' />
+		<name>Morgan City, LA</name>
+	</plotcity>
+	<plotcity id='CCDI'>
+		<location lon='-93.0851' lat='31.7556' />
+		<name>Natchitoches, LA</name>
+	</plotcity>
+	<plotcity id='KMSY'>
+		<location lon='-90.25667' lat='29.99167' />
+		<name>New Orleans, LA</name>
+	</plotcity>
+	<plotcity id='CCDJ'>
+		<location lon='-91.2243' lat='30.4510' />
+		<name>Port Allen, LA</name>
+	</plotcity>
+	<plotcity id='AAAF'>
+		<location lon='-89.7157' lat='29.491' />
+		<name>Port Sulpher, LA</name>
+	</plotcity>
+	<plotcity id='CCDK'>
+		<location lon='-93.3592' lat='30.2312' />
+		<name>Sulpher, LA</name>
+	</plotcity>
+	<plotcity id='AAAM'>
+		<location lon='-90.82123' lat='29.78285' />
+		<name>Thibodaux, LA</name>
+	</plotcity>
+	<plotcity id='KSHV'>
+		<location lon='-93.82333' lat='32.445' />
+		<name>Shreveport, LA</name>
+	</plotcity>
+	<plotcity id='CCDLV'>
+		<location lon='-91.4327' lat='31.5689' />
+		<name>Vidalia, LA</name>
+	</plotcity>
+	<plotcity id='CCDM'>
+		<location lon='-91.1563' lat='30.6615' />
+		<name>Zachary, LA</name>
+	</plotcity>
+	<plotcity id='CCDN'>
+		<location lon='-92.20' lat='32.358' />
+		<name>West Monroe, LA</name>
+	</plotcity>
+	<plotcity id='CCDP'>
+		<location lon='-92.0929' lat='30.235' />
+		<name>Scott, LA</name>
+	</plotcity>
+	<plotcity id='CCDQ'>
+		<location lon='-91.3136' lat='29.69104' />
+		<name>Patterson, LA</name>
+	</plotcity>
+	<plotcity id='CCDR'>
+		<location lon='-92.6587' lat='31.94284' />
+		<name>Winnfield, LA</name>
+	</plotcity>
+	<plotcity id='CCDS'>
+		<location lon='-92.6326' lat='32.526' />
+		<name>Ruston, LA</name>
+	</plotcity>
+	<plotcity id='CCDT'>
+		<location lon='-92.66144' lat='30.814' />
+		<name>Oakdale, LA</name>
+	</plotcity>
+	<plotcity id='KSGF'>
+		<location lon='-93.385' lat='37.24166' />
+		<name>Springfield, LA</name>
+	</plotcity>
+	<plotcity id='AAAV'>
+		<location lon='-88.89862' lat='30.4084' />
+		<name>Biloxi, MS</name>
+	</plotcity>
+	<plotcity id='KGPT'>
+		<location lon='-89.06883' lat='30.405' />
+		<name>Gulfport, MS</name>
+	</plotcity>
+	<plotcity id='AAAR'>
+		<location lon='-89.29688' lat='31.29733' />
+		<name>Hattiesburg, MS</name>
+	</plotcity>
+	<plotcity id='KJAN'>
+		<location lon='-90.07467' lat='32.31' />
+		<name>Jackson, MS</name>
+	</plotcity>
+	<plotcity id='AAAS'>
+		<location lon='-88.7091' lat='32.37997' />
+		<name>Meridian, MS</name>
+	</plotcity>
+	<plotcity id='AAAU'>
+		<location lon='-88.53607' lat='30.38235' />
+		<name>Pascagoula, MS</name>
+	</plotcity>
+	<plotcity id='AAAW'>
+		<location lon='-90.89127' lat='32.3109' />
+		<name>Vicksburg, MS</name>
+	</plotcity>
+	<plotcity id='AAAT'>
+		<location lon='-88.63495' lat='31.69312' /> 
+		<name>Waynesboro, MS</name>
+	</plotcity>
+	<plotcity id='EEEA'>
+		<location lon='-85.8984' lat='42.8662' />
+		<name>Hudsonville, MI</name>
+	</plotcity>
+	<plotcity id='EEEB'>
+		<location lon='-89.8815' lat='34.3450' />
+		<name>Batesville, MS</name>
+	</plotcity>
+	<plotcity id='EEEC'>
+		<location lon='-89.3260' lat='30.3127' />
+		<name>Bay St Louis, MS</name>
+	</plotcity>
+	<plotcity id='EEED'>
+		<location lon='-89.9822' lat='32.6346' />
+		<name>Canton, MS</name>
+	</plotcity>
+	<plotcity id='EEEF'>
+		<location lon='-89.9822' lat='31.6936' />
+		<name>Laurel, MS</name>
+	</plotcity>
+	<plotcity id='EEEG'>
+		<location lon='-91.3231' lat='31.5340' />
+		<name>Natchez, MS</name>
+	</plotcity>
+	<plotcity id='EEEH'>
+		<location lon='-88.7558' lat='30.5758' />
+		<name>Ocean Springs, MS</name>
+	</plotcity>
+	<plotcity id='EEEI'>
+		<location lon='-89.3274' lat='30.4627' />
+		<name>Pass Christian, MS</name>
+	</plotcity>
+		<plotcity id='EEEJ'>
+		<location lon='-89.1208' lat='32.7510' />
+		<name>Philadelphia, MS</name>
+	</plotcity>
+		<plotcity id='EEEK'>
+		<location lon='-88.6132' lat='32.0858' />
+		<name>Quitman, MS</name>
+	</plotcity>
+	<plotcity id='EEEL'>
+		<location lon='-88.8438' lat='33.4256' />
+		<name>Starkville, MS</name>
+	</plotcity>
+	<plotcity id='EEEM'>
+		<location lon='-108.1447' lat='36.7798' />
+		<name>Farmington, NM</name>
+	</plotcity>
+	<plotcity id='EEEN'>
+		<location lon='-103.1356' lat='32.7028' />
+		<name>Hobbs, NM</name>
+	</plotcity>
+	<plotcity id='EEEO'>
+		<location lon='-96.7902' lat='34.7965' />
+		<name>Ada, OK</name>
+	</plotcity>
+	<plotcity id='EEEP'>
+		<location lon='-96.2026' lat='34.5844' />
+		<name>Coalgate, OK</name>
+	</plotcity>
+	<plotcity id='EEEQ'>
+		<location lon='-97.9353' lat='34.4782' />
+		<name>Duncan, OK</name>
+	</plotcity>
+	<plotcity id='EEER'>
+		<location lon='-96.3864' lat='34.0185' />
+		<name>Durant, OK</name>
+	</plotcity>
+	<plotcity id='EEES'>
+		<location lon='-99.4694' lat='35.4117' />
+		<name>Elk City, OK</name>
+	</plotcity>
+	<plotcity id='EEET'>
+		<location lon='-98.3952' lat='34.6030' />
+		<name>Lawton, OK</name>
+	</plotcity>
+	<plotcity id='KOKC'>
+		<location lon='-97.59834' lat='35.39167' />
+		<name>Oklahoma City, OK</name>
+	</plotcity>
+	<plotcity id='KPDX'>
+		<location lon='-122.5967' lat='45.58667' />
+		<name>Portland, OR</name>
+	</plotcity>
+	<plotcity id='KBPT'>
+		<location lon='-94.0195' lat='29.94833' />
+		<name>Beaumont, TX </name>
+	</plotcity>
+	<plotcity id='AAAP'>
+		<location lon='-95.4465' lat='29.17375' />
+		<name>Angleton, TX</name>
+	</plotcity>
+	<plotcity id='KBRO'>
+		<location lon='-97.42333' lat='25.905' />
+		<name>Brownsville, TX</name>
+	</plotcity>
+	<plotcity id='KCLL'>
+		<location lon='-96.36166' lat='30.58833' />
+		<name>College Station, TX</name>
+	</plotcity>
+	<plotcity id='KCRP'>
+		<location lon='-97.5' lat='27.76833' />
+		<name>Corpus Christi, TX</name>
+	</plotcity>
+	<plotcity id='MYGF'>
+		<location lon='-78.69666' lat='26.55333' />
+		<name>Freeport, TX</name>
+	</plotcity>
+	<plotcity id='KIAH'>
+		<location lon='-95.33833' lat='29.97833' />
+		<name>Houston, TX</name>
+	</plotcity>
+	<plotcity id='AAAC'>
+		<location lon='-94.8203' lat='29.284' />
+		<name>Galveston, TX</name>
+	</plotcity>
+	<plotcity id='KLRD'>
+		<location lon='-99.46' lat='27.54167' />
+		<name>Laredo, TX</name>
+	</plotcity>
+	<plotcity id='AAAG'>
+		<location lon='-94.7997' lat='30.06434' />
+		<name>Liberty</name>
+	</plotcity>
+	<plotcity id='KMAF'>
+		<location lon='-102.2' lat='31.94' />
+		<name>Midland</name>
+	</plotcity>
+	<plotcity id='FFFA'>
+		<location lon='-99.6614' lat='35.3293' />
+		<name>Sayre, OK</name>
+	</plotcity>
+	<plotcity id='FFFB'>
+		<location lon='-122.7641' lat='45.3689' />
+		<name>Tualatin, OR</name>
+	</plotcity>
+	<plotcity id='FFFC'>
+		<location lon='-98.1034' lat='27.6821' />
+		<name>Alice, TX</name>
+	</plotcity>
+	<plotcity id='FFFD'>
+		<location lon='-95.2649' lat='29.4018' />
+		<name>Alvin, TX</name>
+	</plotcity>
+	<plotcity id='FFFE'>
+		<location lon='-94.5434' lat='29.7107' />
+		<name>Anahuac, TX</name>
+	</plotcity>
+	<plotcity id='FFFF'>
+		<location lon='-97.0887' lat='32.6578' />
+		<name>Arlington, TX</name>
+	</plotcity>
+	<plotcity id='FFFG'>
+		<location lon='-95.9693' lat='28.9825' />
+		<name>Bay City, TX</name>
+	</plotcity>
+	<plotcity id='FFFH'>
+		<location lon='-97.7680' lat='28.4569' />
+		<name>Beeville, TX</name>
+	</plotcity>
+	<plotcity id='FFFI'>
+		<location lon='-97.8448' lat='33.5529' />
+		<name>Bowie, TX</name>
+	</plotcity>
+	<plotcity id='FFFJ'>
+		<location lon='-96.4076' lat='30.2352' />
+		<name>Brenham, TX</name>
+	</plotcity>
+	<plotcity id='FFFK'>
+		<location lon='-98.9922' lat='31.6193' />
+		<name>Brownwood, TX</name>
+	</plotcity>
+	<plotcity id='FFFL'>
+		<location lon='-96.3458' lat='30.7768' />
+		<name>Bryan, TX</name>
+	</plotcity>
+	<plotcity id='FFFM'>
+		<location lon='-94.1975' lat='31.7586' />
+		<name>Center, TX</name>
+	</plotcity>
+	<plotcity id='FFFN'>
+		<location lon='-95.4821' lat='31.2828' />
+		<name>Crockett, TX</name>
+	</plotcity>
+	<plotcity id='FFFO'>
+		<location lon='-95.1146' lat='29.7032' />
+		<name>Deer Park, TX</name>
+	</plotcity>
+	<plotcity id='FFFP'>
+		<location lon='-97.1437' lat='33.2208' />
+		<name>Denton, TX</name>
+	</plotcity>
+	<plotcity id='FFFQ'>
+		<location lon='-100.2545' lat='28.5841' />
+		<name>Eagle Pass, TX</name>
+	</plotcity>
+	<plotcity id='FFFR'>
+		<location lon='-98.1548' lat='26.2938' />
+		<name>Edinburg, TX</name>
+	</plotcity>
+	<plotcity id='FFFS'>
+		<location lon='-96.1239' lat='31.8162' />
+		<name>Fairfield, TX</name>
+	</plotcity>
+	<plotcity id='FFFT'>
+		<location lon='-102.8028' lat='30.6836' />
+		<name>Fort Stockton, TX </name>
+	</plotcity>
+	<plotcity id='FFFU'>
+		<location lon='-96.7984' lat='28.2466' />
+		<name>Fulton, TX</name>
+	</plotcity>
+	<plotcity id='FFFV'>
+		<location lon='-93.9207' lat='29.9495' />
+		<name>Groves, TX</name>
+	</plotcity>
+	<plotcity id='FFFW'>
+		<location lon='-97.6849' lat='26.2089' />
+		<name>Harlingen, TX</name>
+	</plotcity>
+	<plotcity id='FFFX'>
+		<location lon='-95.7677' lat='29.8394' />
+		<name>Katy, TX</name>
+	</plotcity>
+	<plotcity id='FFFY'>
+		<location lon='-103.0120' lat='31.8833' />
+		<name>Kermit, TX</name>
+	</plotcity>
+		<plotcity id='FFFZ'>
+		<location lon='-97.7965' lat='27.4762' />
+		<name>Kingsville, TX</name>
+	</plotcity>
+	<plotcity id='GGGA'>
+		<location lon='-95.4739' lat='29.0424' />
+		<name>Lake Jackson, TX</name>
+	</plotcity>
+	<plotcity id='GGGB'>
+		<location lon='-95.1021' lat='29.4885' />
+		<name>League City, TX</name>
+	</plotcity>
+	<plotcity id='GGGC'>
+		<location lon='-94.8036' lat='30.7078' />
+		<name>Livingston, TX</name>
+	</plotcity>
+	<plotcity id='KLBB'>
+		<location lon='-101.82' lat='33.66167' />
+		<name>Lubbock</name>
+	</plotcity>
+	<plotcity id='GGGD'>
+		<location lon='-98.2399' lat='26.2183' />
+		<name>McAllen, TX</name>
+	</plotcity>
+	<plotcity id='GGGE'>
+		<location lon='94.6402' lat='31.6330' />
+		<name>Nacogdoches, TX</name>
+	</plotcity>
+	<plotcity id='AAAD'>
+		<location lon='-93.9276' lat='29.78' />
+		<name>Port Arthur, TX</name>
+	</plotcity>
+	<plotcity id='KSJT'>
+		<location lon='-100.495' lat='31.355' />
+		<name>San Angelo, TX</name>
+	</plotcity>
+	<plotcity id='KSAT'>
+		<location lon='-98.46833' lat='29.53167' />
+		<name>San Antonio, TX</name>
+	</plotcity>
+	<plotcity id='KTYR'>
+		<location lon='-95.40166' lat='32.35167' />
+		<name>Tyler, TX</name>
+	</plotcity>
+	<plotcity id='AAAQ'>
+		<location lon='-97.0065' lat='28.8182' />
+		<name>Victoria, TX</name>
+	</plotcity>
+	<plotcity id='KACT'>
+		<location lon='-97.22833' lat='31.61' />
+		<name>Waco, TX</name>
+	</plotcity>
+	<plotcity id='HHHA'>
+		<location lon='-96.0045' lat='30.3670' />
+		<name>Navasota, TX</name>
+	</plotcity>
+	<plotcity id='HHHB'>
+		<location lon='-94.0164' lat='29.9798' />
+		<name>Nederland, TX</name>
+	</plotcity>
+	<plotcity id='HHHC'>
+		<location lon='-94.0164' lat='29.9798' />
+		<name>Odessa, TX</name>
+	</plotcity>
+	<plotcity id='HHHD'>
+		<location lon='-93.8140' lat='30.1136' />
+		<name>Orange, TX</name>
+	</plotcity>
+	<plotcity id='HHHE'>
+		<location lon='-95.6167' lat='31.7617' />
+		<name>Palestine, TX</name>
+	</plotcity>
+	<plotcity id='HHHF'>
+		<location lon='-95.5450' lat='33.5757' />
+		<name>Paris, TX</name>
+	</plotcity>
+	<plotcity id='HHHG'>
+		<location lon='-95.1697' lat='29.6812' />
+		<name>Pasadena, TX</name>
+	</plotcity>
+	<plotcity id='HHHH'>
+		<location lon='-103.7134' lat='31.4465' />
+		<name>Pecos, TX</name>
+	</plotcity>
+	<plotcity id='HHHI'>
+		<location lon='-98.1914' lat='29.1569' />
+		<name>Pharr, TX</name>
+	</plotcity>
+	<plotcity id='HHHJ'>
+		<location lon='-96.6630' lat='28.5342' />
+		<name>Port Lavaca, TX</name>
+	</plotcity>
+	<plotcity id='HHHK'>
+		<location lon='-96.6507' lat='28.2231' />
+		<name>Port OConnor, TX</name>
+	</plotcity>	
+	<plotcity id='HHHL'>
+		<location lon='-96.7425' lat='32.9508' />
+		<name>Richardson, TX</name>
+	</plotcity>
+	<plotcity id='HHHM'>
+		<location lon='-98.6950' lat='26.5735' />
+		<name>Rio Grande City, TX</name>
+	</plotcity>
+	<plotcity id='HHHN'>
+		<location lon='-98.9850' lat='26.5818' />
+		<name>Roma, TX</name>
+	</plotcity>
+	<plotcity id='HHHO'>
+		<location lon='-94.1898' lat='29.7569' />
+		<name>Sabine, TX</name>
+	</plotcity>
+	<plotcity id='HHHP'>
+		<location lon='-95.6300' lat='29.6334' />
+		<name>Sugar Land, TX</name>
+	</plotcity>
+	<plotcity id='HHHQ'>
+		<location lon='-97.3287' lat='31.0795' />
+		<name>Temple, TX</name>
+	</plotcity>
+	<plotcity id='HHHR'>
+		<location lon='-94.9168' lat='29.3796' />
+		<name>Texas City, TX</name>
+	</plotcity>
+	<plotcity id='HHHS'>
+		<location lon='-95.4685' lat='30.1344' />
+		<name>The Woodlands, TX</name>
+	</plotcity>
+	<plotcity id='HHHT'>
+		<location lon='-96.0340' lat='29.2926' />
+		<name>Wharton, TX</name>
+	</plotcity>
+	<plotcity id='HHHU'>
+		<location lon='-94.3251' lat='29.7841' />
+		<name>Winnie, TX</name>
+	</plotcity>
+	<plotcity id='HHHV'>
+		<location lon='-99.1308' lat='26.8906' />
+		<name>Zapata, TX</name>
+	</plotcity>
+	<plotcity id='ZZZZ'>
+		<location lon='-61.31' lat='10.40' />
+		<name>Port Of Spain</name>
+	</plotcity>
+</cities>

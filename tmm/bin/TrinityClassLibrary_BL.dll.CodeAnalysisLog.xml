@@ -1,0 +1,1027 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="c:\program files (x86)\microsoft visual studio 10.0\team tools\static analysis tools\fxcop\Xml\CodeAnalysisReport.xsl"?>
+<FxCopReport Version="10.0">
+ <Namespaces>
+  <Namespace Name="TrinityClassLibrary_BL">
+   <Messages>
+    <Message TypeName="IdentifiersShouldNotContainUnderscores" Category="Microsoft.Naming" CheckId="CA1707" Status="Active" Created="2013-12-16 15:24:06Z" FixCategory="Breaking">
+     <Issue Name="Namespace" Certainty="95" Level="Error">Remove the underscores from namespace name 'TrinityClassLibrary_BL'.</Issue>
+    </Message>
+   </Messages>
+  </Namespace>
+ </Namespaces>
+ <Targets>
+  <Target Name="C:\PROJECTS_TFS\Trinity\bin\TrinityClassLibrary_BL.dll">
+   <Modules>
+    <Module Name="trinityclasslibrary_bl.dll">
+     <Messages>
+      <Message TypeName="AssembliesShouldHaveValidStrongNames" Category="Microsoft.Design" CheckId="CA2210" Status="Active" Created="2013-12-16 15:24:06Z" FixCategory="NonBreaking">
+       <Issue Name="NoStrongName" Certainty="95" Level="CriticalError">Sign 'TrinityClassLibrary_BL.dll' with a strong name key.</Issue>
+      </Message>
+      <Message TypeName="IdentifiersShouldNotContainUnderscores" Category="Microsoft.Naming" CheckId="CA1707" Status="Active" Created="2013-12-16 15:24:06Z" FixCategory="Breaking">
+       <Issue Name="Assembly" Certainty="95" Level="Error">Remove the underscores from assembly name 'TrinityClassLibrary_BL.dll'.</Issue>
+      </Message>
+      <Message TypeName="MarkAssembliesWithClsCompliant" Category="Microsoft.Design" CheckId="CA1014" Status="Active" Created="2013-12-16 15:24:06Z" FixCategory="NonBreaking">
+       <Issue Certainty="95" Level="Error">Mark 'TrinityClassLibrary_BL.dll' with CLSCompliant(true) because it exposes externally visible types.</Issue>
+      </Message>
+     </Messages>
+     <Namespaces>
+      <Namespace Name="TrinityClassLibrary_BL">
+       <Types>
+        <Type Name="AdditionalPatientNote" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#.ctor(System.Int32,System.Int32,System.String,System.Nullable`1&lt;System.Int32&gt;,System.Int32,System.Boolean,System.Int32,System.DateTime,System.Nullable`1&lt;System.Int32&gt;,System.Nullable`1&lt;System.DateTime&gt;,System.Boolean)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="ID" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2013-12-16 15:24:06Z" FixCategory="Breaking">
+             <Issue Name="MemberParameterAbbreviation" Certainty="85" Level="Error" Path="C:\PROJECTS_TFS\Trinity\TrinityClassLibrary_BL" File="AdditionalPatientNote.cs" Line="32">In member 'AdditionalPatientNote.AdditionalPatientNote(int, int, string, int?, int, bool, int, DateTime, int?, DateTime?, bool)', correct the casing of 'ID' in parameter name 'createdByUserID' by changing it to 'Id'. 'Id' is an abbreviation and therefore is not subject to acronym casing guidelines.</Issue>
+             <Issue Name="MemberParameterAbbreviation" Certainty="85" Level="Error" Path="C:\PROJECTS_TFS\Trinity\TrinityClassLibrary_BL" File="AdditionalPatientNote.cs" Line="32">In member 'AdditionalPatientNote.AdditionalPatientNote(int, int, string, int?, int, bool, int, DateTime, int?, DateTime?, bool)', correct the casing of 'ID' in parameter name 'lastModifiedByUserID' by changing it to 'Id'. 'Id' is an abbreviation and therefore is not subject to acronym casing guidelines.</Issue>
+             <Issue Name="MemberParameterAbbreviation" Certainty="85" Level="Error" Path="C:\PROJECTS_TFS\Trinity\TrinityClassLibrary_BL" File="AdditionalPatientNote.cs" Line="32">In member 'AdditionalPatientNote.AdditionalPatientNote(int, int, string, int?, int, bool, int, DateTime, int?, DateTime?, bool)', correct the casing of 'ID' in parameter name 'noteID' by changing it to 'Id'. 'Id' is an abbreviation and therefore is not subject to acronym casing guidelines.</Issue>
+             <Issue Name="MemberParameterAbbreviation" Certainty="85" Level="Error" Path="C:\PROJECTS_TFS\Trinity\TrinityClassLibrary_BL" File="AdditionalPatientNote.cs" Line="32">In member 'AdditionalPatientNote.AdditionalPatientNote(int, int, string, int?, int, bool, int, DateTime, int?, DateTime?, bool)', correct the casing of 'ID' in parameter name 'patientID' by changing it to 'Id'. 'Id' is an abbreviation and therefore is not subject to acronym casing guidelines.</Issue>
+             <Issue Name="MemberParameterAbbreviation" Certainty="85" Level="Error" Path="C:\PROJECTS_TFS\Trinity\TrinityClassLibrary_BL" File="AdditionalPatientNote.cs" Line="32">In member 'AdditionalPatientNote.AdditionalPatientNote(int, int, string, int?, int, bool, int, DateTime, int?, DateTime?, bool)', correct the casing of 'ID' in parameter name 'securityLevelID' by changing it to 'Id'. 'Id' is an abbreviation and therefore is not subject to acronym casing guidelines.</Issue>
+             <Issue Name="MemberParameterAbbreviation" Certainty="85" Level="Error" Path="C:\PROJECTS_TFS\Trinity\TrinityClassLibrary_BL" File="AdditionalPatientNote.cs" Line="32">In member 'AdditionalPatientNote.AdditionalPatientNote(int, int, string, int?, int, bool, int, DateTime, int?, DateTime?, bool)', correct the casing of 'ID' in parameter name 'tempNoteID' by changing it to 'Id'. 'Id' is an abbreviation and therefore is not subject to acronym casing guidelines.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#CreatedByUserID" Kind="Property" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="ID" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2013-12-16 15:24:06Z" FixCategory="Breaking">
+             <Issue Name="MemberAbbreviation" Certainty="85" Level="Error" Path="C:\PROJECTS_TFS\Trinity\TrinityClassLibrary_BL" File="AdditionalPatientNote.cs" Line="157">Correct the casing of 'ID' in member name 'AdditionalPatientNote.CreatedByUserID' by changing it to 'Id'. 'Id' is an abbreviation and therefore is not subject to acronym casing guidelines.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#LastModifiedByUserID" Kind="Property" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="ID" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2013-12-16 15:24:06Z" FixCategory="Breaking">
+             <Issue Name="MemberAbbreviation" Certainty="85" Level="Error" Path="C:\PROJECTS_TFS\Trinity\TrinityClassLibrary_BL" File="AdditionalPatientNote.cs" Line="181">Correct the casing of 'ID' in member name 'AdditionalPatientNote.LastModifiedByUserID' by changing it to 'Id'. 'Id' is an abbreviation and therefore is not subject to acronym casing guidelines.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#NoteID" Kind="Property" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="ID" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2013-12-16 15:24:06Z" FixCategory="Breaking">
+             <Issue Name="MemberAbbreviation" Certainty="85" Level="Error" Path="C:\PROJECTS_TFS\Trinity\TrinityClassLibrary_BL" File="AdditionalPatientNote.cs" Line="71">Correct the casing of 'ID' in member name 'AdditionalPatientNote.NoteID' by changing it to 'Id'. 'Id' is an abbreviation and therefore is not subject to acronym casing guidelines.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#PatientID" Kind="Property" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="ID" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2013-12-16 15:24:06Z" FixCategory="Breaking">
+             <Issue Name="MemberAbbreviation" Certainty="85" Level="Error" Path="C:\PROJECTS_TFS\Trinity\TrinityClassLibrary_BL" File="AdditionalPatientNote.cs" Line="83">Correct the casing of 'ID' in member name 'AdditionalPatientNote.PatientID' by changing it to 'Id'. 'Id' is an abbreviation and therefore is not subject to acronym casing guidelines.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#SecurityLevel" Kind="Property" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Accessors>
+            <Accessor Name="#set_SecurityLevel(TrinityClassLibrary_BL.AdditionalPatientNote+SecurityLevels)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+             <Messages>
+              <Message Id="System.Convert.ToInt32(System.Object)" TypeName="SpecifyIFormatProvider" Category="Microsoft.Globalization" CheckId="CA1305" Status="Active" Created="2013-12-16 15:24:06Z" FixCategory="NonBreaking">
+               <Issue Name="IFormatProviderAlternate" Certainty="95" Level="Error" Path="C:\PROJECTS_TFS\Trinity\TrinityClassLibrary_BL" File="AdditionalPatientNote.cs" Line="138">Because the behavior of 'Convert.ToInt32(object)' could vary based on the current user's locale settings, replace this call in 'AdditionalPatientNote.SecurityLevel.set(AdditionalPatientNote.SecurityLevels)' with a call to 'Convert.ToInt32(object, IFormatProvider)'. If the result of 'Convert.ToInt32(object, IFormatProvider)' will be based on input from the user, specify 'CultureInfo.CurrentCulture' as the 'IFormatProvider' parameter. Otherwise, if the result will based on input stored and accessed by software, such as when it is loaded from disk or from a database, specify 'CultureInfo.InvariantCulture'.</Issue>
+              </Message>
+             </Messages>
+            </Accessor>
+           </Accessors>
+          </Member>
+          <Member Name="#SecurityLevelID" Kind="Property" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="ID" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2013-12-16 15:24:06Z" FixCategory="Breaking">
+             <Issue Name="MemberAbbreviation" Certainty="85" Level="Error" Path="C:\PROJECTS_TFS\Trinity\TrinityClassLibrary_BL" File="AdditionalPatientNote.cs" Line="121">Correct the casing of 'ID' in member name 'AdditionalPatientNote.SecurityLevelID' by changing it to 'Id'. 'Id' is an abbreviation and therefore is not subject to acronym casing guidelines.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#TempNoteID" Kind="Property" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="ID" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2013-12-16 15:24:06Z" FixCategory="Breaking">
+             <Issue Name="MemberAbbreviation" Certainty="85" Level="Error" Path="C:\PROJECTS_TFS\Trinity\TrinityClassLibrary_BL" File="AdditionalPatientNote.cs" Line="109">Correct the casing of 'ID' in member name 'AdditionalPatientNote.TempNoteID' by changing it to 'Id'. 'Id' is an abbreviation and therefore is not subject to acronym casing guidelines.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="AdditionalPatientNote+SecurityLevels" Kind="Enum" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="EnumsShouldHaveZeroValue" Category="Microsoft.Design" CheckId="CA1008" Status="Active" Created="2013-12-16 15:24:06Z" FixCategory="NonBreaking">
+           <Issue Name="NotFlagsNoZeroValue" Certainty="95" Level="CriticalError">Add a member to 'AdditionalPatientNote.SecurityLevels' that has a value of zero with a suggested name of 'None'.</Issue>
+          </Message>
+          <Message TypeName="NestedTypesShouldNotBeVisible" Category="Microsoft.Design" CheckId="CA1034" Status="Active" Created="2013-12-16 15:24:06Z" FixCategory="Breaking">
+           <Issue Certainty="90" Level="Error">Do not nest type 'AdditionalPatientNote.SecurityLevels'. Alternatively, change its accessibility so that it is not externally visible.</Issue>
+          </Message>
+          <Message TypeName="OnlyFlagsEnumsShouldHavePluralNames" Category="Microsoft.Naming" CheckId="CA1717" Status="Active" Created="2013-12-16 15:24:06Z" FixCategory="Breaking">
+           <Issue Certainty="75" Level="Error">If the name 'AdditionalPatientNote.SecurityLevels' is plural, change it to its singular form.</Issue>
+          </Message>
+         </Messages>
+        </Type>
+        <Type Name="AdditonalPatientNoteTemp" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message Id="Additonal" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2013-12-16 15:24:06Z" FixCategory="Breaking">
+           <Issue Name="Type" Certainty="75" Level="CriticalWarning">Correct the spelling of 'Additonal' in type name 'AdditonalPatientNoteTemp'.</Issue>
+          </Message>
+         </Messages>
+         <Members>
+          <Member Name="#.ctor(System.Int32,System.String,System.String,System.Int32,System.String,System.Int32,System.Boolean,System.Int32,System.DateTime,System.Boolean)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="ID" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2013-12-16 15:24:06Z" FixCategory="Breaking">
+             <Issue Name="MemberParameterAbbreviation" Certainty="85" Level="Error" Path="C:\PROJECTS_TFS\Trinity\TrinityClassLibrary_BL" File="AdditonalPatientNoteTemp.cs" Line="32">In member 'AdditonalPatientNoteTemp.AdditonalPatientNoteTemp(int, string, string, int, string, int, bool, int, DateTime, bool)', correct the casing of 'ID' in parameter name 'createdByUserID' by changing it to 'Id'. 'Id' is an abbreviation and therefore is not subject to acronym casing guidelines.</Issue>
+             <Issue Name="MemberParameterAbbreviation" Certainty="85" Level="Error" Path="C:\PROJECTS_TFS\Trinity\TrinityClassLibrary_BL" File="AdditonalPatientNoteTemp.cs" Line="32">In member 'AdditonalPatientNoteTemp.AdditonalPatientNoteTemp(int, string, string, int, string, int, bool, int, DateTime, bool)', correct the casing of 'ID' in parameter name 'rigID' by changing it to 'Id'. 'Id' is an abbreviation and therefore is not subject to acronym casing guidelines.</Issue>
+             <Issue Name="MemberParameterAbbreviation" Certainty="85" Level="Error" Path="C:\PROJECTS_TFS\Trinity\TrinityClassLibrary_BL" File="AdditonalPatientNoteTemp.cs" Line="32">In member 'AdditonalPatientNoteTemp.AdditonalPatientNoteTemp(int, string, string, int, string, int, bool, int, DateTime, bool)', correct the casing of 'ID' in parameter name 'securityLevelID' by changing it to 'Id'. 'Id' is an abbreviation and therefore is not subject to acronym casing guidelines.</Issue>
+             <Issue Name="MemberParameterAbbreviation" Certainty="85" Level="Error" Path="C:\PROJECTS_TFS\Trinity\TrinityClassLibrary_BL" File="AdditonalPatientNoteTemp.cs" Line="32">In member 'AdditonalPatientNoteTemp.AdditonalPatientNoteTemp(int, string, string, int, string, int, bool, int, DateTime, bool)', correct the casing of 'ID' in parameter name 'tempNoteID' by changing it to 'Id'. 'Id' is an abbreviation and therefore is not subject to acronym casing guidelines.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#CreatedByUserID" Kind="Property" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="ID" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2013-12-16 15:24:06Z" FixCategory="Breaking">
+             <Issue Name="MemberAbbreviation" Certainty="85" Level="Error" Path="C:\PROJECTS_TFS\Trinity\TrinityClassLibrary_BL" File="AdditonalPatientNoteTemp.cs" Line="172">Correct the casing of 'ID' in member name 'AdditonalPatientNoteTemp.CreatedByUserID' by changing it to 'Id'. 'Id' is an abbreviation and therefore is not subject to acronym casing guidelines.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#RigID" Kind="Property" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="ID" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2013-12-16 15:24:06Z" FixCategory="Breaking">
+             <Issue Name="MemberAbbreviation" Certainty="85" Level="Error" Path="C:\PROJECTS_TFS\Trinity\TrinityClassLibrary_BL" File="AdditonalPatientNoteTemp.cs" Line="110">Correct the casing of 'ID' in member name 'AdditonalPatientNoteTemp.RigID' by changing it to 'Id'. 'Id' is an abbreviation and therefore is not subject to acronym casing guidelines.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#SecurityLevel" Kind="Property" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Accessors>
+            <Accessor Name="#set_SecurityLevel(TrinityClassLibrary_BL.AdditonalPatientNoteTemp+SecurityLevels)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+             <Messages>
+              <Message Id="System.Convert.ToInt32(System.Object)" TypeName="SpecifyIFormatProvider" Category="Microsoft.Globalization" CheckId="CA1305" Status="Active" Created="2013-12-16 15:24:06Z" FixCategory="NonBreaking">
+               <Issue Name="IFormatProviderAlternate" Certainty="95" Level="Error" Path="C:\PROJECTS_TFS\Trinity\TrinityClassLibrary_BL" File="AdditonalPatientNoteTemp.cs" Line="153">Because the behavior of 'Convert.ToInt32(object)' could vary based on the current user's locale settings, replace this call in 'AdditonalPatientNoteTemp.SecurityLevel.set(AdditonalPatientNoteTemp.SecurityLevels)' with a call to 'Convert.ToInt32(object, IFormatProvider)'. If the result of 'Convert.ToInt32(object, IFormatProvider)' will be based on input from the user, specify 'CultureInfo.CurrentCulture' as the 'IFormatProvider' parameter. Otherwise, if the result will based on input stored and accessed by software, such as when it is loaded from disk or from a database, specify 'CultureInfo.InvariantCulture'.</Issue>
+              </Message>
+             </Messages>
+            </Accessor>
+           </Accessors>
+          </Member>
+          <Member Name="#SecurityLevelID" Kind="Property" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="ID" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2013-12-16 15:24:06Z" FixCategory="Breaking">
+             <Issue Name="MemberAbbreviation" Certainty="85" Level="Error" Path="C:\PROJECTS_TFS\Trinity\TrinityClassLibrary_BL" File="AdditonalPatientNoteTemp.cs" Line="136">Correct the casing of 'ID' in member name 'AdditonalPatientNoteTemp.SecurityLevelID' by changing it to 'Id'. 'Id' is an abbreviation and therefore is not subject to acronym casing guidelines.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#TempNoteID" Kind="Property" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="ID" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2013-12-16 15:24:06Z" FixCategory="Breaking">
+             <Issue Name="MemberAbbreviation" Certainty="85" Level="Error" Path="C:\PROJECTS_TFS\Trinity\TrinityClassLibrary_BL" File="AdditonalPatientNoteTemp.cs" Line="71">Correct the casing of 'ID' in member name 'AdditonalPatientNoteTemp.TempNoteID' by changing it to 'Id'. 'Id' is an abbreviation and therefore is not subject to acronym casing guidelines.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="AdditonalPatientNoteTemp+SecurityLevels" Kind="Enum" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="EnumsShouldHaveZeroValue" Category="Microsoft.Design" CheckId="CA1008" Status="Active" Created="2013-12-16 15:24:06Z" FixCategory="NonBreaking">
+           <Issue Name="NotFlagsNoZeroValue" Certainty="95" Level="CriticalError">Add a member to 'AdditonalPatientNoteTemp.SecurityLevels' that has a value of zero with a suggested name of 'None'.</Issue>
+          </Message>
+          <Message TypeName="NestedTypesShouldNotBeVisible" Category="Microsoft.Design" CheckId="CA1034" Status="Active" Created="2013-12-16 15:24:06Z" FixCategory="Breaking">
+           <Issue Certainty="90" Level="Error">Do not nest type 'AdditonalPatientNoteTemp.SecurityLevels'. Alternatively, change its accessibility so that it is not externally visible.</Issue>
+          </Message>
+          <Message TypeName="OnlyFlagsEnumsShouldHavePluralNames" Category="Microsoft.Naming" CheckId="CA1717" Status="Active" Created="2013-12-16 15:24:06Z" FixCategory="Breaking">
+           <Issue Certainty="75" Level="Error">If the name 'AdditonalPatientNoteTemp.SecurityLevels' is plural, change it to its singular form.</Issue>
+          </Message>
+         </Messages>
+        </Type>
+        <Type Name="CoordinateCalculations" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#ConvertDecimalDegreesToDegreesMinutesSeconds(System.Double,System.Boolean)" Kind="Method" Static="True" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="System.Convert.ToDouble(System.String)" TypeName="SpecifyIFormatProvider" Category="Microsoft.Globalization" CheckId="CA1305" Status="Active" Created="2013-12-16 15:24:06Z" FixCategory="NonBreaking">
+             <Issue Name="IFormatProviderAlternate" Certainty="95" Level="Error" Path="C:\PROJECTS_TFS\Trinity\TrinityClassLibrary_BL" File="CoordinateCalculations.cs" Line="242">Because the behavior of 'Convert.ToDouble(string)' could vary based on the current user's locale settings, replace this call in 'CoordinateCalculations.ConvertDecimalDegreesToDegreesMinutesSeconds(double, bool)' with a call to 'Convert.ToDouble(string, IFormatProvider)'. If the result of 'Convert.ToDouble(string, IFormatProvider)' will be based on input from the user, specify 'CultureInfo.CurrentCulture' as the 'IFormatProvider' parameter. Otherwise, if the result will based on input stored and accessed by software, such as when it is loaded from disk or from a database, specify 'CultureInfo.InvariantCulture'.</Issue>
+             <Issue Name="IFormatProviderAlternate" Certainty="95" Level="Error" Path="C:\PROJECTS_TFS\Trinity\TrinityClassLibrary_BL" File="CoordinateCalculations.cs" Line="251">Because the behavior of 'Convert.ToDouble(string)' could vary based on the current user's locale settings, replace this call in 'CoordinateCalculations.ConvertDecimalDegreesToDegreesMinutesSeconds(double, bool)' with a call to 'Convert.ToDouble(string, IFormatProvider)'. If the result of 'Convert.ToDouble(string, IFormatProvider)' will be based on input from the user, specify 'CultureInfo.CurrentCulture' as the 'IFormatProvider' parameter. Otherwise, if the result will based on input stored and accessed by software, such as when it is loaded from disk or from a database, specify 'CultureInfo.InvariantCulture'.</Issue>
+            </Message>
+            <Message Id="System.Double.ToString" TypeName="SpecifyIFormatProvider" Category="Microsoft.Globalization" CheckId="CA1305" Status="Active" Created="2013-12-16 15:24:06Z" FixCategory="NonBreaking">
+             <Issue Name="IFormatProviderAlternateString" Certainty="95" Level="Error" Path="C:\PROJECTS_TFS\Trinity\TrinityClassLibrary_BL" File="CoordinateCalculations.cs" Line="230">Because the behavior of 'double.ToString()' could vary based on the current user's locale settings, replace this call in 'CoordinateCalculations.ConvertDecimalDegreesToDegreesMinutesSeconds(double, bool)' with a call to 'double.ToString(IFormatProvider)'. If the result of 'double.ToString(IFormatProvider)' will be displayed to the user, specify 'CultureInfo.CurrentCulture' as the 'IFormatProvider' parameter. Otherwise, if the result will be stored and accessed by software, such as when it is persisted to disk or to a database, specify 'CultureInfo.InvariantCulture'.</Issue>
+             <Issue Name="IFormatProviderAlternateString" Certainty="95" Level="Error" Path="C:\PROJECTS_TFS\Trinity\TrinityClassLibrary_BL" File="CoordinateCalculations.cs" Line="235">Because the behavior of 'double.ToString()' could vary based on the current user's locale settings, replace this call in 'CoordinateCalculations.ConvertDecimalDegreesToDegreesMinutesSeconds(double, bool)' with a call to 'double.ToString(IFormatProvider)'. If the result of 'double.ToString(IFormatProvider)' will be displayed to the user, specify 'CultureInfo.CurrentCulture' as the 'IFormatProvider' parameter. Otherwise, if the result will be stored and accessed by software, such as when it is persisted to disk or to a database, specify 'CultureInfo.InvariantCulture'.</Issue>
+             <Issue Name="IFormatProviderAlternateString" Certainty="95" Level="Error" Path="C:\PROJECTS_TFS\Trinity\TrinityClassLibrary_BL" File="CoordinateCalculations.cs" Line="245">Because the behavior of 'double.ToString()' could vary based on the current user's locale settings, replace this call in 'CoordinateCalculations.ConvertDecimalDegreesToDegreesMinutesSeconds(double, bool)' with a call to 'double.ToString(IFormatProvider)'. If the result of 'double.ToString(IFormatProvider)' will be displayed to the user, specify 'CultureInfo.CurrentCulture' as the 'IFormatProvider' parameter. Otherwise, if the result will be stored and accessed by software, such as when it is persisted to disk or to a database, specify 'CultureInfo.InvariantCulture'.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#ConvertDecimalDegreesToDegreesMinutesSeconds(System.Double,TrinityClassLibrary_BL.CoordinateCalculations+CoordinateTypes)" Kind="Method" Static="True" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="System.Double.ToString" TypeName="SpecifyIFormatProvider" Category="Microsoft.Globalization" CheckId="CA1305" Status="Active" Created="2013-12-16 15:24:06Z" FixCategory="NonBreaking">
+             <Issue Name="IFormatProviderAlternateString" Certainty="95" Level="Error" Path="C:\PROJECTS_TFS\Trinity\TrinityClassLibrary_BL" File="CoordinateCalculations.cs" Line="280">Because the behavior of 'double.ToString()' could vary based on the current user's locale settings, replace this call in 'CoordinateCalculations.ConvertDecimalDegreesToDegreesMinutesSeconds(double, CoordinateCalculations.CoordinateTypes)' with a call to 'double.ToString(IFormatProvider)'. If the result of 'double.ToString(IFormatProvider)' will be displayed to the user, specify 'CultureInfo.CurrentCulture' as the 'IFormatProvider' parameter. Otherwise, if the result will be stored and accessed by software, such as when it is persisted to disk or to a database, specify 'CultureInfo.InvariantCulture'.</Issue>
+             <Issue Name="IFormatProviderAlternateString" Certainty="95" Level="Error" Path="C:\PROJECTS_TFS\Trinity\TrinityClassLibrary_BL" File="CoordinateCalculations.cs" Line="280">Because the behavior of 'double.ToString()' could vary based on the current user's locale settings, replace this call in 'CoordinateCalculations.ConvertDecimalDegreesToDegreesMinutesSeconds(double, CoordinateCalculations.CoordinateTypes)' with a call to 'double.ToString(IFormatProvider)'. If the result of 'double.ToString(IFormatProvider)' will be displayed to the user, specify 'CultureInfo.CurrentCulture' as the 'IFormatProvider' parameter. Otherwise, if the result will be stored and accessed by software, such as when it is persisted to disk or to a database, specify 'CultureInfo.InvariantCulture'.</Issue>
+             <Issue Name="IFormatProviderAlternateString" Certainty="95" Level="Error" Path="C:\PROJECTS_TFS\Trinity\TrinityClassLibrary_BL" File="CoordinateCalculations.cs" Line="280">Because the behavior of 'double.ToString()' could vary based on the current user's locale settings, replace this call in 'CoordinateCalculations.ConvertDecimalDegreesToDegreesMinutesSeconds(double, CoordinateCalculations.CoordinateTypes)' with a call to 'double.ToString(IFormatProvider)'. If the result of 'double.ToString(IFormatProvider)' will be displayed to the user, specify 'CultureInfo.CurrentCulture' as the 'IFormatProvider' parameter. Otherwise, if the result will be stored and accessed by software, such as when it is persisted to disk or to a database, specify 'CultureInfo.InvariantCulture'.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#DirectionToPositiveOrNegative(System.Double,System.Char)" Kind="Method" Static="True" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="DoNotRaiseReservedExceptionTypes" Category="Microsoft.Usage" CheckId="CA2201" Status="Active" Created="2013-12-16 15:24:06Z" FixCategory="Breaking">
+             <Issue Name="TooGeneric" Certainty="95" Level="Error" Path="C:\PROJECTS_TFS\Trinity\TrinityClassLibrary_BL" File="CoordinateCalculations.cs" Line="332">'CoordinateCalculations.DirectionToPositiveOrNegative(double, char)' creates an exception of type 'Exception', an exception type that is not sufficiently specific and should never be raised by user code. If this exception instance might be thrown, use a different exception type.</Issue>
+             <Issue Name="TooGeneric" Certainty="95" Level="Error" Path="C:\PROJECTS_TFS\Trinity\TrinityClassLibrary_BL" File="CoordinateCalculations.cs" Line="344">'CoordinateCalculations.DirectionToPositiveOrNegative(double, char)' creates an exception of type 'Exception', an exception type that is not sufficiently specific and should never be raised by user code. If this exception instance might be thrown, use a different exception type.</Issue>
+            </Message>
+            <Message Id="DirectionToPositiveOrNegative" TypeName="Literals should be spelled correctly" Category="Microsoft.Naming" CheckId="CA2204" Status="Active" Created="2013-12-16 15:24:06Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning" Path="C:\PROJECTS_TFS\Trinity\TrinityClassLibrary_BL" File="CoordinateCalculations.cs" Line="332">Correct the spelling of the unrecognized token 'DirectionToPositiveOrNegative' in the literal '"Coordinate calculations error. Degree input into DirectionToPositiveOrNegative m..."'.</Issue>
+             <Issue Certainty="75" Level="Warning" Path="C:\PROJECTS_TFS\Trinity\TrinityClassLibrary_BL" File="CoordinateCalculations.cs" Line="344">Correct the spelling of the unrecognized token 'DirectionToPositiveOrNegative' in the literal '"Coordinate calculations error. Input into DirectionToPositiveOrNegative must be ..."'.</Issue>
+            </Message>
+            <Message Id="positve" TypeName="Literals should be spelled correctly" Category="Microsoft.Naming" CheckId="CA2204" Status="Active" Created="2013-12-16 15:24:06Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning" Path="C:\PROJECTS_TFS\Trinity\TrinityClassLibrary_BL" File="CoordinateCalculations.cs" Line="332">Correct the spelling of the unrecognized token 'positve' in the literal '"Coordinate calculations error. Degree input into DirectionToPositiveOrNegative m..."'.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#DistanceBetweenRadianCoordianates(System.Double,System.Double,System.Double,System.Double)" Kind="Method" Static="True" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="Coordianates" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2013-12-16 15:24:06Z" FixCategory="Breaking">
+             <Issue Name="Member" Certainty="75" Level="CriticalWarning" Path="C:\PROJECTS_TFS\Trinity\TrinityClassLibrary_BL" File="CoordinateCalculations.cs" Line="143">Correct the spelling of 'Coordianates' in member name 'CoordinateCalculations.DistanceBetweenRadianCoordianates(double, double, double, double)' or remove it entirely if it represents any sort of Hungarian notation.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="CoordinateCalculations+CoordinateTypes" Kind="Enum" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="NestedTypesShouldNotBeVisible" Category="Microsoft.Design" CheckId="CA1034" Status="Active" Created="2013-12-16 15:24:06Z" FixCategory="Breaking">
+           <Issue Certainty="90" Level="Error">Do not nest type 'CoordinateCalculations.CoordinateTypes'. Alternatively, change its accessibility so that it is not externally visible.</Issue>
+          </Message>
+          <Message TypeName="OnlyFlagsEnumsShouldHavePluralNames" Category="Microsoft.Naming" CheckId="CA1717" Status="Active" Created="2013-12-16 15:24:06Z" FixCategory="Breaking">
+           <Issue Certainty="75" Level="Error">If the name 'CoordinateCalculations.CoordinateTypes' is plural, change it to its singular form.</Issue>
+          </Message>
+         </Messages>
+        </Type>
+        <Type Name="Document" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#_active" Kind="Field" Static="False" Accessibility="Family" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="DoNotDeclareVisibleInstanceFields" Category="Microsoft.Design" CheckId="CA1051" Status="Active" Created="2013-12-16 15:24:06Z" FixCategory="Breaking">
+             <Issue Certainty="90" Level="Error">Because field 'Document._active' is visible outside of its declaring type, change its accessibility to private and add a property, with the same accessibility as the field has currently, to provide access to it.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#_archiveDate" Kind="Field" Static="False" Accessibility="Family" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="DoNotDeclareVisibleInstanceFields" Category="Microsoft.Design" CheckId="CA1051" Status="Active" Created="2013-12-16 15:24:06Z" FixCategory="Breaking">
+             <Issue Certainty="90" Level="Error">Because field 'Document._archiveDate' is visible outside of its declaring type, change its accessibility to private and add a property, with the same accessibility as the field has currently, to provide access to it.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#_batchID" Kind="Field" Static="False" Accessibility="Family" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="DoNotDeclareVisibleInstanceFields" Category="Microsoft.Design" CheckId="CA1051" Status="Active" Created="2013-12-16 15:24:06Z" FixCategory="Breaking">
+             <Issue Certainty="90" Level="Error">Because field 'Document._batchID' is visible outside of its declaring type, change its accessibility to private and add a property, with the same accessibility as the field has currently, to provide access to it.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#_companyID" Kind="Field" Static="False" Accessibility="Family" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="DoNotDeclareVisibleInstanceFields" Category="Microsoft.Design" CheckId="CA1051" Status="Active" Created="2013-12-16 15:24:06Z" FixCategory="Breaking">
+             <Issue Certainty="90" Level="Error">Because field 'Document._companyID' is visible outside of its declaring type, change its accessibility to private and add a property, with the same accessibility as the field has currently, to provide access to it.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#_description" Kind="Field" Static="False" Accessibility="Family" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="DoNotDeclareVisibleInstanceFields" Category="Microsoft.Design" CheckId="CA1051" Status="Active" Created="2013-12-16 15:24:06Z" FixCategory="Breaking">
+             <Issue Certainty="90" Level="Error">Because field 'Document._description' is visible outside of its declaring type, change its accessibility to private and add a property, with the same accessibility as the field has currently, to provide access to it.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#_documentType" Kind="Field" Static="False" Accessibility="Family" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="DoNotDeclareVisibleInstanceFields" Category="Microsoft.Design" CheckId="CA1051" Status="Active" Created="2013-12-16 15:24:06Z" FixCategory="Breaking">
+             <Issue Certainty="90" Level="Error">Because field 'Document._documentType' is visible outside of its declaring type, change its accessibility to private and add a property, with the same accessibility as the field has currently, to provide access to it.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#_documentTypeID" Kind="Field" Static="False" Accessibility="Family" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="DoNotDeclareVisibleInstanceFields" Category="Microsoft.Design" CheckId="CA1051" Status="Active" Created="2013-12-16 15:24:06Z" FixCategory="Breaking">
+             <Issue Certainty="90" Level="Error">Because field 'Document._documentTypeID' is visible outside of its declaring type, change its accessibility to private and add a property, with the same accessibility as the field has currently, to provide access to it.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#_id" Kind="Field" Static="False" Accessibility="Family" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="DoNotDeclareVisibleInstanceFields" Category="Microsoft.Design" CheckId="CA1051" Status="Active" Created="2013-12-16 15:24:06Z" FixCategory="Breaking">
+             <Issue Certainty="90" Level="Error">Because field 'Document._id' is visible outside of its declaring type, change its accessibility to private and add a property, with the same accessibility as the field has currently, to provide access to it.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#_indexDate" Kind="Field" Static="False" Accessibility="Family" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="DoNotDeclareVisibleInstanceFields" Category="Microsoft.Design" CheckId="CA1051" Status="Active" Created="2013-12-16 15:24:06Z" FixCategory="Breaking">
+             <Issue Certainty="90" Level="Error">Because field 'Document._indexDate' is visible outside of its declaring type, change its accessibility to private and add a property, with the same accessibility as the field has currently, to provide access to it.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#_indexedByUserID" Kind="Field" Static="False" Accessibility="Family" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="DoNotDeclareVisibleInstanceFields" Category="Microsoft.Design" CheckId="CA1051" Status="Active" Created="2013-12-16 15:24:06Z" FixCategory="Breaking">
+             <Issue Certainty="90" Level="Error">Because field 'Document._indexedByUserID' is visible outside of its declaring type, change its accessibility to private and add a property, with the same accessibility as the field has currently, to provide access to it.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#_linkDocumentID" Kind="Field" Static="False" Accessibility="Family" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="DoNotDeclareVisibleInstanceFields" Category="Microsoft.Design" CheckId="CA1051" Status="Active" Created="2013-12-16 15:24:06Z" FixCategory="Breaking">
+             <Issue Certainty="90" Level="Error">Because field 'Document._linkDocumentID' is visible outside of its declaring type, change its accessibility to private and add a property, with the same accessibility as the field has currently, to provide access to it.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#_ownerID" Kind="Field" Static="False" Accessibility="Family" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="DoNotDeclareVisibleInstanceFields" Category="Microsoft.Design" CheckId="CA1051" Status="Active" Created="2013-12-16 15:24:06Z" FixCategory="Breaking">
+             <Issue Certainty="90" Level="Error">Because field 'Document._ownerID' is visible outside of its declaring type, change its accessibility to private and add a property, with the same accessibility as the field has currently, to provide access to it.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#_path" Kind="Field" Static="False" Accessibility="Family" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="DoNotDeclareVisibleInstanceFields" Category="Microsoft.Design" CheckId="CA1051" Status="Active" Created="2013-12-16 15:24:06Z" FixCategory="Breaking">
+             <Issue Certainty="90" Level="Error">Because field 'Document._path' is visible outside of its declaring type, change its accessibility to private and add a property, with the same accessibility as the field has currently, to provide access to it.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#_retentionDate" Kind="Field" Static="False" Accessibility="Family" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="DoNotDeclareVisibleInstanceFields" Category="Microsoft.Design" CheckId="CA1051" Status="Active" Created="2013-12-16 15:24:06Z" FixCategory="Breaking">
+             <Issue Certainty="90" Level="Error">Because field 'Document._retentionDate' is visible outside of its declaring type, change its accessibility to private and add a property, with the same accessibility as the field has currently, to provide access to it.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#_retentionHold" Kind="Field" Static="False" Accessibility="Family" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="DoNotDeclareVisibleInstanceFields" Category="Microsoft.Design" CheckId="CA1051" Status="Active" Created="2013-12-16 15:24:06Z" FixCategory="Breaking">
+             <Issue Certainty="90" Level="Error">Because field 'Document._retentionHold' is visible outside of its declaring type, change its accessibility to private and add a property, with the same accessibility as the field has currently, to provide access to it.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#_routed" Kind="Field" Static="False" Accessibility="Family" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="DoNotDeclareVisibleInstanceFields" Category="Microsoft.Design" CheckId="CA1051" Status="Active" Created="2013-12-16 15:24:06Z" FixCategory="Breaking">
+             <Issue Certainty="90" Level="Error">Because field 'Document._routed' is visible outside of its declaring type, change its accessibility to private and add a property, with the same accessibility as the field has currently, to provide access to it.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#BatchID" Kind="Property" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="ID" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2013-12-16 15:24:06Z" FixCategory="Breaking">
+             <Issue Name="MemberAbbreviation" Certainty="85" Level="Error" Path="C:\PROJECTS_TFS\Trinity\TrinityClassLibrary_BL" File="Document.cs" Line="99">Correct the casing of 'ID' in member name 'Document.BatchID' by changing it to 'Id'. 'Id' is an abbreviation and therefore is not subject to acronym casing guidelines.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#CompanyID" Kind="Property" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="ID" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2013-12-16 15:24:06Z" FixCategory="Breaking">
+             <Issue Name="MemberAbbreviation" Certainty="85" Level="Error" Path="C:\PROJECTS_TFS\Trinity\TrinityClassLibrary_BL" File="Document.cs" Line="45">Correct the casing of 'ID' in member name 'Document.CompanyID' by changing it to 'Id'. 'Id' is an abbreviation and therefore is not subject to acronym casing guidelines.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#DocumentName" Kind="Property" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Accessors>
+            <Accessor Name="#get_DocumentName()" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+             <Messages>
+              <Message Id="System.String.LastIndexOf(System.String)" TypeName="SpecifyStringComparison" Category="Microsoft.Globalization" CheckId="CA1307" Status="Active" Created="2013-12-16 15:24:06Z" FixCategory="NonBreaking">
+               <Issue Certainty="95" Level="Error" Path="C:\PROJECTS_TFS\Trinity\TrinityClassLibrary_BL" File="Document.cs" Line="136">Because the behavior of 'string.LastIndexOf(string)' could vary based on the current user's locale settings, replace this call in 'Document.DocumentName.get()' with a call to 'string.LastIndexOf(string, StringComparison)'. If the result of 'string.LastIndexOf(string, StringComparison)' will be displayed to the user, such as when sorting a list of items for display in a list box, specify 'StringComparison.CurrentCulture' or 'StringComparison.CurrentCultureIgnoreCase' as the 'StringComparison' parameter. If comparing case-insensitive identifiers, such as file paths, environment variables, or registry keys and values, specify 'StringComparison.OrdinalIgnoreCase'. Otherwise, if comparing case-sensitive identifiers, specify 'StringComparison.Ordinal'.</Issue>
+              </Message>
+             </Messages>
+            </Accessor>
+           </Accessors>
+          </Member>
+          <Member Name="#DocumentTypeID" Kind="Property" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="ID" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2013-12-16 15:24:06Z" FixCategory="Breaking">
+             <Issue Name="MemberAbbreviation" Certainty="85" Level="Error" Path="C:\PROJECTS_TFS\Trinity\TrinityClassLibrary_BL" File="Document.cs" Line="69">Correct the casing of 'ID' in member name 'Document.DocumentTypeID' by changing it to 'Id'. 'Id' is an abbreviation and therefore is not subject to acronym casing guidelines.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#IndexedByUserID" Kind="Property" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="ID" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2013-12-16 15:24:06Z" FixCategory="Breaking">
+             <Issue Name="MemberAbbreviation" Certainty="85" Level="Error" Path="C:\PROJECTS_TFS\Trinity\TrinityClassLibrary_BL" File="Document.cs" Line="57">Correct the casing of 'ID' in member name 'Document.IndexedByUserID' by changing it to 'Id'. 'Id' is an abbreviation and therefore is not subject to acronym casing guidelines.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#LinkDocumentID" Kind="Property" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="ID" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2013-12-16 15:24:06Z" FixCategory="Breaking">
+             <Issue Name="MemberAbbreviation" Certainty="85" Level="Error" Path="C:\PROJECTS_TFS\Trinity\TrinityClassLibrary_BL" File="Document.cs" Line="123">Correct the casing of 'ID' in member name 'Document.LinkDocumentID' by changing it to 'Id'. 'Id' is an abbreviation and therefore is not subject to acronym casing guidelines.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#OwnerID" Kind="Property" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="ID" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2013-12-16 15:24:06Z" FixCategory="Breaking">
+             <Issue Name="MemberAbbreviation" Certainty="85" Level="Error" Path="C:\PROJECTS_TFS\Trinity\TrinityClassLibrary_BL" File="Document.cs" Line="117">Correct the casing of 'ID' in member name 'Document.OwnerID' by changing it to 'Id'. 'Id' is an abbreviation and therefore is not subject to acronym casing guidelines.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="EncounterStatus" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#.ctor(System.String,System.String,System.Int32)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="ID" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2013-12-16 15:24:06Z" FixCategory="Breaking">
+             <Issue Name="MemberParameterAbbreviation" Certainty="85" Level="Error" Path="C:\PROJECTS_TFS\Trinity\TrinityClassLibrary_BL" File="EncounterStatus.cs" Line="37">In member 'EncounterStatus.EncounterStatus(string, string, int)', correct the casing of 'ID' in parameter name 'encounterStatusID' by changing it to 'Id'. 'Id' is an abbreviation and therefore is not subject to acronym casing guidelines.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#EncounterStatusID" Kind="Property" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="ID" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2013-12-16 15:24:06Z" FixCategory="Breaking">
+             <Issue Name="MemberAbbreviation" Certainty="85" Level="Error" Path="C:\PROJECTS_TFS\Trinity\TrinityClassLibrary_BL" File="EncounterStatus.cs" Line="52">Correct the casing of 'ID' in member name 'EncounterStatus.EncounterStatusID' by changing it to 'Id'. 'Id' is an abbreviation and therefore is not subject to acronym casing guidelines.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="Medic" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#.ctor(System.Int32,System.String,System.String,System.String,System.String,System.Nullable`1&lt;System.Int32&gt;,System.Boolean,System.Boolean,System.Boolean,System.String,System.String,System.String,System.String,System.String,System.Boolean,System.String,System.String,System.String,System.String,System.Nullable`1&lt;System.Int32&gt;,System.Nullable`1&lt;System.DateTime&gt;,System.Nullable`1&lt;System.Int32&gt;)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="ID" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2013-12-16 15:24:06Z" FixCategory="Breaking">
+             <Issue Name="MemberParameterAbbreviation" Certainty="85" Level="Error" Path="C:\PROJECTS_TFS\Trinity\TrinityClassLibrary_BL" File="Medic.cs" Line="30">In member 'Medic.Medic(int, string, string, string, string, int?, bool, bool, bool, string, string, string, string, string, bool, string, string, string, string, int?, DateTime?, int?)', correct the casing of 'ID' in parameter name 'medicID' by changing it to 'Id'. 'Id' is an abbreviation and therefore is not subject to acronym casing guidelines.</Issue>
+             <Issue Name="MemberParameterAbbreviation" Certainty="85" Level="Error" Path="C:\PROJECTS_TFS\Trinity\TrinityClassLibrary_BL" File="Medic.cs" Line="30">In member 'Medic.Medic(int, string, string, string, string, int?, bool, bool, bool, string, string, string, string, string, bool, string, string, string, string, int?, DateTime?, int?)', correct the casing of 'ID' in parameter name 'medicSecurityLevelID' by changing it to 'Id'. 'Id' is an abbreviation and therefore is not subject to acronym casing guidelines.</Issue>
+             <Issue Name="MemberParameterAbbreviation" Certainty="85" Level="Error" Path="C:\PROJECTS_TFS\Trinity\TrinityClassLibrary_BL" File="Medic.cs" Line="30">In member 'Medic.Medic(int, string, string, string, string, int?, bool, bool, bool, string, string, string, string, string, bool, string, string, string, string, int?, DateTime?, int?)', correct the casing of 'ID' in parameter name 'rigID' by changing it to 'Id'. 'Id' is an abbreviation and therefore is not subject to acronym casing guidelines.</Issue>
+             <Issue Name="MemberParameterAbbreviation" Certainty="85" Level="Error" Path="C:\PROJECTS_TFS\Trinity\TrinityClassLibrary_BL" File="Medic.cs" Line="30">In member 'Medic.Medic(int, string, string, string, string, int?, bool, bool, bool, string, string, string, string, string, bool, string, string, string, string, int?, DateTime?, int?)', correct the casing of 'ID' in parameter name 'statusID' by changing it to 'Id'. 'Id' is an abbreviation and therefore is not subject to acronym casing guidelines.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#.ctor(System.Int32,System.String,System.String,System.String,System.String,System.Nullable`1&lt;System.Int32&gt;,System.Boolean,System.Boolean,System.Boolean,System.String,System.String,System.String,System.String,System.String,System.Boolean,System.String,System.String,System.String,System.String,System.Nullable`1&lt;System.Int32&gt;,System.Nullable`1&lt;System.DateTime&gt;,System.Nullable`1&lt;System.Int32&gt;,System.Boolean,System.Boolean)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="ID" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2013-12-16 15:24:06Z" FixCategory="Breaking">
+             <Issue Name="MemberParameterAbbreviation" Certainty="85" Level="Error" Path="C:\PROJECTS_TFS\Trinity\TrinityClassLibrary_BL" File="Medic.cs" Line="59">In member 'Medic.Medic(int, string, string, string, string, int?, bool, bool, bool, string, string, string, string, string, bool, string, string, string, string, int?, DateTime?, int?, bool, bool)', correct the casing of 'ID' in parameter name 'medicID' by changing it to 'Id'. 'Id' is an abbreviation and therefore is not subject to acronym casing guidelines.</Issue>
+             <Issue Name="MemberParameterAbbreviation" Certainty="85" Level="Error" Path="C:\PROJECTS_TFS\Trinity\TrinityClassLibrary_BL" File="Medic.cs" Line="59">In member 'Medic.Medic(int, string, string, string, string, int?, bool, bool, bool, string, string, string, string, string, bool, string, string, string, string, int?, DateTime?, int?, bool, bool)', correct the casing of 'ID' in parameter name 'medicSecurityLevelID' by changing it to 'Id'. 'Id' is an abbreviation and therefore is not subject to acronym casing guidelines.</Issue>
+             <Issue Name="MemberParameterAbbreviation" Certainty="85" Level="Error" Path="C:\PROJECTS_TFS\Trinity\TrinityClassLibrary_BL" File="Medic.cs" Line="59">In member 'Medic.Medic(int, string, string, string, string, int?, bool, bool, bool, string, string, string, string, string, bool, string, string, string, string, int?, DateTime?, int?, bool, bool)', correct the casing of 'ID' in parameter name 'rigID' by changing it to 'Id'. 'Id' is an abbreviation and therefore is not subject to acronym casing guidelines.</Issue>
+             <Issue Name="MemberParameterAbbreviation" Certainty="85" Level="Error" Path="C:\PROJECTS_TFS\Trinity\TrinityClassLibrary_BL" File="Medic.cs" Line="59">In member 'Medic.Medic(int, string, string, string, string, int?, bool, bool, bool, string, string, string, string, string, bool, string, string, string, string, int?, DateTime?, int?, bool, bool)', correct the casing of 'ID' in parameter name 'statusID' by changing it to 'Id'. 'Id' is an abbreviation and therefore is not subject to acronym casing guidelines.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#_isVideoAdmin" Kind="Field" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="AvoidUnusedPrivateFields" Category="Microsoft.Performance" CheckId="CA1823" Status="Active" Created="2013-12-16 15:24:06Z" FixCategory="NonBreaking">
+             <Issue Certainty="75" Level="Warning">It appears that field 'Medic._isVideoAdmin' is never used or is only ever assigned to. Use this field or remove it.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#_isVideoLibraryUser" Kind="Field" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="AvoidUnusedPrivateFields" Category="Microsoft.Performance" CheckId="CA1823" Status="Active" Created="2013-12-16 15:24:06Z" FixCategory="NonBreaking">
+             <Issue Certainty="75" Level="Warning">It appears that field 'Medic._isVideoLibraryUser' is never used or is only ever assigned to. Use this field or remove it.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#MedicID" Kind="Property" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="ID" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2013-12-16 15:24:06Z" FixCategory="Breaking">
+             <Issue Name="MemberAbbreviation" Certainty="85" Level="Error" Path="C:\PROJECTS_TFS\Trinity\TrinityClassLibrary_BL" File="Medic.cs" Line="135">Correct the casing of 'ID' in member name 'Medic.MedicID' by changing it to 'Id'. 'Id' is an abbreviation and therefore is not subject to acronym casing guidelines.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#MedicSecurityLevelID" Kind="Property" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="ID" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2013-12-16 15:24:06Z" FixCategory="Breaking">
+             <Issue Name="MemberAbbreviation" Certainty="85" Level="Error" Path="C:\PROJECTS_TFS\Trinity\TrinityClassLibrary_BL" File="Medic.cs" Line="400">Correct the casing of 'ID' in member name 'Medic.MedicSecurityLevelID' by changing it to 'Id'. 'Id' is an abbreviation and therefore is not subject to acronym casing guidelines.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#RigID" Kind="Property" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="ID" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2013-12-16 15:24:06Z" FixCategory="Breaking">
+             <Issue Name="MemberAbbreviation" Certainty="85" Level="Error" Path="C:\PROJECTS_TFS\Trinity\TrinityClassLibrary_BL" File="Medic.cs" Line="199">Correct the casing of 'ID' in member name 'Medic.RigID' by changing it to 'Id'. 'Id' is an abbreviation and therefore is not subject to acronym casing guidelines.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#SecurityLevel" Kind="Property" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Accessors>
+            <Accessor Name="#set_SecurityLevel(System.Nullable`1&lt;TrinityClassLibrary_BL.Medic+MedicSecurityLevel&gt;)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+             <Messages>
+              <Message Id="System.Convert.ToInt32(System.Object)" TypeName="SpecifyIFormatProvider" Category="Microsoft.Globalization" CheckId="CA1305" Status="Active" Created="2013-12-16 15:24:06Z" FixCategory="NonBreaking">
+               <Issue Name="IFormatProviderAlternate" Certainty="95" Level="Error" Path="C:\PROJECTS_TFS\Trinity\TrinityClassLibrary_BL" File="Medic.cs" Line="413">Because the behavior of 'Convert.ToInt32(object)' could vary based on the current user's locale settings, replace this call in 'Medic.SecurityLevel.set(Medic.MedicSecurityLevel?)' with a call to 'Convert.ToInt32(object, IFormatProvider)'. If the result of 'Convert.ToInt32(object, IFormatProvider)' will be based on input from the user, specify 'CultureInfo.CurrentCulture' as the 'IFormatProvider' parameter. Otherwise, if the result will based on input stored and accessed by software, such as when it is loaded from disk or from a database, specify 'CultureInfo.InvariantCulture'.</Issue>
+              </Message>
+             </Messages>
+            </Accessor>
+           </Accessors>
+          </Member>
+          <Member Name="#StatusID" Kind="Property" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="ID" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2013-12-16 15:24:06Z" FixCategory="Breaking">
+             <Issue Name="MemberAbbreviation" Certainty="85" Level="Error" Path="C:\PROJECTS_TFS\Trinity\TrinityClassLibrary_BL" File="Medic.cs" Line="376">Correct the casing of 'ID' in member name 'Medic.StatusID' by changing it to 'Id'. 'Id' is an abbreviation and therefore is not subject to acronym casing guidelines.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#UserTypeID" Kind="Property" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="ID" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2013-12-16 15:24:06Z" FixCategory="Breaking">
+             <Issue Name="MemberAbbreviation" Certainty="85" Level="Error" Path="C:\PROJECTS_TFS\Trinity\TrinityClassLibrary_BL" File="Medic.cs" Line="515">Correct the casing of 'ID' in member name 'Medic.UserTypeID' by changing it to 'Id'. 'Id' is an abbreviation and therefore is not subject to acronym casing guidelines.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="Medic+MedicSecurityLevel" Kind="Enum" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="EnumsShouldHaveZeroValue" Category="Microsoft.Design" CheckId="CA1008" Status="Active" Created="2013-12-16 15:24:06Z" FixCategory="NonBreaking">
+           <Issue Name="NotFlagsNoZeroValue" Certainty="95" Level="CriticalError">Add a member to 'Medic.MedicSecurityLevel' that has a value of zero with a suggested name of 'None'.</Issue>
+          </Message>
+          <Message TypeName="NestedTypesShouldNotBeVisible" Category="Microsoft.Design" CheckId="CA1034" Status="Active" Created="2013-12-16 15:24:06Z" FixCategory="Breaking">
+           <Issue Certainty="90" Level="Error">Do not nest type 'Medic.MedicSecurityLevel'. Alternatively, change its accessibility so that it is not externally visible.</Issue>
+          </Message>
+         </Messages>
+        </Type>
+        <Type Name="Patient" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#.ctor(System.Int32,System.Nullable`1&lt;System.Int32&gt;,System.String,System.Nullable`1&lt;System.DateTime&gt;,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.Nullable`1&lt;System.Int32&gt;,System.Nullable`1&lt;System.DateTime&gt;,System.String,System.Nullable`1&lt;System.Int32&gt;,System.String,System.String,System.Nullable`1&lt;System.Int32&gt;,System.Char,System.Nullable`1&lt;System.DateTime&gt;,System.Nullable`1&lt;System.Int32&gt;,System.Nullable`1&lt;System.Int32&gt;,System.Nullable`1&lt;System.DateTime&gt;,System.String,System.Nullable`1&lt;System.Int32&gt;,System.String,System.Nullable`1&lt;System.Int32&gt;,System.Nullable`1&lt;System.Int32&gt;,System.String,System.String,System.Nullable`1&lt;System.Int32&gt;,System.String,System.Nullable`1&lt;System.Boolean&gt;,System.Nullable`1&lt;System.DateTime&gt;,System.String,System.String,System.Nullable`1&lt;System.DateTime&gt;,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.Nullable`1&lt;System.DateTime&gt;,System.Nullable`1&lt;System.Int32&gt;,System.Nullable`1&lt;System.Int32&gt;,System.Nullable`1&lt;System.Int32&gt;)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="ID" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2013-12-16 15:24:06Z" FixCategory="Breaking">
+             <Issue Name="MemberParameterAbbreviation" Certainty="85" Level="Error" Path="C:\PROJECTS_TFS\Trinity\TrinityClassLibrary_BL" File="Patient.cs" Line="18">In member 'Patient.Patient(int, int?, string, DateTime?, string, string, string, string, string, string, string, string, string, string, int?, DateTime?, string, int?, string, string, int?, char, DateTime?, int?, int?, DateTime?, string, int?, string, int?, int?, string, string, int?, string, bool?, DateTime?, string, string, DateTime?, string, string, string, string, string, string, string, DateTime?, int?, int?, int?)', correct the casing of 'ID' in parameter name 'doctorID' by changing it to 'Id'. 'Id' is an abbreviation and therefore is not subject to acronym casing guidelines.</Issue>
+             <Issue Name="MemberParameterAbbreviation" Certainty="85" Level="Error" Path="C:\PROJECTS_TFS\Trinity\TrinityClassLibrary_BL" File="Patient.cs" Line="18">In member 'Patient.Patient(int, int?, string, DateTime?, string, string, string, string, string, string, string, string, string, string, int?, DateTime?, string, int?, string, string, int?, char, DateTime?, int?, int?, DateTime?, string, int?, string, int?, int?, string, string, int?, string, bool?, DateTime?, string, string, DateTime?, string, string, string, string, string, string, string, DateTime?, int?, int?, int?)', correct the casing of 'ID' in parameter name 'drillForCompanyID' by changing it to 'Id'. 'Id' is an abbreviation and therefore is not subject to acronym casing guidelines.</Issue>
+             <Issue Name="MemberParameterAbbreviation" Certainty="85" Level="Error" Path="C:\PROJECTS_TFS\Trinity\TrinityClassLibrary_BL" File="Patient.cs" Line="18">In member 'Patient.Patient(int, int?, string, DateTime?, string, string, string, string, string, string, string, string, string, string, int?, DateTime?, string, int?, string, string, int?, char, DateTime?, int?, int?, DateTime?, string, int?, string, int?, int?, string, string, int?, string, bool?, DateTime?, string, string, DateTime?, string, string, string, string, string, string, string, DateTime?, int?, int?, int?)', correct the casing of 'ID' in parameter name 'employedForID' by changing it to 'Id'. 'Id' is an abbreviation and therefore is not subject to acronym casing guidelines.</Issue>
+             <Issue Name="MemberParameterAbbreviation" Certainty="85" Level="Error" Path="C:\PROJECTS_TFS\Trinity\TrinityClassLibrary_BL" File="Patient.cs" Line="18">In member 'Patient.Patient(int, int?, string, DateTime?, string, string, string, string, string, string, string, string, string, string, int?, DateTime?, string, int?, string, string, int?, char, DateTime?, int?, int?, DateTime?, string, int?, string, int?, int?, string, string, int?, string, bool?, DateTime?, string, string, DateTime?, string, string, string, string, string, string, string, DateTime?, int?, int?, int?)', correct the casing of 'ID' in parameter name 'employerID' by changing it to 'Id'. 'Id' is an abbreviation and therefore is not subject to acronym casing guidelines.</Issue>
+             <Issue Name="MemberParameterAbbreviation" Certainty="85" Level="Error" Path="C:\PROJECTS_TFS\Trinity\TrinityClassLibrary_BL" File="Patient.cs" Line="18">In member 'Patient.Patient(int, int?, string, DateTime?, string, string, string, string, string, string, string, string, string, string, int?, DateTime?, string, int?, string, string, int?, char, DateTime?, int?, int?, DateTime?, string, int?, string, int?, int?, string, string, int?, string, bool?, DateTime?, string, string, DateTime?, string, string, string, string, string, string, string, DateTime?, int?, int?, int?)', correct the casing of 'ID' in parameter name 'injuryClassID' by changing it to 'Id'. 'Id' is an abbreviation and therefore is not subject to acronym casing guidelines.</Issue>
+             <Issue Name="MemberParameterAbbreviation" Certainty="85" Level="Error" Path="C:\PROJECTS_TFS\Trinity\TrinityClassLibrary_BL" File="Patient.cs" Line="18">In member 'Patient.Patient(int, int?, string, DateTime?, string, string, string, string, string, string, string, string, string, string, int?, DateTime?, string, int?, string, string, int?, char, DateTime?, int?, int?, DateTime?, string, int?, string, int?, int?, string, string, int?, string, bool?, DateTime?, string, string, DateTime?, string, string, string, string, string, string, string, DateTime?, int?, int?, int?)', correct the casing of 'ID' in parameter name 'medicID' by changing it to 'Id'. 'Id' is an abbreviation and therefore is not subject to acronym casing guidelines.</Issue>
+             <Issue Name="MemberParameterAbbreviation" Certainty="85" Level="Error" Path="C:\PROJECTS_TFS\Trinity\TrinityClassLibrary_BL" File="Patient.cs" Line="18">In member 'Patient.Patient(int, int?, string, DateTime?, string, string, string, string, string, string, string, string, string, string, int?, DateTime?, string, int?, string, string, int?, char, DateTime?, int?, int?, DateTime?, string, int?, string, int?, int?, string, string, int?, string, bool?, DateTime?, string, string, DateTime?, string, string, string, string, string, string, string, DateTime?, int?, int?, int?)', correct the casing of 'ID' in parameter name 'patientID' by changing it to 'Id'. 'Id' is an abbreviation and therefore is not subject to acronym casing guidelines.</Issue>
+             <Issue Name="MemberParameterAbbreviation" Certainty="85" Level="Error" Path="C:\PROJECTS_TFS\Trinity\TrinityClassLibrary_BL" File="Patient.cs" Line="18">In member 'Patient.Patient(int, int?, string, DateTime?, string, string, string, string, string, string, string, string, string, string, int?, DateTime?, string, int?, string, string, int?, char, DateTime?, int?, int?, DateTime?, string, int?, string, int?, int?, string, string, int?, string, bool?, DateTime?, string, string, DateTime?, string, string, string, string, string, string, string, DateTime?, int?, int?, int?)', correct the casing of 'ID' in parameter name 'patientOutcomeFinalID' by changing it to 'Id'. 'Id' is an abbreviation and therefore is not subject to acronym casing guidelines.</Issue>
+             <Issue Name="MemberParameterAbbreviation" Certainty="85" Level="Error" Path="C:\PROJECTS_TFS\Trinity\TrinityClassLibrary_BL" File="Patient.cs" Line="18">In member 'Patient.Patient(int, int?, string, DateTime?, string, string, string, string, string, string, string, string, string, string, int?, DateTime?, string, int?, string, string, int?, char, DateTime?, int?, int?, DateTime?, string, int?, string, int?, int?, string, string, int?, string, bool?, DateTime?, string, string, DateTime?, string, string, string, string, string, string, string, DateTime?, int?, int?, int?)', correct the casing of 'ID' in parameter name 'patientOutcomeID' by changing it to 'Id'. 'Id' is an abbreviation and therefore is not subject to acronym casing guidelines.</Issue>
+             <Issue Name="MemberParameterAbbreviation" Certainty="85" Level="Error" Path="C:\PROJECTS_TFS\Trinity\TrinityClassLibrary_BL" File="Patient.cs" Line="18">In member 'Patient.Patient(int, int?, string, DateTime?, string, string, string, string, string, string, string, string, string, string, int?, DateTime?, string, int?, string, string, int?, char, DateTime?, int?, int?, DateTime?, string, int?, string, int?, int?, string, string, int?, string, bool?, DateTime?, string, string, DateTime?, string, string, string, string, string, string, string, DateTime?, int?, int?, int?)', correct the casing of 'ID' in parameter name 'rigID' by changing it to 'Id'. 'Id' is an abbreviation and therefore is not subject to acronym casing guidelines.</Issue>
+            </Message>
+            <Message Id="pabat" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2013-12-16 15:24:06Z" FixCategory="Breaking">
+             <Issue Name="MemberParameter" Certainty="75" Level="CriticalWarning" Path="C:\PROJECTS_TFS\Trinity\TrinityClassLibrary_BL" File="Patient.cs" Line="18">In method 'Patient.Patient(int, int?, string, DateTime?, string, string, string, string, string, string, string, string, string, string, int?, DateTime?, string, int?, string, string, int?, char, DateTime?, int?, int?, DateTime?, string, int?, string, int?, int?, string, string, int?, string, bool?, DateTime?, string, string, DateTime?, string, string, string, string, string, string, string, DateTime?, int?, int?, int?)', correct the spelling of 'pabat' in parameter name 'pabatTime' or remove it entirely if it represents any sort of Hungarian notation.</Issue>
+            </Message>
+            <Message Id="ssn" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2013-12-16 15:24:06Z" FixCategory="Breaking">
+             <Issue Name="MemberParameter" Certainty="75" Level="CriticalWarning" Path="C:\PROJECTS_TFS\Trinity\TrinityClassLibrary_BL" File="Patient.cs" Line="18">In method 'Patient.Patient(int, int?, string, DateTime?, string, string, string, string, string, string, string, string, string, string, int?, DateTime?, string, int?, string, string, int?, char, DateTime?, int?, int?, DateTime?, string, int?, string, int?, int?, string, string, int?, string, bool?, DateTime?, string, string, DateTime?, string, string, string, string, string, string, string, DateTime?, int?, int?, int?)', correct the spelling of 'ssn' in parameter name 'ssn' or remove it entirely if it represents any sort of Hungarian notation.</Issue>
+            </Message>
+            <Message Id="consultTime" TypeName="ReviewUnusedParameters" Category="Microsoft.Usage" CheckId="CA1801" Status="Active" Created="2013-12-16 15:24:06Z" FixCategory="DependsOnFix">
+             <Issue Certainty="95" Level="Warning" Path="C:\PROJECTS_TFS\Trinity\TrinityClassLibrary_BL" File="Patient.cs" Line="18">Parameter 'consultTime' of 'Patient.Patient(int, int?, string, DateTime?, string, string, string, string, string, string, string, string, string, string, int?, DateTime?, string, int?, string, string, int?, char, DateTime?, int?, int?, DateTime?, string, int?, string, int?, int?, string, string, int?, string, bool?, DateTime?, string, string, DateTime?, string, string, string, string, string, string, string, DateTime?, int?, int?, int?)' is never used. Remove the parameter or use it in the method body.</Issue>
+            </Message>
+            <Message Id="days" TypeName="ReviewUnusedParameters" Category="Microsoft.Usage" CheckId="CA1801" Status="Active" Created="2013-12-16 15:24:06Z" FixCategory="DependsOnFix">
+             <Issue Certainty="95" Level="Warning" Path="C:\PROJECTS_TFS\Trinity\TrinityClassLibrary_BL" File="Patient.cs" Line="18">Parameter 'days' of 'Patient.Patient(int, int?, string, DateTime?, string, string, string, string, string, string, string, string, string, string, int?, DateTime?, string, int?, string, string, int?, char, DateTime?, int?, int?, DateTime?, string, int?, string, int?, int?, string, string, int?, string, bool?, DateTime?, string, string, DateTime?, string, string, string, string, string, string, string, DateTime?, int?, int?, int?)' is never used. Remove the parameter or use it in the method body.</Issue>
+            </Message>
+            <Message Id="departDate" TypeName="ReviewUnusedParameters" Category="Microsoft.Usage" CheckId="CA1801" Status="Active" Created="2013-12-16 15:24:06Z" FixCategory="DependsOnFix">
+             <Issue Certainty="95" Level="Warning" Path="C:\PROJECTS_TFS\Trinity\TrinityClassLibrary_BL" File="Patient.cs" Line="18">Parameter 'departDate' of 'Patient.Patient(int, int?, string, DateTime?, string, string, string, string, string, string, string, string, string, string, int?, DateTime?, string, int?, string, string, int?, char, DateTime?, int?, int?, DateTime?, string, int?, string, int?, int?, string, string, int?, string, bool?, DateTime?, string, string, DateTime?, string, string, string, string, string, string, string, DateTime?, int?, int?, int?)' is never used. Remove the parameter or use it in the method body.</Issue>
+            </Message>
+            <Message Id="departTime" TypeName="ReviewUnusedParameters" Category="Microsoft.Usage" CheckId="CA1801" Status="Active" Created="2013-12-16 15:24:06Z" FixCategory="DependsOnFix">
+             <Issue Certainty="95" Level="Warning" Path="C:\PROJECTS_TFS\Trinity\TrinityClassLibrary_BL" File="Patient.cs" Line="18">Parameter 'departTime' of 'Patient.Patient(int, int?, string, DateTime?, string, string, string, string, string, string, string, string, string, string, int?, DateTime?, string, int?, string, string, int?, char, DateTime?, int?, int?, DateTime?, string, int?, string, int?, int?, string, string, int?, string, bool?, DateTime?, string, string, DateTime?, string, string, string, string, string, string, string, DateTime?, int?, int?, int?)' is never used. Remove the parameter or use it in the method body.</Issue>
+            </Message>
+            <Message Id="drillForCompanyID" TypeName="ReviewUnusedParameters" Category="Microsoft.Usage" CheckId="CA1801" Status="Active" Created="2013-12-16 15:24:06Z" FixCategory="DependsOnFix">
+             <Issue Certainty="95" Level="Warning" Path="C:\PROJECTS_TFS\Trinity\TrinityClassLibrary_BL" File="Patient.cs" Line="18">Parameter 'drillForCompanyID' of 'Patient.Patient(int, int?, string, DateTime?, string, string, string, string, string, string, string, string, string, string, int?, DateTime?, string, int?, string, string, int?, char, DateTime?, int?, int?, DateTime?, string, int?, string, int?, int?, string, string, int?, string, bool?, DateTime?, string, string, DateTime?, string, string, string, string, string, string, string, DateTime?, int?, int?, int?)' is never used. Remove the parameter or use it in the method body.</Issue>
+            </Message>
+            <Message Id="employerID" TypeName="ReviewUnusedParameters" Category="Microsoft.Usage" CheckId="CA1801" Status="Active" Created="2013-12-16 15:24:06Z" FixCategory="DependsOnFix">
+             <Issue Certainty="95" Level="Warning" Path="C:\PROJECTS_TFS\Trinity\TrinityClassLibrary_BL" File="Patient.cs" Line="18">Parameter 'employerID' of 'Patient.Patient(int, int?, string, DateTime?, string, string, string, string, string, string, string, string, string, string, int?, DateTime?, string, int?, string, string, int?, char, DateTime?, int?, int?, DateTime?, string, int?, string, int?, int?, string, string, int?, string, bool?, DateTime?, string, string, DateTime?, string, string, string, string, string, string, string, DateTime?, int?, int?, int?)' is never used. Remove the parameter or use it in the method body.</Issue>
+            </Message>
+            <Message Id="encounterDate" TypeName="ReviewUnusedParameters" Category="Microsoft.Usage" CheckId="CA1801" Status="Active" Created="2013-12-16 15:24:06Z" FixCategory="DependsOnFix">
+             <Issue Certainty="95" Level="Warning" Path="C:\PROJECTS_TFS\Trinity\TrinityClassLibrary_BL" File="Patient.cs" Line="18">Parameter 'encounterDate' of 'Patient.Patient(int, int?, string, DateTime?, string, string, string, string, string, string, string, string, string, string, int?, DateTime?, string, int?, string, string, int?, char, DateTime?, int?, int?, DateTime?, string, int?, string, int?, int?, string, string, int?, string, bool?, DateTime?, string, string, DateTime?, string, string, string, string, string, string, string, DateTime?, int?, int?, int?)' is never used. Remove the parameter or use it in the method body.</Issue>
+            </Message>
+            <Message Id="encounterStatus" TypeName="ReviewUnusedParameters" Category="Microsoft.Usage" CheckId="CA1801" Status="Active" Created="2013-12-16 15:24:06Z" FixCategory="DependsOnFix">
+             <Issue Certainty="95" Level="Warning" Path="C:\PROJECTS_TFS\Trinity\TrinityClassLibrary_BL" File="Patient.cs" Line="18">Parameter 'encounterStatus' of 'Patient.Patient(int, int?, string, DateTime?, string, string, string, string, string, string, string, string, string, string, int?, DateTime?, string, int?, string, string, int?, char, DateTime?, int?, int?, DateTime?, string, int?, string, int?, int?, string, string, int?, string, bool?, DateTime?, string, string, DateTime?, string, string, string, string, string, string, string, DateTime?, int?, int?, int?)' is never used. Remove the parameter or use it in the method body.</Issue>
+            </Message>
+            <Message Id="encounterStatusDate" TypeName="ReviewUnusedParameters" Category="Microsoft.Usage" CheckId="CA1801" Status="Active" Created="2013-12-16 15:24:06Z" FixCategory="DependsOnFix">
+             <Issue Certainty="95" Level="Warning" Path="C:\PROJECTS_TFS\Trinity\TrinityClassLibrary_BL" File="Patient.cs" Line="18">Parameter 'encounterStatusDate' of 'Patient.Patient(int, int?, string, DateTime?, string, string, string, string, string, string, string, string, string, string, int?, DateTime?, string, int?, string, string, int?, char, DateTime?, int?, int?, DateTime?, string, int?, string, int?, int?, string, string, int?, string, bool?, DateTime?, string, string, DateTime?, string, string, string, string, string, string, string, DateTime?, int?, int?, int?)' is never used. Remove the parameter or use it in the method body.</Issue>
+            </Message>
+            <Message Id="hadMedicalConsult" TypeName="ReviewUnusedParameters" Category="Microsoft.Usage" CheckId="CA1801" Status="Active" Created="2013-12-16 15:24:06Z" FixCategory="DependsOnFix">
+             <Issue Certainty="95" Level="Warning" Path="C:\PROJECTS_TFS\Trinity\TrinityClassLibrary_BL" File="Patient.cs" Line="18">Parameter 'hadMedicalConsult' of 'Patient.Patient(int, int?, string, DateTime?, string, string, string, string, string, string, string, string, string, string, int?, DateTime?, string, int?, string, string, int?, char, DateTime?, int?, int?, DateTime?, string, int?, string, int?, int?, string, string, int?, string, bool?, DateTime?, string, string, DateTime?, string, string, string, string, string, string, string, DateTime?, int?, int?, int?)' is never used. Remove the parameter or use it in the method body.</Issue>
+            </Message>
+            <Message Id="hireDate" TypeName="ReviewUnusedParameters" Category="Microsoft.Usage" CheckId="CA1801" Status="Active" Created="2013-12-16 15:24:06Z" FixCategory="DependsOnFix">
+             <Issue Certainty="95" Level="Warning" Path="C:\PROJECTS_TFS\Trinity\TrinityClassLibrary_BL" File="Patient.cs" Line="18">Parameter 'hireDate' of 'Patient.Patient(int, int?, string, DateTime?, string, string, string, string, string, string, string, string, string, string, int?, DateTime?, string, int?, string, string, int?, char, DateTime?, int?, int?, DateTime?, string, int?, string, int?, int?, string, string, int?, string, bool?, DateTime?, string, string, DateTime?, string, string, string, string, string, string, string, DateTime?, int?, int?, int?)' is never used. Remove the parameter or use it in the method body.</Issue>
+            </Message>
+            <Message Id="homeCountry" TypeName="ReviewUnusedParameters" Category="Microsoft.Usage" CheckId="CA1801" Status="Active" Created="2013-12-16 15:24:06Z" FixCategory="DependsOnFix">
+             <Issue Certainty="95" Level="Warning" Path="C:\PROJECTS_TFS\Trinity\TrinityClassLibrary_BL" File="Patient.cs" Line="18">Parameter 'homeCountry' of 'Patient.Patient(int, int?, string, DateTime?, string, string, string, string, string, string, string, string, string, string, int?, DateTime?, string, int?, string, string, int?, char, DateTime?, int?, int?, DateTime?, string, int?, string, int?, int?, string, string, int?, string, bool?, DateTime?, string, string, DateTime?, string, string, string, string, string, string, string, DateTime?, int?, int?, int?)' is never used. Remove the parameter or use it in the method body.</Issue>
+            </Message>
+            <Message Id="homePhone" TypeName="ReviewUnusedParameters" Category="Microsoft.Usage" CheckId="CA1801" Status="Active" Created="2013-12-16 15:24:06Z" FixCategory="DependsOnFix">
+             <Issue Certainty="95" Level="Warning" Path="C:\PROJECTS_TFS\Trinity\TrinityClassLibrary_BL" File="Patient.cs" Line="18">Parameter 'homePhone' of 'Patient.Patient(int, int?, string, DateTime?, string, string, string, string, string, string, string, string, string, string, int?, DateTime?, string, int?, string, string, int?, char, DateTime?, int?, int?, DateTime?, string, int?, string, int?, int?, string, string, int?, string, bool?, DateTime?, string, string, DateTime?, string, string, string, string, string, string, string, DateTime?, int?, int?, int?)' is never used. Remove the parameter or use it in the method body.</Issue>
+            </Message>
+            <Message Id="injuryClassID" TypeName="ReviewUnusedParameters" Category="Microsoft.Usage" CheckId="CA1801" Status="Active" Created="2013-12-16 15:24:06Z" FixCategory="DependsOnFix">
+             <Issue Certainty="95" Level="Warning" Path="C:\PROJECTS_TFS\Trinity\TrinityClassLibrary_BL" File="Patient.cs" Line="18">Parameter 'injuryClassID' of 'Patient.Patient(int, int?, string, DateTime?, string, string, string, string, string, string, string, string, string, string, int?, DateTime?, string, int?, string, string, int?, char, DateTime?, int?, int?, DateTime?, string, int?, string, int?, int?, string, string, int?, string, bool?, DateTime?, string, string, DateTime?, string, string, string, string, string, string, string, DateTime?, int?, int?, int?)' is never used. Remove the parameter or use it in the method body.</Issue>
+            </Message>
+            <Message Id="pabatTime" TypeName="ReviewUnusedParameters" Category="Microsoft.Usage" CheckId="CA1801" Status="Active" Created="2013-12-16 15:24:06Z" FixCategory="DependsOnFix">
+             <Issue Certainty="95" Level="Warning" Path="C:\PROJECTS_TFS\Trinity\TrinityClassLibrary_BL" File="Patient.cs" Line="18">Parameter 'pabatTime' of 'Patient.Patient(int, int?, string, DateTime?, string, string, string, string, string, string, string, string, string, string, int?, DateTime?, string, int?, string, string, int?, char, DateTime?, int?, int?, DateTime?, string, int?, string, int?, int?, string, string, int?, string, bool?, DateTime?, string, string, DateTime?, string, string, string, string, string, string, string, DateTime?, int?, int?, int?)' is never used. Remove the parameter or use it in the method body.</Issue>
+            </Message>
+            <Message Id="results" TypeName="ReviewUnusedParameters" Category="Microsoft.Usage" CheckId="CA1801" Status="Active" Created="2013-12-16 15:24:06Z" FixCategory="DependsOnFix">
+             <Issue Certainty="95" Level="Warning" Path="C:\PROJECTS_TFS\Trinity\TrinityClassLibrary_BL" File="Patient.cs" Line="18">Parameter 'results' of 'Patient.Patient(int, int?, string, DateTime?, string, string, string, string, string, string, string, string, string, string, int?, DateTime?, string, int?, string, string, int?, char, DateTime?, int?, int?, DateTime?, string, int?, string, int?, int?, string, string, int?, string, bool?, DateTime?, string, string, DateTime?, string, string, string, string, string, string, string, DateTime?, int?, int?, int?)' is never used. Remove the parameter or use it in the method body.</Issue>
+            </Message>
+            <Message Id="rowanProject" TypeName="ReviewUnusedParameters" Category="Microsoft.Usage" CheckId="CA1801" Status="Active" Created="2013-12-16 15:24:06Z" FixCategory="DependsOnFix">
+             <Issue Certainty="95" Level="Warning" Path="C:\PROJECTS_TFS\Trinity\TrinityClassLibrary_BL" File="Patient.cs" Line="18">Parameter 'rowanProject' of 'Patient.Patient(int, int?, string, DateTime?, string, string, string, string, string, string, string, string, string, string, int?, DateTime?, string, int?, string, string, int?, char, DateTime?, int?, int?, DateTime?, string, int?, string, int?, int?, string, string, int?, string, bool?, DateTime?, string, string, DateTime?, string, string, string, string, string, string, string, DateTime?, int?, int?, int?)' is never used. Remove the parameter or use it in the method body.</Issue>
+            </Message>
+            <Message Id="transportMethod" TypeName="ReviewUnusedParameters" Category="Microsoft.Usage" CheckId="CA1801" Status="Active" Created="2013-12-16 15:24:06Z" FixCategory="DependsOnFix">
+             <Issue Certainty="95" Level="Warning" Path="C:\PROJECTS_TFS\Trinity\TrinityClassLibrary_BL" File="Patient.cs" Line="18">Parameter 'transportMethod' of 'Patient.Patient(int, int?, string, DateTime?, string, string, string, string, string, string, string, string, string, string, int?, DateTime?, string, int?, string, string, int?, char, DateTime?, int?, int?, DateTime?, string, int?, string, int?, int?, string, string, int?, string, bool?, DateTime?, string, string, DateTime?, string, string, string, string, string, string, string, DateTime?, int?, int?, int?)' is never used. Remove the parameter or use it in the method body.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#DoctorID" Kind="Property" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="ID" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2013-12-16 15:24:06Z" FixCategory="Breaking">
+             <Issue Name="MemberAbbreviation" Certainty="85" Level="Error" Path="C:\PROJECTS_TFS\Trinity\TrinityClassLibrary_BL" File="Patient.cs" Line="414">Correct the casing of 'ID' in member name 'Patient.DoctorID' by changing it to 'Id'. 'Id' is an abbreviation and therefore is not subject to acronym casing guidelines.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#DrillForCompanyID" Kind="Property" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="ID" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2013-12-16 15:24:06Z" FixCategory="Breaking">
+             <Issue Name="MemberAbbreviation" Certainty="85" Level="Error" Path="C:\PROJECTS_TFS\Trinity\TrinityClassLibrary_BL" File="Patient.cs" Line="342">Correct the casing of 'ID' in member name 'Patient.DrillForCompanyID' by changing it to 'Id'. 'Id' is an abbreviation and therefore is not subject to acronym casing guidelines.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#EmployedForID" Kind="Property" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="ID" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2013-12-16 15:24:06Z" FixCategory="Breaking">
+             <Issue Name="MemberAbbreviation" Certainty="85" Level="Error" Path="C:\PROJECTS_TFS\Trinity\TrinityClassLibrary_BL" File="Patient.cs" Line="737">Correct the casing of 'ID' in member name 'Patient.EmployedForID' by changing it to 'Id'. 'Id' is an abbreviation and therefore is not subject to acronym casing guidelines.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#EmployerID" Kind="Property" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="ID" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2013-12-16 15:24:06Z" FixCategory="Breaking">
+             <Issue Name="MemberAbbreviation" Certainty="85" Level="Error" Path="C:\PROJECTS_TFS\Trinity\TrinityClassLibrary_BL" File="Patient.cs" Line="305">Correct the casing of 'ID' in member name 'Patient.EmployerID' by changing it to 'Id'. 'Id' is an abbreviation and therefore is not subject to acronym casing guidelines.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#InjuryClassID" Kind="Property" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="ID" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2013-12-16 15:24:06Z" FixCategory="Breaking">
+             <Issue Name="MemberAbbreviation" Certainty="85" Level="Error" Path="C:\PROJECTS_TFS\Trinity\TrinityClassLibrary_BL" File="Patient.cs" Line="725">Correct the casing of 'ID' in member name 'Patient.InjuryClassID' by changing it to 'Id'. 'Id' is an abbreviation and therefore is not subject to acronym casing guidelines.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#MedicID" Kind="Property" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="ID" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2013-12-16 15:24:06Z" FixCategory="Breaking">
+             <Issue Name="MemberAbbreviation" Certainty="85" Level="Error" Path="C:\PROJECTS_TFS\Trinity\TrinityClassLibrary_BL" File="Patient.cs" Line="426">Correct the casing of 'ID' in member name 'Patient.MedicID' by changing it to 'Id'. 'Id' is an abbreviation and therefore is not subject to acronym casing guidelines.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#PabatTime" Kind="Property" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="Pabat" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2013-12-16 15:24:06Z" FixCategory="Breaking">
+             <Issue Name="Member" Certainty="75" Level="CriticalWarning" Path="C:\PROJECTS_TFS\Trinity\TrinityClassLibrary_BL" File="Patient.cs" Line="675">Correct the spelling of 'Pabat' in member name 'Patient.PabatTime' or remove it entirely if it represents any sort of Hungarian notation.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#PatientID" Kind="Property" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="ID" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2013-12-16 15:24:06Z" FixCategory="Breaking">
+             <Issue Name="MemberAbbreviation" Certainty="85" Level="Error" Path="C:\PROJECTS_TFS\Trinity\TrinityClassLibrary_BL" File="Patient.cs" Line="126">Correct the casing of 'ID' in member name 'Patient.PatientID' by changing it to 'Id'. 'Id' is an abbreviation and therefore is not subject to acronym casing guidelines.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#PatientOutcomeFinalID" Kind="Property" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="ID" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2013-12-16 15:24:06Z" FixCategory="Breaking">
+             <Issue Name="MemberAbbreviation" Certainty="85" Level="Error" Path="C:\PROJECTS_TFS\Trinity\TrinityClassLibrary_BL" File="Patient.cs" Line="749">Correct the casing of 'ID' in member name 'Patient.PatientOutcomeFinalID' by changing it to 'Id'. 'Id' is an abbreviation and therefore is not subject to acronym casing guidelines.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#PatientOutcomeID" Kind="Property" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="ID" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2013-12-16 15:24:06Z" FixCategory="Breaking">
+             <Issue Name="MemberAbbreviation" Certainty="85" Level="Error" Path="C:\PROJECTS_TFS\Trinity\TrinityClassLibrary_BL" File="Patient.cs" Line="462">Correct the casing of 'ID' in member name 'Patient.PatientOutcomeID' by changing it to 'Id'. 'Id' is an abbreviation and therefore is not subject to acronym casing guidelines.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#RigID" Kind="Property" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="ID" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2013-12-16 15:24:06Z" FixCategory="Breaking">
+             <Issue Name="MemberAbbreviation" Certainty="85" Level="Error" Path="C:\PROJECTS_TFS\Trinity\TrinityClassLibrary_BL" File="Patient.cs" Line="138">Correct the casing of 'ID' in member name 'Patient.RigID' by changing it to 'Id'. 'Id' is an abbreviation and therefore is not subject to acronym casing guidelines.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#SSN" Kind="Property" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="SSN" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2013-12-16 15:24:06Z" FixCategory="Breaking">
+             <Issue Name="Member" Certainty="85" Level="Error" Path="C:\PROJECTS_TFS\Trinity\TrinityClassLibrary_BL" File="Patient.cs" Line="354">Correct the casing of 'SSN' in member name 'Patient.SSN' by changing it to 'Ssn'.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="PhysicianSpecialty" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#.ctor(System.Int32,System.String,System.Int32)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="ID" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2013-12-16 15:24:06Z" FixCategory="Breaking">
+             <Issue Name="MemberParameterAbbreviation" Certainty="85" Level="Error" Path="C:\PROJECTS_TFS\Trinity\TrinityClassLibrary_BL" File="PhysicianSpecialty.cs" Line="84">In member 'PhysicianSpecialty.PhysicianSpecialty(int, string, int)', correct the casing of 'ID' in parameter name 'parentSpecialtyID' by changing it to 'Id'. 'Id' is an abbreviation and therefore is not subject to acronym casing guidelines.</Issue>
+             <Issue Name="MemberParameterAbbreviation" Certainty="85" Level="Error" Path="C:\PROJECTS_TFS\Trinity\TrinityClassLibrary_BL" File="PhysicianSpecialty.cs" Line="84">In member 'PhysicianSpecialty.PhysicianSpecialty(int, string, int)', correct the casing of 'ID' in parameter name 'specialtyID' by changing it to 'Id'. 'Id' is an abbreviation and therefore is not subject to acronym casing guidelines.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#ParentSpecialtyID" Kind="Property" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="ID" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2013-12-16 15:24:06Z" FixCategory="Breaking">
+             <Issue Name="MemberAbbreviation" Certainty="85" Level="Error" Path="C:\PROJECTS_TFS\Trinity\TrinityClassLibrary_BL" File="PhysicianSpecialty.cs" Line="50">Correct the casing of 'ID' in member name 'PhysicianSpecialty.ParentSpecialtyID' by changing it to 'Id'. 'Id' is an abbreviation and therefore is not subject to acronym casing guidelines.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#SpecialtyID" Kind="Property" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="ID" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2013-12-16 15:24:06Z" FixCategory="Breaking">
+             <Issue Name="MemberAbbreviation" Certainty="85" Level="Error" Path="C:\PROJECTS_TFS\Trinity\TrinityClassLibrary_BL" File="PhysicianSpecialty.cs" Line="24">Correct the casing of 'ID' in member name 'PhysicianSpecialty.SpecialtyID' by changing it to 'Id'. 'Id' is an abbreviation and therefore is not subject to acronym casing guidelines.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="Rig" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#.ctor(System.Int32,System.String,System.Nullable`1&lt;System.Int32&gt;,System.Nullable`1&lt;System.Int32&gt;,System.String,System.String,System.String,System.Boolean,System.String,System.String,System.String,System.String,System.String,System.String,System.String)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="ID" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2013-12-16 15:24:06Z" FixCategory="Breaking">
+             <Issue Name="MemberParameterAbbreviation" Certainty="85" Level="Error" Path="C:\PROJECTS_TFS\Trinity\TrinityClassLibrary_BL" File="Rig.cs" Line="233">In member 'Rig.Rig(int, string, int?, int?, string, string, string, bool, string, string, string, string, string, string, string)', correct the casing of 'ID' in parameter name 'cityID' by changing it to 'Id'. 'Id' is an abbreviation and therefore is not subject to acronym casing guidelines.</Issue>
+             <Issue Name="MemberParameterAbbreviation" Certainty="85" Level="Error" Path="C:\PROJECTS_TFS\Trinity\TrinityClassLibrary_BL" File="Rig.cs" Line="233">In member 'Rig.Rig(int, string, int?, int?, string, string, string, bool, string, string, string, string, string, string, string)', correct the casing of 'ID' in parameter name 'employerID' by changing it to 'Id'. 'Id' is an abbreviation and therefore is not subject to acronym casing guidelines.</Issue>
+             <Issue Name="MemberParameterAbbreviation" Certainty="85" Level="Error" Path="C:\PROJECTS_TFS\Trinity\TrinityClassLibrary_BL" File="Rig.cs" Line="233">In member 'Rig.Rig(int, string, int?, int?, string, string, string, bool, string, string, string, string, string, string, string)', correct the casing of 'ID' in parameter name 'rigID' by changing it to 'Id'. 'Id' is an abbreviation and therefore is not subject to acronym casing guidelines.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#CityID" Kind="Property" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="ID" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2013-12-16 15:24:06Z" FixCategory="Breaking">
+             <Issue Name="MemberAbbreviation" Certainty="85" Level="Error" Path="C:\PROJECTS_TFS\Trinity\TrinityClassLibrary_BL" File="Rig.cs" Line="61">Correct the casing of 'ID' in member name 'Rig.CityID' by changing it to 'Id'. 'Id' is an abbreviation and therefore is not subject to acronym casing guidelines.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#EmployerID" Kind="Property" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="ID" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2013-12-16 15:24:06Z" FixCategory="Breaking">
+             <Issue Name="MemberAbbreviation" Certainty="85" Level="Error" Path="C:\PROJECTS_TFS\Trinity\TrinityClassLibrary_BL" File="Rig.cs" Line="73">Correct the casing of 'ID' in member name 'Rig.EmployerID' by changing it to 'Id'. 'Id' is an abbreviation and therefore is not subject to acronym casing guidelines.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#RigID" Kind="Property" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="ID" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2013-12-16 15:24:06Z" FixCategory="Breaking">
+             <Issue Name="MemberAbbreviation" Certainty="85" Level="Error" Path="C:\PROJECTS_TFS\Trinity\TrinityClassLibrary_BL" File="Rig.cs" Line="36">Correct the casing of 'ID' in member name 'Rig.RigID' by changing it to 'Id'. 'Id' is an abbreviation and therefore is not subject to acronym casing guidelines.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="ToolTip" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#.ctor(System.Int32,System.Int32,System.String,System.Int32,System.String,System.String,System.String,System.String)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="ID" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2013-12-16 15:24:06Z" FixCategory="Breaking">
+             <Issue Name="MemberParameterAbbreviation" Certainty="85" Level="Error" Path="C:\PROJECTS_TFS\Trinity\TrinityClassLibrary_BL" File="ToolTip.cs" Line="19">In member 'ToolTip.ToolTip(int, int, string, int, string, string, string, string)', correct the casing of 'ID' in parameter name 'controlID' by changing it to 'Id'. 'Id' is an abbreviation and therefore is not subject to acronym casing guidelines.</Issue>
+             <Issue Name="MemberParameterAbbreviation" Certainty="85" Level="Error" Path="C:\PROJECTS_TFS\Trinity\TrinityClassLibrary_BL" File="ToolTip.cs" Line="19">In member 'ToolTip.ToolTip(int, int, string, int, string, string, string, string)', correct the casing of 'ID' in parameter name 'programID' by changing it to 'Id'. 'Id' is an abbreviation and therefore is not subject to acronym casing guidelines.</Issue>
+             <Issue Name="MemberParameterAbbreviation" Certainty="85" Level="Error" Path="C:\PROJECTS_TFS\Trinity\TrinityClassLibrary_BL" File="ToolTip.cs" Line="19">In member 'ToolTip.ToolTip(int, int, string, int, string, string, string, string)', correct the casing of 'ID' in parameter name 'programPageID' by changing it to 'Id'. 'Id' is an abbreviation and therefore is not subject to acronym casing guidelines.</Issue>
+             <Issue Name="MemberParameterAbbreviation" Certainty="85" Level="Error" Path="C:\PROJECTS_TFS\Trinity\TrinityClassLibrary_BL" File="ToolTip.cs" Line="19">In member 'ToolTip.ToolTip(int, int, string, int, string, string, string, string)', correct the casing of 'ID' in parameter name 'toolTipTextID' by changing it to 'Id'. 'Id' is an abbreviation and therefore is not subject to acronym casing guidelines.</Issue>
+            </Message>
+            <Message Id="programPageName" TypeName="ReviewUnusedParameters" Category="Microsoft.Usage" CheckId="CA1801" Status="Active" Created="2013-12-16 15:24:06Z" FixCategory="DependsOnFix">
+             <Issue Certainty="95" Level="Warning" Path="C:\PROJECTS_TFS\Trinity\TrinityClassLibrary_BL" File="ToolTip.cs" Line="19">Parameter 'programPageName' of 'ToolTip.ToolTip(int, int, string, int, string, string, string, string)' is never used. Remove the parameter or use it in the method body.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#ControlID" Kind="Property" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="ID" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2013-12-16 15:24:06Z" FixCategory="Breaking">
+             <Issue Name="MemberAbbreviation" Certainty="85" Level="Error" Path="C:\PROJECTS_TFS\Trinity\TrinityClassLibrary_BL" File="ToolTip.cs" Line="115">Correct the casing of 'ID' in member name 'ToolTip.ControlID' by changing it to 'Id'. 'Id' is an abbreviation and therefore is not subject to acronym casing guidelines.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#ProgramID" Kind="Property" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="ID" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2013-12-16 15:24:06Z" FixCategory="Breaking">
+             <Issue Name="MemberAbbreviation" Certainty="85" Level="Error" Path="C:\PROJECTS_TFS\Trinity\TrinityClassLibrary_BL" File="ToolTip.cs" Line="79">Correct the casing of 'ID' in member name 'ToolTip.ProgramID' by changing it to 'Id'. 'Id' is an abbreviation and therefore is not subject to acronym casing guidelines.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#ProgramPageID" Kind="Property" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="ID" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2013-12-16 15:24:06Z" FixCategory="Breaking">
+             <Issue Name="MemberAbbreviation" Certainty="85" Level="Error" Path="C:\PROJECTS_TFS\Trinity\TrinityClassLibrary_BL" File="ToolTip.cs" Line="59">Correct the casing of 'ID' in member name 'ToolTip.ProgramPageID' by changing it to 'Id'. 'Id' is an abbreviation and therefore is not subject to acronym casing guidelines.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#ToolTipTextID" Kind="Property" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="ID" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2013-12-16 15:24:06Z" FixCategory="Breaking">
+             <Issue Name="MemberAbbreviation" Certainty="85" Level="Error" Path="C:\PROJECTS_TFS\Trinity\TrinityClassLibrary_BL" File="ToolTip.cs" Line="51">Correct the casing of 'ID' in member name 'ToolTip.ToolTipTextID' by changing it to 'Id'. 'Id' is an abbreviation and therefore is not subject to acronym casing guidelines.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="User" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#.ctor(System.Int32,System.String,System.String)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="username" TypeName="CompoundWordsShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1702" Status="Active" Created="2013-12-16 15:24:06Z" FixCategory="Breaking">
+             <Issue Name="MemberParameterShouldBeCompoundWord" Certainty="80" Level="Error" Path="C:\PROJECTS_TFS\Trinity\TrinityClassLibrary_BL" File="User.cs" Line="18">In member 'User.User(int, string, string)', the discrete term 'username' in parameter name 'username' should be expressed as a compound word, 'userName'.</Issue>
+            </Message>
+            <Message Id="ID" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2013-12-16 15:24:06Z" FixCategory="Breaking">
+             <Issue Name="MemberParameterAbbreviation" Certainty="85" Level="Error" Path="C:\PROJECTS_TFS\Trinity\TrinityClassLibrary_BL" File="User.cs" Line="18">In member 'User.User(int, string, string)', correct the casing of 'ID' in parameter name 'userID' by changing it to 'Id'. 'Id' is an abbreviation and therefore is not subject to acronym casing guidelines.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#_securityLevelID" Kind="Field" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="AvoidUnusedPrivateFields" Category="Microsoft.Performance" CheckId="CA1823" Status="Active" Created="2013-12-16 15:24:06Z" FixCategory="NonBreaking">
+             <Issue Certainty="75" Level="Warning">It appears that field 'User._securityLevelID' is never used or is only ever assigned to. Use this field or remove it.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#UserID" Kind="Property" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="ID" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2013-12-16 15:24:06Z" FixCategory="Breaking">
+             <Issue Name="MemberAbbreviation" Certainty="85" Level="Error" Path="C:\PROJECTS_TFS\Trinity\TrinityClassLibrary_BL" File="User.cs" Line="41">Correct the casing of 'ID' in member name 'User.UserID' by changing it to 'Id'. 'Id' is an abbreviation and therefore is not subject to acronym casing guidelines.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#Username" Kind="Property" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="Username" TypeName="CompoundWordsShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1702" Status="Active" Created="2013-12-16 15:24:06Z" FixCategory="Breaking">
+             <Issue Name="MemberShouldBeCompoundWord" Certainty="80" Level="Error" Path="C:\PROJECTS_TFS\Trinity\TrinityClassLibrary_BL" File="User.cs" Line="55">The discrete term 'Username' in member name 'User.Username' should be expressed as a compound word, 'UserName'.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+       </Types>
+      </Namespace>
+     </Namespaces>
+    </Module>
+   </Modules>
+  </Target>
+ </Targets>
+ <Rules>
+  <Rule TypeName="AssembliesShouldHaveValidStrongNames" Category="Microsoft.Design" CheckId="CA2210">
+   <Name>Assemblies should have valid strong names</Name>
+   <Description>Either the assembly has no strong name, an invalid one, or the strong name is valid only because of the computer configuration. The assembly should not be deployed in this state. The most common causes of this are: 1) The assembly's contents were modified after it was signed. 2) The signing process failed. 3) The assembly was delay-signed. 4) A registry key existed that allowed the check to pass (where it would not have otherwise).</Description>
+   <Resolution Name="NoStrongName">Sign {0} with a strong name key.</Resolution>
+   <Owner />
+   <Url>http://msdn.microsoft.com/library/ms182127(VS.100).aspx</Url>
+   <Email>[none]</Email>
+   <MessageLevel Certainty="95">CriticalError</MessageLevel>
+   <File Name="designrules.dll" Version="10.0.0.0" />
+  </Rule>
+  <Rule TypeName="AvoidUnusedPrivateFields" Category="Microsoft.Performance" CheckId="CA1823">
+   <Name>Avoid unused private fields</Name>
+   <Description>Private fields were detected that do not appear to be accessed within the assembly. If this violation fires in error, please send a problem report to the Visual Studio Code Analysis team.</Description>
+   <Resolution Name="Default">It appears that field {0} is never used or is only ever assigned to. Use this field or remove it.</Resolution>
+   <Owner />
+   <Url>http://msdn.microsoft.com/library/ms245042(VS.100).aspx</Url>
+   <Email>[none]</Email>
+   <MessageLevel Certainty="75">Warning</MessageLevel>
+   <File Name="performancerules.dll" Version="10.0.0.0" />
+  </Rule>
+  <Rule TypeName="CompoundWordsShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1702">
+   <Name>Compound words should be cased correctly</Name>
+   <Description>Avoid creating compound words from terms which exist in the dictionary as discrete terms. Do not create a compound word such as 'StopWatch' or 'PopUp'. These terms are recognized in the dictionary and should be cased as 'Stopwatch' and 'Popup'.</Description>
+   <Resolution Name="MemberParameterShouldBeCompoundWord">In member {0}, the discrete term '{1}' in parameter name {2} should be expressed as a compound word, '{3}'.</Resolution>
+   <Resolution Name="MemberShouldBeCompoundWord">The discrete term '{0}' in member name {1} should be expressed as a compound word, '{2}'.</Resolution>
+   <Owner />
+   <Url>http://msdn.microsoft.com/library/bb264474(VS.100).aspx</Url>
+   <Email>[none]</Email>
+   <MessageLevel Certainty="80">Error</MessageLevel>
+   <File Name="namingrules.dll" Version="10.0.0.0" />
+  </Rule>
+  <Rule TypeName="DoNotDeclareVisibleInstanceFields" Category="Microsoft.Design" CheckId="CA1051">
+   <Name>Do not declare visible instance fields</Name>
+   <Description>Instance fields that are visible outside of the type that declares them, limit your ability to change the implementation details for those data items. Use properties instead. They do not compromise usability or performance and they do provide flexibility in that they conceal the implementation details of the underlying data.</Description>
+   <Resolution Name="Default">Because field {0} is visible outside of its declaring type, change its accessibility to private and add a property, with the same accessibility as the field has currently, to provide access to it.</Resolution>
+   <Owner />
+   <Url>http://msdn.microsoft.com/library/ms182141(VS.100).aspx</Url>
+   <Email>[none]</Email>
+   <MessageLevel Certainty="90">Error</MessageLevel>
+   <File Name="designrules.dll" Version="10.0.0.0" />
+  </Rule>
+  <Rule TypeName="DoNotRaiseReservedExceptionTypes" Category="Microsoft.Usage" CheckId="CA2201">
+   <Name>Do not raise reserved exception types</Name>
+   <Description>User code should not create and raise exceptions of certain types that are reserved by the runtime or which are of a too general exception type. Exception types that are too general include Exception, SystemException, and ApplicationException. Exception types that are reserved by the runtime include ThreadAbortException, OutOfMemoryException, ExecutionEngineException, and IndexOutOfRangeException.</Description>
+   <Resolution Name="TooGeneric">{0} creates an exception of type {1}, an exception type that is not sufficiently specific and should never be raised by user code. If this exception instance might be thrown, use a different exception type.</Resolution>
+   <Owner />
+   <Url>http://msdn.microsoft.com/library/ms182338(VS.100).aspx</Url>
+   <Email>[none]</Email>
+   <MessageLevel Certainty="95">Error</MessageLevel>
+   <File Name="usagerules.dll" Version="10.0.0.0" />
+  </Rule>
+  <Rule TypeName="EnumsShouldHaveZeroValue" Category="Microsoft.Design" CheckId="CA1008">
+   <Name>Enums should have zero value</Name>
+   <Description>An enum should generally have a zero value. If the enum is not decorated with the Flags attribute, it should have a member with a value of zero that represents the empty state. Optionally, this value is named 'None'. For a Flags-attributed enum, a zero-valued member is optional and, if it exists, should always be named 'None'. This value should indicate that no values have been set in the enum. Using a zero-valued member for other purposes is contrary to the use of the Flags attribute in that the bitwise AND and OR operators are useless with the member.</Description>
+   <Resolution Name="NotFlagsNoZeroValue">Add a member to {0} that has a value of zero with a suggested name of 'None'.</Resolution>
+   <Owner />
+   <Url>http://msdn.microsoft.com/library/ms182149(VS.100).aspx</Url>
+   <Email>[none]</Email>
+   <MessageLevel Certainty="95">CriticalError</MessageLevel>
+   <File Name="designrules.dll" Version="10.0.0.0" />
+  </Rule>
+  <Rule TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709">
+   <Name>Identifiers should be cased correctly</Name>
+   <Description>Type, namespace, and member identifiers are Pascal-cased. Parameter identifiers are camel-cased. Two letter acronyms within these identifiers should be upper-cased, for example, use System.IO instead of System.Io. Acronyms of three or more letters should be Pascal-cased, for example, use System.Xml instead of System.XML. The pascal-casing convention capitalizes the first letter of each word, as in BackColor. The camel-casing convention formats the first letter of the first word in lowercase and capitalizes the first letter of all subsequent words, as in backgroundColor. Although it may be common practice for some two letter acronyms to not be fully capitalized, violations of this rule should not be excluded for this reason. For example, 'DbConnection', is common but incorrect; use DBConnection. A violation of this rule might be required for compatibility with existing, non-managed symbol schemes. In general, however, these symbols should not be visible outside the assembly that uses them.</Description>
+   <Resolution Name="Member">Correct the casing of '{0}' in member name {1} by changing it to '{2}'.</Resolution>
+   <Resolution Name="MemberAbbreviation">Correct the casing of '{0}' in member name {1} by changing it to '{2}'. '{2}' is an abbreviation and therefore is not subject to acronym casing guidelines.</Resolution>
+   <Resolution Name="MemberParameterAbbreviation">In member {0}, correct the casing of '{1}' in parameter name {2} by changing it to '{3}'. '{3}' is an abbreviation and therefore is not subject to acronym casing guidelines.</Resolution>
+   <Owner />
+   <Url>http://msdn.microsoft.com/library/ms182240(VS.100).aspx</Url>
+   <Email>[none]</Email>
+   <MessageLevel Certainty="85">Error</MessageLevel>
+   <File Name="namingrules.dll" Version="10.0.0.0" />
+  </Rule>
+  <Rule TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704">
+   <Name>Identifiers should be spelled correctly</Name>
+   <Description>The individual words that make up an identifier should not be abbreviated and should be spelled correctly. If this rule generates a false positive on a term that should be recognized, add the word to the FxCop custom dictionary.</Description>
+   <Resolution Name="Member">Correct the spelling of '{0}' in member name {1} or remove it entirely if it represents any sort of Hungarian notation.</Resolution>
+   <Resolution Name="MemberParameter">In method {0}, correct the spelling of '{1}' in parameter name {2} or remove it entirely if it represents any sort of Hungarian notation.</Resolution>
+   <Resolution Name="Type">Correct the spelling of '{0}' in type name {1}.</Resolution>
+   <Owner />
+   <Url>http://msdn.microsoft.com/library/bb264492(VS.100).aspx</Url>
+   <Email>[none]</Email>
+   <MessageLevel Certainty="75">CriticalWarning</MessageLevel>
+   <File Name="namingrules.dll" Version="10.0.0.0" />
+  </Rule>
+  <Rule TypeName="IdentifiersShouldNotContainUnderscores" Category="Microsoft.Naming" CheckId="CA1707">
+   <Name>Identifiers should not contain underscores</Name>
+   <Description>Do not use underscores when specifying identifiers. Some generated Visual Studio identifiers for applications contain underscore characters. Underscore characters should generally be avoided in public identifiers.</Description>
+   <Resolution Name="Assembly">Remove the underscores from assembly name {0}.</Resolution>
+   <Resolution Name="Namespace">Remove the underscores from namespace name '{0}'.</Resolution>
+   <Owner />
+   <Url>http://msdn.microsoft.com/library/ms182245(VS.100).aspx</Url>
+   <Email>[none]</Email>
+   <MessageLevel Certainty="95">Error</MessageLevel>
+   <File Name="namingrules.dll" Version="10.0.0.0" />
+  </Rule>
+  <Rule TypeName="Literals should be spelled correctly" Category="Microsoft.Naming" CheckId="CA2204">
+   <Name>Literals should be spelled correctly</Name>
+   <Description>This rule parses the literal string into words, tokenizing compound words, and checks the spelling of each word/token.</Description>
+   <Resolution Name="Default">Correct the spelling of the unrecognized token '{0}' in the literal '{1}'.</Resolution>
+   <Owner>RuleOwner</Owner>
+   <Url>http://msdn.microsoft.com/library/bb264488(VS.100).aspx</Url>
+   <Email />
+   <MessageLevel Certainty="75">Warning</MessageLevel>
+   <File Name="dataflowrules.dll" Version="10.0.0.0" />
+  </Rule>
+  <Rule TypeName="MarkAssembliesWithClsCompliant" Category="Microsoft.Design" CheckId="CA1014">
+   <Name>Mark assemblies with CLSCompliantAttribute</Name>
+   <Description>Assemblies should explicitly state their CLS compliance using the CLSCompliant attribute. An assembly without this attribute is not CLS-compliant. Assemblies, modules, and types can be CLS-compliant even if some parts of the assembly, module, or type are not CLS-compliant. The following rules apply: 1) If the element is marked CLSCompliant, any noncompliant members must have the CLSCompliant attribute present with its argument set to false. 2) A comparable CLS-compliant alternative member must be supplied for each member that is not CLS-compliant.</Description>
+   <Resolution Name="Default">Mark {0} with CLSCompliant(true) because it exposes externally visible types.</Resolution>
+   <Owner />
+   <Url>http://msdn.microsoft.com/library/ms182156(VS.100).aspx</Url>
+   <Email>[none]</Email>
+   <MessageLevel Certainty="95">Error</MessageLevel>
+   <File Name="designrules.dll" Version="10.0.0.0" />
+  </Rule>
+  <Rule TypeName="NestedTypesShouldNotBeVisible" Category="Microsoft.Design" CheckId="CA1034">
+   <Name>Nested types should not be visible</Name>
+   <Description>Do not use public, protected or protected internal (Protected Friend) nested types as a way of grouping types. Use namespaces for this purpose. There are very limited scenarios where nested types are the best design. Also, nested type member accessibility is not clearly understood by all audiences. Enumerators are exempt from this rule.</Description>
+   <Resolution Name="Default">Do not nest type {0}. Alternatively, change its accessibility so that it is not externally visible.</Resolution>
+   <Owner />
+   <Url>http://msdn.microsoft.com/library/ms182162(VS.100).aspx</Url>
+   <Email>[none]</Email>
+   <MessageLevel Certainty="90">Error</MessageLevel>
+   <File Name="designrules.dll" Version="10.0.0.0" />
+  </Rule>
+  <Rule TypeName="OnlyFlagsEnumsShouldHavePluralNames" Category="Microsoft.Naming" CheckId="CA1717">
+   <Name>Only FlagsAttribute enums should have plural names</Name>
+   <Description>Plural names indicate that the values of the enumeration can be combined. For example, an enumeration named 'Day' indicates a single day, and an enumeration named 'Days' indicates multiple days. Enumeration values should be combined using the bit-wise OR operator only if the Flags attribute is present on the enumeration.</Description>
+   <Resolution Name="Default">If the name {0} is plural, change it to its singular form.</Resolution>
+   <Owner />
+   <Url>http://msdn.microsoft.com/library/bb264487(VS.100).aspx</Url>
+   <Email>[none]</Email>
+   <MessageLevel Certainty="75">Error</MessageLevel>
+   <File Name="namingrules.dll" Version="10.0.0.0" />
+  </Rule>
+  <Rule TypeName="ReviewUnusedParameters" Category="Microsoft.Usage" CheckId="CA1801">
+   <Name>Review unused parameters</Name>
+   <Description>Review parameters in non-virtual methods that are not used in the method body to ensure no correctness exists around failure to access them. Unused parameters incur maintenance and performance costs. Sometimes a violation of this rule can point to an implementation bug in the method (i.e. the parameter should actually have been used in the method body). Exclude warnings of this rule if the parameter has to exist because of backward compatibility.</Description>
+   <Resolution Name="Default">Parameter {0} of {1} is never used. Remove the parameter or use it in the method body.</Resolution>
+   <Owner />
+   <Url>http://msdn.microsoft.com/library/ms182268(VS.100).aspx</Url>
+   <Email>[none]</Email>
+   <MessageLevel Certainty="95">Warning</MessageLevel>
+   <File Name="usagerules.dll" Version="10.0.0.0" />
+  </Rule>
+  <Rule TypeName="SpecifyIFormatProvider" Category="Microsoft.Globalization" CheckId="CA1305">
+   <Name>Specify IFormatProvider</Name>
+   <Description>If an overload exists that takes an IFormatProvider argument, it should always be called in favor of an overload that does not. Some methods in the runtime convert a value to or from a string representation and take a string parameter that contains one or more characters, called format specifiers, which indicate how the value is to be converted. If the meaning of the format specifier varies by culture, a formatting object supplies the actual characters used in the string representation. In scenarios where sorting and comparison behavior should never change between cultures, specify CultureInfo.InvariantCulture, otherwise, specify CultureInfo.CurrentCulture.</Description>
+   <Resolution Name="IFormatProviderAlternate">Because the behavior of {0} could vary based on the current user's locale settings, replace this call in {1} with a call to {2}. If the result of {2} will be based on input from the user, specify {3} as the 'IFormatProvider' parameter. Otherwise, if the result will based on input stored and accessed by software, such as when it is loaded from disk or from a database, specify {4}.</Resolution>
+   <Resolution Name="IFormatProviderAlternateString">Because the behavior of {0} could vary based on the current user's locale settings, replace this call in {1} with a call to {2}. If the result of {2} will be displayed to the user, specify {3} as the 'IFormatProvider' parameter. Otherwise, if the result will be stored and accessed by software, such as when it is persisted to disk or to a database, specify {4}.</Resolution>
+   <Owner />
+   <Url>http://msdn.microsoft.com/library/ms182190(VS.100).aspx</Url>
+   <Email>[none]</Email>
+   <MessageLevel Certainty="95">Error</MessageLevel>
+   <File Name="globalizationrules.dll" Version="10.0.0.0" />
+  </Rule>
+  <Rule TypeName="SpecifyStringComparison" Category="Microsoft.Globalization" CheckId="CA1307">
+   <Name>Specify StringComparison</Name>
+   <Description>If an overload exists that takes a StringComparison argument, it should always be called in favor of an overload that does not.</Description>
+   <Resolution Name="Default">Because the behavior of {0} could vary based on the current user's locale settings, replace this call in {1} with a call to {2}. If the result of {2} will be displayed to the user, such as when sorting a list of items for display in a list box, specify 'StringComparison.CurrentCulture' or 'StringComparison.CurrentCultureIgnoreCase' as the 'StringComparison' parameter. If comparing case-insensitive identifiers, such as file paths, environment variables, or registry keys and values, specify 'StringComparison.OrdinalIgnoreCase'. Otherwise, if comparing case-sensitive identifiers, specify 'StringComparison.Ordinal'.</Resolution>
+   <Owner />
+   <Url>http://msdn.microsoft.com/library/bb386080(VS.100).aspx</Url>
+   <Email>[none]</Email>
+   <MessageLevel Certainty="95">Error</MessageLevel>
+   <File Name="globalizationrules.dll" Version="10.0.0.0" />
+  </Rule>
+ </Rules>
+ <Localized>
+  <String Key="Category">Category</String>
+  <String Key="Certainty">Certainty</String>
+  <String Key="CollapseAll">Collapse All</String>
+  <String Key="CheckId">Check Id</String>
+  <String Key="Error">Error</String>
+  <String Key="Errors">error(s)</String>
+  <String Key="ExpandAll">Expand All</String>
+  <String Key="Help">Help</String>
+  <String Key="Line">Line</String>
+  <String Key="Messages">message(s)</String>
+  <String Key="LocationNotStoredInPdb">[Location not stored in Pdb]</String>
+  <String Key="Project">Project</String>
+  <String Key="Resolution">Resolution</String>
+  <String Key="Rule">Rule</String>
+  <String Key="RuleFile">Rule File</String>
+  <String Key="RuleDescription">Rule Description</String>
+  <String Key="Source">Source</String>
+  <String Key="Status">Status</String>
+  <String Key="Target">Target</String>
+  <String Key="Warning">Warning</String>
+  <String Key="Warnings">warning(s)</String>
+  <String Key="ReportTitle">Code Analysis Report</String>
+ </Localized>
+</FxCopReport>

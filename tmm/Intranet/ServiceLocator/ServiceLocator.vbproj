@@ -1,0 +1,375 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="3.5">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30428</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{0E465937-E077-4C5F-872B-8DA8C7971CE8}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{F184B08F-C81C-45F6-A57F-5ABD9991F28F}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <RootNamespace>ServiceLocator</RootNamespace>
+    <AssemblyName>ServiceLocator</AssemblyName>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <SccProjectName>ServiceLocator</SccProjectName>
+    <SccLocalPath>2~b700e347-af7e-4729-a30b-2de6e77af21e</SccLocalPath>
+    <SccAuxPath>http://vault.infiniedge.com/VaultService</SccAuxPath>
+    <SccProvider>SourceGear Vault Visual Studio 2005 Client:{1EA47954-8515-402d-82D9-B5C332120A8D}</SccProvider>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>..\..\bin\</OutputPath>
+    <DocumentationFile>ServiceLocator.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DocumentationFile>ServiceLocator.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="ICSharpCode.SharpZipLib, Version=0.5.0.0, Culture=neutral, PublicKeyToken=1b03e6acf1164f73" />
+    <Reference Include="InfiniEdge.Dal, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\bin\InfiniEdge.Dal.dll</HintPath>
+    </Reference>
+    <Reference Include="InfiniEdge.Encryption, Version=1.0.0.0, Culture=neutral, PublicKeyToken=a9124d1a9a6ac0a1" />
+    <Reference Include="InfiniEdge.InfiniMaps2, Version=1.0.2490.9021, Culture=neutral, processorArchitecture=MSIL" />
+    <Reference Include="InfiniEdge.Style, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL" />
+    <Reference Include="Microsoft.Practices.EnterpriseLibrary.Common, Version=3.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="Microsoft.Practices.EnterpriseLibrary.Data, Version=3.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="Microsoft.Practices.EnterpriseLibrary.Validation, Version=3.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="Microsoft.Practices.ObjectBuilder, Version=1.0.51206.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="RadAjax.Net2, Version=1.7.2.0, Culture=neutral, PublicKeyToken=3f7b438d1c762d0b, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\bin\RadAjax.Net2.dll</HintPath>
+    </Reference>
+    <Reference Include="RadCombobox.Net2, Version=2.6.0.0, Culture=neutral, PublicKeyToken=175e9829b585f1f6, processorArchitecture=MSIL" />
+    <Reference Include="RadGrid.Net2, Version=5.0.1.0, Culture=neutral, PublicKeyToken=ec87bc2939ec45df, processorArchitecture=MSIL" />
+    <Reference Include="RadInput.Net2, Version=2.1.1.0, Culture=neutral, PublicKeyToken=a1432cd341173140, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\bin\RadInput.Net2.dll</HintPath>
+    </Reference>
+    <Reference Include="RadMenu.Net2, Version=4.4.1.0, Culture=neutral, PublicKeyToken=bbe59a8ad3533e68, processorArchitecture=MSIL" />
+    <Reference Include="RadWindow.Net2, Version=1.6.0.0, Culture=neutral, PublicKeyToken=a3055f084732468e, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.Core, Version=3.5.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.DataSetExtensions, Version=3.5.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.Entity">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Extensions, Version=3.5.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Web.Extensions.Design, Version=3.5.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Web.Mobile" />
+    <Reference Include="System.Xml.Linq, Version=3.5.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="Telerik.Web.UI, Version=2007.3.1425.20, Culture=neutral, PublicKeyToken=121fae78165ba3d4, processorArchitecture=MSIL" />
+    <Reference Include="TrinityHelp, Version=1.0.2026.25762, Culture=neutral" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Collections.Specialized" />
+    <Import Include="System.Configuration" />
+    <Import Include="System.Text" />
+    <Import Include="System.Text.RegularExpressions" />
+    <Import Include="System.Web" />
+    <Import Include="System.Web.Caching" />
+    <Import Include="System.Web.SessionState" />
+    <Import Include="System.Web.Security" />
+    <Import Include="System.Web.Profile" />
+    <Import Include="System.Web.UI" />
+    <Import Include="System.Web.UI.WebControls" />
+    <Import Include="System.Web.UI.WebControls.WebParts" />
+    <Import Include="System.Web.UI.HtmlControls" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="controls\NavigationMenu.ascx" />
+    <Content Include="Default.aspx" />
+    <Content Include="DrInfo.aspx" />
+    <Content Include="DrInfo_Images.aspx" />
+    <Content Include="Error.aspx" />
+    <Content Include="Images\ajax_loading.gif" />
+    <Content Include="Images\ajax_loading2.gif" />
+    <Content Include="Images\btn_LiveHelp.gif" />
+    <Content Include="Images\btn_LiveHelp_o.gif" />
+    <Content Include="Images\btn_Step1.gif" />
+    <Content Include="Images\btn_Step10.gif" />
+    <Content Include="Images\btn_Step10_d.gif" />
+    <Content Include="Images\btn_Step10_o.gif" />
+    <Content Include="Images\btn_Step11.gif" />
+    <Content Include="Images\btn_Step11_d.gif" />
+    <Content Include="Images\btn_Step11_o.gif" />
+    <Content Include="Images\btn_Step12.gif" />
+    <Content Include="Images\btn_Step12_d.gif" />
+    <Content Include="Images\btn_Step12_o.gif" />
+    <Content Include="Images\btn_Step13.gif" />
+    <Content Include="Images\btn_Step13_d.gif" />
+    <Content Include="Images\btn_Step13_o.gif" />
+    <Content Include="Images\btn_Step14.gif" />
+    <Content Include="Images\btn_Step14_d.gif" />
+    <Content Include="Images\btn_Step14_o.gif" />
+    <Content Include="Images\btn_Step1_d.gif" />
+    <Content Include="Images\btn_Step1_o.gif" />
+    <Content Include="Images\btn_Step2.gif" />
+    <Content Include="Images\btn_Step2_d.gif" />
+    <Content Include="Images\btn_Step2_o.gif" />
+    <Content Include="Images\btn_Step3.gif" />
+    <Content Include="Images\btn_Step3_d.gif" />
+    <Content Include="Images\btn_Step3_o.gif" />
+    <Content Include="Images\btn_Step4.gif" />
+    <Content Include="Images\btn_Step4_d.gif" />
+    <Content Include="Images\btn_Step4_o.gif" />
+    <Content Include="Images\btn_Step5.gif" />
+    <Content Include="Images\btn_Step5_d.gif" />
+    <Content Include="Images\btn_Step5_o.gif" />
+    <Content Include="Images\btn_Step6.gif" />
+    <Content Include="Images\btn_Step6_d.gif" />
+    <Content Include="Images\btn_Step6_o.gif" />
+    <Content Include="Images\btn_Step7.gif" />
+    <Content Include="Images\btn_Step7_d.gif" />
+    <Content Include="Images\btn_Step7_o.gif" />
+    <Content Include="Images\btn_Step8.gif" />
+    <Content Include="Images\btn_Step8_d.gif" />
+    <Content Include="Images\btn_Step8_o.gif" />
+    <Content Include="Images\btn_Step9.gif" />
+    <Content Include="Images\btn_Step9_d.gif" />
+    <Content Include="Images\btn_Step9_o.gif" />
+    <Content Include="Images\btn_Support.gif" />
+    <Content Include="Images\btn_Support_o.gif" />
+    <Content Include="Images\Grphc_BotBar.jpg" />
+    <Content Include="Images\Grphc_MyAccount.jpg" />
+    <Content Include="Images\Grphc_OvertimeAvail.jpg" />
+    <Content Include="Images\Grphc_TopBar.jpg" />
+    <Content Include="Images\img_End.gif" />
+    <Content Include="Images\img_End_o.gif" />
+    <Content Include="Images\img_JobInfoSheet.jpg" />
+    <Content Include="Images\img_Start.gif" />
+    <Content Include="Images\img_Start_o.gif" />
+    <Content Include="Images\legend.gif" />
+    <Content Include="Images\legend_new.GIF" />
+    <Content Include="Images\memobook_blue.gif" />
+    <Content Include="Images\print.gif" />
+    <Content Include="Images\SortAsc.gif" />
+    <Content Include="Images\SortDesc.gif" />
+    <Content Include="Images\Trinity_GraphicBar_QuickRef.jpg" />
+    <Content Include="Images\Trinity_GraphicBar_Services.jpg" />
+    <Content Include="Images\Trinity_Letterhead.jpg" />
+    <Content Include="Images\Trinity_Letterhead_900.jpg" />
+    <Content Include="JobSheetInfo.aspx" />
+    <Content Include="MultipleCities.aspx" />
+    <Content Include="PatientNotes.aspx" />
+    <Content Include="RigInfo.aspx" />
+    <Content Include="style\Elements.css" />
+    <Content Include="style\Objects.css" />
+    <Content Include="SVGGenerator.aspx" />
+    <Content Include="SVGView.exe" />
+    <Content Include="Web.config" />
+    <Content Include="XML\Cities.xml" />
+    <Content Include="XML\Rigs.xml" />
+    <Content Include="XML\Services.xml" />
+    <Content Include="XML\world.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="classes\UserBasePage.vb">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="controls\NavigationMenu.ascx.designer.vb">
+      <DependentUpon>NavigationMenu.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="controls\NavigationMenu.ascx.vb">
+      <DependentUpon>NavigationMenu.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Default.aspx.designer.vb">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Default.aspx.vb">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="DrInfo.aspx.designer.vb">
+      <DependentUpon>DrInfo.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="DrInfo.aspx.vb">
+      <DependentUpon>DrInfo.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="DrInfo_Images.aspx.designer.vb">
+      <DependentUpon>DrInfo_Images.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="DrInfo_Images.aspx.vb">
+      <DependentUpon>DrInfo_Images.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Error.aspx.designer.vb">
+      <DependentUpon>Error.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Error.aspx.vb">
+      <DependentUpon>Error.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="JobSheetInfo.aspx.designer.vb">
+      <DependentUpon>JobSheetInfo.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="JobSheetInfo.aspx.vb">
+      <DependentUpon>JobSheetInfo.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MultipleCities.aspx.designer.vb">
+      <DependentUpon>MultipleCities.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MultipleCities.aspx.vb">
+      <DependentUpon>MultipleCities.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="PatientNotes.aspx.designer.vb">
+      <DependentUpon>PatientNotes.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="PatientNotes.aspx.vb">
+      <DependentUpon>PatientNotes.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="RigInfo.aspx.designer.vb">
+      <DependentUpon>RigInfo.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="RigInfo.aspx.vb">
+      <DependentUpon>RigInfo.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SVGGenerator.aspx.designer.vb">
+      <DependentUpon>SVGGenerator.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SVGGenerator.aspx.vb">
+      <DependentUpon>SVGGenerator.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="controls\NavigationMenu.ascx.resx">
+      <DependentUpon>NavigationMenu.ascx.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Thumbs.db" />
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="XML\SVGEnd.template" />
+    <None Include="XML\SVGStart.template" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\ServiceLocatorLibrary\ServiceLocatorLibrary.vbproj">
+      <Project>{C973DC96-9976-4C35-8A03-2C839B0235AC}</Project>
+      <Name>ServiceLocatorLibrary</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\TrinityClassLibrary_BL\TrinityClassLibrary_BL.csproj">
+      <Project>{5221E093-5B8A-4250-BEA8-6DB470BED6FF}</Project>
+      <Name>TrinityClassLibrary_BL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\TrinityClassLibrary_DAL\TrinityClassLibrary_DAL.csproj">
+      <Project>{5BD51F7D-F241-4108-A29B-77DB4C1F1F80}</Project>
+      <Name>TrinityClassLibrary_DAL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\TrinityData\TrinityData.csproj">
+      <Project>{00E7EDA0-C628-4B53-94F8-FF0A1E691C32}</Project>
+      <Name>TrinityData</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\WebControls\TMM_WebControls.csproj">
+      <Project>{CA2BD9D2-876F-4EED-9F30-5D7180696856}</Project>
+      <Name>TMM_WebControls</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Medic\TMM_DAL\TMM_DAL.csproj">
+      <Project>{25B38383-6DE9-4743-80B2-D2CCAAAB75CB}</Project>
+      <Name>TMM_DAL</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.VisualBasic.targets" />
+  <Import Project="$(MSBuildExtensionsPath)\Microsoft\VisualStudio\v9.0\WebApplications\Microsoft.WebApplication.targets" Condition="" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>2429</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:112/Intranet/ServiceLocator</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>

@@ -1,0 +1,14 @@
+C:\Inetpub\websites\TMM_2_0\Intranet\MedicWebApp\TMM_DAL\bin\Debug\TMM_DAL.dll
+C:\Inetpub\websites\TMM_2_0\Intranet\MedicWebApp\TMM_DAL\bin\Debug\TMM_DAL.pdb
+C:\Inetpub\websites\TMM_2_0\Intranet\MedicWebApp\TMM_DAL\bin\Debug\TMM-BL.dll
+C:\Inetpub\websites\TMM_2_0\Intranet\MedicWebApp\TMM_DAL\bin\Debug\TMM-BL.pdb
+C:\Inetpub\websites\TMM_2_0\Intranet\MedicWebApp\TMM_DAL\obj\Debug\ResolveAssemblyReference.cache
+C:\Inetpub\websites\TMM_2_0\Intranet\MedicWebApp\TMM_DAL\obj\Debug\TMM_DAL.dll
+C:\Inetpub\websites\TMM_2_0\Intranet\MedicWebApp\TMM_DAL\obj\Debug\TMM_DAL.pdb
+C:\Inetpub\websites\TMM_2_0\Intranet\Medic\TMM_DAL\bin\Debug\TMM_DAL.dll
+C:\Inetpub\websites\TMM_2_0\Intranet\Medic\TMM_DAL\bin\Debug\TMM_DAL.pdb
+C:\Inetpub\websites\TMM_2_0\Intranet\Medic\TMM_DAL\bin\Debug\TMM-BL.dll
+C:\Inetpub\websites\TMM_2_0\Intranet\Medic\TMM_DAL\bin\Debug\TMM-BL.pdb
+C:\Inetpub\websites\TMM_2_0\Intranet\Medic\TMM_DAL\obj\Debug\ResolveAssemblyReference.cache
+C:\Inetpub\websites\TMM_2_0\Intranet\Medic\TMM_DAL\obj\Debug\TMM_DAL.dll
+C:\Inetpub\websites\TMM_2_0\Intranet\Medic\TMM_DAL\obj\Debug\TMM_DAL.pdb

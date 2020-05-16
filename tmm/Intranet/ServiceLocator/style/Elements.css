@@ -1,0 +1,21 @@
+﻿body  
+{
+    font-family: Arial;
+    font-size:.75em;
+    background-color:#000000;
+    color:#ffffff;
+}
+
+a 
+{
+    color:#ccccff;
+}
+a:HOVER 
+{
+       color:#ddddff;
+}
+
+a:ACTIVE 
+{
+    color:#ffffff;
+}

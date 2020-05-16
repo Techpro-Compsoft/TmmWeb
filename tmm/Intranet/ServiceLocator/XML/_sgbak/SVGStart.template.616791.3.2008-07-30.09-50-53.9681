@@ -1,0 +1,406 @@
+﻿<svg id="mainMap" onload="init(evt);" width="900"  height="475" viewBox="{lon} {lat} {Width} {Height}" xmlns="http://www.w3.org/2000/svg"
+	
+     xmlns:xlink="http://www.w3.org/1999/xlink">
+	<rect x="-1500" y="-1000" width="3000" height="2000" fill="black"  />
+
+
+
+	<script language="text/ecmascript"  >
+		<![CDATA[
+				var svgdoc = null;
+        var code = null;
+				
+				function init(evt) {
+					svgdoc = evt.target.ownerDocument;
+					parent.ShowHide();
+				}				
+        
+        function aircraft_mouseover(evt) {
+
+				}
+				function aircraft_mouseout(evt) {
+
+				}
+		
+        function airport_mouseclick(evt) {
+	        var textNode = evt.target.parentNode.childNodes.item(1);
+	        code = textNode.getAttribute("code");
+	        textNode.setAttribute("style","fill:green"); 
+	        svgDocument.getElementById(code).childNodes.item(1).firstChild.nodeValue = "Retrieving temperature for " + code;
+	        wsCallID = parent.document.getElementById("webService").wsSend.callService(onWSGetWeather, "getWeatherReport",code);
+        }
+
+        function onWSGetWeather(result) {
+	        if(result.error) {
+		        var xfaultcode = result.errorDetail.code;
+		        var xfaultstring = result.errorDetail.string;
+		        var xfaultsoap = result.errorDetail.raw;
+		        alert("Error returned from Web Service: " + xfaultcode + " " +xfaultstring);
+            //svgDocument.getElementById(code).childNodes.item(1).firstChild.nodeValue = "Temp: 75F Wind: 8 mph";
+          } else if(!result.error) {
+		        var returnData = new ActiveXObject("MSXML2.DOMDocument");
+		        returnData.async = false;
+		        returnData.loadXML(result.raw.xml);
+		        returnData.setProperty("SelectionNamespaces", "xmlns:ns='http://www.capeclear.com/globalweather/xsd/'");
+
+		        if(returnData.selectNodes("//ns:icao").length > 0) {
+			        code = returnData.selectSingleNode("//ns:icao").text;
+              svgDocument.getElementById(code).childNodes.item(1).firstChild.nodeValue = 
+                 returnData.selectSingleNode("//ns:temperature/ns:string").text + 
+                 " " + parseInt(returnData.selectSingleNode("//ns:wind/ns:gust_speed").text) + " mph";
+		        } else {
+			        alert(result.raw.xml);
+			        alert("No weather information found.");
+		        }
+
+		        returnData = null;
+	        }
+        }
+
+				function airport_mouseover(evt) {
+					var parentgroup = evt.target;
+					var circle = parentgroup.parentNode.childNodes.item(0);
+					var textNode = parentgroup.parentNode.childNodes.item(1);
+					if(Left(textNode.firstChild.nodeValue, 10) != "Retrieving") {
+						if(textNode.getAttribute("name") != '') {
+							textNode.setAttribute("fill","black");
+							textNode.setAttribute("style","fill:red"); 
+							textNode.firstChild.nodeValue = textNode.getAttribute("name");
+						}
+					}
+					circle.setAttribute("r", .2);
+				}
+        
+				function airport_mouseout(evt) {
+					var parentgroup = evt.target;
+					var circle = parentgroup.parentNode.childNodes.item(0);
+					var textNode = parentgroup.parentNode.childNodes.item(1);
+					if(Left(textNode.firstChild.nodeValue, 10) != "Retrieving") {
+						textNode.setAttribute("style","fill:blue"); 
+						textNode.firstChild.nodeValue = " ";
+					}
+					circle.setAttribute("r", .1);
+				}
+				
+				
+				function rig_mouseover(evt, radius) {
+					var parentgroup = evt.target;
+					var circle = parentgroup.parentNode.childNodes.item(0);
+					var textNode = parentgroup.parentNode.childNodes.item(1);
+					if(Left(textNode.firstChild.nodeValue, 10) != "Retrieving") {
+						if(textNode.getAttribute("name") != '') {
+							textNode.setAttribute("fill","black");
+							textNode.setAttribute("style","fill:red"); 
+							textNode.firstChild.nodeValue = textNode.getAttribute("name");
+						}
+					}
+					circle.setAttribute("r", radius);
+				}
+        
+				function rig_mouseout(evt, radius) {
+					var parentgroup = evt.target;
+					var circle = parentgroup.parentNode.childNodes.item(0);
+					var textNode = parentgroup.parentNode.childNodes.item(1);
+					if(Left(textNode.firstChild.nodeValue, 10) != "Retrieving") {
+						textNode.setAttribute("style","fill:blue"); 
+						textNode.firstChild.nodeValue = " ";
+					}
+					circle.setAttribute("r", radius);
+				}
+				
+				function rig_mouseclick(evt) 
+				{
+					//var textNode = evt.target.parentNode.childNodes.item(1);
+					//code = textNode.getAttribute("code");
+					parent.RigInfo();
+				}
+				
+				
+				
+				function selectedcity_mouseover(evt) {
+					var parentgroup = evt.target;
+					var circle = parentgroup.parentNode.childNodes.item(0);
+					var textNode = parentgroup.parentNode.childNodes.item(1);
+					if(Left(textNode.firstChild.nodeValue, 10) != "Retrieving") {
+						if(textNode.getAttribute("name") != '') {
+							textNode.setAttribute("fill","#9933CC;");
+							textNode.setAttribute("style","fill:red"); 
+							textNode.firstChild.nodeValue = textNode.getAttribute("name");
+						}
+					}
+					circle.setAttribute("r", .3);
+				}
+        
+				function selectedcity_mouseout(evt) {
+					var parentgroup = evt.target;
+					var circle = parentgroup.parentNode.childNodes.item(0);
+					var textNode = parentgroup.parentNode.childNodes.item(1);
+					if(Left(textNode.firstChild.nodeValue, 10) != "Retrieving") {
+						textNode.setAttribute("style","fill:red"); 
+						textNode.firstChild.nodeValue = " ";
+					}
+					circle.setAttribute("r", .2);
+				}
+				 
+				 
+				 
+				function city_mouseover(evt) {
+					var parentgroup = evt.target;
+					var circle = parentgroup.parentNode.childNodes.item(0);
+					var textNode = parentgroup.parentNode.childNodes.item(1);
+					if(Left(textNode.firstChild.nodeValue, 10) != "Retrieving") {
+						if(textNode.getAttribute("name") != '') {
+							textNode.setAttribute("fill","black");
+							textNode.setAttribute("style","fill:red"); 
+							textNode.firstChild.nodeValue = textNode.getAttribute("name");
+						}
+					}
+					circle.setAttribute("r", .1);
+				}
+        
+				function city_mouseout(evt) {
+					var parentgroup = evt.target;
+					var circle = parentgroup.parentNode.childNodes.item(0);
+					var textNode = parentgroup.parentNode.childNodes.item(1);
+					if(Left(textNode.firstChild.nodeValue, 10) != "Retrieving") {
+						textNode.setAttribute("style","fill:blue"); 
+						textNode.firstChild.nodeValue = " ";
+					}
+					circle.setAttribute("r", .05);
+				}
+				
+				function Dr_mouseclick(evt) 
+				{
+					var textNode = evt.target.parentNode.childNodes.item(1);
+					code = textNode.getAttribute("code");
+					parent.ServiceInfo(code);
+				}
+				
+				function city_load(evt)
+				{
+				
+					var parentgroup = evt.target;
+					var textNode = parentgroup.parentNode.childNodes.item(1);
+					alert(textNode.getAttribute("name"));
+						if(textNode.getAttribute("name") != '') {
+							textNode.setAttribute("fill","black");
+							textNode.setAttribute("style","fill:red"); 
+							textNode.firstChild.nodeValue = textNode.getAttribute("name");
+							alert(textNode.getAttribute("name"));
+						}
+				
+				}
+				
+				
+			]]>
+	</script>
+	<style type="text/css">
+		<![CDATA[
+				.label {font-family:Arial, Helvetica; font-size:9px;
+							font-weight:bold;
+						}
+				.heading   {font-family:Arial, Helvetica; font-size:20px;
+							font-weight:bold;
+						}
+				.strokeBlack1px {stroke:#000000;}
+				.fillBlack {fill:#000000;}
+				.filterDropShadow {filter:url(#DropShadow);}
+				.dragRect {fill:darkcyan;stroke:none;opacity:0.4;}
+				.coordinateText {font-family:Arial, Helvetica; font-size:4px;
+							font-weight:bold;
+						}
+			]]>
+	</style>
+
+	<defs>
+
+
+		<symbol id="magnifyer" overflow="visible" style="fill:white;stroke:navy;stroke-width:2;" preserveAspectRatio="xMidYMid meet">
+			<line x1="0" y1="0" x2="-8" y2="20"/>
+			<circle r="8" cx="0" cy="0"/>
+		</symbol>
+		<symbol id="magnifyerZoomOut" overflow="visible" style="fill:white;stroke:navy;stroke-width:2;" preserveAspectRatio="xMidYMid meet">
+			<use xlink:href="#magnifyer"/>
+			<line x1="-4" y1="0" x2="4" y2="0" style="stroke:navy;stroke-width:2;"/>
+		</symbol>
+		<symbol id="magnifyerZoomIn" overflow="visible" preserveAspectRatio="xMidYMid meet">
+			<use xlink:href="#magnifyer"/>
+			<line x1="-4" y1="0" x2="4" y2="0" style="stroke:navy;stroke-width:2;"/>
+			<line x1="0" y1="-4" x2="0" y2="4" style="stroke:navy;stroke-width:2;"/>
+		</symbol>
+		<symbol id="magnifyerFull" overflow="visible" preserveAspectRatio="xMidYMid meet">
+			<use xlink:href="#magnifyer"/>
+			<text x="-4" y="4.5" pointer-events="none" style="fill:navy; font-family:Helvetica; font-size:14;font-weight:bold;">F</text>
+		</symbol>
+		<g id="B767" transform="scale(0.005)" >
+			<path  fill="megenta" stroke="magenta" stroke-width=".05pt"
+					d=" M 50   0 L 40    -5 L -30   -5 L -50   0 
+							M 15  -5 L -10  -50 L -15  -50 L  -5 -15 L -5 -5 
+							M -35 -3 L -45  -20 L -50  -20 L -47  -1 
+							M -50  0 L -30   -2 L -27    0 
+							M 10 -15 L 15   -15 L 15   -21 L   6 -21 
+							
+							M 50   0 L 40     5 L -30    5 L -50   0 
+							M 15   5 L -10   50 L -15   50 L  -5  15 L -5  5 
+							M -35  3 L -45   20 L -50   20 L -47   1 
+							M -50  0 L -30    2 L -27    0 
+							M 10  15 L 15   15 L 15    21 L   6  21">
+			</path>
+			<text font-family="Verdana" font-size=".3" fill="black" />
+		</g>
+		<g id="B757" transform="scale(0.005)" >
+			<path  fill="megenta" stroke="magenta" stroke-width=".05pt"
+					d=" M 60 0 L 50 -4 L -45 -4 L -63 0 L -40 -1 L -37 0 
+							M 15 -4 L -8 -48 L -12 -48 L -5 -20 L -5 -4 
+							M -47 -4 L -58 -18 L -64 -18 L -58 -1 
+							M 10 -13 L 15 -13 L 15 -19 L 7 -19 
+
+							M 60 0 L 50 4 L -45 4 L -63 0 L -40 1 L -37 0 
+							M 15 4 L -8 48 L -12 48 L -5 20 L -5 4 
+							M -47 4 L -58 18 L -64 18 L -58 1 
+							M 10 13 L 15 13 L 15 19 L 7 19 ">
+			</path>
+			<text font-family="Verdana" font-size=".3" fill="black" />
+		</g>
+		<g id="SF34" transform="scale(0.005)" >
+			<path  fill="megenta" stroke="magenta" stroke-width=".05pt"
+					d=" M 40 0 L 30 -5 L -30 -5 L -52 0 L -38 -1 L -35 0 
+							M -35 -4 L -40 -25 L -45 -25 L -48 -1 
+							M 5 -5 L 0 -57 L -4 -57 L -9 -5 
+							M 10 -26 L -8 -26 L -8 -30 L 10 -30 L 13 -28 L 10 -26 
+							M 11 -20 L 11 -36 
+
+							M 40 0 L 30 5 L -30 5 L -52 0 L -38 1 L -35 0 
+							M -35 4 L -40 25 L -45 25 L -48 1 M 5 5 L 0 57 L -4 57 L -9 5 
+							M 10 26 L -8 26 L -8 30 L 10 30 L 13 28 L 10 26 
+							M 11 20 L 11 36 ">
+			</path>
+			<text font-family="Verdana" font-size=".3" fill="black" />
+		</g>
+		<g id="SF34" transform="scale(0.005)" >
+			<path  fill="megenta" stroke="magenta" stroke-width=".05pt"
+					d=" M 60 0 L 50 -5 L -30 -5 L -55 0 
+							M 10 -5 L -10 -52 L -13 -52 L -5 -5 
+							M -45 -2 L -54 -17 L -58 -17 L -52 0 
+							M -55 0 L -33 -2 L -30 0 
+							M -23 -5 L -23 -10 L -37 -10 L -37 -5 L -23 -5 
+							M -37 -5 L -42 -3 
+								
+							M 60 0 L 50 5 L -30 5 L -55 0 
+							M 10 5 L -10 52 L -13 52 L -5 5 
+							M -45 2 L -54 17 L -58 17 L -52 0 
+							M -55 0 L -33 2 L -30 0 
+							M -23 5 L -23 10 L -37 10 L -37 5 L -23 5 
+							M -37 5 L -42 3 ">
+			</path>
+			<text font-family="Verdana" font-size=".3" fill="black" />
+		</g>
+		<g id="DC9" transform="scale(0.005)" >
+			<path  fill="megenta" stroke="magenta" stroke-width=".05pt"
+					d=" M 50 0 L 40 -5 L -20 -5 L -45 0 
+							M 10 -5 L -10 -52 L -13 -52 L -5 -5 
+							M -35 -2 L -44 -17 L -48 -17 L -42 0 L -23 -2 L -20 0 
+							M -13 -5 L -13 -10 L -27 -10 L -27 -5 L -13 -5 
+							M -27 -5 L -32 -3 
+								
+							M 50 0 L 40 5 L -20 5 L -45 0 
+							M 10 5 L -10 52 L -13 52 L -5 5 
+							M -35 2 L -44 17 L -48 17 L -42 0 L -23 2 L -20 0 M -13 5 L -13 10 
+							L -27 10 L -27 5 L -13 5 
+							M -27 5 L -32 3 ">
+			</path>
+			<text font-family="Verdana" font-size=".3" fill="black" />
+		</g>
+		<g id="B747" transform="scale(0.005)" >
+			<path  fill="megenta" stroke="magenta" stroke-width=".05pt"
+					d=" M 60 0 L 50 -5 L 40 -7 L -30 -7 L -65 0 
+							M 23 -7 L -22 -63 L -27 -63 L -7 -25 L -4 -7 
+							M -45 -4 L -61 -22 L -65 -22 L -60 -1 
+							M -65 0 L -40 -2 L -37 0 
+							M 12 -20 L 18 -20 L 18 -25 L 8 -25 
+							M -3 -38 L 3 -38 L 3 -43 L -7 -43 
+
+							M 60  0 L 50   5 L 40   7 L -30  7 L -65 0 
+							M 23  7 L -22 63 L -27 63 L -7  25 L -4  7 
+							M -45 4 L -61 22 L -65 22 L -60  1 
+							M -65 0 L -40  2 L -37   0 
+							M 12 20 L 18  20 L 18  25 L 8   25 
+							M -3 38 L 3   38 L 3   43 L -7  43 ">
+			</path>
+			<text font-family="Verdana" font-size=".3" fill="black" />
+		</g>
+		<g id="A330" transform="scale(0.005)" >
+			<path  fill="megenta" stroke="magenta" stroke-width=".05pt"
+					d=" M 50 0 L -40 -5 L 35 -6 L -20 -6 L -55 0 L -33 -1 L -30 0 
+							M 15 -6 L -15 -60 L -20 -60 L -6 -20 L -5 -6 
+							M -15 -60 L -20 -64 L -22 -64 L -20 -60 
+							M -41 -3 L -50 -20 L -55 -20 L -50 -1 
+							M 9 -17 L 15 -17 L 15 -24 L 5 -24 
+
+							M 50 0 L -40 5 L 35 6 L -20 6 L -55 0 L -33 1 L -30 0 
+							M 15 6 L -15 60 L -20 60 L -6 20 L -5 6 
+							M -15 60 L -20 64 L -22 64 L -20 60 
+							M -41 3 L -50 20 L -55 20 L -50 1 
+							M 9 17 L 15 17 L 15 24 L 5 24 ">
+			</path>
+			<text font-family="Verdana" font-size=".3" fill="black" />
+		</g>
+		<g id="A340" transform="scale(0.005)" >
+			<path  fill="megenta" stroke="magenta" stroke-width=".05pt"
+					d=" M 50 0 L -40 -5 L 35 -6 L -20 -6 L -55 0 L -33 -1 L -30 0 
+							M 15 -6 L -15 -60 L -20 -60 L -6 -20 L -5 -6 
+							M -15 -60 L -20 -64 L -22 -64 L -20 -60 
+							M -41 -3 L -50 -20 L -55 -20 L -50 -1 
+							M 9 -17 L 15 -17 L 15 -24 L 5 -24 
+							M -2 -37 L 4 -37 L 4 -44 L 6 -44 
+
+							M 50 0 L -40 5 L 35 6 L -20 6 L -55 0 L -33 1 L -30 0 
+							M 15 6 L -15 60 L -20 60 L -6 20 L -5 6 
+							M -15 60 L -20 64 L -22 64 L -20 60 
+							M -41 3 L -50 20 L -55 20 L -50 1 
+							M 9 17 L 15 17 L 15 24 L 5 24 
+							M -2 37 L 4 37 L 4 44 L 6 44 ">
+			</path>
+			<text font-family="Verdana" font-size=".3" fill="black" />
+		</g>
+		<g id="MD11" transform="scale(0.005)" >
+			<path  fill="megenta" stroke="magenta" stroke-width=".05pt"
+					d=" M 50 0 L 40 -4 L 35 -5 L -20 -5 L -38 -3 
+						M -25 0 L -25 -3 L -41 -3 L -41 0 
+						M -41 -2 L -44 0 L -32 -1 L -30 0 
+						M -29 -4 L -38 -15 L -42 -15 L -38 -3 
+						M 12 -5 L -15 -45 L -19 -45 L -8 -19 L -7 -5 
+						M 7 -12 L 13 -12 L 13 -18 L 3 -18 
+						M -15 -45 L -20 -48 L -21 -48 L -19 -45 
+
+						M 50 0 L 40 4 L 35 5 L -20 5 L -38 3 
+						M -25 0 L -25 3 L -41 3 L -41 0 
+						M -41 2 L -44 0 L -32 1 L -30 0 
+						M -29 4 L -38 15 L -42 15 L -38 3 
+						M 12 5 L -15 45 L -19 45 L -8 19 L -7 5 
+						M 7 12 L 13 12 L 13 18 L 3 18 
+						M -15 45 L -20 48 L -21 48 L -19 45 ">
+			</path>
+			<text font-family="Verdana" font-size=".3" fill="black" />
+		</g>
+		<g id="DC10" transform="scale(0.005)" >
+			<path  fill="megenta" stroke="magenta" stroke-width=".05pt"
+					d=" M 50 0 L 40 -4 L 35 -5 L -20 -5 L -38 -3 
+							M -25 0 L -25 -3 L -41 -3 L -41 0 
+							M -41 -2 L -44 0 L -32 -1 L -30 0 
+							M -29 -4 L -38 -15 L -42 -15 L -38 -3 
+							M 12 -5 L -15 -45 L -19 -45 L -8 -19 L -7 -5 
+							M 7 -12 L 13 -12 L 13 -18 L 3 -18  
+
+							M 50 0 L 40 4 L 35 5 L -20 5 L -38 3 
+							M -25 0 L -25 3 L -41 3 L -41 0 
+							M -41 2 L -44 0 L -32 1 L -30 0 
+							M -29 4 L -38 15 L -42 15 L -38 3 
+							M 12 5 L -15 45 L -19 45 L -8 19 L -7 5 
+							M 7 12 L 13 12 L 13 18 L 3 18 ">
+			</path>
+			<text font-family="Verdana" font-size=".3" fill="black" />
+		</g>
+	</defs>
+	<g id="worldMap" transform="scale({scale})">
+		<path d="M -180 0 L 180 0 M 0 -90 L 0 90" />

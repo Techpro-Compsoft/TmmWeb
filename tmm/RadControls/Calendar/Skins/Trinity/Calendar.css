@@ -1,0 +1,211 @@
+/* telerik r.a.d.calendar Telerik skin */
+
+.calendarWrapper_Trinity
+{
+	background-color:#FFFFFF;
+	z-index:1;
+	text-align:left;
+	border: 1px solid white;
+	-moz-box-sizing:border-box;
+}
+
+table.TableLayout_Trinity
+{
+	background:#ffffff;
+	color:#ffffff;
+	border-left:solid 1px #ffffff;
+	border-right:solid 1px #ffffff;
+	border-bottom:solid 1px #ffffff;
+}
+
+table.TableLayout_Trinity td
+{
+	width: 20px;
+	height: 20px;
+	cursor: hand;
+	text-align: center;
+	font: normal 11px Arial, Verdana, Sans-Serif;
+	color:#ffffff;
+}
+
+table.TableLayout_Trinity td a
+{
+	text-decoration: none;
+}
+
+.radCalDefault_Trinity,
+.radCalWeekendDefault_Trinity
+{
+	color: #000000 !important;
+}
+
+.radCalDefault_Trinity a,
+.radCalWeekendDefault_Trinity a
+{
+	color: #000000 !important;
+}
+
+
+.radCalPreviewDefault_Trinity
+{
+	border: solid 1px #ffffff;
+	border-right: 3px solid #ffffff;
+	border-bottom: 3px solid #ffffff;
+	background: #307FA3;
+	font: normal 11px Arial, Verdana, Sans-Serif;
+	text-align: center;
+	width: 150px;
+	height: 140px;
+}
+
+.radCalPreviewDefault_Trinity a
+{
+	text-decoration: none;
+	color: #ffffff;
+}
+
+
+.radCalToday_Trinity
+{
+	font:bold 10px Verdana;
+	color:black;
+	text-align:center;
+	background-color:#307FA3;
+	cursor:pointer; cursor:hand;
+}
+
+.DaysOfWeek_Trinity
+{
+	color: #ffffff !important;
+	font-size: 11px !important;
+	font-weight: bold !important;
+	background: #307FA3;
+	cursor: default !important;
+	width: 25px;
+	line-height: 14px;
+	height: 14px !important;
+}
+
+.outOfRange_Trinity
+{
+	color: #000000;
+	background-color: #fff;
+	cursor: default !important;
+	font: normal 11px Arial, Verdana, Sans-Serif;
+}
+
+
+/* UNSELECTED MONTH */
+.otherMonth_Trinity
+{
+	color: #858585 !important;
+	background-color: #fff;
+	cursor: default !important;
+	font: normal 11px Arial, Verdana, Sans-Serif;
+}
+
+.otherMonth_Trinity a
+{
+	color: #858585 !important;
+	background-color: #fff;
+	cursor: default !important;
+	font: normal 11px Arial, Verdana, Sans-Serif;
+}
+/* END UNSELECTED MONTH */
+
+
+.titlebar_Trinity
+{
+	font:12px Tahoma;
+	font-weight:bold;
+	color:White;
+	text-align:center;
+	border: 1px solid white;
+	background-color: #307FA3;
+	height: 20px;
+	text-transform: uppercase;
+	vertical-align: middle;
+	padding-top: 3px;
+	-moz-box-sizing:border-box;
+}
+
+
+/* NAVIGATION */
+.MonthYearFastNav_Trinity
+{
+	border: 1px solid #ffffff;
+	background: #fff;
+	font: normal 10px Arial, Verdana, Sans-serif;
+	color: #000000;
+	border-collapse: collapse;
+	filter: progid:DXImageTransform.Microsoft.Shadow(direction=140,color=#666666,strength=3);
+}
+
+.MonthYearFastNav_Trinity td
+{
+	border-bottom: 1px solid #ffffff;
+	cursor: hand;
+	padding: 4px;
+	text-align: center;
+}
+
+.MonthYearFastNav_Trinity td.selected_Trinity
+{
+	border-color: #d3dcc1;
+	background-color: #307FA3;
+	color: #fff;
+}
+
+.MonthYearFastNav_Trinity td input
+{
+	background: transparent url('Img/MonthYearFastNavBtnBg.gif') repeat-x;
+	background-color:#307FA3;
+	border-top: solid 1px #ffffff;
+	border-left: solid 1px #ffffff;
+	border-right: solid 1px #ffffff;
+	border-bottom: solid 1px #ffffff;
+	font: normal 10px Arial, Verdana, Sans-serif;
+	color: black;
+	float: left;
+}
+/* END NAVIGATION */
+
+
+/* HOVER */
+.radCalHover_Trinity,
+.radCalWeekendHover_Trinity
+{
+	cursor: default !important;
+	color: #000000;
+	background:#ffffff;
+	font-size:14px;
+	font-weight:bold;
+}
+
+.radCalHover_Trinity a,
+.radCalWeekendHover_Trinity a
+{
+	color: #000000;
+	background:#ffffff;
+	font-size:14px;
+	font-weight:bold;
+}
+/* END HOVER */
+
+
+/* SELECTED DATE */
+.radCalSelect_Trinity,
+.radCalWeekendSelect_Trinity
+{
+	cursor: default !important;
+	color: #ffffff;
+	background:#307FA3;
+}
+
+.radCalSelect_Trinity a,
+.radCalWeekendSelect_Trinity a
+{
+	color: #ffffff;
+	background:#307FA3;
+}
+/* END SELECTED DATE */

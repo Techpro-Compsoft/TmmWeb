@@ -1,0 +1,456 @@
+A.MenuLnk	{font-family: Arial, Helvetica, sans-serif; font-size: 11px; line-height: 16px; color: #000000; font-weight: bold; text-decoration: none}
+A.MenuLnk:Link	{font-family: Arial, Helvetica, sans-serif; font-size: 11px; line-height: 16px; color: #000000; font-weight: bold; text-decoration: none}
+A.MenuLnk:visited	{font-family: Arial, Helvetica, sans-serif; font-size: 11px; line-height: 16px; color: #000000; font-weight: bold; text-decoration: none}
+A.MenuLnk:active	{font-family: Arial, Helvetica, sans-serif; font-size: 11px; line-height: 16px; color: #000000; font-weight: bold; text-decoration: underline}
+A.MenuLnk:hover	{font-family: Arial, Helvetica, sans-serif; font-size: 11px; line-height: 16px; color: #FFFFFF; font-weight: bold; text-decoration: underline}
+
+A.BlkLnk	{font-family: Arial, Helvetica, sans-serif; font-size: 12px; line-height: 16px; color: #000000; text-decoration: none}
+A.BlkLnk:Link	{font-family: Arial, Helvetica, sans-serif; font-size: 12px; line-height: 16px; color: #000000; text-decoration: none}
+A.BlkLnk:visited	{font-family: Arial, Helvetica, sans-serif; font-size: 12px; line-height: 16px; color: #000000; text-decoration: none}
+A.BlkLnk:active	{font-family: Arial, Helvetica, sans-serif; font-size: 12px; line-height: 16px; color: #000000; text-decoration: underline}
+A.BlkLnk:hover	{font-family: Arial, Helvetica, sans-serif; font-size: 12px; line-height: 16px; color: #000000; text-decoration: underline}
+
+A.BlkGridLnk	{font-family: Arial, Helvetica, sans-serif; font-size: 12px; line-height: 16px; color: #000000; text-decoration: underline}
+A.BlkGridLnk:Link	{font-family: Arial, Helvetica, sans-serif; font-size: 12px; line-height: 16px; color: #000000; text-decoration: underline}
+A.BlkGridLnk:visited	{font-family: Arial, Helvetica, sans-serif; font-size: 12px; line-height: 16px; color: #000000; text-decoration: underline}
+A.BlkGridLnk:active	{font-family: Arial, Helvetica, sans-serif; font-size: 12px; line-height: 16px; color: #000000; text-decoration: underline}
+A.BlkGridLnk:hover	{font-family: Arial, Helvetica, sans-serif; font-size: 12px; line-height: 16px; color: #000000; text-decoration: underline}
+
+A.WhiteLnk	{font-family: Arial, Helvetica, sans-serif; font-size: 12px; line-height: 16px; color: #FFFFFF; text-decoration: none}
+A.WhiteLnk:Link	{font-family: Arial, Helvetica, sans-serif; font-size: 12px; line-height: 16px; color: #FFFFFF; text-decoration: none}
+A.WhiteLnk:visited	{font-family: Arial, Helvetica, sans-serif; font-size: 12px; line-height: 16px; color: #FFFFFF; text-decoration: none}
+A.WhiteLnk:active	{font-family: Arial, Helvetica, sans-serif; font-size: 12px; line-height: 16px; color: #FFFFFF; text-decoration: underline}
+A.WhiteLnk:hover	{font-family: Arial, Helvetica, sans-serif; font-size: 12px; line-height: 16px; color: #FFFFFF; text-decoration: underline}
+
+A.WhiteMedLnk	{font-family: Arial, Helvetica, sans-serif; font-size: 16px; color: #FFFFFF; text-decoration: none; font-weight:bold;}
+A.WhiteMedLnk:Link	{font-family: Arial, Helvetica, sans-serif; font-size: 16px; color: #FFFFFF; text-decoration: none; font-weight:bold;}
+A.WhiteMedLnk:visited	{font-family: Arial, Helvetica, sans-serif; font-size: 16px; color: #FFFFFF; text-decoration: none; font-weight:bold;}
+A.WhiteMedLnk:active	{font-family: Arial, Helvetica, sans-serif; font-size: 16px; color: #FFFFFF; text-decoration: underline; font-weight:bold;}
+A.WhiteMedLnk:hover	{font-family: Arial, Helvetica, sans-serif; font-size: 16px; color: #FFFFFF; text-decoration: underline; font-weight:bold;}
+
+TABLE.MenuBar {background-color:#99CCCC; color:#000000; font-size:12px; font-weight:bold; font-family: Arial;}
+TABLE.SmallBorder	{border:1px solid #99CCCC;}
+TABLE.Test	{border:1px solid #FFFFFF; width:760px; color:#FFFFFF; font-family: Arial, Helvetica, sans-serif; font-size: 12px;}
+TABLE.Warning	{border:1px solid Gray; width:760px; font-size:Smaller; font-family:Verdana;}
+TABLE.Normal	{font-family: Arial, Helvetica, sans-serif; font-size: 12px; border:solid 1px #FFFFFF; color:#000000; padding:5px 5px 5px 5px;}
+TABLE.SmallSection	{border:1px solid #FFFFFF; background-color:#307FA3;}
+
+TR.WarningHdr	{color:#FFFFFF; background-color:#FF0033; font-weight:bold;}
+TR.WarningMsg	{color:#FFFFFF; background-color:#FFFFFF;}
+
+TR.SelectedItem	{color:#F7F7F7; background-color:#738A9C; font-family: Arial, Helvetica, sans-serif; font-size: 12px; color:#000000;}
+TR.AlternatingItem	{color:#000000; background-color:#D1D1D1; font-family: Arial, Helvetica, sans-serif; font-size: 12px; color:#000000;}
+TR.Item	{color:#000000; background-color:#FFFFFF; font-family: Arial, Helvetica, sans-serif; font-size: 12px; color:#000000;}
+TR.DataGridHdr	{font-weight:bold; color:#F7F7F7; background-color:#307FA3; font-family: Arial, Helvetica, sans-serif; font-size: 12px; color:#FFFFFF;}
+
+SPAN.WhiteText	{font-family: Arial, Helvetica, sans-serif; font-size: 12px; color:#FFFFFF;}
+SPAN.BlackText	{font-family: Arial, Helvetica, sans-serif; font-size: 14px; color:#000000;}
+
+SPAN.cssTip
+{
+	position:absolute; 
+	border:1px solid black; 
+	background-color:#FFFFCC; 
+	color:#000000; 
+	padding: 3px 3px 3px 3px;
+	font-size:10px;
+	font-family:Arial;
+	width:80%;
+	cursor:default;
+}	
+
+.showTip
+{
+	border:1px solid black; 
+	background-color:#CC0000; 
+	color:#FFFFFF; 
+	width:7%; 
+	text-align:center;
+	cursor:default;
+	display:inline;
+	font-size:12px;
+}
+
+.hidden
+{
+	display:none;
+}
+
+SPAN.view
+{
+	color:#000000;
+	border-style: inset;
+	border-color: Gray;
+	border-width: thin;
+	padding: 1px, 1px, 1px, 1px;
+	width: 100%;
+	background-color:#D0CECE;
+	font-family:Arial;
+	font-size:x-small;
+	display:none;
+}
+
+.tblHdr
+{
+	font-family:Arial;
+	font-size:16px;
+	font-weight:bold;
+	color:#FFFFFF;
+}
+
+.stdFont
+{
+	font-family:Arial;
+	font-size:12px;
+	color:#FFFFFF;
+}
+
+.btnSmall
+{
+	background-color:#307FA3;
+	font-family:Arial;
+	font-size:11px;
+	font-weight:bold;
+	color:#FFFFFF;	
+}
+
+.txtboxXSmall
+{
+	width:30px;	
+	font-family:Arial;
+	font-size:x-small;
+}
+
+.txtboxSmall
+{
+	width:75px;	
+	font-family:Arial;
+	font-size:x-small;
+}
+
+.txtboxLarge
+{
+	width:88%;
+	font-family:Arial;
+	font-size:x-small;	
+}
+
+.txtMedLarge
+{
+	width: 175px;
+	font-family:Arial;
+	font-size:x-small;		
+}
+
+.cboXSmall
+{
+	width:45px;	
+	font-family:Arial;
+	font-size:x-small;
+}
+
+.cboSmall
+{
+	width:35%;
+	font-family:Arial;
+	font-size:x-small;		
+}
+
+.cboMedium
+{
+	width:200px;
+	font-family:Arial;
+	font-size:x-small;		
+}
+
+.cboLarge
+{
+	width:88%;
+	font-family:Arial;
+	font-size:x-small;	
+}
+
+.txtboxXLarge
+{
+	width: 95%;
+	font-family:Arial;
+	font-size:x-small;	
+}
+
+.txtArea
+{
+	width: 96%;
+	font-family: Arial;
+	font-size: x-small;	
+}
+
+.smallChk
+{
+	padding: 0 0 0 0;
+	font-family: Arial;
+	font-size: x-small;	
+}
+
+.tblSection
+{
+	border-right: 1px solid #99CCCC;
+	border-top: 1px solid #99CCCC; 
+	border-left: 1px solid #99CCCC;
+	border-bottom: 1px solid #99CCCC;
+}
+
+.secHdr
+{
+	color: #ffffff; 
+	background-color: #307FA3;
+}
+
+.BlueWhite
+{
+	background-color: #783030;	
+}
+
+.WhiteText
+{
+	color: #444444;
+	font-size:small;
+}
+
+.secResults
+{
+	color: #ffffff;
+	background-color: #783030;
+	font-size: 11px;
+	font-weight: bold;
+}
+
+.modalBackground {
+	background-color:Gray;
+	filter:alpha(opacity=70);
+	opacity:0.7;
+}
+
+.modalPopup
+{
+	background-color: #000000;
+	border-width: 1px;
+	border-style: solid;
+	border-color: Gray;
+	padding: 3px;
+}
+
+.loading-panel 
+{
+	background: Gray url(images/loadingprogressbar.gif) 50% 50% no-repeat;
+}
+
+.RadMenu_Green .rootgroup .item
+{
+	font-size: 12px;
+	font-family: Arial;
+	font-weight: bold;
+	color: #000000;
+}
+
+.RadMenu_Green .group .item
+{
+	font-size: 12px;
+	font-family: Arial;
+	font-weight: bold;
+	color: #000000;
+}
+
+.RadMenu_Green .link:hover
+{
+	font-size: 12px;
+	font-family: Arial;
+	font-weight: bold;
+	text-decoration: underline;
+	color: #FFFFFF;
+}
+
+TD.ViewHeaderSelected
+{
+	color:Black;
+	font-size:12px;
+	font-family: Arial;
+	font-weight:bold;
+	text-decoration: none;
+}
+
+A.ViewHeaderNotSelected
+{
+	color:White;
+	font-size:12px;
+	font-family:Arial;
+	font-weight:bold;
+	text-decoration: none;
+}
+
+.calendarCalendar {
+	background-color:#FFFFFF;
+	z-index:1;
+	text-align:left;
+	border: 1px solid black;
+	-moz-box-sizing:border-box;
+}
+
+.calendarTitle {
+	font:10px Tahoma;
+	color:White;
+	text-align:center;
+	border: 1px solid black;
+	background-color: #307FA3;
+	height: 20px;
+	text-transform: uppercase;
+	vertical-align: middle;
+	padding-top: 3px;
+	-moz-box-sizing:border-box;
+}
+
+.calendarArrowLeft {
+	font:10px Tahoma;
+	color:White;
+	cursor:pointer; cursor:hand;
+	border: 1px solid black;
+	margin-right: 5px;
+	background-color: #307FA3;
+	background-image: url('arr_left.gif');
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 20px;
+	width: 20px;
+	margin-left:5px;
+	-moz-box-sizing:border-box;
+}
+
+.calendarArrowRight{
+	font:10px Tahoma;
+	color:White;
+	cursor:pointer; cursor:hand;
+	border: 1px solid black;
+	margin-left: 5px;
+	background-color: #307FA3;
+	background-image: url('arr_right.gif');
+	background-repeat: no-repeat;
+	background-position: 2px 4px;
+	height: 20px;
+	width: 20px;
+	margin-right:5px;
+	-moz-box-sizing:border-box;
+}
+
+.calendarMonthContainer {
+	text-align:center;
+	vertical-align:top;
+}
+.calendarMonth {
+	width:140px;
+	height:160px;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:5px;
+	
+}
+.calendarMonthTitle {
+	font:11px Tahoma;
+	letter-spacing: 1.2;
+	text-align:center;
+	padding:4px;
+	border: 1px solid black;
+	background-color: #307FA3;
+	height: 20px;
+	text-transform: uppercase;
+	color: White;
+}
+
+.calendarDayName {
+	font:10px Tahoma;
+	letter-spacing: 1.1;
+	color:black;
+	text-align:center;
+	padding-top: 2px;
+	padding-bottom:2px;
+	border-bottom: 1px solid black;
+	text-transform: uppercase;
+}
+
+.calendarDay {
+	font:bold 10px Verdana;
+	color:black;
+	padding-top:1px;
+	padding-bottom:1px;
+	text-align:center;
+	cursor:pointer; cursor:hand;
+}
+
+.calendarDayToday {
+	font:bold 10px Verdana;
+	color:black;
+	text-align:center;
+	cursor:pointer; cursor:hand;
+	border:1px solid #990000;
+}
+
+.calendarDayDisabled {
+	font:bold 10px Verdana;
+	color:#C0C2C1;
+	text-align:center;
+}
+
+.calendarDaySelected {
+	font:bold 10px Verdana;
+	color:black;
+	text-align:center;
+	background-color:#CCCCCC;
+	cursor:hand; cursor:pointer;
+}
+
+.calendarDaySpecial {
+	font:bold 10px Verdana;
+	color:#990000;
+	text-align:center;
+	cursor:hand; cursor:pointer;
+}
+
+.calendarDatePickerButton {
+}
+
+
+.RadGrid_Outlook2007
+{
+	background-color: #dfecff;
+	color: WindowText;
+	border: 1px solid #99CCCC;
+}
+
+.MasterTable_Outlook2007
+{
+	background-color: #ffffff;
+	color: WindowText;
+	border: 0;
+	-moz-user-select: -moz-none;
+	border-top: solid 1px #6593cf;
+}
+
+.MasterTable_Outlook2007 .GridHeader_Outlook2007,
+.MasterTable_Outlook2007 .ResizeHeader_Outlook2007
+{
+	text-align: center;
+	border-bottom: solid 1px #6593cf;
+	background-color: #307FA3;
+	font-family:Arial;
+	font-size:11px;
+	font-weight:bold;
+	color:#FFFFFF;	
+}
+
+.GridPager_Outlook2007
+{
+	cursor: default;
+	background-color: #307FA3;
+	font-family:Arial;
+	font-size:11px;
+	font-weight:bold;
+	color:#FFFFFF;	
+}

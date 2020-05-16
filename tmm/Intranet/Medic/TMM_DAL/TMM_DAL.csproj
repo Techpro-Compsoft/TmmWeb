@@ -1,0 +1,80 @@
+﻿<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="3.5">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30428</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{25B38383-6DE9-4743-80B2-D2CCAAAB75CB}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>TMM_DAL</RootNamespace>
+    <AssemblyName>TMM_DAL</AssemblyName>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <OldToolsVersion>2.0</OldToolsVersion>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <SccProjectName>TMM_DAL</SccProjectName>
+    <SccLocalPath>2~b700e347-af7e-4729-a30b-2de6e77af21e</SccLocalPath>
+    <SccAuxPath>http://vault.infiniedge.com/VaultService</SccAuxPath>
+    <SccProvider>SourceGear Vault Visual Studio 2005 Client:{1EA47954-8515-402d-82D9-B5C332120A8D}</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>..\..\..\bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="InfiniEdge.Encryption, Version=1.0.0.0, Culture=neutral, PublicKeyToken=a9124d1a9a6ac0a1">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\MedicWebApp\bin\InfiniEdge.Encryption.dll</HintPath>
+    </Reference>
+    <Reference Include="InfiniEdge.Sql, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL" />
+    <Reference Include="InfiniEdge.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=a9124d1a9a6ac0a1">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\MedicWebApp\bin\InfiniEdge.Web.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="DataAccess.cs">
+    </Compile>
+    <Compile Include="SQLDocuments.cs" />
+    <Compile Include="SQLMedicalInfo.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SQLMedications.cs" />
+    <Compile Include="SQLMedicNotes.cs" />
+    <Compile Include="SQLPatient.cs" />
+    <Compile Include="SQLTips.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\TMM-BL\TMM_BL.csproj">
+      <Project>{C704DE64-9430-4B6C-81ED-4A7F3CEBE350}</Project>
+      <Name>TMM_BL</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

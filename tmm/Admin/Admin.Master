@@ -1,0 +1,62 @@
+﻿<%@ Master Language="VB" AutoEventWireup="false" CodeBehind="Admin.master.vb" Inherits="TMMInternet.Admin" %>
+<%@ Register Assembly="TMM_WebControls" Namespace="TMM_WebControls" TagPrefix="cc1" %>
+<%@ Register TagPrefix="radA" Namespace="Telerik.WebControls" Assembly="RadAjax.Net2" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+    <head runat="server">
+        
+        <title></title>
+        
+        <script type="text/javascript" src="/JavaScript/ServiceAdminScripts.js"></script>
+        <script type="text/javascript" src="/JavaScript/Utilities.js"></script>
+    
+        <link href="../trinity.css" rel="stylesheet" type="text/css" />
+        
+        <asp:ContentPlaceHolder ID="head" runat="server">
+        </asp:ContentPlaceHolder>
+        
+    </head>
+
+    <body bgcolor="#000000" topmargin="0">
+        <form id="form1" runat="server">
+            <div>        
+                <table height="100%" cellspacing="0" cellpadding="0" width="100%">
+                    <tr valign="top">
+                        <td align="center" width="100%">
+                            <table style="border:solid 1px #307fa3;">
+                                <tr valign="top">
+                                    <td>
+                                        <img src="/Images/Trinity_GraphicBar_Service.jpg" alt="Header"  />
+                                        <br/>
+                                        <table id="Table1" class="MenuBar" cellspacing="0" cellpadding="0" width="100%" border="0">
+	                                        <tr style="vertical-align:top;">
+		                                        <td>
+                                                    <cc1:TMMMenu ID="TMMMenu1" runat="server" />
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                </tr>
+                                <tr valign="top">
+                                    <td valign="top" class="stdFont" style="padding:10px 10px 10px 10px; width:100%;">
+                                        <radA:RadAjaxPanel ID="pnlAjax" runat="server" EnableAJAX="true" EnableOutsideScripts="true">
+                                            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                                            </asp:ContentPlaceHolder>
+                                        </radA:RadAjaxPanel>
+                                    </td>
+                                </tr>
+                                <tr valign="bottom">
+                                    <td align="center"><img src="/images/Grphc_BotBar.jpg"></td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                </table>
+               
+            </div>
+        </form>
+    </body>
+</html>

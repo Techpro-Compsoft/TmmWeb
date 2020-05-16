@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Items Text="">
+	<Item Text="Home" Url="/Intranet/" Value=""></Item>
+	<Item Text="| My Account" Url="/Intranet/MyAccount/default.aspx" Value=""></Item>
+	<Item Text="| Tools" Url="" Value="">
+		<Item Text="Patient Encounter" Url="/Intranet/Medic" Value="IsPatientEncounterUser"/>
+		<Item Text="Job Sheet" Url="/Intranet/JobSheet/" Value="IsJobSheetUser"/>
+		<Item Text="Generate Test" Url="/Intranet/PatientTest/" Value="IsPatientTestUser"/>
+		<Item Text="Quick Reference" Url="/Intranet/QuickReference/QuickRef_View.aspx" Value="IsQuickReferenceUser"/>
+		<Item Text="Service Locator" Url="/Intranet/ServiceLocator/" Value="IsServiceLocatorUser"/>
+	</Item>
+	<Item Text="| Admin" Url="" Value="IsJobSheetAdmin;IsOvertimeReportUser;IsUsersAdmin">
+		<Item Text="Job Sheet Admin" Url="/Intranet/JobSheet/adminhome.aspx" Value="IsJobSheetAdmin"/>
+		<Item Text="Overtime Reports" Url="/Intranet/MyAccount/searchovertime.aspx" Value="IsOvertimeReportUser"/>
+		<Item Text="Quick Reference" Url="/Intranet/QuickReference/QuickReferenceList.aspx" Value="IsQuickReferenceAdmin"/>
+		<Item Text="Users Admin" Url="/Intranet/UsersAdmin/UserAdminHome.aspx" Value="IsUsersAdmin"/>
+	</Item>
+</Items>

@@ -1,0 +1,119 @@
+﻿body 
+{
+     
+}
+
+fieldset
+{
+    text-align:left;
+    border:1px solid #99CCCC;
+}
+
+h3
+{
+    font-weight:bold;
+    font-size:large;
+    text-align:left;
+}
+
+legend
+{
+    font-weight:bold; 
+    font-size:14px;
+}
+
+#buttonDiv
+{
+    text-align:right;
+}
+
+.ServiceInfoTable
+{
+	width:100%; 
+	padding:5px 5px 0px 5px;
+}
+
+.TextBoxLarge
+{
+	width:250px;
+	background-color:#FFFFFF;
+	color:#000000;
+}
+
+.TextBoxMedium
+{
+	width:195px;	
+	background-color:#FFFFFF;
+	color:#000000;
+}
+
+.TextBoxSmall
+{
+	width:75px;	
+	background-color:#FFFFFF;
+	color:#000000;
+}
+
+.TextBoxStateAbbr
+{
+	width:50px;
+	background-color:#FFFFFF;
+	color:#000000;
+}
+
+.TextArea
+{
+	width:100%;
+	height:80px;
+	color:#000000;
+	background-color:#FFFFFF;	
+}
+
+.DropDownListLarge
+{
+	width:256px;
+	background-color:#FFFFFF;
+	color:#000000;
+}
+
+.DropDownListMedium
+{
+	width:201px;	
+	background-color:#FFFFFF;
+	color:#000000;
+}
+
+.tblServiceInfo_Column_0
+{
+	width:100px;
+}
+
+.tblServiceInfo_Column_1
+{
+	/* nothing here */
+}
+
+.tblServiceInfo_Column_2
+{
+	width:100px;
+}
+
+.tblServiceInfo_Column_3
+{
+	width:201px;
+}
+
+.ErrorCell
+{
+	vertical-align:top;
+	padding:0px 5px 5px 5px;	
+}
+
+.NoRecordsTable
+{
+	width:100%; 
+	border-collapse:collapse; 
+	background-color:#FFFFFF; 
+	color:#000000; 
+	height:20px;	
+}
